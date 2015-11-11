@@ -1,0 +1,2287 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass report
+\begin_preamble
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[RE]{\bfseries \nouppercase\leftmark}
+\fancyhead[LO]{\bfseries \nouppercase \rightmark}
+
+\renewcommand{\chaptermark}[1]{%
+\markboth{\chaptername 
+\ \thechapter\ }{}}
+
+ 
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyfoot{}
+\raggedbottom
+\setlength{\parindent}{8mm}
+\end_preamble
+\use_default_options true
+\master ../Master.lyx
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing other 1.5
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 3.5cm
+\rightmargin 3cm
+\bottommargin 3cm
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Twentieth century seasonal bushfire danger variability and forecasting skill
+ in Victoria, Australia.
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Localization and geography
+\end_layout
+
+\begin_layout Standard
+Victoria is localized in southeastern Australia ranging in latitude from
+ 34º2' to 39º8' S (see Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Localization-of-Victoria-1"
+
+\end_inset
+
+).
+ This state occupies 227618 km
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, and is physically divided in four regions: Murray Basin Plains, Victorian
+ Highlands, Southern Lowlands, Southern Uplands 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sherbon1975"
+
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Chapter 2/figures/Victoria.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Localization of the state of Victoria, Australia.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Localization-of-Victoria-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Climate
+\end_layout
+
+\begin_layout Standard
+Victoria's climate is greatly influenced by its topography
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BureauofMeteorology2008"
+
+\end_inset
+
+.
+ The Great Dividing Range (GDR), has created three main climatic zones:
+ Northern, Southern and Southeastern Victoria.
+ In Northern Victoria, precipitation is influenced by northwesterly air
+ masses.
+ The north-west region of this climatic zone receives an annual average
+ of 250 to 300 mm of precipitation and endures intense heatwaves; whereas,
+ in the north-east the precense of mountains raises the precitation range
+ to 800-1000 mm in a year.
+ Precipitation in Southern Victoria also increases with altitude; however,
+ westerly winds drive its formation.
+ In contrast, variations in temperature in this zone are driven by northerly
+ winds, which produce summers with average an temperature of 28 ºC and maxima
+ of 43 ºC.
+ In Southeastern Victoria, synoptic systems in the Tasman Sea influence
+ its precipitation rate, especially in the eastern region that recieves
+ in average 1000 mm in a year.
+ The western region of Southeastern Victoria is less influenced by the Tasman
+ Sea, and receives in average 600 mm of precipitation
+\end_layout
+
+\begin_layout Section
+Bushfire weather
+\end_layout
+
+\begin_layout Subsection
+Meteorological variables
+\end_layout
+
+\begin_layout Standard
+Bushfire weather is analyzed through variables such as wind, precipitation,
+ air temperature, and relative humidity.
+ The behaviour of this meteorological variables influences every aspect
+ of bushfires, including their start, spread and intensity.
+ Bushfires start if high temperatures, low levels of relative humidity and
+ precipitation have dried vegetation to a flammable point.
+ Winds also contribute in the ignition of bushfires by taking moisture content
+ out of the vegetation and providing oxygen for combustion 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bradstock2012"
+
+\end_inset
+
+.
+ Additionally, atmospheric instability favours the occurence of thunderstorms;
+ which are a natural ignition source of bushfires 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BureauofMeteorology2008"
+
+\end_inset
+
+.
+ The spread of bushfires is controlled by winds, which propagate them and
+ also can change their flank 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BureauofMeteorology2008"
+
+\end_inset
+
+.
+ Atmospheric instability also contributes to the spread of these events
+ because it produces spotting (spotfires).
+ The intensity of bushfires is determined by the flammability and distribution
+ of vegetation; which are controlled by precipitation in seasonal time scales
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bradstock2012"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Synoptics 
+\end_layout
+
+\begin_layout Standard
+The meteorological variables of bushfire weather are governed by large-scale
+ synoptic patterns that have particular characteristics in different regions
+ of Australia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BureauofMeteorology2008"
+
+\end_inset
+
+.
+ However, the synoptic weather patterns associated with bushfires all have
+ hot-dry air advection processes in common, and often the passage of cold
+ fronts in initiated bushfire areas 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bradstock2012"
+
+\end_inset
+
+.
+ For example, bushfire weather in southeast Australia is characterized by
+ an atmospheric high-pressure centre (“high”) in the Tasman Sea and a strong
+ cold front arriving from the west 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BureauofMeteorology2008"
+
+\end_inset
+
+ (see Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Historic-Chart-Analysis-1"
+
+\end_inset
+
+ )
+\end_layout
+
+\begin_layout Quote
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/figures_intro/Synoptic Pattern.png
+	lyxscale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Historic Chart Analysis at 11am EDT on "Ash Wednesday", Wed 16th February
+ 1983 showing areas with extreme fire weather.
+ Source: Bureau of Meteorology.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Historic-Chart-Analysis-1"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On the other hand, the passage of a cold front causes abrupt changes in
+ wind direction converting bushfires in extreme or even catastrophic events.
+ A strong 850-hPa temperature gradient (associated with cold front arrivals)
+ is highly correlated with extreme bushfire events in Victoria 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mills2005"
+
+\end_inset
+
+.
+ According to this study, “Ash Wednesday” was categorized as an unusually
+ extreme event corresponding to the 0.1 % of registered bushfires in 40 years
+ in this state.
+\end_layout
+
+\begin_layout Subsection
+Climate modes of variability
+\end_layout
+
+\begin_layout Standard
+Among the most important modes of climate variability for Australia are
+ El Niño—Southern Oscillation (ENSO), the Southern Annular Mode (SAM) and
+ the Indian Ocean Dipole (IOD) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Risbey2009"
+
+\end_inset
+
+.
+ Improving the capacity to predict extreme bushfire seasons will rely on
+ understanding how they are influenced by these large-scale atmospheric
+ circulation variations.
+ 
+\end_layout
+
+\begin_layout Standard
+ENSO is associated with potentially dangerous bushfire weather in southeast
+ and central Australia especially during El Niño events (characterised by
+ positive SST anomalies in the central and equatorial Pacific Ocean); relative
+ humidity, being the parameter most influenced by ENSO 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams1999"
+
+\end_inset
+
+.
+ A positive phase of SAM (lower than normal pressures in the polar region)
+ produces significant reductions in rainfall in southern Australia, including
+ the south western tip of Werstern Australia, southern Victoria and Tasmania
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Risbey2009"
+
+\end_inset
+
+; which might have an influence in preconditioning bushfires in these regions.
+ In Victoria, positive IOD events (warmer SST anomalies in the Western Indian
+ Ocean relative to the east) are correlated with higher maximum temperatures
+ and lower precipitation in spring (September-October-November, SON), exacerbati
+ng fuel loads dryness in the bushfire season (December-January-February,
+ DJF) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cai2009"
+
+\end_inset
+
+.
+ Finally, it has been demonstrated for this region there exists a potential
+ to develop a forecasting tool to predict bushfire seasons based on climate
+ variables that have a moderate relationship with ENSO 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harris2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ENSO has an important influence over bushfire regimes in several regions
+ of the world (citations).
+ For example, there is a link between El Nino events and decreased fire
+ acitity in the Southern of the United States (citation).
+ 
+\end_layout
+
+\begin_layout Standard
+Fire weather is influenced by ENSO in several regions in Australia.
+ This influence is exacervated in the Southeast when there is a superposition
+ of the Interdecal Pacific Oscillation (IPO) and ENSO (citation).
+ 
+\end_layout
+
+\begin_layout Subsection
+Seasonal fire danger forecasting
+\end_layout
+
+\begin_layout Standard
+Seasonal forecasting uses statistical-empirical methods as well as dynamical
+ models 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Doblas-Reyes2013,Troccoli2005"
+
+\end_inset
+
+.
+ Statistical- empirical models describe the relationship between predictands
+ and predictors usually assuming linear relationships.
+ Common predictans are temperature and precipitation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Doblas-Reyes2013,Pepler2015,Troccoli2005"
+
+\end_inset
+
+.
+ Usual predictors are sea surface temperature, soil moisture, snow cover
+ and sea ice 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Doblas-Reyes2013,Troccoli2005"
+
+\end_inset
+
+.
+ One of the most common problems with this approach is multicollinearity
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Troccoli2005"
+
+\end_inset
+
+.
+ This occurs when several predictors are variables in the forecast and they
+ are correlated.
+\end_layout
+
+\begin_layout Standard
+Dynamical forecasts rely on the physical modelation of the climate system.
+ A simple model describes the interactions of the atmosphere only.
+ In complex models, all the components of the system and their interactions
+ take part.
+ Setting initial conditions and insufficient knowledge of physical processes
+ are common problems with them 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Doblas-Reyes2013,Troccoli2005"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Dynamical models have in general better forecasting accuracy than statistical-em
+pirical methods
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Doblas-Reyes2013"
+
+\end_inset
+
+.
+ Additionally, ensemble dynamical models perform better than a single model
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pepler2015"
+
+\end_inset
+
+.
+ Yet, sophisticated statistical methods can have an accuracy comparable
+ to the dynamical counterparts
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Doblas-Reyes2013"
+
+\end_inset
+
+.
+ In practise, decision-makers use a combination of statistical-empirical
+ and dynamical approaches 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Doblas-Reyes2013"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Variables that are usually forecasted are temperature and precipitation.
+ The forecast for them is better for their mean values than the extremes
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Doblas-Reyes2013,Pepler2015"
+
+\end_inset
+
+.
+ However, seasonal bushfire weather forecasting requires also information
+ about relative humidity and wind.
+ The skill to forecast this variables is less developed 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Roads2005"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In Australia, there is a relationship between fire activity and ENSO.
+ Tasmania exhibits more area burnt with decreased rainfall in the coincident
+ summer season
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nicholls2007"
+
+\end_inset
+
+.
+ Since ENSO is a major driver of Australian rainfall
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Risbey2009a"
+
+\end_inset
+
+; 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nicholls2007"
+
+\end_inset
+
+ suggested its indices can contribute to forecast fire activity in this
+ region.
+ The Northern Territory exhibits a strong relationship between area burnt,
+ rainfall and ENSO 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harris2008"
+
+\end_inset
+
+.
+ In Victoria, there is also potential to use ENSO indices for bushfire activity
+ forecasting 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harris2013"
+
+\end_inset
+
+.
+ However, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nicholls2007"
+
+\end_inset
+
+acknowledged that ENSO and fire activity could not have a link in other
+ regions of the country.
+\end_layout
+
+\begin_layout Section
+Data and methodology
+\end_layout
+
+\begin_layout Subsection
+Data
+\end_layout
+
+\begin_layout Standard
+This experiment required bushfire events, climate and ENSO indices data.
+ The bushfire datasets are those described in detail the previous chapter.
+ This experiment also used weather station and reanalysis data in Victoria.
+ The ENSO indices selected were the Southern Oscillation Index (SOI), Nino
+ 3.4.
+ and Nino 1+2.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Bushfire datasets
+\end_layout
+
+\begin_layout Standard
+The criteria to define a bushfire event remains the same as in the previous
+ chapter.
+ A bushfire event in DELWP's dataset refers to any event that burnt more
+ than 10.000 hectares.
+ A bushfire event in 'Peril Aus' database is any major event reported in
+ several locations in Victoria.
+ With this definitions both databses are comparable, as demosntrated in
+ the previous chapter.
+ Every event was included for the season December-January-February for the
+ period 1961-2011.
+\end_layout
+
+\begin_layout Standard
+The correlation between bushfire events and VSBI was examined.
+ This allowed to investigate the potential of the index to forecast extreme
+ bushfire seasons.
+ The relationship between the VSBI components with bushfire activity was
+ also explored.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Climate data
+\end_layout
+
+\begin_layout Standard
+This experiment used climate data to estimate seasonal bushfire potential
+ in Victoria.
+ The McArthur Forest Fire Danger Index (FFDI), was used to estimate this
+ potential.
+ This index requires maximum temperature, minimum relative humidity, wind
+ speed, and precipitation daily data.
+ For the first three variables the data was obtained at 3 pm.
+ The Victorian weather stations selected were: Bendigo, Laverton, Melbourne
+ Airport, Mildura, Nhill and Omeo.
+ The Bureau of Meteorology (BoM) provided this data which was available
+ since 1971.
+ This data was also used to estimate the Victorian Seasonal Bushfire Index
+ (VSBI).
+\end_layout
+
+\begin_layout Standard
+Seasonal bushfire potential in Victoria and the VSBI were also estimated
+ using renalysis data.
+ Using the 20CR and HADISST data allowed to extend the calculations back
+ to 1961.
+ From this year consistent bushfire occurences data was available.
+ This allowed to establish the relationship between several variables.
+ This variables were bushfire activity, seasonal bushfire potential, VSBI
+ and ENSO indices.
+\end_layout
+
+\begin_layout Subsubsection
+ENSO indices
+\end_layout
+
+\begin_layout Standard
+This investigation explored the relationship between ENSO with weather variables
+ associated with bushfire occurences.
+ Three ENSO indices were used for this purpose.
+ The Southern Oscillation Index (SOI), Nino 3.4 and Nino 1+2.
+ 
+\end_layout
+
+\begin_layout Standard
+The SOI measures the sea surface presure differences between Tahiti and
+ Darwin, Australia (citation).
+ A negative value of the SOI represents below-average air presure in Tahiti.
+ This also represents warm sea-surface temperature in the Tropical Pacific
+ (El Nino phase).
+ The opposite condition is true for a La Nina phase.
+ 
+\end_layout
+
+\begin_layout Standard
+ENSO phases can also be detected measuring sea-surface tempreature in the
+ Trocpial Pacific Ocean.
+ This measurements are taken in specific regions in the Tropical Pacific
+ Ocean.
+ The Nino 3.4 and Nino 1+2 represent two of this regions.
+ A three-month sea surface temperature running mean above 0.5 oC defines
+ a El Nino event.
+ The same value with the opposite sign represent a La Nina event.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/El Nino regions/El_nino_regions._resized.png
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+El Nino Regions.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:El-Nino-Regions."
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+Taken from https://www.ncdc.noaa.gov/teleconnections/enso/indicators/soi/ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Methodology
+\end_layout
+
+\begin_layout Subsubsection
+Validation of bushfire activity data
+\end_layout
+
+\begin_layout Standard
+A comparison of the two bushfire datasets available was necessary to confirm
+ their consistency.
+ DELWP's dataset associates bushfire events with area burnt.
+ Therefore, a bushfire event definition for this dataset required to select
+ an area burnt threshold.
+ For this research, a threshold of 10.000 hectares was selected.
+ This threshold allowed to compare DELWP's bushfire events with Risk Frontiers
+ data.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Calculation of seasonal bushfire potential 
+\end_layout
+
+\begin_layout Standard
+Bushfire potential can be estimated using weather variables.
+ Temperature, relative humidity, wind and precipitation are common variables
+ used for this purpose.
+ This variables can be combined in mathematical equations.
+ This equations reflect vaiable's relationships in producing the conditions
+ for bushfires to occur.
+ 
+\end_layout
+
+\begin_layout Standard
+This equations are known are bushfire indices.
+ The McArthur Forest Fire Danger Index (FFDI) is used in Australia.
+ The index is represented as an equation (citation):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $FFDI=2e^{(-0.45+0.987ln(DF)-0.0345RH+0.0338T+0.0234v)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where:
+\end_layout
+
+\begin_layout Standard
+T: Daily maximum temperature (oC).
+\end_layout
+
+\begin_layout Standard
+v: Wind speed (Km/h).
+\end_layout
+
+\begin_layout Standard
+RH: Relative humidity (%).
+\end_layout
+
+\begin_layout Standard
+DF: Drought factor.
+\end_layout
+
+\begin_layout Standard
+A drought factor is a number that represents the effect of evapotranspiration
+ in soil moisture content (citation).
+ The FFDI has five fire danger classes, presented in table xxx:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Forest Fire Danger classes for the FFDI
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fire danger rating
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FFDI range
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0-5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moderate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5-12
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12-24
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Very high
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24-50
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extreme
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50-100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Catastrophic
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This daily index was selected to evaluate seasonal bushfire potential in
+ Victoria.
+ A seasonal metric was necessary to test the skill of the VSBI to forecast
+ bushfire danger.
+ Two seasonal metrics of FFDI were used to perform this analysis.
+ The first metric was a seasonal sum of daily FFDI values.
+ The number of days that a FFDI exceed a value of 25 during the season was
+ the second metric.
+ In both cases the season consisdered was December-January-February.
+ 
+\end_layout
+
+\begin_layout Standard
+A comparison of reanalysis and weather station data reveled the need for
+ bias-correction.
+ The approach used to bias-correct the reanalysis data was to apply linear
+ scaling techniques.
+ For maximum temperature and wind speed, additive and multiplicative linear
+ scaling were applied.
+ Multiplicative linear scaling was applied to specific humidity to recalculate
+ relative humidity values.
+ This required bias-corrected maximum temperature values.
+ Precipitation was not bias-corrected.
+ Probability density functions (PDFs) allowed to test the results.
+\end_layout
+
+\begin_layout Subsubsection
+Composite analysis of FFDI variables 
+\end_layout
+
+\begin_layout Standard
+The VSBI was proposed as the aggregation of sub-indices.
+ Each sub-index representes a normalized spatial average.
+ This average represents the value of a fixed large-scale of the seasonal
+ composites presented.
+ The variables that presented the strongest anomalous areas were: 
+\end_layout
+
+\begin_layout Itemize
+1000-hPa air temperature (T) in the region (33S-36S; 145E-150E).
+ 
+\end_layout
+
+\begin_layout Itemize
+1000-hPa relative humidity (Rhum) in the region (33S-36S; 145E-150E).
+ 
+\end_layout
+
+\begin_layout Itemize
+300-hPa zonal wind (Uwnd) in the region (38S-48S; 125E-150E).
+ 
+\end_layout
+
+\begin_layout Standard
+The season selected to perform the calculations for the index was September-Octo
+ber-November (SON).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Linear corelations
+\end_layout
+
+\begin_layout Standard
+Linear correlations were performed for the VSBI -and it components- in the
+ SON season, with bushfire metrics and ENSO indices corresponding to the
+ DJF season.
+ This allowed to test the skill of the index to forecast bushfire weather
+ and acivity.
+ The correlations were also performed with ENSO indices for the season SON,
+ with VSBI and bushfire metrics corresponding to the DJF season.
+ This allowed to evalute the influence of ENSO in the preceding season (SON)
+ to the VSBI, and bushfire metrics in the DJF season.
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Subsection
+Fire activity record
+\end_layout
+
+\begin_layout Standard
+The main data for this research is the fire activity record.
+ Therefore a rigorous validation of the information available was required.
+ The two databases used (DELWP and PerilAUS) have information starting from
+ 1903.
+ However the definitions of bushfire events for these databases are different.
+ In order to compare these data, a burnt are threshold in the DELWP dataset
+ was investigated.
+ 
+\end_layout
+
+\begin_layout Standard
+Two period of analysis were defined.
+ From 1911 to 1960 and 1961-2011.
+ From 1911 meteorological information is more reliable in Victoria.
+ The year 2011 was selected since the PerilAUs data was availabe until this
+ year.
+ The decision to split in half the period of analysis was also important.
+ This was performed since the information was going to be compared with
+ ENSO indices.
+ It is known that the ENSO relationship changes over long periods of time
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wang2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The results of this analysis are shown in table 4.2.
+ DELWP's database shows clear a imbalance in bushfire events for any burnt
+ area threshold.
+ Thefore the second period was selected for all the analysis.
+ A 10,000 Ha burnt are threshold yielded 47 bushfire events in DELWP's datset.
+ For the same period 43 bushfire events were registered in PerilAUS database.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bushfire events per are burnt 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="9">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DELWP 
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PerilAUS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Period/Burnt area (Ha)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>2000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>5000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>10000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N/A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1911-1960
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1961-2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+338
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+254
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+210
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+161
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+111
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+77
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+43
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For period 1961-2011 the two databases are significantly correlated.
+ Figure 4.2 show a time series of the two databases.
+ The two time series are corrleated with and R coefficiente qual to 0.52
+ and and P value of 9.5x10-5
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Bushfire-events-in-Victoria"
+
+\end_inset
+
+ see Chpt.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Data-and-methods"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Bushfire_events_victoria/Bushfire_events_Victoria_resized.png
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bushfire events in Victoria for the period 1961-2011.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Bushfire-events-in-Victoria"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Extended FFDI record
+\end_layout
+
+\begin_layout Standard
+The calcualtion of the FFDI was necesary to evaluate bushfire danger in
+ Victoria.
+ Especifically, how seasonal bushfire weather influences bushfire occurrences.
+ Therefore seasonal metrics fo the FFDI were used.
+ The sum of daily FFDI values for the DJF season represents a seasonal bushfire
+ weather metric.
+ A second metric used was the number of days above 25 FFDI value for the
+ same season.
+ The calcualtions were performed using weather stations data.
+ Additionally, reanalys data was also used after a linear scaling bias-correctio
+n.
+ All the calculations presented in this section represent average values
+ in Victoria.
+ 
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Seasonal-FFDI-in-Vcitoria-no-bias-correction"
+
+\end_inset
+
+ shows times series of seasonal FFDI in Victoria.
+ Panel a) presents the results using a the first seaosnal metric (sum of
+ daily values).
+ Panel b) presents seasonal FFDI as the number of days with a FFDI value
+ greater than 25.
+ This calcualtions comprises the season DJF during the period 1972-2010.
+ This period was selected because weather station data for FFDI variables
+ is not available in Victoria before 1972.
+ In both cases is evident that weather station data represent more extreme
+ bushfire weather seasons.
+ 
+\end_layout
+
+\begin_layout Standard
+This differeces are likely to occur for several reasons.
+ FFDI variables from renalysis data do not correspond exactly to surface
+ values.
+ Reanalysis data is available from 1000 h-Pa level.
+ The FFDI with weather station data is calcualted with values at 3 pm (citation).
+ Yet, reanalysis data for FFDI variables is available on a 6-hourly basis.
+ This limited the availability of data to 4 pm values.
+ Finally, there are intricsinc limitations in the reanalsis dataset already
+ discussed in section xxx.
+ The results depict a similar variability.
+ The R coefficient for panel a) was XXX and for panel b) XXX.
+ However, on an interanual basis they differ on magnitude.
+ Thefore a bias-correction of reanalysis data was required.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Seasonal FFDI in Victoria, Australia (no bias-correction) for the period
+ 1972-2010
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Seasonal-FFDI-in-Vcitoria-no-bias-correction"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For bias-correction it was necesary to compare the weather sation and reanalysis
+ data.
+ To make this comparisson probability density functions (PDF) were plotted.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maximum-temperature-PDFs"
+
+\end_inset
+
+.
+ shows PDFs for maximum temperature.
+ For every FFDI varaible bias-corrected, panel a) presents the fucntions
+ with original data and panel b) the result of the adjustment.
+ The maximum temperature show a deviation from the mean that is equivalent
+ to 3.1 oC.
+ Thefore a additive linear scaling was applied to the reanalysis data.
+ 
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/TMAX/TMAX.png
+	lyxscale 25
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Maximum temperature PDFs 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Maximum-temperature-PDFs"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relative humidity is a calculated variable.
+ Therefore, the best approach was to bias-correct the variables required
+ for its calculation.
+ The required variables are maximum temperature and specific humidity.
+ The equations rquired for its calcualtion are shown here: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $q\equiv\frac{m_{v}}{m_{v}+m_{d}}=\frac{w}{w+1}\approx w$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $ws\equiv\frac{m_{vs}}{m_{d}}=\frac{e_{s}R_{d}}{R_{v}\left(p-e_{s}\right)}\thickapprox0.622\frac{e_{s}}{p}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $e_{s}\left(T\right)=e_{s()}exp\left[\left(\frac{L_{v}\left(T\right)}{R_{v}}\right)\left(\frac{1}{T_{o}}-\frac{1}{T}\right)\right]\thickapprox611exp\left(\frac{17.67\left(T-T_{o}\right)}{T-29.65}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $RH=100\frac{w}{w_{s}}\thickapprox0.263pq\left[exp\left(\frac{17.67\left(T-To\right)}{T-29.65}\right)\right]^{-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The variables used are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $q:$
+\end_inset
+
+ specific humidity or the mass mixing ratio of water vapor to toal air (dimensio
+nless)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{v}:$
+\end_inset
+
+ specific mass of water vapor (Kg)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{vs}:$
+\end_inset
+
+specific mass of water vapor at equilibrium (Kg)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{d}$
+\end_inset
+
+: specific mass of dry air (Kg)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $w:$
+\end_inset
+
+mass mixing ratio of water vapor to dry air at equilibrium (dimensionless)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $w_{s}:$
+\end_inset
+
+mass mixing ratio of water vapor to dry air at equilibrium (dimensionless)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e_{s}(T):$
+\end_inset
+
+saturation vapor pressure (Pa)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e_{s()}:$
+\end_inset
+
+saturation vapor pressure at 
+\begin_inset Formula $T_{o}$
+\end_inset
+
+ (Pa)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{d}:$
+\end_inset
+
+specific gas constant for dry air (J 
+\begin_inset Formula $Kg^{-1}$
+\end_inset
+
+ 
+\begin_inset Formula $K^{-1}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{v}:$
+\end_inset
+
+specific gas constant for water vapor (J 
+\begin_inset Formula $Kg^{-1}$
+\end_inset
+
+ 
+\begin_inset Formula $K^{-1}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p:$
+\end_inset
+
+pressure (Pa)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{v}(T)$
+\end_inset
+
+: specific enthalpy of vaporization J 
+\begin_inset Formula $Kg^{-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T$
+\end_inset
+
+: temperature (K)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{o}$
+\end_inset
+
+: reference temperature (273.16 K)
+\end_layout
+
+\begin_layout Standard
+Figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Specific-Humidity-PDFs"
+
+\end_inset
+
+ shows PDFs for Specific Humidity.
+ This variabgle presented a deviation form the mean of XXX.
+ Therefore, additive linear scaling was applied.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/SHUM/SHUM.png
+	lyxscale 25
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Specific Humidity PDFs 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Specific-Humidity-PDFs"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Relative-Humidity-PDFs"
+
+\end_inset
+
+ show PDFs for relative humidity.
+ The results show original recalculated data.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/RH/RHUM.png
+	lyxscale 25
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Relative Humidity PDFs 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relative-Humidity-PDFs"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wind-speed-PDFs"
+
+\end_inset
+
+ show PDFs for wind speed.
+ In this case, the deviation of the mean (xxx) required a multiplicative
+ lnear scaling.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/W/W.png
+	lyxscale 25
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Wind speed PDFs 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wind-speed-PDFs"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precipitation-PDF"
+
+\end_inset
+
+ shows the precipitation PDF.
+ No bias-correction was applied.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/P/Precipitation_original_resized.png
+	lyxscale 25
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Precipitation PDF 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precipitation-PDF"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After the bias-correction process, the FFDI was reclculted for Victoria.
+ The bias-correction results show that he underestimation in the order of
+ magnitude in the variability of seasonal bushfire potential, in both metrics
+ of seasonal FFDI, has been adjusted with acceptable skill.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Seasonal FFDI in Victoria, Australia (with bias-correction) for the period
+ 1972-2010 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Seasonal-FFDI-in"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A final step in the FFDI calculation process was to extend the resutls using
+ the reanalysis data further back in time.
+ To perform this calculation the day with the highest precipitation was
+ serch in the reanalysis for this region.
+ This allowed to set the soil moisture deficit index to zero to start the
+ calculations.
+ The date was XXX.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Seasonal-Seasonal-FFDI"
+
+\end_inset
+
+ show the results.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Seasonal Seasonal FFDI in Victoria, Australia (with bias-correction) for
+ the period 1919-2010 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Seasonal-Seasonal-FFDI"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Seasonal forecasting skill
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/danielpazmino/Documents/My_research/Thesis/LyX/library"
+options "bibtotoc,/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
