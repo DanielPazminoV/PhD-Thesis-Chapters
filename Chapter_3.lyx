@@ -93,8 +93,8 @@
 \begin_body
 
 \begin_layout Chapter
-Twentieth century seasonal bushfire danger variability and forecasting skill
- in Victoria, Australia.
+Twentieth century seasonal bushfire weather variability and forecasting
+ skill in Victoria, Australia.
  
 \begin_inset Newpage newpage
 \end_inset
@@ -103,120 +103,22 @@ Twentieth century seasonal bushfire danger variability and forecasting skill
 \end_layout
 
 \begin_layout Section
-Summary
-\end_layout
-
-\begin_layout Section
 Introduction
 \end_layout
 
-\begin_layout Subsection
-Localization and geography
-\end_layout
-
-\begin_layout Standard
-Victoria is localized in southeastern Australia ranging in latitude from
- 34º2' to 39º8' S (see Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Localization-of-Victoria-1"
-
-\end_inset
-
-).
- This state occupies 227618 km
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-, and is physically divided in four regions: Murray Basin Plains, Victorian
- Highlands, Southern Lowlands, Southern Uplands 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Sherbon1975"
-
-\end_inset
-
-.
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ../Chapter 2/figures/Victoria.png
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Localization of the state of Victoria, Australia.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Localization-of-Victoria-1"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Climate
-\end_layout
-
-\begin_layout Standard
-Victoria's climate is greatly influenced by its topography
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BureauofMeteorology2008"
-
-\end_inset
-
-.
- The Great Dividing Range (GDR), has created three main climatic zones:
- Northern, Southern and Southeastern Victoria.
- In Northern Victoria, precipitation is influenced by northwesterly air
- masses.
- The north-west region of this climatic zone receives an annual average
- of 250 to 300 mm of precipitation and endures intense heatwaves; whereas,
- in the north-east the precense of mountains raises the precitation range
- to 800-1000 mm in a year.
- Precipitation in Southern Victoria also increases with altitude; however,
- westerly winds drive its formation.
- In contrast, variations in temperature in this zone are driven by northerly
- winds, which produce summers with average an temperature of 28 ºC and maxima
- of 43 ºC.
- In Southeastern Victoria, synoptic systems in the Tasman Sea influence
- its precipitation rate, especially in the eastern region that recieves
- in average 1000 mm in a year.
- The western region of Southeastern Victoria is less influenced by the Tasman
- Sea, and receives in average 600 mm of precipitation
+\begin_layout Section
+Background
 \end_layout
 
 \begin_layout Section
-Bushfire weather
+Literature review
 \end_layout
 
 \begin_layout Subsection
+Bushfire weather
+\end_layout
+
+\begin_layout Subsubsection
 Meteorological variables
 \end_layout
 
@@ -269,7 +171,7 @@ key "Bradstock2012"
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Synoptics 
 \end_layout
 
@@ -374,7 +276,7 @@ key "Mills2005"
  in this state.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Climate modes of variability
 \end_layout
 
@@ -452,12 +354,12 @@ ENSO has an important influence over bushfire regimes in several regions
 
 \begin_layout Standard
 Fire weather is influenced by ENSO in several regions in Australia.
- This influence is exacervated in the Southeast when there is a superposition
+ This influence is exacervated in the southeast when there is a superposition
  of the Interdecal Pacific Oscillation (IPO) and ENSO (citation).
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Seasonal fire danger forecasting
 \end_layout
 
@@ -1123,505 +1025,22 @@ Results
 \end_layout
 
 \begin_layout Subsection
-Fire activity record
-\end_layout
-
-\begin_layout Standard
-The main data for this research is the fire activity record.
- Therefore a rigorous validation of the information available was required.
- The two databases used (DELWP and PerilAUS) have information starting from
- 1903.
- However the definitions of bushfire events for these databases are different.
- In order to compare these data, a burnt are threshold in the DELWP dataset
- was investigated.
- 
-\end_layout
-
-\begin_layout Standard
-Two period of analysis were defined.
- From 1911 to 1960 and 1961-2011.
- From 1911 meteorological information is more reliable in Victoria.
- The year 2011 was selected since the PerilAUs data was availabe until this
- year.
- The decision to split in half the period of analysis was also important.
- This was performed since the information was going to be compared with
- ENSO indices.
- It is known that the ENSO relationship changes over long periods of time
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Wang2013"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-The results of this analysis are shown in table 4.2.
- DELWP's database shows clear a imbalance in bushfire events for any burnt
- area threshold.
- Thefore the second period was selected for all the analysis.
- A 10,000 Ha burnt are threshold yielded 47 bushfire events in DELWP's datset.
- For the same period 43 bushfire events were registered in PerilAUS database.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Bushfire events per are burnt 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="9">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-DELWP 
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PerilAUS
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Period/Burnt area (Ha)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
->100
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
->300
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
->500
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
->1000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
->2000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
->5000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
->10000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-N/A
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1911-1960
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-49
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1961-2011
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-338
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-254
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-210
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-161
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-111
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-77
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-47
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-43
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-For period 1961-2011 the two databases are significantly correlated.
- Figure 4.2 show a time series of the two databases.
- The two time series are corrleated with and R coefficiente qual to 0.52
- and and P value of 9.5x10-5
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Bushfire-events-in-Victoria"
-
-\end_inset
-
- see Chpt.
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Data-and-methods"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Figures/Bushfire_events_victoria/Bushfire_events_Victoria_resized.png
-	lyxscale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Bushfire events in Victoria for the period 1961-2011.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Bushfire-events-in-Victoria"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
 Extended FFDI record
 \end_layout
 
 \begin_layout Standard
-The calcualtion of the FFDI was necesary to evaluate bushfire danger in
- Victoria.
- Especifically, how seasonal bushfire weather influences bushfire occurrences.
+The calcualtion of the FFDI was necesary to explore seasonal bushfire weather
+ in Victoria.
+ Especifically, the relationship between climate modes of variability, bushfire
+ weather and bushfire occurrences.
  Therefore seasonal metrics fo the FFDI were used.
  The sum of daily FFDI values for the DJF season represents a seasonal bushfire
  weather metric.
- A second metric used was the number of days above 25 FFDI value for the
- same season.
- The calcualtions were performed using weather stations data.
- Additionally, reanalys data was also used after a linear scaling bias-correctio
-n.
+ A second metric used was the number of days with a FFDI greater than 25
+ for the same season.
+ The calcualtions were performed using weather station data.
+ Additionally, reanalysis data was also used after a linear scaling bias-correct
+ion.
  All the calculations presented in this section represent average values
  in Victoria.
  
@@ -1631,35 +1050,48 @@ n.
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-FFDI-in-Vcitoria-no-bias-correction"
+reference "fig:Seasonal-Seasonal-FFDI"
 
 \end_inset
 
- shows times series of seasonal FFDI in Victoria.
- Panel a) presents the results using a the first seaosnal metric (sum of
- daily values).
+shows two times series of seasonal FFDI in Victoria.
+ Panel a) presents the results using the first seasonal metric (cummulative
+ FFDI).
  Panel b) presents seasonal FFDI as the number of days with a FFDI value
  greater than 25.
- This calcualtions comprises the season DJF during the period 1972-2010.
- This period was selected because weather station data for FFDI variables
- is not available in Victoria before 1972.
- In both cases is evident that weather station data represent more extreme
- bushfire weather seasons.
+ These calcualtions comprise the season DJF during the period 1974-2010.
+ This period was selected because weather station data for every FFDI variable
+ is not available in Victoria before 1974.
+ Weather station data was necessary to bias-correct the FFDI results calculated
+ with reanalysisd data.
+ Weather station data represent Victoria with more extreme bushfire weather
+ seasons compared to the original (without bias-correction) results with
+ reanalysis data.
  
 \end_layout
 
 \begin_layout Standard
-This differeces are likely to occur for several reasons.
+This difference is likely to occur for several reasons.
  FFDI variables from renalysis data do not correspond exactly to surface
  values.
  Reanalysis data is available from 1000 h-Pa level.
- The FFDI with weather station data is calcualted with values at 3 pm (citation).
+ The FFDI with weather station data is calcualted with values at 3 pm.
  Yet, reanalysis data for FFDI variables is available on a 6-hourly basis.
  This limited the availability of data to 4 pm values.
- Finally, there are intricsinc limitations in the reanalsis dataset already
- discussed in section xxx.
- The results depict a similar variability.
- The R coefficient for panel a) was XXX and for panel b) XXX.
+ Finally, there are intricsinc limitations in the reanalysis dataset already
+ discussed in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Data-and-methodology"
+
+\end_inset
+
+.
+ In spite of this, the results depict a similar variability for the seasonal
+ FFDI metrics.
+ Panel a) shows the time series for cummulative FFDI ( r=0.47, p=0.00, n=37),
+ and panel b) the correspondineg time series for number of days with FFDI
+ greater than 25 (r=0.33, p=0.05, n=37) .
  However, on an interanual basis they differ on magnitude.
  Thefore a bias-correction of reanalysis data was required.
 \end_layout
@@ -1671,18 +1103,31 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Seasonal FFDI in Victoria, Australia (no bias-correction) for the period
- 1972-2010
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Seasonal-FFDI-in-Vcitoria-no-bias-correction"
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/FFDI_original_1974_2010.png
+	lyxscale 20
+	scale 90
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Seasonal FFDI in Victoria, Australia (no bias-correction) for the period
+ 1974-2010 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Seasonal-FFDI-original-1974-2010"
+
+\end_inset
+
+ 
 \end_layout
 
 \end_inset
@@ -1698,7 +1143,8 @@ name "fig:Seasonal-FFDI-in-Vcitoria-no-bias-correction"
 \begin_layout Standard
 For bias-correction it was necesary to compare the weather sation and reanalysis
  data.
- To make this comparisson probability density functions (PDF) were plotted.
+ To make this comparisson probability density functions (PDFs) and seasonal
+ time series fore ach FFDI variable were plotted.
 \end_layout
 
 \begin_layout Standard
@@ -1710,17 +1156,22 @@ reference "fig:Maximum-temperature-PDFs"
 \end_inset
 
 .
- shows PDFs for maximum temperature.
+ and figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maximun-temeprature-time-series"
+
+\end_inset
+
+showt PDFs and seasonal (DJF) time series for maximum temperature respectively.
  For every FFDI varaible bias-corrected, panel a) presents the fucntions
  with original data and panel b) the result of the adjustment.
  The maximum temperature show a deviation from the mean that is equivalent
- to 3.1 oC.
+ to 2.36 oC.
  Thefore a additive linear scaling was applied to the reanalysis data.
+ For the seasonal time series the correlation coefficients are a) (r=0.88,
+ p=0.00, n=37) and b) (r= 0.88, p=0.00, n=37).
  
-\end_layout
-
-\begin_layout LyX-Code
-
 \end_layout
 
 \begin_layout Standard
@@ -1733,8 +1184,8 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/FFDI_variables/TMAX/TMAX.png
-	lyxscale 25
+	filename Figures/FFDI_variables/TMAX/gray_pdfs/VIC_TMAX.png
+	lyxscale 20
 	scale 90
 
 \end_inset
@@ -1746,7 +1197,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Maximum temperature PDFs 
+Maximum temperature probability density functions 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Maximum-temperature-PDFs"
@@ -1767,11 +1218,58 @@ name "fig:Maximum-temperature-PDFs"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/TMAX/gray_time_series/TMAX_time_series.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Maximun temeprature time series 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Maximun-temeprature-time-series"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Relative humidity is a calculated variable.
  Therefore, the best approach was to bias-correct the variables required
  for its calculation.
  The required variables are maximum temperature and specific humidity.
- The equations rquired for its calcualtion are shown here: 
+ The equations required for its calcualtion are shown here: 
 \end_layout
 
 \begin_layout Standard
@@ -1945,9 +1443,19 @@ reference "fig:Specific-Humidity-PDFs"
 
 \end_inset
 
- shows PDFs for Specific Humidity.
- This variabgle presented a deviation form the mean of XXX.
+ and figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Specific-humidity-time-series"
+
+\end_inset
+
+show PDFs and seasonal (DJF) time series for specific humidity respectively.
+ This variable presented a deviation from the mean of 8.63x10-4 Kg/Kg.
  Therefore, additive linear scaling was applied.
+ The time series correlation coefficients for this variable are a) (r =0.33,
+ p=0.05, n=37) and b) (r=0.85, p=0.00, n=37).
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1957,15 +1465,11 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/FFDI_variables/SHUM/SHUM.png
-	lyxscale 25
+	filename Figures/FFDI_variables/SHUM/gray_pdfs/SHUM_pdfs.png
+	lyxscale 20
 	scale 90
 
 \end_inset
@@ -1977,7 +1481,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Specific Humidity PDFs 
+Specific humidity probability density functions 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Specific-Humidity-PDFs"
@@ -1998,6 +1502,53 @@ name "fig:Specific-Humidity-PDFs"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/SHUM/gray_time_series/SHUM_time_series.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Specific humidity time series 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Specific-humidity-time-series"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2005,9 +1556,18 @@ reference "fig:Relative-Humidity-PDFs"
 
 \end_inset
 
- show PDFs for relative humidity.
- The results show original recalculated data.
- 
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Relative-humidity-time-series"
+
+\end_inset
+
+show PDFs and time series for relative humidity respectively.
+ This variable presented a deviation from the mean of 4.05%.
+ The results show original a) and recalculated data b).
+ The time series correlation coefficients are a) (r=0.78, p = 0.00, n= 37)
+ and b) (r=0.80, p=0.00, n=37).
 \end_layout
 
 \begin_layout Standard
@@ -2020,8 +1580,8 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/FFDI_variables/RH/RHUM.png
-	lyxscale 25
+	filename Figures/FFDI_variables/RH/gray_pdfs/VIC_RH_pdfs.png
+	lyxscale 20
 	scale 90
 
 \end_inset
@@ -2033,7 +1593,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Relative Humidity PDFs 
+Relative humidity probability density functions 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Relative-Humidity-PDFs"
@@ -2054,34 +1614,17 @@ name "fig:Relative-Humidity-PDFs"
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Wind-speed-PDFs"
-
-\end_inset
-
- show PDFs for wind speed.
- In this case, the deviation of the mean (xxx) required a multiplicative
- lnear scaling.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/FFDI_variables/W/W.png
-	lyxscale 25
+	filename Figures/FFDI_variables/RH/gray_time_series/RH_time_series.png
+	lyxscale 20
 	scale 90
 
 \end_inset
@@ -2093,7 +1636,76 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Wind speed PDFs 
+Relative humidity time series 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relative-humidity-time-series"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wind-speed-PDFs"
+
+\end_inset
+
+ and figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wind-speed-time-series"
+
+\end_inset
+
+show PDFs and time series for wind speed respectively.
+ In this case, the deviation of the mean was 1.37 Km/h.
+ In this case a multiplicative linear scaling was required.
+ The time series correlation coefficients are a) (r=0.31, p=0.06, n=37 ) and
+ b) (r=0.31 p=0.06, n=37).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/W/gray_pdfs/W_pdfs.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Wind speed probability density functions 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Wind-speed-PDFs"
@@ -2105,6 +1717,53 @@ name "fig:Wind-speed-PDFs"
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/W/gray_time_series/W_time_series.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Wind speed time series 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wind-speed-time-series"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2135,8 +1794,8 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/FFDI_variables/P/Precipitation_original_resized.png
-	lyxscale 25
+	filename Figures/FFDI_variables/P/gray_pdfs/P_pdf.png
+	lyxscale 20
 	scale 90
 
 \end_inset
@@ -2148,7 +1807,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Precipitation PDF 
+Precipitation probability density functions 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Precipitation-PDF"
@@ -2169,11 +1828,59 @@ name "fig:Precipitation-PDF"
 \end_layout
 
 \begin_layout Standard
-After the bias-correction process, the FFDI was reclculted for Victoria.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/P/gray_time_series/P_time_series.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Precipitation time series
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precipitation-time-series"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After the bias-correction process, the FFDI was recalculted for Victoria.
  The bias-correction results show that he underestimation in the order of
  magnitude in the variability of seasonal bushfire potential, in both metrics
  of seasonal FFDI, has been adjusted with acceptable skill.
- 
+ The time series correlation coefficients are a) (r=0.45 p=0.06, n=37 ) and
+ b) (r= 0.52, p=0.00, n=37).
 \end_layout
 
 \begin_layout Standard
@@ -2183,14 +1890,77 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/gray_pdfs/FFDI_pdfs.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Probability density functions of bias-corrected seasonal FFDI in Victoria,
+ Australia for the period 1974-2010 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:PDFs-FFDI-bc-1974-2010"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/FFDI_bc_1974_2010.png
+	lyxscale 20
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Seasonal FFDI in Victoria, Australia (with bias-correction) for the period
- 1972-2010 
+ 1974-2010 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Seasonal-FFDI-in"
+name "fig:Seasonal-FFDI-bc-1974-2010"
 
 \end_inset
 
@@ -2199,10 +1969,6 @@ name "fig:Seasonal-FFDI-in"
 
 \end_inset
 
- 
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2218,7 +1984,8 @@ A final step in the FFDI calculation process was to extend the resutls using
  serch in the reanalysis for this region.
  This allowed to set the soil moisture deficit index to zero to start the
  calculations.
- The date was XXX.
+ The date was the 22th of september of 1918 with 62.06 mm.
+ Thefore the results were extended for the period 1920-2010.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2227,6 +1994,8 @@ reference "fig:Seasonal-Seasonal-FFDI"
 \end_inset
 
  show the results.
+ The time series correlation coefficients (for the period 1974-2010) are
+ a) (r=0.47 p=0.00, n=37 ) and b) (r=0.32, p=0.06, n=37).
 \end_layout
 
 \begin_layout Standard
@@ -2236,6 +2005,15 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/FFDI_bc_1920_2010.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
 
 \end_layout
 
@@ -2244,7 +2022,7 @@ status open
 
 \begin_layout Plain Layout
 Seasonal Seasonal FFDI in Victoria, Australia (with bias-correction) for
- the period 1919-2010 
+ the period 1920-2010 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Seasonal-Seasonal-FFDI"
@@ -2270,6 +2048,14 @@ name "fig:Seasonal-Seasonal-FFDI"
 
 \begin_layout Subsection
 Seasonal forecasting skill
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Section
+Summary
 \end_layout
 
 \begin_layout Standard
