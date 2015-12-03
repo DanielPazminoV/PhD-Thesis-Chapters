@@ -93,7 +93,8 @@
 \begin_body
 
 \begin_layout Chapter
-Bushfire and heatwave synotipcs 
+Differences between bushfires and heatwaves weather patterns in Victoria,
+ Australia 
 \begin_inset Newpage newpage
 \end_inset
 
@@ -102,210 +103,6 @@ Bushfire and heatwave synotipcs
 
 \begin_layout Section
 Introduction
-\end_layout
-
-\begin_layout Standard
-Bushfires (BFs) and heatwaves (HWs) are two of the most live threatening
- and destructive natural hazards in Australia.
- Taking into consideration the past 100 years, HWs endangering human life
- have been categorized as the most hazardous natural phenomena for people
- in Australia; while BFs ranked fourth 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Haynes2010"
-
-\end_inset
-
-.
- These events have also had important consequences for the Australian economy.
- Considering only building losses, BFs are the third most destructive natural
- hazard, being responsible for 20% of property losses during the period
- 1900 to 2003 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "McAneney2009"
-
-\end_inset
-
-.
- (McAneney et al., 2009); on the other hand, HWs massively increase the energy
- demand because of the intense use of air conditioning systems, as well
- as affect the physical integrity of civil infrastructure 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Pezza2011"
-
-\end_inset
-
-.
- Since the impacts produced by these events are significant for Australia,
- great effort has been devoted to understand how these events are produced
- from a meteorological perspective.
-\end_layout
-
-\begin_layout Standard
-The meteorological variables of bushfire weather (e.g.
- wind, rainfall, air temperature, relative humidity) are governed by large-scale
- synoptic patterns that have particular characteristics in different regions
- of Australia 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BureauofMeteorology2008"
-
-\end_inset
-
-.
- However, the synoptic weather patterns associated with bushfires all have
- hot-dry air advection processes in common, and often the passage of cold
- fronts in initiated bushfire areas 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Bradstock2012"
-
-\end_inset
-
-.
- For example, bushfire weather in southeast Australia is characterized by
- an atmospheric high-pressure centre (“high”) in the Tasman Sea and a strong
- cold front arriving from the west 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BureauofMeteorology2008"
-
-\end_inset
-
-.
- The passage of a cold front causes abrupt changes in wind direction converting
- bushfires in extreme or even catastrophic events.
- In fact, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Mills2005"
-
-\end_inset
-
- demonstrated that a strong 850-hPa temperature gradient (associated with
- cold front arrivals) is highly correlated with extreme bushfire events
- in Victoria, Australia (see Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Localization-of-Victoria"
-
-\end_inset
-
-for lozalization of Victoria).
- The common characteristic of the impacts associated with BFs and HWs in
- this state is the extremely hot and dry environment caused by the northerly
- winds associated with the anticyclone in the Tasman Sea, yet the precursors
- of these events can be quite different.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Figures/Victoria.png
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Localization of Victoria, Australia 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Localization-of-Victoria"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Pezza2011"
-
-\end_inset
-
-demonstrated that an anticyclone (or high) in the Tasman Sea is the principal
- driver of HWs in Victoria.
- In this study, HWs where defined as any three or more consecutive days
- where the maximum temperature was equal or greater than the 90th percentile
- of the monthly climatological mean, provided that the minimum temperature
- did not drop below the 90th percentile in the second and third days.
- HWs were associated to cyclones and anticyclones using a tracking scheme
- (Murray and Simmonds, 1991) for the period 1979-2008.
- The stability of this high in the Tasman Sea supports the dry air advection
- to Southeastern Australia and would prevent the passage of cold fronts,
- which makes this high a “blocking” anticyclone.
- Even though there is a clear relationship between BFs and HWs to my knowledge
- these events have not been investigated in an integrated manner.
-\end_layout
-
-\begin_layout Standard
-Since BF occurrences are associated with hot temperatures and overall dry
- conditions that generally occur during HWs, a logical train of thought
- would be that BFs are likely to be produced during HWs (considering only
- weather variables), however this might not be necessarily true.
- The aim of this article is to compare and contrast the synoptic climatology
- of BFs and HWs in Victoria for the period 1900-2010, discussing some of
- the fundamental differences that lead up to both events.
- This investigation is important because in a bushfire/heatwave prone region
- such as Victoria, weather forecasting and emergency response preparedness
- would greatly benefit to know under which meteorological circumstances
- the risk of having one event or the other (or both) increases.
- 
-\end_layout
-
-\begin_layout Standard
-After the introduction, the remaining sections of the article are organized
- as follow.
- Section two describes the characteristics and limitations of the bushfire
- event dates and climate datasets employed in this research, establishing
- key definitions, and describing the methodology of the study including
- the statistical analysis.
- Section three presents the results of the contrasts between the synoptic
- climatology of BFs and HWs in Victoria on a daily and monthly timescales,
- as well as a comparison between the large-scale circulation patterns in
- the concurrent (DJF) and preceding (SON) seasons.
- Finally, section four presents a discussion of the results and conclusions.
-\end_layout
-
-\begin_layout Standard
-After the introduction, the remaining sections are organized as follow.
- Section two describes the characteristics and limitations of the bushfire
- event dates and climate datasets employed in this research, establishing
- key definitions, and describing the methodology of the study including
- the statistical analysis.
- Section three presents the results of the contrasts between the synoptic
- climatology of BFs and HWs in Victoria on a daily and monthly timescales,
- as well as a comparison between the large-scale circulation patterns in
- the concurrent (DJF) and preceding (SON) seasons.
- Finally, section four presents a discussion of the results and conclusions.
 \end_layout
 
 \begin_layout Section
@@ -388,9 +185,9 @@ Climate
 \end_layout
 
 \begin_layout Standard
-Victoria's climate is greatly influenced by its topography
+Victoria's climate is greatly influenced by its topography 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "BureauofMeteorology2008"
 
 \end_inset
@@ -420,6 +217,205 @@ key "BureauofMeteorology2008"
 Literature review
 \end_layout
 
+\begin_layout Standard
+Bushfires and heatwaves are dangerous natural hazards in Australia.
+ In the last 100 years, heatwaves were the most hazardous natural phenomena
+ for people in Australia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Haynes2010"
+
+\end_inset
+
+.
+ Bushfires ranked fourth.
+ These events have also had important consequences for the Australian economy.
+ Bushfires are the third most destructive natural hazard 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "McAneney2009"
+
+\end_inset
+
+.
+ These events were responsible for 20% of property losses during the period
+ 1900 to 2003.
+ Heatwaves increase the energy demand because of the intense use of air
+ conditioning systems.
+ They also affect the physical integrity of civil infrastructure 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pezza2011,Boschat2014,Cowan"
+
+\end_inset
+
+.
+ The impacts produced by these events are significant for Australia.
+ Therefore great effort has been devoted to understand how these events
+ are produced.
+ The meteorological aspects seem to link these events.
+ However, in this study we show that the weather patterns of bushfire and
+ heatwaves demonstrate important differences.
+ 
+\end_layout
+
+\begin_layout Standard
+Common variables of bushfire weather are air temperature, relative humidity,
+ wind speed and rainfall.
+ They are governed by large-scale weather patterns.
+ These patterns have particular characteristics in different regions of
+ Australia (BoM, 2009) .
+ Weather patterns associated with bushfires have hot-dry air advection processes
+ in common.
+ Often the passage of cold fronts in bushfire areas is another characteristic.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bradstock2012"
+
+\end_inset
+
+.
+ For example, bushfire weather in southeast Australia comprises a 'high'
+ in the Tasman Sea.
+ A strong cold front arriving from the west is also present (BoM, 2009).
+ The passage of a cold front is associated with high winds and abrupt changes
+ in wind direction.
+ This can transform bushfires into extreme or even catastrophic events.
+ In fact, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ demonstrated that a strong 850-hPa temperature gradient (associated with
+ cold front arrivals) is highly correlated with extreme bushfire events
+ in Victoria, Australia (see Figure 1 for location of Victoria).
+ The common characteristic of bushfires and heatwaves in Victoria is the
+ hot and dry environment.
+ The northerly winds associated with the anticyclone in the Tasman Sea are
+ linked with these conditions.
+ Yet the precursors of these events can be quite different.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2011"
+
+\end_inset
+
+demonstrated that an anticyclone (or high) in the Tasman Sea is the principal
+ driver of Heatwaves in Victoria.
+ In that study, heatwaves were defined as any event of three or more consecutive
+ days with maximum temperatures equal to or greater than the 90th percentile
+ of the monthly climatological mean.
+ The minimum temperature should not drop below the 90th percentile in the
+ second and third days.
+ Heatwaves were associated with cyclones and anticyclones using a tracking
+ scheme 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Simmonds1999"
+
+\end_inset
+
+ for the period 1979-2008.
+ The stability of the high in the Tasman Sea supports the dry air advection
+ to southeastern Australia.
+ This would prevent the passage of cold fronts, which makes this high a
+ ‘blocking’ anticyclone.
+ Even though there is a clear relationship between bushfires and heatwaves,
+ to our knowledge these events have not been investigated in an integrated
+ manner.
+\end_layout
+
+\begin_layout Standard
+To understand the relationship between these events, it is worth reviewing
+ their connection to one of the major Australian climate drivers: El Niño
+ Southern Oscillation (ENSO) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Power1999,Lau2000,Risbey2009a,White2013,Klingaman2013"
+
+\end_inset
+
+.
+ Several studies have addressed the relationship between ENSO and fire weather
+ in Australia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2001,Lucas2007"
+
+\end_inset
+
+(Williams and Karoly 1999; Verdon et al.
+ 2004; Lucas et al.
+ 2007).
+ Most of these studies assert that there is a significant relationship between
+ ‘El Niño’ phase of ENSO and fire weather.
+ However in Victoria, fire activity is only moderately associated with ENSO
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harris2013"
+
+\end_inset
+
+.
+ On the other hand, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Perkins2012"
+
+\end_inset
+
+have suggested that ENSO phases can modulate the duration and amplitude
+ of heatwaves on a global scale.
+ Yet, heatwaves in southeastern Australia are not modulated by tropical
+ dynamics
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pezza2011"
+
+\end_inset
+
+.
+ This has been corroborated for heatwaves in Melbourne 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Boschat2014"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Bushfires occur in hot and dry conditions that generally occur during heatwaves.
+ A logical train of thought would be that bushfires happen during or in
+ the latter stages of a heatwaves.
+ The aim of this study is to compare weather patterns of bushfires and heatwaves.
+ This study considers the state of Victoria in southeast Australia during
+ the period 1961-2011.
+ This investigation is important because Victoria is a region affected by
+ bushfires and heatwaves.
+ Forecasting efforts can benefit from a deeper understanding of their synoptic
+ differences.
+\end_layout
+
+\begin_layout Standard
+After the introduction, the remaining sections of the article are organized
+ as follow.
+ Section two describes the characteristics of the datasets employed in this
+ research.
+ It establishes key definitions and describes the study methods including
+ the statistical analysis.
+ Section three presents the comparison between bushfires and heatwaves in
+ Victoria.
+ Finally, section four presents a discussion of the results and conclusions.
+ 
+\end_layout
+
 \begin_layout Section
 Data and methodology
 \begin_inset CommandInset label
@@ -436,42 +432,30 @@ Datasets and definitions
 \end_layout
 
 \begin_layout Standard
-Major bushfire events in Victoria are officially posted on the State of
- Victoria's Department of Environment and Primary Industries (DEPI, 2014)
- web page; which is the main organization responsible for generating this
- information.
- A general overview of each event since 1851 to 2013 is presented in the
- 
-\begin_inset Quotes els
-\end_inset
-
-Fire & Emergencies
-\begin_inset Quotes ers
-\end_inset
-
- tab; however, specific dates of the events are not always included since
- the information is often described by periods (e.g.
- months within a year when bushfires happened).
- This caveat makes the availability of bushfire dates in this record relatively
- short for the intended research of this study.
- Therefore, an alternative bushfire database had to be employed, in this
- case the 
-\begin_inset Quotes els
-\end_inset
-
-PerilAUS
-\begin_inset Quotes ers
-\end_inset
-
- developed by Risk Frontiers was selected.
+The Department of Environment, Land, Water and Planning (DELWP), which belongs
+ to the State Government of Victoria, continuously updates an official bushfire
+ events database.
+ This is the main bushfire activity database used for this research.
+ A bushfire event was defined as any fire occurrence that burnt more than
+ 10,000 hectares.
+ This definition allowed testing of the consistency of the information with
+ alternative data.
+ Over the period 1961-2011, 31 events were registered during the December-Januar
+y-February (DJF) season.
+ The other three seasons of the year registered 11 events during the same
+ period.
+ Therefore the analysis was conducted only for the DJF season, since most
+ bushfire occur during these months.
  
 \end_layout
 
 \begin_layout Standard
-Researchers at Risk Frontiers, Macquarie University, have compiled a natural
- hazard occurrence and consequences database (PerilAUS) including events
- such as tropical cyclones, floods and bushfires in Australia, spanning
- information from more than two hundred years to present 
+Researchers at Risk Frontiers (Macquarie University) compiled a natural
+ hazard occurrence and consequences database.
+ The name of the database is ‘PerilAUS’.
+ It comprises events such as tropical cyclones, floods and bushfires in
+ Australia.
+ The information spans more than two hundred years to the present 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Haynes2010"
@@ -479,14 +463,28 @@ key "Haynes2010"
 \end_inset
 
 .
- This database was developed from information compiled from the Sydney Gazzette
- and Sydney Morning Herald newspapers; which started publishing in 1803
- and 1842 respectively (citation).
+ This database compiles information from the Sydney Gazette and Sydney Morning
+ Herald newspapers (Coates 1996).
+ These newspapers started publishing in 1803 and 1842 respectively.
  The information was validated with local newspapers and official information
- where necessary (Crompton et al., 2010).
- According to (citation), the bushfire subset of this database was initially
- developed in 1991 with information from the Commonwealth Scientific and
- Industrial Research Organisation (CSIRO) and scientific literature.
+ where necessary 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Crompton2010"
+
+\end_inset
+
+.
+ According to 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Coates1996"
+
+\end_inset
+
+, the bushfire subset of this database was initially developed in 1991 with
+ information from the Commonwealth Scientific and Industrial Research Organisati
+on (CSIRO).
  
 \end_layout
 
@@ -497,13 +495,14 @@ PerilAUS establishes two types of bushfire data: reports and events (M.
  refers to damage in a particular location.
  On the other hand, a bushfire event refers to the date when bushfires occurred
  —or started—, causing damage in several locations.
- For example, “Black Saturday” a catastrophic bushfire that occurred on
+ For example, ‘Black Saturday’ a catastrophic bushfire that occurred on
  February 7th 2009 had 18 reports in different locations of Victoria (e.g.
  St.
  Andrews, Weerite, Marysville).
- However, this case is catalogued as a single bushfire event in this database.
- For the purposes of this project, event dates will be used for the analyses
- because it better suits a climatological definition.
+ However, this case is catalogued as a single bushfire event.
+ For the purposes of this project, bushfire event dates from PerilAUS will
+ be used as a secondary bushfire database for the analyses because it better
+ suits a climatological definition (43 events in total for the period 1961-2011).
  This method has also been used in other investigations to associate bushfires
  with individual large-scale climate processes 
 \begin_inset CommandInset citation
@@ -513,57 +512,89 @@ key "Blanchi2012"
 \end_inset
 
 .
- This database has recorded 144 bushfire events (Appendix 1) and 580 reports
- in Victoria from the period 1900 to 2010; however, since the information
- was mainly compiled from newspapers, the frequency of bushfires over this
- period is a reflection of human fatalities and building damage rather than
- fire intensity (K.
+ Since the information from this database was mainly compiled from newspapers,
+ the frequency of bushfires over this period is a reflection of human fatalities
+ and building damage rather than fire intensity (K.
  Haynes, personal communication, August 13, 2013).
 \end_layout
 
 \begin_layout Standard
-Importantly, while this dataset does not include every bushfire event that
- occurred in the last century, it is not necessary to compile all bushfires
- in order to establish a robust climate signal associated with bushfire
- potential.
- As shown by my results (see Section XXX), the sample is large enough to
- yield statistically significant results, and the knowledge of which modes
- of climate variability are behind the bushfire triggering mechanisms from
- a climate perspective.
-\end_layout
-
-\begin_layout Standard
-Finally, heatwave events were defined when the maximum temperature (Tmax)
- and minimum temperature (Tmin) exceeds the 90th percentile for three and
- two consecutive days respectively 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Perkins2012,Sadler2012"
-
-\end_inset
-
-.
- Using this definition, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Sadler2012"
-
-\end_inset
-
-calculated heatwaves considering the season December-January-February-March
- (DJFM) using data from the Bureau of Meteorology Melbourne Regional Office
- Station (Latitude: 37.81 °S Longitude: 144.97 °E), initially for the period
- 1970–2013 and subsequently for the period 1857–2013.
- From Sadler’s analysis, this study compiled a database of 96 heatwave events
- in the DJF season in the period 1900-2010 (Appendix 2).
+The calculation of heatwave events was performed using the Australian Climate
+ Observations Reference Network (ACORN-SAT) dataset.
+ The Australian Bureau of Meteorology (BoM) generated this high quality
+ station dataset (see http://www.bom.gov.au/climate/change/acorn-sat/documents/ACOR
+N-SAT-Fact-Sheet-WEB.pdf, accessed 13 August 2015).
+ The weather stations selected were Melbourne Regional Office, Mildura,
+ Nill and Sale, since they had more available records over the period 1961-2011.
+ For this research, a heatwave in Victoria is any event that satisfied a
+ heatwave definition simultaneously at the four stations.
  
 \end_layout
 
 \begin_layout Standard
-The investigation used climate data from reanalysis products for the intended
- period of analysis (1900–2010).
- Six-hourly daily averages with a 2x2° resolution were selected from the
- Twentieth Century Reanalysis Project (20CR) 
+Heatwaves were calculated using two definitions.
+ The first definition is a topical one based on excess heat indices (EHIs)
+ (Nairn et al.
+ 2009).
+ In this definition, the average of daily maximum and minimum temperature
+ (ADT) is used to calculate two sub-indices.
+ The first sub-index estimates a short-term excess heat in the environment.
+ This is an acclimatisation index calculated as the difference between three
+ consecutive ADT values and the mean of the preceding 30 days.
+ The second sub-index represents a long-term excess heat.
+ It is calculated as the difference between three consecutive ADT values
+ and the 95th percentile of all ADT values.
+ The final index is the multiplication of the acclimatisation EHI and the
+ absolute value of the long-term excess heat sub-index.
+ The second approach defines a heatwave occurrence when the maximum temperature
+ (Tmax) and minimum temperature (Tmin) exceeds the 90th percentile—for that
+ month—for three and two consecutive days respectively 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sadler2012,Pezza2011"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2011"
+
+\end_inset
+
+ definition was selected since it describes severe heatwaves.
+ Therefore only the stronger heatwaves, above the 55th percentile of heatwaves
+ calculated with 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nairn2009"
+
+\end_inset
+
+methodology were selected for comparison.
+ With 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nairn2009"
+
+\end_inset
+
+ methodology 14 events were detected.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2011"
+
+\end_inset
+
+ definition yielded 17 events.
+\end_layout
+
+\begin_layout Standard
+The investigation also used climate data from reanalysis products.
+ The Twentieth Century Reanalysis Project (20CR) was used in this research.
+ This reanalysis provides six-hourly averages with a 2x2o resolution 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Compo2011"
@@ -579,19 +610,18 @@ key "Rayner2003"
 
 \end_inset
 
- were also used; which yields monthly values with a 5x5° resolution.
+were also used.
+ This dataset yields monthly values with a 5x5o resolution.
  
 \end_layout
 
 \begin_layout Standard
-These datasets have common intrinsic limitations (e.g.
- scarce number of observations in the early decades of the 20th century
- globally, less observations in the Southern Hemisphere compared to the
- Northern Hemisphere throughout the entire century, not all variables are
- equally well represented, etc.).
- However, recent results have shown that the 20CR represents well Southeastern
- Australia’s interannual climate variability and teleconnections patterns
- from the late 19th century 
+These reanalysis datasets have common intrinsic limitations.
+ For example, less observations in the Southern Hemisphere compared to the
+ Northern Hemisphere.
+ Additionally not all variables are equally well represented.
+ However, recent results have shown that the 20CR represents well southeastern
+ Australia’s climate 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Ashcroft2014"
@@ -599,6 +629,7 @@ key "Ashcroft2014"
 \end_inset
 
 .
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -606,23 +637,57 @@ Composite analysis
 \end_layout
 
 \begin_layout Standard
-Daily anomaly composites were calculated for day -5 to day +5 of the 20th
- century bushfire and heatwave events in order to better understand the
- dynamical evolution of each phenomena.
+A composite analysis was undertaken to depict the general (average) prevailing
+ conditions of Victoria.
+ Daily anomaly composites were calculated for day -5 to day +5 of each bushfire
+ and heatwave event.
+ This describes the dynamical evolution of each phenomenon.
  It is important to emphasize that bushfire and heatwave events were analysed
- separately, therefore events that had coincident dates -considering the
- three heatwave dates definition plus three additional days to cover bushfires
- that might have occurred because of a lagged effect- were not considered
- in the calculations.
- Since daily SST data was not available for the entire 20th century, the
- anomalies for this variable were calculated with monthly values of the
- HadISST1 dataset for the period 1900-2010.
- Finally, seasonal anomalies composites were calculated for the seasons
- September-November and December-February of every bushfire/heatwave season
- in order to study the climate signal in the preceding season, as well as
- throughout the bushfire and heatwave period.
- A student t-test with a 5% significance level was applied to all the calculated
- anomalies.
+ separately.
+ Therefore, events that had coincident dates were not considered in the
+ calculations.
+ This consideration covered the three-heatwave dates definition plus three
+ subsequent days.
+ This covered bushfires that might have occurred immediately after a heatwave.
+ This separation was performed comparing bushfire events from the DELWP
+ database with heatwaves calculated with 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nairn2009"
+
+\end_inset
+
+methodology (these results are shown in the paper).
+ To validate the results all the calculations described in this research
+ were also performed using PerilAUS bushfire database and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2011"
+
+\end_inset
+
+heatwave definition (these results are shown in the supplementary material).
+ The results using a second bushfire database and heatwave definition are
+ robust and show only minor differences.
+ Thus, only those obtained with the DELWP bushfire database and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nairn2009"
+
+\end_inset
+
+heatwaves definition are mentioned in this paper.
+ 
+\end_layout
+
+\begin_layout Standard
+Finally, seasonal anomaly composites were calculated for austral spring
+ and summer.
+ This represents the large-scale patterns in the preceding and concurrent
+ bushfire and heatwave seasons.
+ The anomalies were tested with a Student t-test with a 5% significance
+ level and significant anomalies are indicated.
+ 
 \end_layout
 
 \begin_layout Section
@@ -1095,7 +1160,7 @@ reference "fig:Bushfire-events-in-Victoria"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1133,39 +1198,62 @@ name "fig:Bushfire-events-in-Victoria"
 
 \end_layout
 
-\begin_layout Subsection
-Composites for daily climatology 
+\begin_layout Standard
+An initial appraisal of the bushfire databases shows that they are significantly
+ correlated for the period of analysis 1961-2011 (r=0.43, p=0.01) (Figure
+ 1 supplementary material).
+ On the other hand, the comparison of the frequency of heatwaves shows that
+ the two definitions describe different heatwaves episodes since the results
+ are not correlated (r=0.06, p=0.68).
+ 
 \end_layout
 
 \begin_layout Standard
-The air temperature (T) anomalies analysis at the 1000-hPa level shows interesti
-ng differences between the typical synoptic patterns of bushfire and heatwave
- events (see Fig.
+The availability of this information permitted a comparison between bushfires
+ and heatwaves events.
+ There were only 4 bushfire events that occurred simultaneously with heatwaves
+ in Victoria, DELWP bushfire database and Nairn’s heatwave definition were
+ used for this comparison—as described in the methods section—.
+ This result means that only 12.5% of bushfire events occur simultaneously
+ with heatwaves.
+ These common days, as shown in Table 1, have been excluded from the composites.
+ The separation yields a ‘pure’ signal of bushfires and heatwaves synoptic
+ weather patterns.
  
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-daily-temperature-anomalies"
+\end_layout
 
-\end_inset
+\begin_layout Standard
+The frequency of bushfires events displays a discernible climate signal.
+ In Figure 2 a times series of the Southern Oscillation Index (SOI) has
+ been included.
+ The polynomial curves show that there is a clear inter-decadal association
+ between bushfires and the SOI.
+ However, the inter-annual variability shows only a weak correlation (R
+ coefficient of -0.16 and -0.22 for bushfires and heatwaves events respectively).
+ 
+\end_layout
 
-).
- Although the overall patterns are similar, the anomalies are considerably
- weaker in the bushfire composites, including both the warm area in South-easter
-n Australia and the cooling observed in Queensland and Western Australia.
- Heatwaves present a cold front on day +4 (not shown); on the other hand,
- bushfires present a cold front on day zero, which is consistent with the
- results of 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Mills2005"
+\begin_layout Subsection
+Weather patterns for daily climatology 
+\end_layout
 
-\end_inset
-
-.
- Bushfire temperature anomalies over Melbourne (+ 3 °C) are weaker than
- heatwave anomalies (+ 5 °C).
- Finally, the dynamics of bushfire weather seems to be more mobile than
- its heatwave counterpart.
+\begin_layout Standard
+The air temperature (T) anomalies show differences between bushfires and
+ heatwaves events (Figure 3).
+ Although the patterns are similar, the anomalies are weaker in the bushfire
+ composites.
+ This includes the warm area in Southeastern Australia.
+ The pattern also shows negative anomalies observed in Queensland and Western
+ Australia.
+ Heatwaves show a cold front on day +4 (not shown).
+ On the other hand, bushfires show a cold front on day zero.
+ This is consistent with the results of Mills (2005).
+ Bushfire temperature anomalies over Victoria (+3 oC) are weaker than heatwave
+ anomalies (+5 oC).
+ Finally, the dynamics of heatwave weather is more static than its bushfire
+ counterpart.
+ This means that although the patterns are similar, the heatwave anomalies
+ remain in the same position longer that the bushfire anomalies.
  
 \end_layout
 
@@ -1176,9 +1264,12 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename Figures/Figure4.png
-	rotateOrigin center
+	filename Figures/T_daily.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1220,54 +1311,19 @@ name "fig:a),-b)-and-daily-temperature-anomalies"
 \end_layout
 
 \begin_layout Standard
-The weaker temperature anomalies during bushfire events may be paradoxical;
- nevertheless, as will become evident in the discussion next, it is the
- combination of other variables, in particular relative humidity anomalies,
- that mostly account for the pattern conducive to bushfires.
+The differences in relative humidity (RH) are more revealing.
+ Southeastern Australia presents drier anomalies during heatwaves (Figure
+ 4d to f).
+ Above-average humidity inland is present around these dry anomalies particularl
+y in Queensland.
+ During bushfires, the eastern coast appears dry.
+ The anomalies are elongated approximately following the Great Dividing
+ Range.
+ Victoria remains drier after the cold front passage for bushfire events.
+ This indicates that such a dry cold front is of relevance in triggering
+ and spreading the fires.
+ This can be seen in Figure 3c and 4c.
  
-\end_layout
-
-\begin_layout Standard
-The differences in relative humidity (RH) are more marked and more revealing
- compared to temperature.
- The 1000-hPa level depicts drier anomalies overall in South-eastern Australia
- during heatwaves (Fig 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-daily-rh-anomlaies"
-
-\end_inset
-
-d to 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-daily-rh-anomlaies"
-
-\end_inset
-
-f) .
- However, these are surrounded by areas of above average humidity inland,
- particularly in Queensland.
- During bushfire events the whole eastern coast appears dry, with elongated
- anomalies approximately following the Great Dividing Range.
- Importantly, Victoria remains drier after the cold front passage for bushfire
- events, indicating that such dry cold front is of relevance in triggering
- and spreading the fires (compare Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-daily-temperature-anomalies"
-
-\end_inset
-
- c and 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-daily-rh-anomlaies"
-
-\end_inset
-
-c)
 \end_layout
 
 \begin_layout Standard
@@ -1277,9 +1333,12 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename Figures/Figure5.png
-	rotateOrigin center
+	filename Figures/RH_daily.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1322,29 +1381,15 @@ name "fig:a),-b)-and-daily-rh-anomlaies"
 \end_layout
 
 \begin_layout Standard
-The geopotential height variable at the 500-hPa level presents the most
- notable differences between bushfires and heatwave events (see Fig.
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-gz-daily-anomalies"
-
-\end_inset
-
- ).
- Bushfire events exhibit intense positive anomalies between Australia and
- Antarctica; in contrast, heatwave events present a precursor wave train
- in the Indian Ocean.
- Overall, the synoptic forcing is weaker for bushfires and appears to be
- associated with positive pressure anomalies within Antarctica (negative
- SAM phase), whereas HWs seem to be connected to negative pressure anomalies
- in the same region (positive SAM phase).
- From day -1, a low that shifts to the south creates the winds that will
- drive the cold front in bushfire events; in contrast, in heatwave events
- the synoptic pattern is considerably more stationary.
- One of such lows was seen during the “Black Saturday” event creating one
- of the most vigorous pre-frontal conditions ever observed in Victoria (Jacobs
- et al.
- 2014, under review).
+Geopotential height (500-hPa level) presents the most notable differences
+ (Figure 5).
+ This figure shows that heatwaves present a strong wave pattern that leads
+ to a blocking high over the Tasman Sea.
+ This result agrees with Pezza et al.
+ (2007).
+ Bushfires occur in association with a more transient signal.
+ The signal comes from the Indian Ocean and produces a strong low pressure
+ to the south of Australia.
 \end_layout
 
 \begin_layout Standard
@@ -1354,9 +1399,12 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename Figures/Figure6.png
-	rotateOrigin center
+	filename Figures/HGT_daily.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1398,31 +1446,17 @@ name "fig:a),-b)-and-gz-daily-anomalies"
 \end_layout
 
 \begin_layout Subsection
-Synoptic patterns for daily climatology 
+Sea surface temperature anomalies 
 \end_layout
 
 \begin_layout Standard
-The monthly SST anomalies for bushfire events present warming anomalies
- over the Tropical Pacific Ocean and the Indian Ocean for December, January
- and February (see Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Sea-surface-temperature-djf"
-
-\end_inset
-
-a).
- In contrast, these warming anomalies are not present in a replication of
- the analysis for heatwave events (see Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Sea-surface-temperature-djf"
-
-\end_inset
-
-b).
+Bushfire events are associated with warm SST anomalies over the Tropical
+ Pacific Ocean during December-February.
+ These anomalies are also present the Indian Ocean (see Figure 6a).
+ In contrast, these warming anomalies are not present for heatwave events
+ (see Figure 6b).
+ The pattern suggests the influence of ‘El Niño’ during bushfires.
+ Heatwaves seem to be associated with neutral ENSO conditions.
  
 \end_layout
 
@@ -1433,9 +1467,12 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename Figures/Figura7.png
-	rotateOrigin center
+	filename Figures/SSTs.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1480,61 +1517,22 @@ Seasonal large-scale circulation patterns
 
 \begin_layout Standard
 A final approach in this investigation was to explore the seasonal large-scale
- circulation pattern of both types of events.
- In this case, the aim was to compare the synoptic patterns of bushfires
- and heatwaves in the seasons SON (an antecedent bushfire/heatwave season)
- and DJF (a concurrent bushfire/heatwave season).
+ circulation patterns.
+ The aim was to compare the synoptic patterns of bushfires and heatwaves.
+ The analysis comprised events occurred in spring (September-November) and
+ summer (December-February).
+ 
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-son"
-
-\end_inset
-
- and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-djf"
-
-\end_inset
-
- show the 1000-hPa level air temperature anomalies for BFs and HWs in the
- seasons SON and DJF.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-son"
-
-\end_inset
-
-a shows an “El Nino” pattern that is enhanced in the DJF season (see Figure
+Figure 7 and Figure 8 show an air temperature anomalies composite for spring
+ and summer seasons respectively.
+ Figure 7a shows an ‘El Niño’ pattern that persists into the DJF season
+ associated with bushfires (see Figure 8a).
+ In contrast, heatwave seasons present a ‘La Niña’ like pattern.
+ This pattern persists in the concurrent season (see Figure 7b and Figure
+ 8b).
  
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-djf"
-
-\end_inset
-
-a).
- In contrast, heatwave seasons present a “La Nina” pattern that is also
- more pronounced in the concurrent season (see Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-son"
-
-\end_inset
-
-b and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-djf"
-
-\end_inset
-
-b).
 \end_layout
 
 \begin_layout Standard
@@ -1544,9 +1542,12 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename Figures/Figura8.png
-	rotateOrigin center
+	filename Figures/T_SON.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1592,8 +1593,12 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename Figures/Figura9.png
+	filename Figures/T_DJF.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1623,62 +1628,23 @@ name "fig:Seasonal-composite-for-air-djf"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-son"
-
-\end_inset
-
- and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-djf"
-
-\end_inset
-
-present the 1000ha level relative humidity anomalies for BFs and HWs in
- the seasons SON and DJF.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-djf"
-
-\end_inset
-
-a depict a dry Australia, with negative anomalies that are stronger in the
- DJF season.
- The opposite pattern was found for heatwave seasons, which present positive
- anomalies in this region that are more intense in the following months
- (see Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-son"
-
-\end_inset
-
-b and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-djf"
-
-\end_inset
-
-b).
- This shows that relative humidity is a key precursor as well as a concurrent
- element associated with bushfires, suggesting that RH is indeed more important
- than temperature, explaining the absence of bushfires in most of the HWs
- in which the atmosphere was more humid.
+Figure 9 and Figure 10 present the relative humidity anomalies.
+ Figure 10a depicts a dry Australia.
+ The negative anomalies are stronger in the DJF season.
+ The opposite pattern was found for heatwave seasons.
+ They present positive anomalies in this region.
+ These are more intense in the following months (see b Figure 9b and Figure
+ 10b).
+ This shows that low relative humidity is a key precursor of bushfires.
+ It is also a concurrent element.
+ This suggests that RH could be more important than temperature in explaining
+ bushfire occurrences.
  
 \end_layout
 
@@ -1689,9 +1655,12 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename Figures/Figura10.png
-	rotateOrigin center
+	filename Figures/RH_SON.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1737,9 +1706,12 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename Figures/Figura11.png
-	rotateOrigin center
+	filename Figures/RH_djf.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1779,36 +1751,16 @@ name "fig:Seasonal-composite-for-rh-djf"
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-uwn-djf"
-
-\end_inset
-
- show the 300ha level zonal wind anomalies for BFs and HWs in the season
- DJF.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-uwn-djf"
-
-\end_inset
-
-a shows a westerly anomaly jet south to Victoria.
- The opposite pattern was found for heatwave seasons, which present easterly
- anomalies in the Southern Ocean both during the preceding (not shown) and
- concurrent seasons.
- (see Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-uwn-djf"
-
-\end_inset
-
-b).
- 
+Figure 11 shows the 300ha level zonal wind anomalies for bushfires and heatwaves
+ in the season DJF.
+ Figure 11a shows a westerly anomaly jet south to Victoria.
+ The opposite pattern was found for heatwave seasons.
+ They show easterly anomalies in the Southern Ocean.
+ This occurs both during the preceding (not shown) and concurrent seasons.
+ (Figure 11b).
+ An upper-level jet during bushfire cases reflects the increased meridional
+ temperature contrast.
+ This points towards the importance of large-scale dynamics.
 \end_layout
 
 \begin_layout Standard
@@ -1818,9 +1770,12 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename Figures/Figura12.png
-	rotateOrigin center
+	filename Figures/UWND_djf.png 
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1864,93 +1819,54 @@ Discussion
 \end_layout
 
 \begin_layout Standard
-The main purpose of this study was to compare and contrast the synoptic
- differences between BFs and HWs in Victoria, Australia.
- Additionally, this article has explored the nature of the relationship
- of these events with the Southern Oscillation Index, and its evolution
- over the period 1900-2010.
- The results show that the intuitive idea to associate HWs and BFs 
+This article describes the differences between bushfires and heatwaves weather
+ patterns in Victoria, Australia.
+ Additionally, this article has explored the relationship of these events
+ with ENSO.
+ Our results show that bushfires and heatwaves weather are distinct phenomena.
+ This is asserted for the period 1961-2011 using weather stations and 20CR
+ reanalysis data for the analysis.
+\end_layout
+
+\begin_layout Subsection
+ENSO, Bushfires and Heatwaves 
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Bushfire-vs-Heatwave-1900-2010"
-
-\end_inset
-
- shows that there is not an evident relationship between BFs and HWs during
- the period 1900-2010.
- The weak R coefficient between both events (-0.12) corroborates this finding.
- Even though the correlation coefficient is weak, the negative relationship
- between them provided the first lead to suggest that different mechanisms
- govern these events.
- 
-\end_layout
-
-\begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Time-series-of-periods"
-
-\end_inset
-
- further explores this lead investigating the relationship of BFs and HWs
- with one of the main drivers of Australian climate: El Niño Southern Oscillatio
-n (ENSO).
- According to 
+The influence of ENSO in driving bushfire events in Victoria is moderate.
+ This has already been suggested by Harris et al.
+ (2013).
+ ENSO has a greater influence over bushfires in other regions in Australia.
+ This was corroborated by 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Power1999"
+key "Nicholls2007a"
 
 \end_inset
 
-, the impacts ENSO’s teleconnections over Australia experience an inter-decadal
- variability.
- For this reason, the relationship of HWs and BFs with this climate mode
- of variability was analysed using 10-year running means.
- Additionally, for this part of the investigation the period of analysis
- was separated in two to examine the evolution of the relationship with
- ENSO for the first and second half of the century.
+.
  
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2008"
+
+\end_inset
+
+demonstrated the same for Northern Australia.
+ Our results are consistent for the two databases used.
+ However, the relatively short period of analysis is a limitation.
+ The development of a comprehensive bushfire database for the first half
+ of the 20th century in Victoria would be an interesting scientific contribution.
+ This would require the comprehensive investigation of proxy data such as
+ fire history studies and paleoclimate records.
+ Unfortunately, this endeavour was out of the scope of this research.
 \end_layout
 
 \begin_layout Standard
-Perhaps the most striking result of this research is the complete reversal
- of the correlation coefficient between the SOI and bushfires from -0.66
- to +0.47 in the first and second half of the century respectively (shown
- in 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Time-series-of-periods"
-
-\end_inset
-
-a and b) The reversal does suggest the marked non-lineal nature of ENSO’s
- evolution in time.
- This non-linearity explains how difficult is to find strong correlations
- with bushfire events on a century perspective without a decadal approach.
+Heatwaves in Victoria do not seem to have an association with any particular
+ ENSO phase.
+ Most heatwaves occur during neutral ENSO events, a result that agrees with
  
-\end_layout
-
-\begin_layout Standard
-On the other hand, heatwaves present a positive relationship for the two
- periods; however, the evolution presented a stronger relationship in the
- second half of the century, shifting from +0.24 to +0.48.
- This does not necessarily mean that a direct relationship with “La Niña”
- events exists, since we have not made a distinction between neutral from
- strong “La Niña” events.
- In fact, our SST composites does not reflect such a relationship (see Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Sea-surface-temperature-djf"
-
-\end_inset
-
-b), result that agrees with the results of 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Boschat2014"
@@ -1958,187 +1874,63 @@ key "Boschat2014"
 \end_inset
 
 .
+ Our results show this is independent of the heatwaves definition adopted.
+ Heatwaves in Victoria could be driven instead by regional influences and
+ natural variability.
+ 
+\end_layout
+
+\begin_layout Subsection
+Daily weather patterns 
 \end_layout
 
 \begin_layout Standard
-The results presented in Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-daily-temperature-anomalies"
-
-\end_inset
-
-suggest that dry cold fronts, with their associated strong and gusty winds,
- could be even more important than air temperature anomalies in producing
- extreme bushfire events.
- This result agrees with the findings of 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Mills2005"
-
-\end_inset
-
-for extreme bushfire cases in Victoria.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-daily-rh-anomlaies"
-
-\end_inset
-
- supports the idea that colds fronts play a significant role, since the
- composite of HWs present lower relative humidity anomalies than BFs.
- Evidently, this also means that the long term environmental conditions
- and their influence in preconditioning fuels for BFs are also crucial,
- since the intense air temperature and relative humidity anomalies of HWs,
- do not trigger bushfire events.
-\end_layout
-
-\begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-gz-daily-anomalies"
-
-\end_inset
-
-shows that heat waves in Victoria seem to be associated with a strong wave
- number four leading to a blocking high over the Tasman Sea, a result that
- agrees with 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Pezza2007"
-
-\end_inset
-
-.
- On the other hand, bushfires tend to occur in association with a more transient
- signal from the Indian Ocean and a strong low pressure to the south of
- Australia.
-\end_layout
-
-\begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Sea-surface-temperature-djf"
-
-\end_inset
-
-clearly shows how different is the influence of the oceanic component of
- BFs and HWs.
- Although, as we have seen the influence of ENSO with bushfires evolves
- during the century, on average it seems that BFs in Victoria are most likely
- to occur during el “El Niño” events, a result that agrees with 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Harris2013"
-
-\end_inset
-
-.
- The argument is based on the statistically significant (using a Student’s
- t test) warm anomalies found in the Tropical Pacific Ocean.
- In contrast, we do not find these anomalies in the SSTs of the HWs composite.
- This result implies that most HWs occur during neutral ENSO events, a result
- that agrees with 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Boschat2014"
-
-\end_inset
-
-.
- Therefore, HWs in Victoria could be driven instead by the influence of
- regional warm SSTs anomalies in the Tasman Sea and the Great Australia
- Bight.
- These warm anomalies were found to occur analysing the two half’s of the
- century (+5 years each) separately (not shown).
-\end_layout
-
-\begin_layout Standard
-The results from the air-temperature anomalies seasonal composites, support
- the argument that “El Niño” events may exert a significant influence over
- bushfire occurrence in Victoria, whereas regional processes associated
- with a warming than average SSTs in the Tasman Sea could be associated
- with the lead up to HWs.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-son"
-
-\end_inset
-
-a and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-djf"
-
-\end_inset
-
-a show how hot air teperature anomalies in the Tropical Pacific Ocen might
- be the result of heat-fluxes transfer from the ocean to the atmosphere
- during “El Niño” events, anomalies that coincide with a warmer than average
- Australia.
- This pattern greatly intensifies from spring to summer.
- In contrast, Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-son"
-
-\end_inset
-
-b and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-air-djf"
-
-\end_inset
-
-b illustrate how HWs in Victoria could also have a preconditioning influence
- over the continent in spring; however, the climate signature is clear to
- distinguish a special configuration in the austral summer for Victoria.
- This signature reveals that the heat-flux from the SST’s warming in the
- Tasman and Great Australian Bight, may have an influence over the hot anomalies
- found almost exclusively in the Victorian region, which greatly contrasts
- with a cooler than average Australia.
+A daily time-scale perspective showed that heatwaves show stronger anomalies
+ than bushfires.
+ This is true for every variable analysed in this study.
+ This suggests that different mechanisms drive these two types of events.
  
 \end_layout
 
 \begin_layout Standard
-The relative-humidity anomalies seasonal composites shown in Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-son"
+Geopotential height behaviour can be illustrative of the mechanisms behind
+ each event.
+ Bushfire events exhibit intense positive anomalies between Australia and
+ Antarctica.
+ In contrast, heatwave events present a precursor wave train in the Indian
+ Ocean.
+ The synoptic forcing is weaker for bushfires.
+ This appears to be associated with positive pressure anomalies within Antarctic
+a (negative Southern Annular Mode phase).
+ Heatwaves are connected to negative pressure anomalies in the same region
+ (positive Southern Annular Mode phase).
+ From day -1, a low that shifts to the south creates the winds that will
+ drive the cold front in bushfire events.
+ During heatwaves, the synoptic pattern is stationary.
+ One such low occurred during the ‘Black Saturday’ bushfires in Victoria.
+ This created one of the most vigorous pre-frontal conditions ever observed
+ in this region 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Jacobs2014"
 
 \end_inset
 
- and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-djf"
+.
+\end_layout
 
-\end_inset
+\begin_layout Subsection
+Seasonal weather patterns 
+\end_layout
 
- imply that the preconditioning process leading to BFs is more intense and
- prolonged compared to its heatwave counterpart.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-son"
-
-\end_inset
-
-a and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-djf"
-
-\end_inset
-
-a show how Victoria is a “dry spot” from September to February, a process
- that contributes to the preconditioning of fuel loads before BFs occurrence,
- and has been associated with a positive Indian Ocean Dipole mode 
+\begin_layout Standard
+Bushfires and heatwaves differ in relation to the evolution of water content
+ in the atmosphere from spring to summer.
+ The preconditioning process leading to bushfires is more intense compared
+ to its heatwave counterpart.
+ Victoria is a dry region from September to February.
+ A positive Indian Ocean Dipole mode has been associated with this process
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Cai2009"
@@ -2146,76 +1938,61 @@ key "Cai2009"
 \end_inset
 
 .
- On the other hand, according to Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-son"
-
-\end_inset
-
-b and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-djf"
-
-\end_inset
-
-b HWs present in spring a slight percentage of negative anomalies in Victoria
- that even becomes positive in most of Australia during summer.
- To my knowledge, this particular process has not been addressed in the
- literature and requires further investigation.
+ A slight area of negative anomalies in Victoria is present in spring during
+ heatwaves.
+ However, it is important to highlight how the rest of Australia becomes
+ more humid from spring to summer.
+ La Niña events might have a greater influence over the rest of Australia
+ during these seasons.
+ However, heatwaves episodes in Victoria seem to be more influenced by regional
+ processes that require further investigation.
  
 \end_layout
 
 \begin_layout Standard
-The differences between bushfire and heatwave weather perhaps are best illustrat
-ed when “looking from above”.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:a),-b)-and-gz-daily-anomalies"
+The differences between bushfires and heatwaves weather perhaps are best
+ illustrated comparing their upper atmosphere circulation patterns.
+ For bushfire seasons, the climate signature at the 300 h-Pa level presents
+ strong westerly anomalies south to Australia.
+ These statistically significant anomalies could be linked to high baroclinicity
+, and therefore, vigorous frontal activity.
+ This again, supports the significant role of cold fronts in bushfire occurrence
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mills2005"
 
 \end_inset
 
-has already made this case depicting the differences between the wave trains
- of BFs and HWs on a daily basis with 500-hPa geopotential height composites.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-uwn-djf"
-
-\end_inset
-
-a and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-uwn-djf"
-
-\end_inset
-
-b present the circulation patterns of 300-hPa zonal wind anomalies of bushfire
- and heatwave seasons respectively.
- For bushfire seasons, the climate signature presents strong westerly anomalies
- south to Australia.
- This anomalies could be linked to high baroclinicity, and therefore, vigorous
- frontal activity.
- This again, ratifies the significant role of cold fronts in bushfire occurrence.
- Interestingly, HWs present the exact opposite pattern, with easterly anomalies
+.
+ Interestingly, heatwaves present an opposite pattern, with easterly anomalies
  especially over Victoria.
  This reversal in the 300-hPa zonal wind pattern is another aspect that
- requires further investigation and analysis.
+ requires further analysis.
+ 
 \end_layout
 
-\begin_layout Section
-Discussion
+\begin_layout Subsection
+Concluding remarks
 \end_layout
 
 \begin_layout Standard
-The role that the ocean might exert in the dynamics of BFs and HWs is of
- particular importance, implying that the methodologies to investigate the
- dynamics behind the synoptic differences between these phenomena should
- be designed in this direction.
- For HWs, 
+This paper has established that bushfires are associated with anomalous
+ heat conditions.
+ Yet, they are not associated with extreme heatwave events in Victoria,
+ Australia.
+ Extended periods of low relative humidity and cold fronts contribute to
+ bushfire occurrence.
+ This may have a greater influence than short-term anomalous heat produced
+ by heatwaves.
+\end_layout
+
+\begin_layout Standard
+The role that the ocean might exert in the dynamics of bushfires and heatwaves
+ is of particular importance.
+ The dynamics behind the differences between these phenomena should be further
+ investigated in this direction.
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Sadler2012"
@@ -2223,13 +2000,13 @@ key "Sadler2012"
 \end_inset
 
 has already proposed an experiment to measure the impact of perturbed SSTs
- in the Tasman Sea.
- A similar approach for BFs has not been proposed in the literature.
+ in the Tasman Sea in the lead-up to heatwaves.
+ A similar approach for bushfires has not been proposed in the literature.
 \end_layout
 
 \begin_layout Standard
-Finally, based on our seasonal composites we support the idea that it exists
- potential to design a bushfire weather forecasting tool for Victoria 
+Finally, there exists potential to design a bushfire forecasting tool for
+ Victoria 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Harris2013"
@@ -2238,10 +2015,13 @@ key "Harris2013"
 
 .
  The anomalous areas found in our seasonal composites could be used to design
- a seasonal forecasting index to predict extreme bushfire seasons in Victoria,
- based on the large-scale circulation patterns shown in this study as well
- as local weather variables in Victoria as suggested by Harris et al.
- (2013)
+ and test a seasonal bushfire index.
+ Such an index could contribute to anticipate extreme bushfire seasons in
+ Victoria.
+ Additionally, the analysis of weather patterns conducive to lightning ignition
+ could also demonstrate forecasting skill and is an exciting avenue for
+ further research.
+ 
 \end_layout
 
 \begin_layout Section
@@ -2249,39 +2029,31 @@ Summary
 \end_layout
 
 \begin_layout Standard
-Bushfires (BFs) and heatwaves (HWs) are two of the most dangerous natural
- hazards in Australia.
- These hazards are of particular concern in the southeastern state of Victoria,
- which has endured some of the most catastrophic BF events such as “Black
- Saturday” (07 Feb 2009), and record-breaking HWs like those occurred in
- the “Australian Angry Summer” (December-February 2013).
- Even though BFs and HWs are usually associated with a cause-effect relationship
- in which HWs would produce the conditions for the occurrence of BFs this
- is not completely accurate, given the greater complexity leading to bushfire
- events.
- The aim of this study is to compare and contrast the synoptic signal of
- “pure” BF and HW events in Victoria, Australia.
- To obtain a disentangled signature of these two types of events, daily,
- monthly and seasonal anomaly composites of climate variables were produced
- for BFs and HWs in the period 1900-2010.
- The daily analysis revealed that only 10% of BF events were associated
- with HWs.
- Additionally, this analysis showed that bushfire weather has a dynamic
- profile characterized by a vigorous dry cold front on day zero of the events,
- whereas the synoptic pattern of HWs show persistent and more intense anomalies.
- The monthly and seasonal analysis agreed to show that BFs could be associated
- with “El Nino” events, in contrast to HWs that seem to occur during neutral
- events.
- The anomalous areas found in the seasonal analysis for BF events show potential
- to develop a bushfire weather forecasting tool for Victoria.
- 
+Bushfires and heatwaves are dangerous natural hazards in Australia.
+ They are usually considered associated events because much above-average
+ air temperature anomalies characterize them both.
+ However, they differ in several other climatological aspects.
+ The aim of this study is to compare the weather patterns associated with
+ these events in Victoria, Australia.
+ Daily and seasonal anomaly composites of climate variables were produced
+ for the period 1961-2011.
+ A daily analysis revealed that only 12.5% of bushfires were associated with
+ heatwaves.
+ A humid Australia characterizes heatwaves while bushfires exhibit the opposite
+ pattern.
+ On an inter-annual basis, these events cannot be explained by tropical
+ dynamics.
+ These results were obtained using weather station as well as reanalysis
+ data.
+ This study is important since any attempt to forecast these events benefits
+ from a better understanding of their fundamental differences.
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "/Users/danielpazmino/Documents/My research/Thesis/LyX/library"
-options "/Users/danielpv/Documents/My research/Thesis/LyX/Bibliography/ametsoc"
+bibfiles "/Users/danielpazmino/Documents/My_research/Thesis/LyX/library"
+options "/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
 
 \end_inset
 
