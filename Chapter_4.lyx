@@ -1,0 +1,3644 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass report
+\begin_preamble
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[RE]{\bfseries \nouppercase\leftmark}
+\fancyhead[LO]{\bfseries \nouppercase \rightmark}
+
+\renewcommand{\chaptermark}[1]{%
+\markboth{\chaptername 
+\ \thechapter\ }{}}
+
+ 
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyfoot{}
+\raggedbottom
+\setlength{\parindent}{8mm}
+\end_preamble
+\use_default_options true
+\master ../Master.lyx
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing other 1.5
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 3.5cm
+\rightmargin 3cm
+\bottommargin 3cm
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Wildfire Weather in Ecuador: Seasonal Variability and the El Niño-Southern
+ Oscillation Influence 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Section
+Background
+\end_layout
+
+\begin_layout Subsection
+Study area
+\end_layout
+
+\begin_layout Subsubsection
+Geography
+\end_layout
+
+\begin_layout Standard
+Ecuador is located in the north-west side of South-America (see Figure 1).
+ The country has a diverse geography.
+ It comprises a continental territory between the latitudes 01o 28’ N and
+ 05o 02’ S and longitudes 75o 11’ W and 81o 04’ W 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "InstitutoGeograficoMilitarIGM2013a"
+
+\end_inset
+
+.
+ The Galapagos Islands are also part of the country.
+ These islands are approximately 1000 Km from the continent.
+ The national territory has a total area of 256.370 Km2 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "InstitutoGeograficoMilitarIGM2013a"
+
+\end_inset
+
+.
+ The Andes mountains divide the continental Ecuador into three areas: the
+ Coast, Andean and Amazon regions.
+ Each of these regions has diverse geographical features, climate, and ecosystem
+s.
+ The highlands are the most wildfire-prone region because of its specific
+ natural characteristics.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Ecuador_location.png
+	lyxscale 5
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Figure 1: Location of Ecuador
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Andes mountains are the most important geographical feature of Ecuador—and
+ South-America— 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Insel2010"
+
+\end_inset
+
+.
+ This mountain range crosses Ecuador from North to South.
+ The Ecuadorian Andes comprises two flanks of mountains: the eastern and
+ western ’Cordilleras’.
+ Between these two flanks—that include active volcanoes—there are several
+ inter-Andean valleys.
+ Many of these Andean plateaus are over 3000 m above sea level.
+ The steep elevations have an important effect on local climate.
+ The lapse rate create the conditions for different Bio-climatic zones to
+ exit.
+ This enhances biodiversity.
+ Yet, the original vegetation of the Andean valleys has almost disappeared.
+ Most of the endemic vegetation was replaced by the Australian specie Eucalyptus
+ globulus around 1860 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2012"
+
+\end_inset
+
+.
+ Other introduced species are the Pinus radiata (from California) and the
+ Pinus patula (from Mexico).
+ This occurred for commercial reasons 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Anchaluisa2013"
+
+\end_inset
+
+ with great ecological impact.
+ Further, these species are prone to wildfires in the Andean dry season.
+\end_layout
+
+\begin_layout Subsubsection
+Climate
+\end_layout
+
+\begin_layout Standard
+The Tropical Andes climate has several drivers.
+ The Amazon forest, oceanic currents, and the topography are among the main
+ drivers 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Martinez2011"
+
+\end_inset
+
+.
+ The Amazon forest—through Evapo-transpiration—produces a great amount of
+ water vapor.
+ This water precipitates along the western Cordillera because of an orographic
+ precipitation process.
+ This precipitation is also produced in the eastern Cordillera.
+ Air masses advected from the Pacific Ocean produce this effect.
+ The influence of the Pacific Ocean in the climate variability is important.
+ The Pacific Decadal Oscillation (PDO) is the main driver of decadal climate
+ variability in this region 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Martinez2011"
+
+\end_inset
+
+.
+ On the other hand, the inter-annual variability depends on the El Niño
+ Southern Oscillation (ENSO) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vuille1999,Villacis2003,Martinez2011"
+
+\end_inset
+
+.
+ These influences create several climate regions within the Andes.
+\end_layout
+
+\begin_layout Standard
+Most of the Ecuadorian Andes—between 1500 to 3000 m—have a “Semi-Humid Mesotherm
+al” climate (Pourrut 1995).
+ Mean temperatures in this region range from 8 oc to 20 oc.
+ Maximum temperatures span from 22 oC and 30 oC.
+ Minimum temperatures range from -4 oc to 5 oC.
+ Air masses from the Pacific Ocean and the Amazon region create three seasons
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pourrut1995"
+
+\end_inset
+
+.
+ Two wet seasons during the periods February-May and October-November.
+ A dry season spans from June to September.
+ Total annual precipitation ranges from 800 mm to 1500 mm along the Andes.
+ Relative humidity varies from 65 to 85 percent.
+\end_layout
+
+\begin_layout Subsubsection
+Fire
+\end_layout
+
+\begin_layout Standard
+Wildfires mostly occur in three geographical regions of Ecuador.
+ The Andean region has large extensions of introduced Eucalyptus forests
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Anchaluisa2013"
+
+\end_inset
+
+.
+ Thus, the availability of fuels makes it the most wildfire-prone region.
+ The fire season in the Ecuadorian Andes spans from July to November 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Yet, the most critical months are July, August and September 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Estacio2012,SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ The coast and the Galapagos Islands experience wildfire episodes from January
+ to May 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Wildfires produce severe impacts in Ecuador.
+ Yet, information about these impacts is scarce and disperse.
+ Wildfires produced 21.570 Ha of area burnt in Ecuador in 2012 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013"
+
+\end_inset
+
+.
+ The Metropolitan District of Quito (MDQ) is particularly vulnerable to
+ wildfires.
+ The vulnerability is high because 15.4 percent of the national population
+ lives here.
+ Additionally, vegetation covers 60.46 percent of its territory 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Wildfires destroyed 2700 Ha of the MDQ vegetation in 2009 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Estacio2012"
+
+\end_inset
+
+.
+ In 2012, the area burnt by wildfires increased to 4.882,16 Ha 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ This wildfire season cost the MDQ more than 50 million dollars 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Unfortunately, wildfires in Ecuador are anthropogenic in nature 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013"
+
+\end_inset
+
+.
+ In fact, the MDQ reported that humans cause 95 percent of wildfires in
+ the city 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Burning forests to convert them to agricultural use is the main cause of
+ wildfires in the country 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013,Rodas2015"
+
+\end_inset
+
+.
+ Forcing land use changes for urbanization purposes is another reason people
+ start wildfires 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Rural communities burn agricultural waste, which is a traditional practice
+ that fosters wildfire occurrences 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Estacio2012"
+
+\end_inset
+
+.
+ Rural people also burn regular waste because of the lack of waste management
+ services 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Finally, wildfires occur because of the damaging acts of arsonists 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Literature review
+\end_layout
+
+\begin_layout Standard
+Wildfires are a global phenomenon that produces severe impacts 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Luke1978,Conard1997,Morton2003"
+
+\end_inset
+
+.
+ Catastrophic wildfire events claim lives 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Haynes2008,Haynes2010"
+
+\end_inset
+
+, degrade the environment 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Shakesby1993,Stephens2004,Lane2010"
+
+\end_inset
+
+and destroy building infrastructure 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Morton2003,McAneney2009,Crompton2010"
+
+\end_inset
+
+.
+ Wildfires also contribute to biodiversity loss 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kodandapani2008,Pastro2011"
+
+\end_inset
+
+and affect the climate 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Conard1997"
+
+\end_inset
+
+.
+ They are part of the natural evolution of vegetation ecosystems (HaynesBradstoc
+k 2012).
+ However, human actions amplify the impact over people, nature and infrastructur
+e 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pausas2011"
+
+\end_inset
+
+.
+ In fact, wildfires have a strong anthropogenic ignition pattern.
+ In addition, population growth in rural areas increase human vulnerability
+ to this hazard.
+ The threat of wildfires have encouraged extensive research on the behavior
+ of its precursors.
+\end_layout
+
+\begin_layout Standard
+Weather is one of the key components that contributes to wildfire activity
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Powell1983,Williams1999,Mills2005,Haines,Mccaw2007,Dowdy2012,Engel2013"
+
+\end_inset
+
+.
+ Wildfire weather refers to the meteorological influence over wildfires
+ over a period of time —usually within days—.
+ Common variables associated with wildfire weather are temperature, relative
+ humidity, wind speed and precipitation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BoM2009"
+
+\end_inset
+
+.
+ Each variable exerts influence in the liberation of water content in vegetation.
+ This process—Evapotranspiration—controls the availability of fuels to be
+ burnt.
+ Most of the research conducted on wildfires and climate focuses on this
+ daily approach 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Roads2005"
+
+\end_inset
+
+.
+ Yet, the study of wildfire predictability on a seasonal scale is also important.
+ A key factor to explore this perspective is El Niño Southern-Oscillation
+ (ENSO) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Swetnam1983,Simard1985,Kitzberger2002,Beckage2003,Wooster2012"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ENSO produces negative rainfall anomalies in some wildfire-prone regions
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Swetnam1983,Simard1985,Kitzberger2002,Beckage2003,Wooster2012"
+
+\end_inset
+
+.
+ The intensity of these anomalies depends on the regional influence of ENSO
+ over climate.
+ These rainfall deficits occur over the months before—and during–the wildfire
+ season.
+ ENSO’s influence may even increase by the superposition of the Inter-decadal
+ Pacific Oscillation (IPO) (Verdon 2004).
+ ENSO also has an influence over ignition patterns.
+ In some regions it fosters the occurrence of lightning strikes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Beckage2003"
+
+\end_inset
+
+.
+ These facts encourage the investigation of new studies of ENSO and wildfire
+ weather around the world.
+\end_layout
+
+\begin_layout Standard
+The west coast of South America is one of the regions most affected by ENSO.
+ The coastal areas of Peru and Ecuador experience massive rainfall episodes
+ during strong El Niño events 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rodbell1999"
+
+\end_inset
+
+.
+ Yet, there has not been enough research on its influence over other natural
+ hazards.
+ Wildfires occur all over South America 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Manta2008"
+
+\end_inset
+
+(Manta 2008).
+ However, studies about wildfire weather in the northern Andean region are
+ scarce.
+ This study aims to describe the seasonal variability of wildfire weather
+ in Ecuador.
+ Also, we investigate if there is a link between this type of weather and
+ ENSO in this region.
+ This is important because wildfires occur every year in this country producing
+ severe impacts 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013,Rodas2015"
+
+\end_inset
+
+.
+ A better understanding of wildfire weather variability and its precursors
+ can provide useful information.
+ These insights could be of special interest to emergency response services
+ and planning authorities.
+\end_layout
+
+\begin_layout Standard
+This article comprises six sections.
+ In the first section we provide background and justify the importance of
+ this study.
+ Section two describes the Ecuadorian Andean region as our study area.
+ Section three presents details about the datasets employed in this research.
+ Section four explains the different methods applied.
+ Section five shows the results of our investigation.
+ Finally, section six presents a discussion of the results and concluding
+ remarks.
+\end_layout
+
+\begin_layout Section
+Data and methodology
+\end_layout
+
+\begin_layout Subsection
+Data
+\end_layout
+
+\begin_layout Subsubsection
+Weather station
+\end_layout
+
+\begin_layout Standard
+This study required weather station (WS) data from the Andean region in
+ Ecuador.
+ A limitation with this dataset was that only six stations had enough records
+ for this study.
+ The selected period of analysis was 1997-2012.
+ This period had almost complete daily information.
+ The variables for this research are air temperature (Tmax), relative humidity
+ (RH), wind speed (W) and precipitation (P).
+ Each of the stations provided data on an eight-hourly basis.
+ The hour selected for the computations was 1 p.m.
+ local time (GMT 18:00).
+ Table 1 describes each of the stations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Table 1: Selected weather stations in the Ecuadorian Andean region.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+resizebox{
+\backslash
+textwidth}{!}{%
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estation name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estation code
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Province
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Latitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Longitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Elevation (m)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La Tola
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M002
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pichincha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0o 13' 46'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78o 22' 0''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2480
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rumipamba-Salcedo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M004
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cotopaxi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1o 1' 12'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78o 35' 41''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2685
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Canar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M031
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Canar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2o 33' 7'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78o 56' 43''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3083
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La Argelia-Loja
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M033
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Loja
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4o 2' 1'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+79o 12' 4''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2160
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Palmas-Azuay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M045
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Azuay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2o 42' 58'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78o 37' 47''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2400
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+San Gabriel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M103
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carchi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0o 36' 15'' N
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+77o 49' 10''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2860
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Reanalysis
+\end_layout
+
+\begin_layout Standard
+This research also used reanalysis data from the Twentieth Century Reanalysis
+ Project (20CR) (Compo 2011).
+ The 20CR relies on a data assimilation algorithm of surface pressure values.
+ Sea-surface temperature and sea ice distributions are boundary conditions
+ in this model.
+ The 20CR yields an ensemble mean of realizations.
+ This produces the best possible representation of the state of the atmosphere.
+ This dataset yields six-hourly data on 24 vertical levels.
+ The 1000 hPa-level data is the first vertical level.
+ Thus, it is the most likely to represent surface values.
+ The hour selected for calculations with this data was 4 p.m.
+ local time (GMT 06:00).
+ This is the time closest to the hour adopted for most wildfire potential
+ computations (3 p.m.) with the Australian Forest Fire Danger Index (FFDI)—to
+ be explained next—.
+ The 20CR has data with a resolution of 2o x 2o.
+ Thus, the extracted data is a grid in the Ecuadorian Andean region.
+\end_layout
+
+\begin_layout Standard
+This dataset presents limitations common to all reanalysis products.
+ There is greater uncertainty in regions were there are less observations.
+ This is a particular problem in Africa, some regions in Asia and South
+ America.
+ There is less reliability in the first half of the century due to lack
+ of observations.
+ Although there have been studies that reflect this data represents well
+ climate variability during this period 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ashcroft2014"
+
+\end_inset
+
+.
+ Yet, studies for South America are not available.
+ Additionally, some variables are better represented than others.
+\end_layout
+
+\begin_layout Subsubsection
+ENSO indices
+\end_layout
+
+\begin_layout Standard
+A common ENSO metric is the Southern Oscillation Index (SOI).
+ The SOI represents the difference in normalized surface pressure between
+ Taihiti and Darwin, Australia.
+ We adopted the SOI’s calculation method proposed by the National Oceanic
+ and Atmospheric Administration 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "NOAA"
+
+\end_inset
+
+.
+ The index reflects the changes in air-mass fluxes in the tropical Pacific
+ Ocean.
+ These fluxes, are a manifestation of changes in sea surface temperature
+ (SST).
+ The SOI has an open ended scale with positive and negative values.
+ A negative SOI value represents above-average warm SST conditions in the
+ eastern tropical Pacific Ocean.
+ This represents an ’El Niño’ phase of the phenomenon.
+ El Niño brings wet conditions to the coasts of southern Ecuador and northern
+ Peru.
+ The opposite pattern occurs with a positive SOI value, representing a ’La
+ Niña’ phase.
+\end_layout
+
+\begin_layout Standard
+Another ENSO index is the Oceanic Niño Index (ONI) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "NOAAa"
+
+\end_inset
+
+.
+ The ONI measures monthly SST values in the tropical Pacific Ocean.
+ The measurements take place in the region from 5 oN to 5 oS latitude and
+ 120 oW to 170 oW longitude.
+ This is the ’Niño 3.4’ region.
+ The index requires the calculation of 3-month running means and its climatology.
+ The ONI is the difference between these two values.
+ An ’El Niño’ condition exits if there is at least an anomaly of +0.5 oC
+ in this computation.
+ An anomaly of -0.5 oC indicates a ’La Niña’ phase.
+\end_layout
+
+\begin_layout Subsection
+Methodology
+\end_layout
+
+\begin_layout Subsubsection
+Data pre-processing
+\end_layout
+
+\begin_layout Standard
+The computation of wildfire potential usually requires continuous daily
+ data.
+ Thus, only six stations in the Ecuadorian Andean region were suitable for
+ this study.
+ The selected stations are representative of the ecosystems that are prone
+ to wildfire.
+ The available records in these stations spanned the period 1997-2012.
+ Yet, the period of analysis is short.
+ Thus, reanalysis data was bias-corrected to extend the availability of
+ records.
+\end_layout
+
+\begin_layout Standard
+The bias-correction was necessary for several reasons.
+ First, 1000 hPa reanalysis data does not represent surface level values.
+ Second, there was a 3-hour difference between the time of the two dataset’s
+ values.
+ Third, reanalysis data in the highlands may differ in quality to sea-level
+ outputs.
+ Thus, we plotted probability density functions (PDFs) of the reanalysis
+ and weather station datasets.
+ This allowed to determine the differences between their data distributions.
+ Applying linear scaling techniques was a suitable approach to bias-correct
+ the required variables.
+\end_layout
+
+\begin_layout Standard
+The aim of the study was to estimate wildfire potential for the entire Ecuadoria
+n Andean region.
+ Thus, a calculation of daily averages for each wildfire weather variable
+ yielded regional values.
+ With the reanalysis dataset the procedure is straightforward.
+ These data is spatially and temporally continuous.
+ However, the weather stations data had some missing days.
+ Therefore, calculating averages over daily anomalies made the results less
+ sensitive to missing data.
+\end_layout
+
+\begin_layout Subsubsection
+Forest Fire Danger Index (FFDI) calculation
+\end_layout
+
+\begin_layout Standard
+Ecuador currently does not have any scientifically designed wildfire potential
+ index.
+ Therefore, an alternative approach was to use an index suitable for this
+ region.
+ The FFDI is an Australian wildfire potential index (Noble 1980).
+ This index uses daily values of temperature, relative humidity and wind
+ speed.
+ The index also incorporates a drought factor.
+ This factor represents the availability of fuels.
+ This is measured indirectly using soil moisture indexes such us the Keetch–Byra
+m drought index (Keetch JJ 1968).
+ The FFDI equation is expressed as follows:
+\end_layout
+
+\begin_layout Standard
+FFDI=2e−0.45+0.987∗Ln(DF)−0.0345RH+0.0338T+0.0234v(1)
+\end_layout
+
+\begin_layout Standard
+The variables represented are drought factor (DF), relative humidity (RH),
+ temperature (T) and wind speed (v).
+ This empirical index is valid for the southeastern forest ecosystem of
+ Australia.
+ In this wildfire-prone ecosystem, the eucalyptus is the dominant vegetation.
+ On the other side of the world, Latin-America—including Ecuador—experienced
+ a massive introduction of this specie 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Anchaluisa2013"
+
+\end_inset
+
+.
+ Thus, is reasonable to expect that this index may represent the Ecuadorian
+ wildfire potential.
+\end_layout
+
+\begin_layout Standard
+The application of this index with weather station and reanalysis data yielded
+ daily values.
+ With weather station data the calculation comprised the period 1997-2012.
+ The bias-corrected reanalysis data allowed to extend the method for the
+ period 1963-2012.
+ For each year, a sum of the daily FFDI values provided a seasonal metric
+ of wildfire potential.
+ This cumulative FFDI corresponds to the wildfire season July-August-September
+ (JAS).
+ Finally, we calculated the 90th percentile on the seasonal FFDI time series.
+ This determined which were extreme wildfire seasons during the period 1963-2012.
+\end_layout
+
+\begin_layout Subsubsection
+Investigation of ENSO influence over wildfire seasons
+\end_layout
+
+\begin_layout Standard
+We used several approaches to investigate ENSO’s link over wildfire seasons.
+ Firstly, it was important to know the influence of ENSO in the months leading
+ to the wildfire season JAS.
+ Thus, we applied linear correlations of ENSO’s indexes (seasonal averages)
+ with FFDI values.
+ These averages comprised three-months seasons starting from October-November-De
+cember (OND) of the previous year.
+ The correlation also included the SOI and Niño 3.4 values for the concurrent
+ JAS season.
+\end_layout
+
+\begin_layout Standard
+Secondly, we explored the relationship of each wildfire variable with ENSO.
+ This comprised exploring the link of concurrent FFDI variables (JAS) with
+ antecedent (AMJ) and concurrent ENSO indexes values—SOI and Niño 3.4—.
+ The computation of linear correlations allowed to establish these relationships.
+\end_layout
+
+\begin_layout Standard
+A third approach compared the extreme wildfire seasons with ENSO’s categories
+ of intensity.
+ We used the categories proposed by the Australian Bureau of Meteorology.
+ Finally, we expanded this analysis using a χ2 test.
+ In this test, we used categories of seasonal FFDI and ENSO strength.
+ The categories for seasonal FFDI were extreme (FFDI >90th percentile),
+ medium (50th percentile<FFDI<=90th percentile), and low (FFD<=50 percentile).
+ The numbers of ENSO years were added within three categories: very strong
+ El Niño, Weak-Moderate-Strong El Niño, and La Niña.
+ The strength of ENSO years corresponds to the Australian Bureau of Meteorology
+ classification available at http://www.bom.gov.au/climate/enso/enlist/.
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Standard
+Figure 2 shows PDFs for each wildfire weather variable.
+ These results represent the deviations between original WS and 20CR data.
+ All 20CR PDFs have deviations from the WS data.
+ The daily deviations from the mean including all seasons are 8.9 oC (Tmax),
+ 11 (RH), 1.6 m/s (W) and 4.5 mm (P).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/original_variables_pdfs.png
+	lyxscale 15
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Probability density functions (PDFs) of original data (without bias-correction).
+ The PDFs show data for four wildfire variables: Maximum Temperature (Tmax),
+ Relative Humidity (RH), Wind Speed (W) and Precipitation (P).
+ The period of analysis is 1997-2012.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 3 presents time series of the same variables.
+ The values correspond to seasonal averages for Tmax, RH and W during JAS.
+ P corresponds to a seasonal sum.
+ The figure shows Pearson’s linear correlation coefficients between 20CR
+ and WS data for 16 seasons.
+ The results were statistically significant only for W (r=0.52,p=0.04).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/original_variables_time_series.png
+	lyxscale 15
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Seasonal July-August-September (JAS) time series of wildfire weather variables
+ in Ecuador for the period 1997-2012.
+ Original Tweentieth Century Reanalysis (20CR) and weather station (WS)
+ data correspond to regional averages in the Ecuadorean Andean region.
+ Pearson’s linear correlation coefficients for 16 seasons are: a) Maximum
+ temperature (Tmax)(r=0.36,p=0.17), b) Relative humidity (RH) (r=0.14,p=0.59),
+ c) Wind speed (W) (r=0.52,p=0.04), d) Precipitation (P) (r=0.33, p=0.21).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The bias-correction process comprised the application of linear scaling
+ techniques for every wildfire weather variable.
+ However, the bias-correction of all variables did not improve the seasonal
+ FFDI calculation (not shown).
+ Only the temperature bias-correction significantly improved the FFDI results.
+ Thus, for this study we only show the bias-correction results for this
+ variable (see Figure 4).
+\end_layout
+
+\begin_layout Standard
+Figure 4 shows PDFs of original and bias-corrected Tmax data.
+ The application of additive linear scaling successfully centers the mean
+ of the 20CR.
+ Additionally, Figure 5 presents original and bias-corrected results of
+ the seasonal time series for Tmax.
+ After the bias-correction, 20CR maximum temperature data has a comparable
+ magnitude with WS data.
+ The linear scaling did not affect the correlation coefficients between
+ the two types of data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/tmax_pdfs.png
+	lyxscale 15
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Probability density functions (PDFs) of original and bias-corrected maximum
+ temperature (Tmax) in the Ecuadorian Andean region.
+ The figure shows weather station (WS), Tweentieth Century Reanalysis (20CR)
+ and 20CR data with bias-correction (20CR(bc)).
+ These data comprises the seasons July-August-September (JAS) for the period
+ 1997-2012.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/tmax_time_series.png
+	lyxscale 10
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Time series of seasonal averages of original and bias-corrected maximum
+ temperature in the Ecuadorian Andean region.
+ The figure shows weather station (WS) and Tweentieh Century Reanalysis
+ (20CR) data.
+ These data comprises the seasons July-August-September (JAS) for the period
+ 1997-2012.
+ Panel a) and b) linear correlations statistics are r=0.36,p=0.17,n=16.
+ The bias-correction technique applied was additive linear scaling.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 6 presents the results of the FFDI calculation with original and
+ bias-corrected data.
+ The results show PDFs of WS and bias-corrected 20CR data.
+ The bias-correction increases the similarity between the distribution of
+ data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/fddi_pfds.png
+	lyxscale 15
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Probability density functions (PDFs) of original and bias-corrected Forest
+ Fire Danger Index (FFDI) data in the Ecuadorian Andean region.
+ The figure shows FFDI calculated with weather station (WS), Tweentieth
+ Century Reanalysis (20CR) and 20CR data with bias-correction (20CR(bc)).
+ These data comprises the seasons July-August-September (JAS) for the period
+ 1997-2012.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 7 presents seasonal (JAS) time series of FFDI.
+ The figure displays three time series.
+ FFDI calculated with WS data comprises the period 1997-2012.
+ Two more time series show FFDI calculated with reanalysis data.
+ The calculation used original (20CR) and bias-corrected (20CR(bc)) reanalysis
+ data.
+ These time series span the period 1963-2012.
+ The FFDI time series calculated with original reanalysis data over-estimates
+ seasonal wildfire potential.
+ The overestimation is—on average—of 65 units during the period 1997-2012.
+ These data—WS and 20CR—have a moderate linear correlation (r=0.53,p=0.04).
+ FFDI calculated with bias-corrected reanalysis data under-estimates the
+ FFDI computed with observed values.
+ The magnitude of the underestimation is less than the initial over-estimation
+ (47 units).
+ The bias-correction does not significantly affect the linear correlation
+ between WS and 20CR(bc) data (r=0.53,p=0.05).
+ These results encouraged us to extend the FFDI calculation for the period
+ 1963-2012.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Seasonal_FFDI_ec_1963_2012.png
+	lyxscale 10
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Time series of Forest Fire Danger Index (FFDI) seasonal values in the Ecuadorian
+ Andean region.
+ The figure shows FFDI calculated with weather station (WS) and Tweentieh
+ Century Reanalysis (20CR) data.
+ These data comprises the seasons July-August-September (JAS) for the period
+ 1997-2012 for WS, and 1963-2012 for 20CR and 20CR(bc) data.
+ Original WS and 20CR linear correlation statistics for the period 1997-2012
+ are r=0.53,p=0.04,n=16.
+ These statistics for original WS and bias corrected 20CR(bc) data are r=0.51,p=0.
+05,n=16.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Having an extended FFDI dataset allowed us to investigate the influence
+ of ENSO over seasonal wildfire variability in Ecuador.
+ Table 2 shows linear correlation’s ’R’ coefficients of seasonal ENSO metrics
+ with FFDI.
+ The table shows how the evolution of ENSO in previous—and the concurrent
+ season—is associated with wildfire potential.
+ Previous seasons start one year earlier on October-November-December (OND),
+ and continue in three-months intervals including the wildfire season July-Augus
+t-September (JAS).
+ These correlations show that the influence of ENSO is associated to wildfire
+ potential in the preceding (AMJ) and concurrent (JAS) season.
+ ENSO does not seem to have a direct relationship further back in time.
+ This is valid using the SOI and Niño 3.4 indexes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pearson’s R coefficients between Southern Oscillation Index (SOI), Niño
+ 3.4 seasonal averages and bias-corrected Forest Fire Danger Index (FFDI)
+ values.
+ ENSO indices correspond to the seasons October-November-December (OND)—previous
+ year—, January-February-March (JFM), April-May-June (AMJ) and July-August-Septe
+mber (JAS).
+ FFDI values are the cumulative sum of daily values during the season JAS.
+ The linear correlations correspond to the period 1963-2012.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="9">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+SOI
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nino 3.4
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OND
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+JFM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AMJ
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+JAS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OND
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+JFM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AMJ
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+JAS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+FFDI(bc)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.37
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.34
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.07
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.37
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.40
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These results encouraged further analysis into the concurrent (JAS) and
+ antecedent (AMJ) seasons.
+ Table 3 presents the results of linear correlations applied to every wildfire
+ variable in the concurrent season, with ENSO indices in the antecedent
+ and concurrent season.
+ The relationships among FFDI variables are physically consistent.
+ The R coefficients for these variables with ENSO indexes are moderate are
+ statistically significant at the 5 percent level.
+ This holds valid for all variables with the exception of precipitation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+R linear coefficients of concurrent (JAS) wildfire weather variables with
+ antecedent (AMJ) and concurrent ENSO indexes.
+ Wildfire variables correspond to original 20CR data with the exception
+ of maximum temperature (Tmax) which was bias-corrected.
+ The period of analysis is 1964-2012.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+resizebox{
+\backslash
+textwidth}{!}{%
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="10">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+JAS
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+AMJ
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+JAS
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Tmax(bc)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+RH
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+W
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+P
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nino 3.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+SOI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nino 3.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+SOI
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Tmax(bc)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.64
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.35
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.63
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.58
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.66
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.54
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+RH
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.82
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.68
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.38
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.36
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.43
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.41
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+W
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.36
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0.45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+-0.51
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+P
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.07
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.21
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This investigation also explored the relationship between ENSO and extreme
+ wildfire seasons.
+ Our definition of extreme wildfire seasons filtered years with cumulative
+ FFDI above the 90th percentile for the period 1963-212.
+ Table 4 shows that the most extreme seasons occurred during the years 1982,
+ 1991, 1997, 2009 and 2012.
+ Each season was compared with historical categorizations of strength of
+ ENSO events.
+ With the exception of the year 2012, extreme wildfire weather occurred
+ during El Niño events.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Extreme wildfire potential in Ecuador and associated ENSO types.
+ A calculation of the 90th percentile of seasonal (JAS) FFDI from 1963 to
+ 2012 yielded five extreme seasons.
+ A strong El Niño event is common is extreme seasons.
+ The classification of ENSO types belongs to the Australian Bureau of Meteorolog
+y available at http://www.bom.gov.au/climate/enso/enlist/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+resizebox{
+\backslash
+textwidth}{!}{%
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Extreme wilfire potential (JAS)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+ENSO type
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Year
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cumulative FFDI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+SOI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nino 3.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1982
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+147
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Very strong El Nino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Very strong el Nino
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1991
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+145
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moderate to strong el Nino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moderate to strong El Nino
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1997
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+140
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Strong el Nino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Very strong El Nino
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2009
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+151
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Weak to moderate El Nino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moderate El Nino
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+212
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Strong la Nina
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moderate to strong La Nina
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Table 4 expands on the categorical analysis of seasonal wildfire potential
+ and ENSO strength with a χ2 test.
+ The table shows that most very strong El Niño events—two out of four years—have
+ a connection with extreme wildfire seasons.
+ Within the range of Weak-Moderate-Strong El Niño events, most years—13
+ out 22—occur during low wildfire potential—seasonal FFDI<=50th percentile—.
+ However, two years belong to the extreme wildfire weather category.
+ Finally, most La Niña years occur during medium and low seasonal FFDI—23
+ out 24 years—.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Chi-squared test for categories of wildfire seasons—seasonal FFDI—and ENSO
+ events in Ecuador for the period 1963-2012 (50 season in total).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Seasonal FFDI
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extreme
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Medium
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+ENSO (SST)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Very strong El Nino 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Weak-Moderate-Strong El Nino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La Nina
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Standard
+This study has investigated the variability of seasonal wildfire potential
+ in Ecuador.
+ The analysis included the examination of the relationship of wildfire weather
+ and ENSO phases.
+ Using a seasonal metric of wildfire potential—cumulative FFDI during the
+ season July-August-September—, this study detected that five extreme seasons
+ occurred during the period 1963-2012.
+ An extreme season was defined as any year with a seasonal FFDI greater
+ than the 90th percentile value.
+ Most of these seasons—four out of five—occurred during diverse categories
+ of El Niño strength.
+\end_layout
+
+\begin_layout Standard
+The El Niño events in the Tropical Andes produce a below-average precipitation
+ pattern 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Garreaud2009"
+
+\end_inset
+
+.
+ Yet, this response is not uniform in the Ecuadorian Andes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Villacis2003"
+
+\end_inset
+
+.
+ No relationship exists between ENSO and precipitation during the wet season
+ (October-May) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Villacis2003"
+
+\end_inset
+
+.
+ Yet, there is a consistent trend with below-average precipitation during
+ the dry season (June-August) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Villacis2003"
+
+\end_inset
+
+.
+ This may occur because precipitation has some Atlantic influence as well
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vuille1999"
+
+\end_inset
+
+.
+ Additionally, ENSO can largely explain the inter-annual variability of
+ temperature (Vuille 2000).
+ El Niño events are associated with higher temperatures in most of the Ecuadoria
+n Andes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vuille1999"
+
+\end_inset
+
+.
+ However, these studies relied on a relatively short period—approximately
+ 30 years—of weather station data.
+ Moreover, they include only some wildfire variables —temperature and precipitat
+ion—.
+ In spite of this, they show a consistent agreement on the effect of El
+ Niño over environmental conditions conducive to wildfires.
+ This agrees with our overall results.
+ Nevertheless, this should be carefully analyzed considering the use of
+ reanalysis data in this study.
+\end_layout
+
+\begin_layout Standard
+The general limitations of reanalysis data were discussed in the data and
+ methods section.
+ The results shown in Table 3 demonstrate that the precipitation produced
+ by ENSO’s teleconnections is not well represented by the 20CR data.
+ This variable should be strongly influenced by ENSO.
+ Yet, the linear correlations do not show any link.
+ This is an unexpected result especially for the dry season.
+ The rest of the wildfire variables do show a statistically significant
+ relationship with ENSO.
+ In spite of the acknowledged biases in the data, the relationship is physically
+ consistent.
+ Yet, the coarse resolution of the reanalysis data brings uncertainty to
+ the results.
+ The quantification of these uncertainties is beyond the scope of this study.
+ This could be accomplished examining each 20CR realization.
+ An alternative approach could be the use of other reanalysis products.
+ Although, the limitations may be similar.
+ Another source of uncertainty is the selected wildfire index.
+\end_layout
+
+\begin_layout Standard
+The FFDI is an empirically designed index calibrated for southeast Australia.
+ To our knowledge, this index has not being tested outside of Australia.
+ The ecosystems of southeast Australia and the Ecuadorian Andes share the
+ wildfire-prone Eucaliptus globulus vegetation.
+ Yet, the particular characteristics of the Tropical Andean ecosystems may
+ produce imprecise wildfire potential results.
+ The computation of alternative indexes could provide a source of validation.
+ The Canadian Forest Fire Weather Index (FWI) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VanWagner1987"
+
+\end_inset
+
+has been used in several countries with positive results 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dowdy2009"
+
+\end_inset
+
+.
+ Although computationally more complex to calculate, it could be interesting
+ to test how well it represents fire weather in Ecuador compared to the
+ FFDI.
+ A future endeavor might be as well the design of an Ecuadorian Fire Weather
+ Index System.
+ Finally, another approach to strengthen this analysis would be the investigatio
+n of ENSO’influence over wildfire activity rather than fire weather.
+\end_layout
+
+\begin_layout Subsection
+Conclusding remarks
+\end_layout
+
+\begin_layout Standard
+Roboust long-term wildfire activity records do not exist in Ecuador.
+ The MDQ has started to produce more detailed information about wildfire
+ impacts based on satellite data starting from the year 2009 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Estacio2012"
+
+\end_inset
+
+.
+ However, the rest of the country lacks this information that would be valuable
+ to evaluate ENSO’s influence over wildfires.
+ For example, basic fire statistics such as the number of fire occurrences
+ and area burnt per year would provide additional metrics to evaluate the
+ impact of El Niño events over wildfires in Ecuador.
+ Further investigation of ENSO’s influence over wildfires in Ecuador could
+ enhance our capacity to anticipate these events.
+\end_layout
+
+\begin_layout Standard
+Several studies agree that there is potential to use ENSO to forecast wildfire
+ seasons 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Simard1985,Nicholls2007,Wooster2012,Harris2013"
+
+\end_inset
+
+.
+ In fact, a predictive index has already been proposed for the Norhtern
+ Patagonia region in Argentina 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kitzberger2002"
+
+\end_inset
+
+.
+ However, as acknowledged by the author, the use of statistical-empirical
+ methods to investigate seasonal wildfire predictability has limitations.
+ For example, the assumption of stable ENSO phase’s relationships over a
+ long period of time.
+ Another important assumption to consider is the fixed timing of ENSO arrival.
+ In spite of this, simple indices based on the relationship of ENSO and
+ wildfire weather—or activity—can provide valuable information for decision
+ makers.
+ This information will facilitate timely decisions that can minimize economic
+ impacts, protect the environment, and potentially save lives.
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/danielpazmino/Documents/My_research/Thesis/LyX/library"
+options "/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
