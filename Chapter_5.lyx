@@ -992,15 +992,145 @@ Validation of bushfire activity data
 \end_layout
 
 \begin_layout Standard
-A comparison of the two bushfire datasets available was necessary to confirm
- their consistency.
- DELWP's dataset associates bushfire events with area burnt.
- Therefore, a bushfire event definition for this dataset required to select
- an area burnt threshold.
- For this research, a threshold of 10.000 hectares was selected.
- This threshold allowed to compare DELWP's bushfire events with Risk Frontiers
- data.
+A comparison of the two bushfire datasets available—DELWP and Peril Aus—was
+ necessary to confirm their consistency.
+ Chapter 4 describes the details of this process which is the same for the
+ two experiments.
+\end_layout
+
+\begin_layout Subsubsection
+Formulation of the Victorian Seasonal Bushfire Index
+\end_layout
+
+\begin_layout Standard
+The VSBI represents a simplified relationship between climate variables
+ and an ENSO index.
+ This relationship links large-scale with local climate processes that produce
+ bushfire conditions.
+ The VSBI assumes a linear relationship between three bushfire weather variables.
+ These variables are temperature, relative humidity and precipitation.
+ These variables dry fuel loads in spring 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harris2013"
+
+\end_inset
+
+.
+ The effect these variables on preconditioning bushfire occurrences was
+ the main criteria for their selection.
+ The index also incorporates SST in the El NINO1+2 region as another variable.
+ The index accounts for the effect of ENSO on bushfire conditions.
+ The computation of the VSBI is the aggregation of sub-indices based on
+ these variables.
  
+\end_layout
+
+\begin_layout Standard
+The composites presented in Chapter 4 revealed the seasonal patterns of
+ these variables.
+ Temperature, relative humidity and precipitation presented intense anomalies
+ over Victoria (33S-36S; 145E-150E).
+ Additionally, the NINO1+2 region (0-10S, 90W-80W) presented strong and
+ also statistical significant anomalies.
+ These anomalies link regional and global climate patterns to bushfire occurrenc
+es in Victoria.
+\end_layout
+
+\begin_layout Standard
+The first step in computing the VSBI is calculating spatial averages from
+ the gridded anomalies from these regions are.
+ Subsequently, these daily means were averaged for the seasons SON and DJF
+ respectively.
+ The period of analysis was period 1900-2010 for the 20CR and 1911-2011
+ for HADISST data.
+ On the other hand, the daily values of the six weather stations were averaged
+ to calculate regional anomalies.
+ This procedure allowed to calculate the VSBI sub-indices using weather
+ station data.
+ The available period of data was 1974-2010.
+ The time series generated were divided by their standard deviation to normalize
+ them.
+ Finally, the VSBI was formulated in the following in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:VSBI"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSBI-calculation-procedure"
+
+\end_inset
+
+ shows the VSBI calculation procedure.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula 
+\begin{equation}
+VSBI=\frac{T}{\sigma_{T}}-\frac{RH}{\sigma_{RH}}-\frac{P}{\sigma_{P}}+\frac{SST_{1+2}}{\sigma_{SST_{1+2}}}\label{eq:VSBI}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+VSBI calculation procedure 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:VSBI-calculation-procedure"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/VSBI/VSBI computation Diagram.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1075,39 +1205,6 @@ A comparison of reanalysis and weather station data reveled the need for
  This required bias-corrected maximum temperature values.
  Precipitation was not bias-corrected.
  Probability density functions (PDFs) allowed to test the results.
-\end_layout
-
-\begin_layout Subsubsection
-Composite analysis of FFDI variables 
-\end_layout
-
-\begin_layout Standard
-The VSBI was proposed as the aggregation of sub-indices.
- Each sub-index representes a normalized spatial average.
- This average represents the value of a fixed large-scale of the seasonal
- composites presented.
- The variables that presented the strongest anomalous areas were: 
-\end_layout
-
-\begin_layout Itemize
-1000-hPa air temperature (T) in the region (33S-36S; 145E-150E).
- 
-\end_layout
-
-\begin_layout Itemize
-1000-hPa relative humidity (Rhum) in the region (33S-36S; 145E-150E).
- 
-\end_layout
-
-\begin_layout Itemize
-300-hPa zonal wind (Uwnd) in the region (38S-48S; 125E-150E).
- 
-\end_layout
-
-\begin_layout Standard
-The season selected to perform the calculations for the index was September-Octo
-ber-November (SON).
- 
 \end_layout
 
 \begin_layout Subsubsection
