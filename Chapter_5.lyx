@@ -1086,11 +1086,7 @@ VSBI=\frac{T}{\sigma_{T}}-\frac{RH}{\sigma_{RH}}-\frac{P}{\sigma_{P}}+\frac{SST_
 \begin_inset Float figure
 wide false
 sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1134,330 +1130,63 @@ name "fig:VSBI-calculation-procedure"
 \end_layout
 
 \begin_layout Subsubsection
-Calculation of seasonal bushfire potential 
+Calculation of seasonal bushfire danger 
 \end_layout
 
 \begin_layout Standard
-Bushfire potential can be estimated using weather variables.
- Temperature, relative humidity, wind and precipitation are common variables
- used for this purpose.
- This variables can be combined in mathematical equations.
- This equations reflect vaiable's relationships in producing the conditions
- for bushfires to occur.
+The investigation used the FFDI to explore seasonal bushfire danger in Victoria.
+ The index is used in Australia by authorities to assess fire behaviour
  
-\end_layout
-
-\begin_layout Standard
-This equations are known are bushfire indices.
- The McArthur Forest Fire Danger Index (FFDI) is used in Australia.
- The index is represented as an equation (citation):
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $FFDI=2e^{(-0.45+0.987ln(DF)-0.0345RH+0.0338T+0.0234v)}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Where:
-\end_layout
-
-\begin_layout Standard
-T: Daily maximum temperature (oC).
-\end_layout
-
-\begin_layout Standard
-v: Wind speed (Km/h).
-\end_layout
-
-\begin_layout Standard
-RH: Relative humidity (%).
-\end_layout
-
-\begin_layout Standard
-DF: Drought factor.
-\end_layout
-
-\begin_layout Standard
-This daily index was selected to evaluate seasonal bushfire potential in
- Victoria.
- A seasonal metric was necessary to test the skill of the VSBI to forecast
- bushfire danger.
- Two seasonal metrics of FFDI were used to perform this analysis.
- The first metric was a seasonal sum of daily FFDI values.
- The number of days that a FFDI exceed a value of 25 during the season was
- the second metric.
- In both cases the season consisdered was December-January-February.
- 
-\end_layout
-
-\begin_layout Standard
-A comparison of reanalysis and weather station data reveled the need for
- bias-correction.
- The approach used to bias-correct the reanalysis data was to apply linear
- scaling techniques.
- For maximum temperature and wind speed, additive and multiplicative linear
- scaling were applied.
- Multiplicative linear scaling was applied to specific humidity to recalculate
- relative humidity values.
- This required bias-corrected maximum temperature values.
- Precipitation was not bias-corrected.
- Probability density functions (PDFs) allowed to test the results.
-\end_layout
-
-\begin_layout Subsubsection
-Linear corelations
-\end_layout
-
-\begin_layout Standard
-Linear correlations were performed for the VSBI -and it components- in the
- SON season, with bushfire metrics and ENSO indices corresponding to the
- DJF season.
- This allowed to test the skill of the index to forecast bushfire weather
- and acivity.
- The correlations were also performed with ENSO indices for the season SON,
- with VSBI and bushfire metrics corresponding to the DJF season.
- This allowed to evalute the influence of ENSO in the preceding season (SON)
- to the VSBI, and bushfire metrics in the DJF season.
-\end_layout
-
-\begin_layout Section
-Results
-\end_layout
-
-\begin_layout Subsection
-Extended FFDI record
-\end_layout
-
-\begin_layout Standard
-The calcualtion of the FFDI was necesary to explore seasonal bushfire weather
- in Victoria.
- Especifically, the relationship between climate modes of variability, bushfire
- weather and bushfire occurrences.
- Therefore seasonal metrics fo the FFDI were used.
- The sum of daily FFDI values for the DJF season represents a seasonal bushfire
- weather metric.
- A second metric used was the number of days with a FFDI greater than 25
- for the same season.
- The calcualtions were performed using weather station data.
- Additionally, reanalysis data was also used after a linear scaling bias-correct
-ion.
- All the calculations presented in this section represent average values
- in Victoria.
- 
-\end_layout
-
-\begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-Seasonal-FFDI"
-
-\end_inset
-
-shows two times series of seasonal FFDI in Victoria.
- Panel a) presents the results using the first seasonal metric (cummulative
- FFDI).
- Panel b) presents seasonal FFDI as the number of days with a FFDI value
- greater than 25.
- These calcualtions comprise the season DJF during the period 1974-2010.
- This period was selected because weather station data for every FFDI variable
- is not available in Victoria before 1974.
- Weather station data was necessary to bias-correct the FFDI results calculated
- with reanalysisd data.
- Weather station data represent Victoria with more extreme bushfire weather
- seasons compared to the original (without bias-correction) results with
- reanalysis data.
- In spite of this, the results depict a similar variability for the seasonal
- FFDI metrics.
- Panel a) shows the time series for cummulative FFDI ( r=0.47, p=0.00, n=37),
- and panel b) the correspondineg time series for number of days with FFDI
- greater than 25 (r=0.33, p=0.05, n=37) .
- However, on an interanual basis they differ on magnitude.
- Thefore a bias-correction of reanalysis data was required.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/FFDI/FFDI_original_1974_2010.png
-	lyxscale 20
-	scale 90
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Seasonal FFDI in Victoria, Australia (no bias-correction) for the period
- 1974-2010 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Seasonal-FFDI-original-1974-2010"
-
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-For bias-correction it was necesary to compare the weather sation and reanalysis
- data.
- To make this comparisson probability density functions (PDFs) and seasonal
- time series fore ach FFDI variable were plotted.
-\end_layout
-
-\begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Maximum-temperature-PDFs"
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lucas2010"
 
 \end_inset
 
 .
- and figure 
+ The FFDI yields daily values of bushfire danger.
+ The index computation requires meteorological data reported on individual
+ weather stations.
+ The average of daily values for each weather station yielded regional values.
+ On the other hand, averaging the gridded reanalysis data over Victoria
+ yielded regional values.
+\end_layout
+
+\begin_layout Standard
+However, this investigation aimed to analyse bushfire danger with a seasonal
+ perspective for Victoria.
+ Therefore, the analysis used two seasonal metrics of FFDI.
+ The first metric was the seasonal sum of daily FFDI values.
+ Additionally, a second metric was the number of days in a season that an
+ FFDI exceeds a value of 25.
+ In both cases, the seasons considered were September-October-November (SON)
+ and December-January-February (DJF).
+ 
+\end_layout
+
+\begin_layout Standard
+A comparison of reanalysis and weather station data revealed the need for
+ bias correction.
+ Probability density functions (PDFs) and seasonal time series allowed to
+ make these comparisons.
+ The discussion section 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Maximun-temeprature-time-series"
+reference "sub:Seasonal-FFDI-calculation_discussion"
 
 \end_inset
 
-showt PDFs and seasonal (DJF) time series for maximum temperature respectively.
- For every FFDI variable bias-corrected, panel a) presents the fucntions
- with original data and panel b) the result of the adjustment.
- The maximum temperature show a deviation from the mean that is equivalent
- to 2.36 
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-o
-\end_layout
-
-\end_inset
-
-C.
- Therefore a additive linear scaling was applied to the reanalysis data.
- For the seasonal time series the correlation coefficients are a) (r=0.88,
- p=0.00, n=37) and b) (r= 0.88, p=0.00, n=37).
+further examines the biases found in the 20CR data.
+ The approach used to bias-correct the reanalysis data was to apply linear
+ scaling techniques.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/FFDI_variables/TMAX/gray_pdfs/VIC_TMAX.png
-	lyxscale 20
-	scale 90
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Maximum temperature probability density functions 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Maximum-temperature-PDFs"
-
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/FFDI_variables/TMAX/gray_time_series/TMAX_time_series.png
-	lyxscale 20
-	scale 90
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Maximun temeprature time series 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Maximun-temeprature-time-series"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Relative humidity is a calculated variable.
+For maximum temperature and wind speed required additive and multiplicative
+ linear scaling respectively.
+ Specific humidity required as well additive linear scaling.
+ Relative humidity is a calculated variable.
  Therefore, the best approach was to bias-correct the variables required
  for its calculation.
  The required variables are maximum temperature and specific humidity.
@@ -1465,36 +1194,44 @@ Relative humidity is a calculated variable.
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $q\equiv\frac{m_{v}}{m_{v}+m_{d}}=\frac{w}{w+1}\approx w$
+\begin_inset Formula 
+\begin{equation}
+q\equiv\frac{m_{v}}{m_{v}+m_{d}}=\frac{w}{w+1}\approx w
+\end{equation}
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $ws\equiv\frac{m_{vs}}{m_{d}}=\frac{e_{s}R_{d}}{R_{v}\left(p-e_{s}\right)}\thickapprox0.622\frac{e_{s}}{p}$
+\begin_inset Formula 
+\begin{equation}
+ws\equiv\frac{m_{vs}}{m_{d}}=\frac{e_{s}R_{d}}{R_{v}\left(p-e_{s}\right)}\thickapprox0.622\frac{e_{s}}{p}
+\end{equation}
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $e_{s}\left(T\right)=e_{s()}exp\left[\left(\frac{L_{v}\left(T\right)}{R_{v}}\right)\left(\frac{1}{T_{o}}-\frac{1}{T}\right)\right]\thickapprox611exp\left(\frac{17.67\left(T-T_{o}\right)}{T-29.65}\right)$
+\begin_inset Formula 
+\begin{equation}
+e_{s}\left(T\right)=e_{s()}exp\left[\left(\frac{L_{v}\left(T\right)}{R_{v}}\right)\left(\frac{1}{T_{o}}-\frac{1}{T}\right)\right]\thickapprox611exp\left(\frac{17.67\left(T-T_{o}\right)}{T-29.65}\right)
+\end{equation}
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $RH=100\frac{w}{w_{s}}\thickapprox0.263pq\left[exp\left(\frac{17.67\left(T-To\right)}{T-29.65}\right)\right]^{-1}$
+\begin_inset Formula 
+\begin{equation}
+RH=100\frac{w}{w_{s}}\thickapprox0.263pq\left[exp\left(\frac{17.67\left(T-To\right)}{T-29.65}\right)\right]^{-1}
+\end{equation}
+
 \end_inset
 
 
@@ -1628,6 +1365,283 @@ pressure (Pa)
 \end_layout
 
 \begin_layout Standard
+A recalculation of relative humidity was also possible.
+ This calculation used bias-corrected maximum temperature and specific humidity
+ data.
+ Precipitation was not bias-corrected.
+ The bias-correction attempts for this variable were not successful.
+ Additionally, the FFDI is less sensitive to precipitation changes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dowdy2009"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Linear correlations
+\end_layout
+
+\begin_layout Standard
+This chapter aims to establish the relationship between bushfire predictands
+ and predictors.
+ Moreover, the investigation explores how the relationship evolves from
+ spring to summer in Victoria.
+ The investigation used a linear correlation analysis to establish these
+ relationships.
+ There were four groups of data compiled or generated in this investigation.
+ These groups are bushfire activity records, seasonal bushfire danger metrics,
+ climate variables and indices.
+ 
+\end_layout
+
+\begin_layout Standard
+The correlation analysis used data from spring (SON) and summer (DJF).
+ The exception was for bushfire activity records.
+ The bushfire definition used accounts for extreme events.
+ These events are not common in other seasons than DJF.
+ Therefore, the number of events in spring was too low to include them in
+ the analysis.
+ For example, the DELWP database regitered 31 events during the December-January
+-February (DJF) season over the period 1961-2011.
+ The other three seasons of the year registered only 11 events during the
+ same period.
+ 
+\end_layout
+
+\begin_layout Standard
+The period of analysis was 1980-2010 and 1974-2010.
+ For the first period of analysis used only weather station data.
+ For the second period used weather station and reanalysis data.
+ The SAM index—AAO— was excluded from the analysis for the second period.
+ The AAO did not show a significant correlation with most variables in the
+ first period.
+ The VSBI was sensitive to the biases in precipitation in the 20CR data.
+ Therefore, precipitation from weather stations substituted the 20CR data
+ for the period 1974-2010.
+ The results highlight the statistically significant results at the 5% level.
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Subsection
+Extended FFDI record
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Seasonal-Seasonal-FFDI"
+
+\end_inset
+
+shows two times series of seasonal FFDI in Victoria.
+ Panel a) presents the results using the first seasonal metric (cummulative
+ FFDI).
+ Panel b) presents seasonal FFDI as the number of days with a FFDI value
+ greater than 25.
+ These calcualtions comprise the season DJF during the period 1974-2010.
+ Before this period weather stations do not have enough records to compute
+ the FFDI.
+ Weather station data was necessary to bias-correct the FFDI results calculated
+ with reanalysisd data.
+ 
+\end_layout
+
+\begin_layout Standard
+Weather station data represent Victoria with more extreme bushfire weather
+ seasons compared to the original (without bias-correction) results using
+ reanalysis data.
+ In spite of this, the results depict a similar variability for the seasonal
+ FFDI metrics.
+ Panel a) shows the time series for cummulative FFDI ( r=0.47, p=0.00, n=37),
+ and panel b) the correspondineg time series for number of days with FFDI
+ greater than 25 (r=0.33, p=0.05, n=37) .
+ However, on an interanual basis they differ on magnitude.
+ Thefore a bias-correction of reanalysis data was required.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/FFDI_original_1974_2010.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Seasonal FFDI in Victoria, Australia (no bias-correction) for the period
+ 1974-2010 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Seasonal-FFDI-original-1974-2010"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The bias-correction process required a comparison of WS and 20CR data.
+ To make this comparisson probability density functions (PDFs) and seasonal
+ time series fore ach FFDI variable were plotted.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maximum-temperature-PDFs"
+
+\end_inset
+
+ and figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maximun-temperature-time-series"
+
+\end_inset
+
+show PDFs and seasonal (DJF) time series for maximum temperature respectively.
+ For every FFDI variable bias-corrected, panel a) presents original data
+ and panel b) the result with the adjustment.
+ Maximum temperature show a deviation from the mean of 2.36 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C.
+ Therefore, additive linear scaling was applied to the reanalysis data.
+ For the seasonal time series the correlation coefficients are a) (r=0.88,
+ p=0.00, n=37) and b) (r= 0.88, p=0.00, n=37).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/TMAX/gray_pdfs/VIC_TMAX.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Maximum temperature probability density functions 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Maximum-temperature-PDFs"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/TMAX/gray_time_series/TMAX_time_series.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Maximun temperature time series 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Maximun-temperature-time-series"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Figure
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1642,8 +1656,17 @@ reference "fig:Specific-humidity-time-series"
 
 \end_inset
 
-show PDFs and seasonal (DJF) time series for specific humidity respectively.
- This variable presented a deviation from the mean of 8.63x10-4 Kg/Kg.
+show PDFs and seasonal (DJF) time series for specific humidity.
+ This variable presented a deviation from the mean of 8.63x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-4
+\end_layout
+
+\end_inset
+
+ Kg/Kg.
  Therefore, additive linear scaling was applied.
  The time series correlation coefficients for this variable are a) (r =0.33,
  p=0.05, n=37) and b) (r=0.85, p=0.00, n=37).
@@ -1869,7 +1892,7 @@ reference "fig:Wind-speed-time-series"
 
 show PDFs and time series for wind speed respectively.
  In this case, the deviation of the mean was 1.37 Km/h.
- In this case a multiplicative linear scaling was required.
+ The bias-correction used multiplicative linear scaling.
  The time series correlation coefficients are a) (r=0.31, p=0.06, n=37 ) and
  b) (r=0.31 p=0.06, n=37).
 \end_layout
@@ -2067,10 +2090,10 @@ name "fig:Precipitation-time-series"
 \end_layout
 
 \begin_layout Standard
-After the bias-correction process, the FFDI was recalculted for Victoria.
- The bias-correction results show that he underestimation in the order of
- magnitude in the variability of seasonal bushfire potential, in both metrics
- of seasonal FFDI, has been adjusted with acceptable skill.
+After the bias-correction process, the FFDI was recalculated for Victoria.
+ The bias-correction results show that the underestimation in the order
+ of magnitude of seasonal bushfire danger—in both metrics of seasonal FFDI—has
+ been adjusted with acceptable skill.
  The time series correlation coefficients are a) (r=0.45 p=0.06, n=37 ) and
  b) (r= 0.52, p=0.00, n=37).
 \end_layout
@@ -2170,14 +2193,13 @@ name "fig:Seasonal-FFDI-bc-1974-2010"
 \end_layout
 
 \begin_layout Standard
-A final step in the FFDI calculation process was to extend the resutls using
- the reanalysis data further back in time.
- To perform this calculation the day with the highest precipitation was
- serch in the reanalysis for this region.
- This allowed to set the soil moisture deficit index to zero to start the
- calculations.
- The date was the 22th of september of 1918 with 62.06 mm.
- Thefore the results were extended for the period 1920-2010.
+A final step in the FFDI calculation process was to extend the results using
+ the reanalysis data.
+ The day with the highest precipitation allowed to set the soil moisture
+ deficit index to zero.
+ This step to start the calculations.
+ The date was the 22nd of September of 1918 with 62.06 mm.
+ Therefore, it was possible to extend the results to the period 1920-2010.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2271,28 +2293,22 @@ reference "fig:vsbi_20cr_data_R_P_1974_2010"
 
 present the linear correlations of VSBI, VSBI variables, climate modes of
  variability indices, seasonal metrics of FFDI and fire activity records.
- The VSBI results correspond to the formula VSBI = T + SST1.2 -RH -P as noted
- in the methodology section.
  The correlations were performed for the seasons September-October-November
  (SON) and December-January-February (DJF).
- Statistically significant results at the 5% and 10% level are shown in
- red and black bold respectively.
+ Statistically significant results at the 5% level are shown.
  
 \end_layout
 
 \begin_layout Standard
-In figure 
+Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:vsbi_ws_data_R_P_1974_2010"
+reference "fig:Correlation-coeficients-SON-SON"
 
 \end_inset
 
- represents a first exploration of the correlation analysis.
- For the correlation I used weather stations data for the period 1980-2010.
- Initially, I used three ENSO indices (SST1.2, NINO3.4, SOI), the Dipole Mode
- Index (DMI) and the Antartic Anular Oscillation (AAO) index.
- 
+presents the correlation coeficients among varaibles during spring (September-Oc
+tober-November) during the period 1973-2009.
 \end_layout
 
 \begin_layout Standard
@@ -2305,9 +2321,9 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename Tables/vsbi_ws_data_R_P_1980_2010.png
-	lyxscale 65
-	scale 40
+	filename Figures/Correlations/SON-SON/SON-SON_1973_2009.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -2318,11 +2334,12 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Correlation coeficients for VSBI, VSBI variables and climate modes of variabilit
-y indices using weather station data for the period 1980-2010 
+Correlation coeficients using a) weather station (WS) and b) renalyasis
+ (20CR) data during September-October-November (SON) during the period 1973-2009.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:vsbi_ws_data_R_P_1980_2010"
+name "fig:Correlation-coeficients-SON-SON"
 
 \end_inset
 
@@ -2347,16 +2364,12 @@ name "fig:vsbi_ws_data_R_P_1980_2010"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:vsbi_ws_data_R_P_1974_2010"
+reference "fig:Correlation-coeficients-DJF-DJF"
 
 \end_inset
 
- represents an extention of the previous results since it spans the number
- of years included in the analysis using weather station data to cover the
- period 1974-2010.
- Since I dind't find significant correlations with the AAO index in the
- previous analysis, this data was omitted.
- 
+presents the correlation coeficients among variables during summer (December-Jan
+uary-February) during the period 1974-2010.
 \end_layout
 
 \begin_layout Standard
@@ -2369,9 +2382,9 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename Tables/vsbi_ws_data_R_P_1974_2010.png
-	lyxscale 75
-	scale 50
+	filename Figures/Correlations/DJF-DJF/DJF-DJF_1974_2010.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -2382,11 +2395,12 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Correlation coeficients for VSBI, VSBI variables and climate modes of variabilit
-y indices using weather station data for the period 1974-2010 
+Correlation coeficients using a) weather station (WS) and b) renalyasis
+ (20CR) data during September-October-November (SON) during the period 1973-2009.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:vsbi_ws_data_R_P_1974_2010"
+name "fig:Correlation-coeficients-DJF-DJF"
 
 \end_inset
 
@@ -2407,44 +2421,29 @@ name "fig:vsbi_ws_data_R_P_1974_2010"
 In figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:vsbi_20cr_data_R_P_1974_2010"
+reference "fig:Correlation-coeficients-SON-DJF"
 
 \end_inset
 
- the analysis is extended further back in time using the 20CR data.
- In this analysis, VSBI was caculated using the reanalysis data, with the
- exception of the precipitation variable.
- Precipitation in the reanalysis data didn't represent accurately climate
- in Victoria.
- The formulation of the VSBI makes it extremely sensitive to this fact (which
- is not the case for FFDI results).
- Thefore weather station data for precipitation was used to calculate Victorian
- Seasonal Bushfire Index (VSBI
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "VSBI"
-description "Victorian Seasonal Bushfire Index"
-
-\end_inset
-
-) in combination with temperature, relative humidity and sea surface temperature
- that used reanalysis data.
- 
+presents the correlation coeficients among variables from spring (September-Octo
+ber-November) to summer (December-January-February) during the periods 1973-2010
+ and 1974-2010 respectively.
+ The reanalysis correlation matrix have used weather station data.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename Tables/vsbi_20cr_data_R_P_1974_2010.png
-	lyxscale 75
-	scale 50
+	filename Figures/Correlations/SON-DJF/SON-DJF_1974_2010.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -2455,14 +2454,14 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Correlation coeficients for VSBI, VSBI variables and climate modes of variabilit
-y indices using Twentieth Century Reanalysis data for the period 1974-2010.
- In these correlations only precipitacion represents weather station data
- (*); which also affects VSBI results.
+Correlation coeficients using a) weather station (WS) and b) renalyasis
+ (20CR) data from September-October-November (SON) and December--January-Februar
+y (DJF) during the periods 1973-2009 and 1974-2010 respectively.
+ The reanalysis correlation matrix have used weather station data.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:vsbi_20cr_data_R_P_1974_2010"
+name "fig:Correlation-coeficients-SON-DJF"
 
 \end_inset
 
@@ -2490,64 +2489,63 @@ Relationship between forecasting variables in spring (SON)
 \begin_layout Standard
 The correlations for the spring season (SON) demonstrated to be physically
  consistent.
- For example, temperature was negativelly correlated with relative humidity
+ For example, temperature was negatively correlated with relative humidity
  and precipitation.
  Additionally, relative humidity was positively correlated with precipitation.
- These correlations were moderate to strong and statistically singnificat
+ These correlations were moderate to strong and statistically significant
  at the 5% level.
- This provided confidence that the rest of the correlations would reveal
- accurate insights about the relationship with the other variables.
+ These results provided confidence that the rest of the correlations would
+ reveal accurate insights.
  
 \end_layout
 
 \begin_layout Standard
-The VSBI showed to be significantly correlated at the 5% level with the
- climate variables and with El Nino indices.
- This is an expected result that provided confidence of the correlations
- with the other variables.
- The VSBI in this season didn't show any correlation with the AAO index.
+The VSBI shows a significant correlation at the 5% level with the climate
+ variables.
+ The index is also significantly correlated at the 5% level with El Nino
+ indices.
+ The VSBI in this season did not show any correlation with the AAO index.
  However, it presented a strong, positive and statistically significant
  relationship with DMI.
- These relationship is stronger than the relationship with El Nino indices.
- Additionally, the VSBI is strongly correlated with the two metrics of FFDI,
- although the correlation is higher for FFDI(cum).
+ This relationship is stronger than the relationship with El Nino indices.
+ Additionally, the VSBI is strongly correlated with the two metrics of FFDI.
+ The VSBI presents a higher correlation with FFDIcum.
  
 \end_layout
 
 \begin_layout Standard
 Correlations between El Nino indices also presented expected results.
- SST1.2 was negativelly correlated with SOI and positively correlated with
- NINO3.4.
- SOI was negativelly correlated with NINO3.4.
- Among these indices, NINO3.4, presented more statistically singificant results
- with the rest of the variables in comparision to other El Nino indices.
- The DMI index presented moderate to strong correlations with every variable,
- except with the AAO.
- The AAO index only presented a statistically significant (negative) correlation
+ The correlation between SST1.2 with SOI and NINO3.4 is negative and positively
+ respectively.
+ The correlation between SOI and NINO3.4 is negative.
+ Among the El Nino indices, NINO3.4 presented more statistically significant
+ results.
+ The DMI index presented moderate to strong correlations with every variable.
+ The AAO index only presented a statistically significant—negative—correlation
  with temperature.
  
 \end_layout
 
 \begin_layout Standard
-The seasonal metrics of FFDI demonstrated the expected correlations with
- climate variables.
- A high correlation was also found between the two metrics used.
- Since the physical relationship was sound, we can expect that the correlations
- with the climate modes of variablity are correct.
- For this season, the number of days with FFDI greater than 25 showed more
- statistically significant correlations with climate modes of variability
- than the cumulative FFDI.
- Especifically, NINO3.4 and DMI are correlated with FFDI>25, wihc is not
- the case for the FFDI(cum).
+The two seasonal metrics of FFDI demonstrated the expected correlations
+ with climate variables.
+ A high correlation exists between the two metrics used.
+ The physical relationship was sound.
+ Therefore, we can expect that the correlations with the climate indices
+ to be correct.
+ FFDI>25 showed more statistically significant correlations with climate
+ modes of variability than FFDIcum.
+ Specifically, the correlation between NINO3.4 DMI and FFDI>25 are significant.
+ However, these correlations are not significant when using FFDIcum.
  
 \end_layout
 
 \begin_layout Standard
-These results were consistent for weather station as well as reanalysis
- data for every period analysed.
+These results were consistent with weather station as well as reanalysis.
+ The results are also consistent between the two periods analyzed.
  The only exception was the correlations for the FFDI>25 variable.
- This variable showed less statistically singnificant results using reanalysis
- data, compared to the resutls using station data.
+ This variable showed less statistically significant results using reanalysis
+ data.
  
 \end_layout
 
@@ -2558,63 +2556,62 @@ Relationship between forecasting variables in summer (DJF)
 \begin_layout Standard
 The correlations for the spring season (DJF) also demonstrated to be physically
  consistent.
- For example, temperature was negativelly correlated with relative humidity
+ For example, temperature was negatively correlated with relative humidity
  and precipitation.
  Additionally, relative humidity was positively correlated with precipitation.
- These correlations were moderate to strong and statistically singnificat
+ These correlations were moderate to strong and statistically significant
  at the 5% level.
- This provided confidence that the rest of the correlations would reveal
- accurate insights about the relationship with the other variables.
- 
+ These results provided confidence that the rest of the correlations would
+ reveal accurate insights.
 \end_layout
 
 \begin_layout Standard
-The VSBI does not show statistically singnificant relationships with climate
- modes of variability in the DJF season.
- The only statisticaly significant relationship is with SST1.2.
+The VSBI does not show statistically significant correlations with climate
+ indices in this season.
+ The only statistically significant relationship is with SST1.2.
  However, this index is part of the VSBI.
- On th other hand, the VSBI show moderate and statisticaly significant results
- with the FFDI seasonal metrics.
+ Additionally, the VSBI show moderate and statistically significant correlations
+ with FFDI metrics.
  This moderate relationship is slightly better for FFDI>25.
- The correlations of VSBI and fire activity are even higher than those for
- bushfire weather.
- The index shows a stronger relationship with Risk Frontiers bushfire database
- in comparisson to the DEPWL dataset.
+ The correlations of VSBI and fire activity are higher than those for bushfire
+ weather.
+ The VSBI shows a stronger relationship with RF bushfire database than DEPWL
+ data.
 \end_layout
 
 \begin_layout Standard
-El Nino indices show a strong relationship among them and a moderate relationshi
-p with AAO and DMI.
- Overall, climate modes of variability do not show a a relationship with
- bushfire weather or activity in this season.
- The exceptions to this were the moderate and statistically significant
- correlations between El Nino indices and Risk Frontiers fire activity records.
+El Nino indices show strong correlations among them.
+ These indices also present a moderate relationship with AAO and DMI.
+ Overall, climate indices do not display a relationship with bushfire weather
+ or activity.
+ The significant correlations between El Nino indices and RF records were
+ the exception.
 \end_layout
 
 \begin_layout Standard
-The seasonal metrics of FFDI show moderate and statistically significat
- correlations with fire activity in this season.
- Maximun temperature was the variable that show the most robust relationship
- with these metrics for the DJF season, being moderately correlated with
- both.
- Both metrics were strongly correlated with each other.
+The seasonal metrics of FFDI show moderate and statistically significant
+ correlations with fire activity.
+ Maximum temperature was the variable that showed the most robust relationship
+ with FFDI metrics.
+ The correlation between both metrics of FFDI is strong.
  
 \end_layout
 
 \begin_layout Standard
-Fire activity records have stronger correlations with VSBI than FFDI int
- his season.
- Among the cliamte varaibles, maximum temperatuer and relative humidity
- showed the hoest correlations.
+Fire activity records have stronger correlations with VSBI than FFDI in
+ this season.
+ Among the climate variables, maximum temperature and relative humidity
+ showed the highest correlations.
  
 \end_layout
 
 \begin_layout Standard
-These results were consistent for weather station as well as reanalysis
- data for every period analysed.
+These results were consistent with weather station as well as reanalysis
+ data.
+ The results are consistent also for the two periods analysed.
  The only exception was the correlations for the FFDI>25 variable.
- This variable showed less statistically singnificant results using reanalysis
- data, compared to the resutls using station data.
+ This variable showed less statistically significant results using reanalysis
+ data.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2622,50 +2619,50 @@ Relationship between forecasting variables from spring to summer (SON-DJF)
 \end_layout
 
 \begin_layout Standard
-The VSBI in spring shows a moderate and statistically significant correlation
- with seasonal metrics of the FFDI in summer.
+The VSBI (SON) shows a moderate and statistically significant correlation
+ with FFDI metrics (DJF).
  The skill is higher with VSBI in the summer season.
- the VSBI has strong and statisticaly significant relationship with the
- two bushfire datasets used.
- The index has also a moderate relationship with ENSO indices and the DMI
- index.
- However, it has no relationship with the AAO index.
+ The VSBI and the two bushfire datasets used have a strong and statistically
+ significant relationship.
+ The VSBI, ENSO indices and the DMI index also have a moderate correlation.
+ However, the VSBI has no relationship with the AAO index.
  
 \end_layout
 
 \begin_layout Standard
-Overall, the climate modes of variability indices show moderate to strong
- statistically significant correlations among them.
- For exmaple, ENSO indices in spring show skill to forecast how this indices
- will behave in the summer season.
- This is also tru for the DMI index.
- The AAO didn't show this skill.
- Climate indices didn't show on their own much ability to forecast bushfire
- weather or activity.
+Overall, the climate indices show moderate to strong statistically significant
+ correlations among them.
+ For example, ENSO indices in spring show forecasting skill of ENSO indices
+ in summer.
+ This forecasting skill of ENSO indices is also true for the DMI index.
+ The AAO did not show this skill.
+ Climate indices did not show much ability to forecast bushfire weather
+ or activity.
  However, the NINO3.4 did show moderate skill to predict bushfire activity.
  
 \end_layout
 
 \begin_layout Standard
-The seasonal metrics of FFDI have a moderate skill to forecast bushfire
- weather meaured as VSBI in the summer seaosn.
- Although, the skill is higher is the same metric (FFDI) is used for summer.
- The correlation between FFDI in spring and fire activity is moderate and
- statistically significant.
- Although, this relationship is weaker than the relationship between VSBI
- in spring and fire activity in summer.
+FFDI metrics has a moderate skill to forecast bushfire weather measured
+ as VSBI (DJF).
+ The correlation between FFDI (SON) and fire activity (DJF) is moderate
+ and statistically significant.
+ Although, this relationship is weaker than VSBI (SON) and fire activity
+ (DJF).
 \end_layout
 
 \begin_layout Standard
-These results were consistent for weather station as well as reanalysis
- data for every period analysed.
+These results were consistent with weather station as well as reanalysis
+ data.
+ The results were also consistent between the periods analysed.
  The only exception was the correlations for the FFDI>25 variable.
- This variable showed less statistically singnificant results using reanalysis
- data, compared to the resutls using station data.
+ This variable showed less statistically significant results using reanalysis
+ data.
  Additionally, the predictive skill of VSBI and FFDI is almost the same
- using reanalysis data.
- This contrasts with the results using weather station data; in which VSBI
- showed a slightly better skill.
+ using 20CR.
+ This result contrasts with the outcome using weather station data.
+ VSBI computed with WS data showed a better skill in forecasting bushfire
+ danger.
  
 \end_layout
 
@@ -2674,7 +2671,14 @@ Discussion
 \end_layout
 
 \begin_layout Subsection
-Seasonal FFDI calculation
+Seasonal FFDI calculation 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Seasonal-FFDI-calculation_discussion"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
