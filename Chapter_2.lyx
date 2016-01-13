@@ -18,6 +18,9 @@
 \fancyfoot{}
 \raggedbottom
 \setlength{\parindent}{8mm}
+
+%URL line breaking:
+\usepackage[hyphens]{url}
 \end_preamble
 \use_default_options true
 \master ../Master.lyx
@@ -101,469 +104,15 @@ Background
 \end_layout
 
 \begin_layout Section
-Localization and geography
-\end_layout
-
-\begin_layout Subsection
-Victoria
-\end_layout
-
-\begin_layout Standard
-Victoria is localized in southeastern Australia ranging in latitude from
- 34º2' to 39º8' S (see Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Localization-of-Victoria-1"
-
-\end_inset
-
-).
- This state occupies 227618 km
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-, and is physically divided in four regions: Murray Basin Plains, Victorian
- Highlands, Southern Lowlands, Southern Uplands 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Sherbon1975"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/Victoria.png
-	lyxscale 35
-	rotateOrigin center
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Localization of the state of Victoria, Australia.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Localization-of-Victoria-1"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Ecuador
-\end_layout
-
-\begin_layout Standard
-Ecuador is located in the north-west side of South-America (see Figure 1).
- The country has a diverse geography.
- It comprises a continental territory between the latitudes 01o 28’ N and
- 05o 02’ S and longitudes 75o 11’ W and 81o 04’ W 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "InstitutoGeograficoMilitarIGM2013a"
-
-\end_inset
-
-.
- The Galapagos Islands are also part of the country.
- These islands are approximately 1000 Km from the continent.
- The national territory has a total area of 256.370 Km2 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "InstitutoGeograficoMilitarIGM2013a"
-
-\end_inset
-
-.
- The Andes mountains divide the continental Ecuador into three areas: the
- Coast, Andean and Amazon regions.
- Each of these regions has diverse geographical features, climate, and ecosystem
-s.
- The highlands are the most wildfire-prone region because of its specific
- natural characteristics.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename ../Chapter_6/Figures/Ecuador_location.png
-	lyxscale 5
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Location of Ecuador
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The Andes mountains are the most important geographical feature of Ecuador—and
- South-America— 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Insel2010"
-
-\end_inset
-
-.
- This mountain range crosses Ecuador from North to South.
- The Ecuadorian Andes comprises two flanks of mountains: the eastern and
- western ’Cordilleras’.
- Between these two flanks—that include active volcanoes—there are several
- inter-Andean valleys.
- Many of these Andean plateaus are over 3000 m above sea level.
- The steep elevations have an important effect on local climate.
- The lapse rate create the conditions for different Bio-climatic zones to
- exit.
- This enhances biodiversity.
- Yet, the original vegetation of the Andean valleys has almost disappeared.
- Most of the endemic vegetation was replaced by the Australian specie Eucalyptus
- globulus around 1860 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "MinisteriodelAmbiente2012"
-
-\end_inset
-
-.
- Other introduced species are the Pinus radiata (from California) and the
- Pinus patula (from Mexico).
- This occurred for commercial reasons 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Anchaluisa2013"
-
-\end_inset
-
- with great ecological impact.
- Further, these species are prone to wildfires in the Andean dry season.
+Introduction
 \end_layout
 
 \begin_layout Section
-Climate
+Fire weather
 \end_layout
 
 \begin_layout Subsection
-Victoria
-\end_layout
-
-\begin_layout Standard
-Victoria's climate is greatly influenced by its topography 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "BureauofMeteorology2008"
-
-\end_inset
-
-.
- The Great Dividing Range (GDR), has created three main climatic zones:
- northern, southern and southeastern Victoria.
- In northern Victoria, precipitation is influenced by northwesterly air
- masses.
- The north-west region of this climatic zone receives an annual average
- of 250 to 300 mm of precipitation and endures intense heatwaves; whereas,
- in the north-east the precense of mountains raises the precitation range
- to 800-1000 mm in a year.
- Precipitation in southern Victoria also increases with altitude; however,
- westerly winds drive its formation.
- In contrast, variations in temperature in this zone are driven by northerly
- winds, which produce summers with average air temperature of 28 ºC and
- maxima of 43 ºC.
- In southeastern Victoria, synoptic systems in the Tasman Sea influence
- its precipitation rate, especially in the eastern region that recieves
- in average 1000 mm in a year.
- The western region of southeastern Victoria is less influenced by the Tasman
- Sea, and receives in average 600 mm of precipitation
-\end_layout
-
-\begin_layout Subsection
-Ecuador
-\end_layout
-
-\begin_layout Standard
-The Tropical Andes climate has several drivers.
- The Amazon forest, oceanic currents, and the topography are among the main
- drivers 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Martinez2011"
-
-\end_inset
-
-.
- The Amazon forest—through Evapo-transpiration—produces a great amount of
- water vapor.
- This water precipitates along the western Cordillera because of an orographic
- precipitation process.
- This precipitation is also produced in the eastern Cordillera.
- Air masses advected from the Pacific Ocean produce this effect.
- The influence of the Pacific Ocean in the climate variability is important.
- The Pacific Decadal Oscillation (PDO) is the main driver of decadal climate
- variability in this region 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Martinez2011"
-
-\end_inset
-
-.
- On the other hand, the inter-annual variability depends on the El Niño
- Southern Oscillation (ENSO) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Vuille1999,Villacis2003,Martinez2011"
-
-\end_inset
-
-.
- These influences create several climate regions within the Andes.
-\end_layout
-
-\begin_layout Standard
-Most of the Ecuadorian Andes—between 1500 to 3000 m—have a “Semi-Humid Mesotherm
-al” climate (Pourrut 1995).
- Mean temperatures in this region range from 8 oc to 20 oc.
- Maximum temperatures span from 22 oC and 30 oC.
- Minimum temperatures range from -4 oc to 5 oC.
- Air masses from the Pacific Ocean and the Amazon region create three seasons
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Pourrut1995"
-
-\end_inset
-
-.
- Two wet seasons during the periods February-May and October-November.
- A dry season spans from June to September.
- Total annual precipitation ranges from 800 mm to 1500 mm along the Andes.
- Relative humidity varies from 65 to 85 percent.
-\end_layout
-
-\begin_layout Section
-Fire
-\end_layout
-
-\begin_layout Subsection
-Victoria
-\end_layout
-
-\begin_layout Subsection
-Ecuador
-\end_layout
-
-\begin_layout Standard
-Wildfires mostly occur in three geographical regions of Ecuador.
- The Andean region has large extensions of introduced Eucalyptus forests
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Anchaluisa2013"
-
-\end_inset
-
-.
- Thus, the availability of fuels makes it the most wildfire-prone region.
- The fire season in the Ecuadorian Andes spans from July to November 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SecretariadeAmbiente2013"
-
-\end_inset
-
-.
- Yet, the most critical months are July, August and September 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Estacio2012,SecretariadeAmbiente2013"
-
-\end_inset
-
-.
- The coast and the Galapagos Islands experience wildfire episodes from January
- to May 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SecretariadeAmbiente2013"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Wildfires produce severe impacts in Ecuador.
- Yet, information about these impacts is scarce and disperse.
- Wildfires produced 21.570 Ha of area burnt in Ecuador in 2012 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "MinisteriodelAmbiente2013"
-
-\end_inset
-
-.
- The Metropolitan District of Quito (MDQ) is particularly vulnerable to
- wildfires.
- The vulnerability is high because 15.4 percent of the national population
- lives here.
- Additionally, vegetation covers 60.46 percent of its territory 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SecretariadeAmbiente2013"
-
-\end_inset
-
-.
- Wildfires destroyed 2700 Ha of the MDQ vegetation in 2009 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Estacio2012"
-
-\end_inset
-
-.
- In 2012, the area burnt by wildfires increased to 4.882,16 Ha 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SecretariadeAmbiente2013"
-
-\end_inset
-
-.
- This wildfire season cost the MDQ more than 50 million dollars 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SecretariadeAmbiente2013"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Unfortunately, wildfires in Ecuador are anthropogenic in nature 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "MinisteriodelAmbiente2013"
-
-\end_inset
-
-.
- In fact, the MDQ reported that humans cause 95 percent of wildfires in
- the city 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SecretariadeAmbiente2013"
-
-\end_inset
-
-.
- Burning forests to convert them to agricultural use is the main cause of
- wildfires in the country 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013,Rodas2015"
-
-\end_inset
-
-.
- Forcing land use changes for urbanization purposes is another reason people
- start wildfires 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SecretariadeAmbiente2013"
-
-\end_inset
-
-.
- Rural communities burn agricultural waste, which is a traditional practice
- that fosters wildfire occurrences 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Estacio2012"
-
-\end_inset
-
-.
- Rural people also burn regular waste because of the lack of waste management
- services 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "SecretariadeAmbiente2013"
-
-\end_inset
-
-.
- Finally, wildfires occur because of the damaging acts of arsonists 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Section
-Bushfire weather
-\end_layout
-
-\begin_layout Subsubsection
-Meteorological variables
+Meterological variables
 \end_layout
 
 \begin_layout Standard
@@ -615,116 +164,7 @@ key "Bradstock2012"
  
 \end_layout
 
-\begin_layout Subsubsection
-Synoptics 
-\end_layout
-
-\begin_layout Standard
-The meteorological variables of bushfire weather are governed by large-scale
- synoptic patterns that have particular characteristics in different regions
- of Australia 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BureauofMeteorology2008"
-
-\end_inset
-
-.
- However, the synoptic weather patterns associated with bushfires all have
- hot-dry air advection processes in common, and often the passage of cold
- fronts in initiated bushfire areas 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Bradstock2012"
-
-\end_inset
-
-.
- For example, bushfire weather in southeast Australia is characterized by
- an atmospheric high-pressure centre (“high”) in the Tasman Sea and a strong
- cold front arriving from the west 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BureauofMeteorology2008"
-
-\end_inset
-
- (see Fig.
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Historic-Chart-Analysis-1"
-
-\end_inset
-
- )
-\end_layout
-
-\begin_layout Quote
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/Bushfire_weather_synoptic_pattern.png
-	lyxscale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Historic Chart Analysis at 11am EDT on "Ash Wednesday", Wed 16th February
- 1983 showing areas with extreme fire weather.
- Source: Bureau of Meteorology.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Historic-Chart-Analysis-1"
-
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-On the other hand, the passage of a cold front causes abrupt changes in
- wind direction converting bushfires in extreme or even catastrophic events.
- A strong 850-hPa temperature gradient (associated with cold front arrivals)
- is highly correlated with extreme bushfire events in Victoria 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Mills2005"
-
-\end_inset
-
-.
- According to this study, “Ash Wednesday” was categorized as an unusually
- extreme event corresponding to the 0.1 % of registered bushfires in 40 years
- in this state.
-\end_layout
-
-\begin_layout Section
-Heatwave weather
-\end_layout
-
-\begin_layout Section
+\begin_layout Subsection
 Forest Fire Danger Index
 \end_layout
 
@@ -1102,14 +542,14 @@ The fundamental variables for the calculation of this index are rainfall
 \end_layout
 
 \begin_layout Subsubsection
-Danger classes 
+Danger classes
 \end_layout
 
 \begin_layout Standard
-The FFDI has six danger classes presented in table 
+The FFDI has six danger classes presented in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:Forest-Fire-Danger-classes"
+reference "fig:Danger-classes-for-FFDI"
 
 \end_inset
 
@@ -1117,23 +557,38 @@ reference "tab:Forest-Fire-Danger-classes"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
+\begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Bushfire-Risk-Rating-Chart.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Forest Fire Danger classes for the FFDI 
+Danger classes for the FFDI.
+ Source: Deparment of Land Resource Management of the Australian Nothern
+ Territory Government.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:Forest-Fire-Danger-classes"
+name "fig:Danger-classes-for-FFDI"
 
 \end_inset
 
-
+ 
 \end_layout
 
 \end_inset
@@ -1141,172 +596,21 @@ name "tab:Forest-Fire-Danger-classes"
 
 \end_layout
 
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Fire danger rating
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FFDI range
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Low
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0-5
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Moderate
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5-12
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-High
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12-24
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Very high
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-24-50
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Extreme
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-50-100
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Catastrophic
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-100+
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
 \end_inset
 
 
 \end_layout
 
-\end_inset
-
-
+\begin_layout Subsection
+Heatwaves
 \end_layout
 
 \begin_layout Section
 Climate modes of variability
 \end_layout
 
-\begin_layout Subsubsection
-El Niño Southern Oscillation 
+\begin_layout Subsection
+El Niño-Southern Oscillation
 \end_layout
 
 \begin_layout Standard
@@ -1500,7 +804,7 @@ W longitude.
  This is the ’Niño 3.4’ region.
  The index requires the calculation of 3-month running means and its climatology.
  The ONI is the difference between these two values.
- An ’El Niño’ condition exits if there is at least an anomaly of +0.5 
+ An 'El Niño' condition exits if there is at least an anomaly of +0.5 
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -1520,6 +824,81 @@ o
 \end_inset
 
 C indicates a ’La Niña’ phase.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:El-Nino-Regions."
+
+\end_inset
+
+ shows the 'El Niño' regions in the Tropical Pacific Ocean.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/El_nino_regions.png
+	scale 66
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+'El Niño' regions.
+ Source: National Oceanic and Atmospheric Administration (NOAA) 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:El-Nino-Regions."
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Indian Ocean Dipole
+\end_layout
+
+\begin_layout Standard
+The Indian Ocean Dipole (IOD) is another coupled ocean-atmosphere physical
+ process.
+ This process is characterized by cool sea surface temperatures in Sumatra
+ and warmer than average SST in the western side of the Indian Ocean basin—posit
+ive IOD—(see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Positive-phase-of-Indian-Ocean-Dipole"
+
+\end_inset
+
+).
+ This dipole structure explains 12% of the variance in sea suface temperature
+ in this region.
+ This is a process independent of the El Nino-Southern Oscillation, although
+ this is a matter of ongoing debate.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1532,8 +911,9 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename ../Chapter_5/Figures/El Nino regions/El_nino_regions._resized.png
-	rotateOrigin center
+	filename Figures/Indian_Ocean_Dipole.png
+	lyxscale 50
+	scale 40
 
 \end_inset
 
@@ -1544,20 +924,17 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-El Nino Regions.
+Positive phase of the Indian Ocean Dipole.
+ Source: Japan Agency for Marine-Earth Science and Technology (JAMSTEC)
+ .
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:El-Nino-Regions."
+name "fig:Positive-phase-of-Indian-Ocean-Dipole"
 
 \end_inset
 
- 
-\end_layout
 
-\end_inset
-
-Taken from https://www.ncdc.noaa.gov/teleconnections/enso/indicators/soi/ 
 \end_layout
 
 \end_inset
@@ -1565,20 +942,9 @@ Taken from https://www.ncdc.noaa.gov/teleconnections/enso/indicators/soi/
 
 \end_layout
 
-\begin_layout Subsubsection
-Indian Ocean Dipole
-\end_layout
+\end_inset
 
-\begin_layout Standard
-The Indian Ocean Dipole (IOD) is another coupled ocean-atmosphere physical
- process.
- This process is characterized by cool sea surface temperatures in Sumatra
- and warmer than average SST in the western side of the Indian Ocean basin.
- This dipole structure explains 12% of the variance in sea suface temperature
- in this region.
- This is a process independent of the El Nino-Southern Oscillation, although
- this is a matter of ongoing debate.
- 
+
 \end_layout
 
 \begin_layout Standard
@@ -1593,7 +959,7 @@ However, the mechanisms that drive both events are similar.
  On the upper troposphere the air mass dries and cools, and then sinks over
  Sumatra.
  The subsidence of these air masses produce drought conditions over Indonesia.
- The entire proces starts in May and peaks in October.
+ The entire process starts in May and peaks in October.
  
 \end_layout
 
@@ -1676,7 +1042,7 @@ S-Equator) Indian Ocean.
  It also proved to be independent of ENSO metrics.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Southern Annular Mode
 \end_layout
 
@@ -1704,12 +1070,64 @@ This phenomena is caused by the non-uniform heating of the Earth.
  .
  This contraction of the belt produces below-average precipitation in many
  regions of the Southern Hemisphre.
- This is a positive SAM event.
+ This is a positive SAM event (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Positive-phase-of-Southern-Annular-Mode"
+
+\end_inset
+
+).
  On the otherm hand, when the presure anomalies show the opposite pattern
  the circumpolar vortex is weakened and the circulation is shifted away
  from the South Pole.
  The effect of precipitation over the same regions is the opposite.
  This produces a negative SAM event.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Southern_Annular_Mode.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Positive phase of the Southern Annular Mode.
+ Source: Ricardo Villalva.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Positive-phase-of-Southern-Annular-Mode"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1738,8 +1156,8 @@ S.
  
 \end_layout
 
-\begin_layout Subsection
-Seasonal forescasting
+\begin_layout Section
+Seasonal weather forecasting
 \end_layout
 
 \begin_layout Standard
@@ -1914,6 +1332,1396 @@ key "Nicholls2007"
 
 acknowledged that ENSO and fire activity could not have a link in other
  regions of the country.
+\end_layout
+
+\begin_layout Section
+Characterization of study regions
+\end_layout
+
+\begin_layout Subsection
+Localization and geography
+\end_layout
+
+\begin_layout Subsubsection
+Victoria
+\end_layout
+
+\begin_layout Standard
+Victoria is localized in southeastern Australia ranging in latitude from
+ 34º2' to 39º8' S (see Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Localization-of-Victoria-1"
+
+\end_inset
+
+).
+ This state occupies 227,618 km
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, and is physically divided in four regions: Murray Basin Plains, Victorian
+ Highlands, Southern Lowlands, Southern Uplands 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sherbon1975"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Victoria.png
+	lyxscale 35
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Localization of the state of Victoria, Australia.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Localization-of-Victoria-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ecuador
+\end_layout
+
+\begin_layout Standard
+Ecuador is located in the north-west side of South-America (see Figure 1).
+ The country has a diverse geography.
+ It comprises a continental territory between the latitudes 01
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 28’ N and 05
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 02’ S and longitudes 75
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 11’ W and 81
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 04’ W 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "InstitutoGeograficoMilitarIGM2013a"
+
+\end_inset
+
+.
+ The Galapagos Islands are also part of the country.
+ These islands are approximately 1000 Km from the continent.
+ The national territory has a total area of 256,370 Km
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "InstitutoGeograficoMilitarIGM2013a"
+
+\end_inset
+
+.
+ The Andes mountains divide the continental Ecuador into three areas: the
+ Coast, Andean and Amazon regions.
+ Each of these regions has diverse geographical features, climate, and ecosystem
+s.
+ The highlands are the most wildfire-prone region because of its specific
+ natural characteristics.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../Chapter_6/Figures/Ecuador_location.png
+	lyxscale 3
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Location of Ecuador.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Location-of-Ecuador."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Andes mountains are the most important geographical feature of Ecuador—and
+ South-America— 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Insel2010"
+
+\end_inset
+
+.
+ This mountain range crosses Ecuador from North to South.
+ The Ecuadorian Andes comprises two flanks of mountains: the eastern and
+ western ’Cordilleras’.
+ Between these two flanks—that include active volcanoes—there are several
+ inter-Andean valleys.
+ Many of these Andean plateaus are over 3000 m above sea level.
+ The steep elevations have an important effect on local climate.
+ The lapse rate create the conditions for different Bio-climatic zones to
+ exit.
+ This enhances biodiversity.
+ Yet, the original vegetation of the Andean valleys has almost disappeared.
+ Most of the endemic vegetation was replaced by the Australian specie Eucalyptus
+ globulus around 1860 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2012"
+
+\end_inset
+
+.
+ Other introduced species are the Pinus radiata (from California) and the
+ Pinus patula (from Mexico).
+ This occurred for commercial reasons 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Anchaluisa2013"
+
+\end_inset
+
+ with great ecological impact.
+ Further, these species are prone to wildfires in the Andean dry season.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ecuador's mainland physiography.
+ Taken from: www.madrimasd.org 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ecuador's-mainland-physiography"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Climate and weather
+\end_layout
+
+\begin_layout Subsubsection
+Climate in Victoria
+\end_layout
+
+\begin_layout Standard
+Australia uses three methods to classify climate 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BoM"
+
+\end_inset
+
+.
+ These classification schemes are based on temperature, vegetation and seasonal
+ rainfall criteria respectively.
+ Since the investigation of bushfires links climate to fuel loads—dry vegetation
+—the classification based on the vegetation criteria is perhaps the most
+ appropiate to describe Victoria's climate in relation to Australia.
+ This classification originally proposed by Köppen in early years of the
+ 20
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ century describes Victoria as a temperate region (see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Climate-classification-of-Australia"
+
+\end_inset
+
+).
+ Victoria's climate is also influenced by its topography 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "BureauofMeteorology2008"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Climate_classification.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Climate classification of Australia based on a modified Köppen classification
+ system.
+ Classification derived from 0.025 x 0.025 degree resolution mean rainfall,
+ mean maximum temperature and mean minimum temperature gridded data.
+ All means are based on a standard 30-year climatology (1961 to 1990).
+ Source: Australian Bureau of Meteorology.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Climate-classification-of-Australia"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Great Dividing Range (GDR), has created three main climatic zones: northern,
+ southern and southeastern Victoria.
+ In northern Victoria, precipitation is influenced by northwesterly air
+ masses.
+ The north-west region of this climatic zone receives an annual average
+ of 250 to 300 mm of precipitation and endures intense heatwaves; whereas,
+ in the north-east the precense of mountains raises the precitation range
+ to 800-1000 mm in a year.
+ Precipitation in southern Victoria also increases with altitude; however,
+ westerly winds drive its formation.
+ In contrast, variations in temperature in this zone are driven by northerly
+ winds, which produce summers with average air temperature of 28 ºC and
+ maxima of 43 ºC.
+ In southeastern Victoria, synoptic systems in the Tasman Sea influence
+ its precipitation rate, especially in the eastern region that recieves
+ in average 1000 mm in a year.
+ The western region of southeastern Victoria is less influenced by the Tasman
+ Sea, and receives in average 600 mm of precipitation.
+\end_layout
+
+\begin_layout Subsubsection
+Fire weather in Victoria
+\end_layout
+
+\begin_layout Standard
+The meteorological variables of bushfire weather are governed by large-scale
+ synoptic patterns that have particular characteristics in different regions
+ of Australia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BureauofMeteorology2008"
+
+\end_inset
+
+.
+ However, the synoptic weather patterns associated with bushfires all have
+ hot-dry air advection processes in common, and often the passage of cold
+ fronts in initiated bushfire areas 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bradstock2012"
+
+\end_inset
+
+.
+ For example, bushfire weather in southeast Australia is characterized by
+ an atmospheric high-pressure centre (“high”) in the Tasman Sea and a strong
+ cold front arriving from the west 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BureauofMeteorology2008"
+
+\end_inset
+
+ (see Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Historic-Chart-Analysis-1"
+
+\end_inset
+
+ ).
+\end_layout
+
+\begin_layout Standard
+On the other hand, the passage of a cold front causes abrupt changes in
+ wind direction converting bushfires in extreme or even catastrophic events.
+ A strong 850-hPa temperature gradient (associated with cold front arrivals)
+ is highly correlated with extreme bushfire events in Victoria 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mills2005"
+
+\end_inset
+
+.
+ According to this study, “Ash Wednesday” was categorized as an unusually
+ extreme event corresponding to the 0.1 % of registered bushfires in 40 years
+ in this state.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Bushfire_weather_synoptic_pattern.png
+	lyxscale 25
+	scale 120
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Historic Chart Analysis at 11am EDT on "Ash Wednesday", Wed 16th February
+ 1983 showing areas with extreme fire weather.
+ Source: Bureau of Meteorology.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Historic-Chart-Analysis-1"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Climate in Ecuador
+\end_layout
+
+\begin_layout Standard
+The Tropical Andes climate has several drivers.
+ The Amazon forest, oceanic currents, and the topography are among the main
+ drivers 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Martinez2011"
+
+\end_inset
+
+.
+ The Amazon forest—through Evapo-transpiration—produces a great amount of
+ water vapor.
+ This water precipitates along the western Cordillera because of an orographic
+ precipitation process.
+ This precipitation is also produced in the eastern Cordillera.
+ Air masses advected from the Pacific Ocean produce this effect.
+ The influence of the Pacific Ocean in the climate variability is important.
+ The Pacific Decadal Oscillation (PDO) is the main driver of decadal climate
+ variability in this region 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Martinez2011"
+
+\end_inset
+
+.
+ On the other hand, the inter-annual variability depends on the El Niño
+ Southern Oscillation (ENSO) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vuille1999,Villacis2003,Martinez2011"
+
+\end_inset
+
+.
+ These influences create several climate regions within the Andes.
+\end_layout
+
+\begin_layout Standard
+Most of the Ecuadorian Andes—between 1500 to 3000 m—have a “Semi-humid mesotherm
+al” climate 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pourrut1995"
+
+\end_inset
+
+.
+ Mean temperatures in this region range from 8 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C to 20 oC.
+ Maximum temperatures span from 22 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C and 30 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C.
+ Minimum temperatures range from -4 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C to 5 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C.
+ Air masses from the Pacific Ocean and the Amazon region create three seasons
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pourrut1995"
+
+\end_inset
+
+.
+ Two wet seasons during the periods February-May and October-November.
+ A dry season spans from June to September.
+ Total annual precipitation ranges from 800 mm to 1500 mm along the Andes.
+ Relative humidity varies from 65% to 85%.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/climate_of_Ecuador.png
+	lyxscale 7
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Climate classification of Ecuador.
+ Adapted from 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pourrut1995"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Climate-classification-of-Ecuador"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Fire
+\end_layout
+
+\begin_layout Subsubsection
+Victoria 
+\end_layout
+
+\begin_layout Standard
+Several conditions make Victoria vulnerable to bushfires.
+ First of all, this state is the most densely populated and urbanised in
+ Australia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bryant2008"
+
+\end_inset
+
+.
+ Although it only covers 5% of its territory 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Luke1978"
+
+\end_inset
+
+, 24.7% of Australia's population lives here 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bryant2008"
+
+\end_inset
+
+.
+ Additionally, forest cover one-third of its territory 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Luke1978"
+
+\end_inset
+
+.
+ The fire-prone vegetation of the genus Eucalyptus—family Mytaceae— dominate
+ these forests 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2012"
+
+\end_inset
+
+.
+ This region also has an extended fire season.
+ Victoria's fire regime comprises the austral summer season December-February
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Luke1978,BoM2009"
+
+\end_inset
+
+ (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fire-seasons-in-Australia"
+
+\end_inset
+
+).
+ During these months bushfire activity is more intense.
+ Although, significant bushfires can also occur in November, March and April.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Fire_seasons.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fire seasons in Australia.
+ Source: Australian Bureau of Meteorology.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fire-seasons-in-Australia"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bushfires in Victoria have had a significant impact.
+ There is better documentation of bushfire impacts after the European settlement
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ For example, half of the economic loss in Australia occurred in this region
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Luke1978"
+
+\end_inset
+
+.
+ Most of these impacts correspond to major catastrophic events 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Blanchi2012"
+
+\end_inset
+
+.
+ Three of the most serious catastrophes were “Black Friday”, “Ash Wednesday”,
+ and “Black Saturday” 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ To better understand bushfires in Victoria it is convenient to examine
+ these major events.
+\end_layout
+
+\begin_layout Standard
+The “Black Friday” bushfires occurred on January 13
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 1939 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ In this event, 71 people died and fires burned 1.5 to 2 million hectares
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ This event motivated authorities to create a special commission—Royal Comission
+—to investigate its causes deeply 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ A prolonged drought, and a hot and dry summer created the conditions for
+ this event to occur 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ Additionally, the causes of the fires were anthropogenic 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ This commission fostered laws and institutions that aim to prevent and
+ control bushfires 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ Some of the institutions exist even today.
+ For example, the former Forests Commission, now Department of Environment,
+ Land, Water, and Planning.
+\end_layout
+
+\begin_layout Standard
+“Ash Wednesday” occurred on February 16
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 1983 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ This event generated over 100 fires across the state 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ The fires killed 47 people and burned 210,000 hectares 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ Approximately 82,500 hectares were public land including areas in the Dandenong
+ Ranges National Park 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ A 10-month drought preceded these fires 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ On the day of the fires, temperatures reached 40 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C, and relative humidity was below 15% 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ Hot and dry northerly winds created these conditions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ Additionally, a strong cold front coming increased the difficulty to suppress
+ the fires 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ This cold front changed the direction of the fire front and increased its
+ size 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ The causes of the fires were accidental, deliberate and some not identified
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The last catastrophic event was the worst in Australian history.
+ “Black Saturday” occurred on February 7th, 2009 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VBRC_2009_final_report"
+
+\end_inset
+
+.
+ These fires killed 173 people 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VBRC_2009_final_report"
+
+\end_inset
+
+and destroyed 430,000 hectares 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DEPIa"
+
+\end_inset
+
+.
+ A prolonged heatwave preceded the event 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VBRC_2009_final_report"
+
+\end_inset
+
+.
+ This heatwave produced three consecutive days with temperature above 43
+ 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C.
+ Melbourne—capital of Victoria— reached this temperature 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VBRC_2009_final_report"
+
+\end_inset
+
+.
+ Other areas in Victoria experienced record-breaking temperatures reaching
+ 46 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C on “Black Saturday” 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VBRC_2009_final_report"
+
+\end_inset
+
+.
+ These fires motivated the conformation of another commission—2009 Victorian
+ Bushfires Royal Comission—.
+ The commission clearly identified the characteristics of the fires.
+ The main features included: rapid spread, fires crowned in forested areas,
+ convection columns, extensive spotting, and a cold front that changed the
+ direction of the fires and their extension 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VBRC_2009_final_report"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fire-columns-during-Black-Saturday"
+
+\end_inset
+
+ illustrates the intensity of the fires.
+ The commission estimated the economic losses of these fires to reach $4
+ billion 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VBRC_2009_final_report"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Black_saturday.png
+	lyxscale 50
+	scale 36
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fire columns during 
+\begin_inset Quotes eld
+\end_inset
+
+Black Saturday
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Photo taken by Andrew Brownbill.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fire-columns-during-Black-Saturday"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Ecuador
+\end_layout
+
+\begin_layout Standard
+Wilfires mostly occur in three geographical regions of Ecuador.
+ The Andean region has large extensions of introduced Eucalyptus forests
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Anchaluisa2013"
+
+\end_inset
+
+.
+ Thus, the availability of fuels makes it the most wildfire-prone region.
+ The fire season in the Ecuadorian Andes spans from July to November 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Yet, the most critical months are July, August and September 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Estacio2012,SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ The coast and the Galapagos Islands experience wildfire episodes from January
+ to May 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Wildfires produce severe impacts in Ecuador.
+ Yet, information about these impacts is scarce and disperse.
+ Wildfires produced 21.570 Ha of area burnt in Ecuador in 2012 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013"
+
+\end_inset
+
+.
+ The Metropolitan District of Quito (MDQ) is particularly vulnerable to
+ wildfires.
+ The vulnerability is high because 15.4 percent of the national population
+ lives here.
+ Additionally, vegetation covers 60.46 percent of its territory 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Wildfires destroyed 2700 Ha of the MDQ vegetation in 2009 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Estacio2012"
+
+\end_inset
+
+.
+ In 2012, the area burnt by wildfires increased to 4.882,16 Ha 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ This wildfire season cost the MDQ more than 50 million dollars 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ In 2015, extreme bushfires occured again in Quito killing three firefighters
+ (see http://www.elcomercio.com/actualidad/quito-bombero-muerte-incendio-puembo.htm
+l).
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Bushfire-in-the-urban-rural-interface-of-Quito"
+
+\end_inset
+
+ depict the magnitude of these fires.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Incendios_forestales_quito.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bushfire in the urban-rural interface of Quito—capital of Ecuador— during
+ the 2015 season.
+ Source: http://www.panorama.com.ve 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Bushfire-in-the-urban-rural-interface-of-Quito"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Unfortunately, wildfires in Ecuador are anthropogenic in nature 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013"
+
+\end_inset
+
+.
+ In fact, the MDQ reported that humans cause 95 percent of wildfires in
+ the city 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Burning forests to convert them to agricultural use is the main cause of
+ wildfires in the country 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013,Rodas2015"
+
+\end_inset
+
+.
+ Forcing land use changes for urbanization purposes is another reason people
+ start wildfires 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Rural communities burn agricultural waste, which is a traditional practice
+ that fosters wildfire occurrences 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Estacio2012"
+
+\end_inset
+
+.
+ Rural people also burn regular waste because of the lack of waste management
+ services 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ Finally, wildfires occur because of the damaging acts of arsonists 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Summary
 \end_layout
 
 \begin_layout Standard
