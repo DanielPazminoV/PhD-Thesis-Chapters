@@ -111,15 +111,37 @@ Introduction
 Fire weather
 \end_layout
 
+\begin_layout Standard
+The primary focus of this investigation is fire weather.
+ Therefore, this section will introduce some important ideas to understand
+ this topic.
+ The fire weather background comprises three aspects.
+ First, it explains which meteorological variables contribute to fire conditions.
+ Additionally, it explains how they exert their influence and.
+ This section also describes how mathematical models represent the effect
+ of fire weather variables on bushfires.
+ It includes a description of the Australian Forest Fire Danger Index (FFDI)
+ to explain the quantification of fire weather.
+ Finally, the relationship between heatwaves and fire weather is also described.
+ 
+\end_layout
+
 \begin_layout Subsection
-Meterological variables
+Fire weather variables 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Fire-weather-variables"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
-Bushfire weather is analyzed through variables such as wind, precipitation,
+Fire weather is analyzed through variables such as wind, precipitation,
  air temperature, and relative humidity.
  The behaviour of this meteorological variables influences every aspect
- of bushfires, including their start, spread and intensity.
+ of bushfires, including their ignition, spread and intensity.
  Bushfires start if high temperatures, low levels of relative humidity and
  precipitation have dried vegetation to a flammable point.
  Winds also contribute in the ignition of bushfires by taking moisture content
@@ -164,21 +186,61 @@ key "Bradstock2012"
  
 \end_layout
 
+\begin_layout Standard
+The effect of fire weather variables on bushfires has been described in
+ several mathematical models.
+ These models represent the ignition, spread or intensity of bushfires.
+ Modelling efforts focus on one of these aspects or a combination of them.
+ For example, the Forest Fire Danger Index (FFDI) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "McArthur1966,McArthur1967"
+
+\end_inset
+
+ quantifies danger based on vegetation drying.
+ Therefore, this index targets ignition.
+ On the other hand, the effect of atmospheric instability in producing spotting
+ is the basis of the Haines Index 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Haines"
+
+\end_inset
+
+.
+ This index focuses on spread and intensity.
+ The Canadian Forest Fire Weather System 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VanWagner1974"
+
+\end_inset
+
+ models the three aspects.
+ In most cases, fire weather modelling efforts require a calibration process.
+ The calibrations account for local conditions such as the type of vegetation
+ and topography.
+ This investigation uses the FFDI to explore fire weather in the Southern
+ Hemisphere because of its calibration criteria.
+ 
+\end_layout
+
 \begin_layout Subsection
 Forest Fire Danger Index
 \end_layout
 
 \begin_layout Standard
-The Forest Fire Danger Index (FFDI) is used in Australia by fire authorities
- for forest fire management.
- The index was formulated as equations by 
+Australian fire authorities use the Forest Fire Danger Index (FFDI) for
+ risk management 
 \begin_inset CommandInset citation
-LatexCommand citet
-key "Noble1980"
+LatexCommand citep
+key "Luke1978"
 
 \end_inset
 
-, based on the work of Alan Grant McArthur
+.
+ The index was originally formulated by Alan Grant McArthur
 \begin_inset CommandInset citation
 LatexCommand citep
 key "McArthur1966,McArthur1967"
@@ -186,13 +248,34 @@ key "McArthur1966,McArthur1967"
 \end_inset
 
 .
- The index is represented as an equation:
+ Initially, operators used mechanical meters to calculate the index 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Luke1978"
+
+\end_inset
+
+.
+ A set of carboard wheels comprised these devices.
+ The meters facilitated the introduction—dialling—of weather data to calculated
+ the index.
+ The FFDI was later formulated as equations by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Noble1980"
+
+\end_inset
+
+.
+ The equation that represents the index is:
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $FFDI=2e^{(-0.45+0.987ln(DF)-0.0345RH+0.0338T+0.0234v)}$
+\begin_inset Formula 
+\begin{equation}
+FFDI=2e^{(-0.45+0.987ln(DF)-0.0345RH+0.0338T+0.0234v)}
+\end{equation}
+
 \end_inset
 
 
@@ -203,7 +286,16 @@ Where:
 \end_layout
 
 \begin_layout Standard
-T: Daily maximum temperature (oC).
+T: Air temperature (
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C).
 \end_layout
 
 \begin_layout Standard
@@ -218,20 +310,36 @@ RH: Relative humidity (%).
 DF: Drought factor.
 \end_layout
 
+\begin_layout Standard
+The design of the index requires that its computation takes maximum temperature
+ values.
+ This variable usually peaks in the afternoon 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lucas2010"
+
+\end_inset
+
+.
+ The index also requieres the computation of a drought factor.
+ This factor represents the effect of precipitation on fueld loads drying.
+ 
+\end_layout
+
 \begin_layout Subsubsection
 Drought factor
 \end_layout
 
 \begin_layout Standard
-The Drought Factor (DF) equation and calculation procedures were developed
- by 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Griffiths1999"
 
 \end_inset
 
-, which corresponds to an improved formula originally proposed by 
+ developed the Drought Factor (DF) equation and calculation procedures.
+ This contribution corresponds to an improved formula originally proposed
+ by 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Noble1980"
@@ -239,28 +347,28 @@ key "Noble1980"
 \end_inset
 
 .
- The DF ranges form 1 to 10 and the value depends on the number of days
- of the last significant rain and soil dryness.
- According to the author, the procedure to identify the last significant
- rain consists in analyzing 20 consecutive days and assigning to the day
- of the highest rain the sum of the rain of the whole range.
- The soil dryness represents the amount of rain necessary to saturate the
- upper 200 mm of soil layer, and is determined as an index usually calculated
- by the methodologies proposed by 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "KeetchJJ"
-
+ The DF ranges from 1 to 10.
+ These values depend on the number of days of the last 
+\begin_inset Quotes eld
 \end_inset
 
- or 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Mount1972"
-
+significant
+\begin_inset Quotes erd
 \end_inset
 
-.
+ rain day.
+ The identification of this day requires the analysis of the last 20 consecutive
+ days.
+ The sum of the whole range is assigned to the day of the highest rain.
+ This value accounts for the 
+\begin_inset Quotes eld
+\end_inset
+
+long-term
+\begin_inset Quotes erd
+\end_inset
+
+ effect of precipitation.
 \end_layout
 
 \begin_layout Standard
@@ -275,9 +383,11 @@ key "Griffiths1999"
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $D=10.5\left(1-\exp^{-\left(I+30/40\right)}\left(\frac{\left(41y^{2}+y\right)}{\left(40y^{2}+y+1\right)}\right)\right)$
+\begin_inset Formula 
+\begin{equation}
+D=10.5\left(1-\exp^{-\left(I+30/40\right)}\left(\frac{\left(41y^{2}+y\right)}{\left(40y^{2}+y+1\right)}\right)\right)
+\end{equation}
+
 \end_inset
 
 
@@ -511,34 +621,53 @@ P: Rainfall in mm during an event.
  
 \end_layout
 
-\begin_layout Subsubsection
-Keet-Byram Drought Index (KBDI)
-\end_layout
-
 \begin_layout Standard
-The index was developed by 
+The DF also requires the computation of a soil dryness index.
+ Soil dryness represents the amount of rain necessary to saturate the upper
+ 200 mm of the soil layer.
+ This step represents the short-term effect of precipitation on fuels.
+ Typical soil dryness indices to compute the DF are those proposed by 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "KeetchJJ"
 
 \end_inset
 
- for the U.S Department of Agriculture-Forest Service, which originally used
- an 8 inches (approximately 200 mm) layer of soil for evaluation, yielding
- an index that ranges from 0 to 800.
- A zero value represents saturation and eight hundred is the highest possible
- value of dryness for a soil.
+ or 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mount1972"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Keet-Byram Drought Index (KBDI)
 \end_layout
 
 \begin_layout Standard
-The fundamental variables for the calculation of this index are rainfall
- and maximum temperature.
- The index can only be calculated for areas where the mean annual rainfall
- is known; additionally, the information of the 24 hours past rainfall is
- a fundamental requirement for the computation.
- Temperature is a key factor of evapotranspiration that is incorporated
- in the physical theory of soil moisture depletion used for the elaboration
- of the index.
+\begin_inset CommandInset citation
+LatexCommand citet
+key "KeetchJJ"
+
+\end_inset
+
+ developed the index for the U.S Department of Agriculture-Forest Service.
+ The index used an eight inches layer of soil for evaluation, yielding a
+ scale that ranges from 0 to 800.
+ A zero value represents saturation.
+ 
+\end_layout
+
+\begin_layout Standard
+Daily rainfall and maximum temperature are fundamental variables for the
+ calculation of this index.
+ Additionally, its calculation is only possible for areas where the mean
+ annual rainfall is known.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -546,14 +675,18 @@ Danger classes
 \end_layout
 
 \begin_layout Standard
-The FFDI has six danger classes presented in figure 
+The FFDI has six danger classes.
+ Originally, the index was calibrated for a maximum value of 100.
+ Over the last years, weather conditions in catastrophic bushfire events
+ have yileded values above this limit.
+ Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Danger-classes-for-FFDI"
 
 \end_inset
 
-:
+ presents the danger classes used in fire management operations:
 \end_layout
 
 \begin_layout Standard
@@ -605,8 +738,164 @@ name "fig:Danger-classes-for-FFDI"
 Heatwaves
 \end_layout
 
+\begin_layout Standard
+There is no universal definition for heatwaves 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nairn2013,Perkins2012"
+
+\end_inset
+
+.
+ Most definitions characterize them as consecutive days with abnormally
+ high temperatures 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nairn2013"
+
+\end_inset
+
+.
+ More technical definitions adopt thresholds or percentiles 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Perkins2012"
+
+\end_inset
+
+.
+ For example, the use an arbitrary number consecutive days that a fixed
+ temperature value—also arbitrary—is exceeded 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nairn2013,Perkins2012"
+
+\end_inset
+
+.
+ However, is difficult to make comparisons among the proposed definitions
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Perkins2012"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+For example, in Adelaide, the declaration of a heatwave requires five consecutiv
+e days with maximum temperature exceeding 35 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nairn2013"
+
+\end_inset
+
+.
+ In the same city, a heatwave is also declared after three consecutive days
+ above 40 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C.
+ Although, maximum temperature is not the only temperature variable used.
+ Setting thresholds that include minimum temperature is also common 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Perkins2012,Pezza2011"
+
+\end_inset
+
+.
+ This variable accounts for the dissipation of heat at night after a hot
+ day.
+ Temperature is an important variable of heatwaves as well as of fire weather.
+ For this reason, heatwaves are usually linked with increased bushfire risk
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nairn2013,Perkins2012,Pezza2011"
+
+\end_inset
+
+.
+ Therefore, is important to understand heatwaves behaviour and its relationship
+ with fire weather.
+\end_layout
+
+\begin_layout Standard
+In Australia, heatwaves occur because of three processes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "McBride2009"
+
+\end_inset
+
+.
+ First, the advection of hot and dry air.
+ An anticyclone advects air from the north desserts to the forested areas
+ in southern Australia.
+ Secondly, the subsidence of air that brings atmospheric stability.
+ This process produces clear skies that increase solar radiation.
+ Finally, the increased insolation generates surface heat fluxes.
+ These fluxes heat the air in the mixing layer.
+ Fire weather comprises these processes as well.
+ Although, its analysis of involves more variables and interactions (subsections
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Meterological-variables"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Fire-weather-in-Victoria"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Victoria-fire"
+
+\end_inset
+
+).
+ 
+\end_layout
+
 \begin_layout Section
 Climate modes of variability
+\end_layout
+
+\begin_layout Standard
+Large-scale meteorological and oceanographic phenomena drive natural climate
+ variability.
+ These drivers are known as climate modes of variability.
+ For example, El Niño-Southern Oscillation (ENSO), Indian Ocean Dipole (IOD),
+ and Southern Annular Mode (SAM) are important climate modes of variability.
+ This section describes them since they can exert significant influence
+ on fire weather.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -614,11 +903,12 @@ El Niño-Southern Oscillation
 \end_layout
 
 \begin_layout Standard
-El Niño Southern Oscillation is a physical process in which the Tropical
- Pacifc Ocean interacts with the atmosphere.
- This is a large-scale process that drives climate on a global scale.
+El Niño-Southern Oscillation (ENSO) is a is a large-scale process that drives
+ climate on a global scale.
+ During ENSO events, the Tropical Pacifc Ocean interacts with the atmosphere
+ in a coupled system.
  The most common manifestation of this process is the warming and cooling
- of sea surface temperature in the Tropical Pacific Ocean.
+ of sea surface temperature.
  Warming conditions represent 
 \begin_inset Quotes eld
 \end_inset
@@ -628,10 +918,23 @@ El Niño
 \end_inset
 
  conditions.
- This conditions usually bring above-average precipitation in th coasts
- of Ecuador and Peru, while bringing hot and dry conditions in the other
- side of the Pacific Ocean (e.g.
- Indonesia, Australia).
+ This state usually bring above-average precipitation in th coasts of Ecuador
+ and Peru 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Aceituno1988"
+
+\end_inset
+
+, while bringing hot and dry conditions in the other side of the Pacific
+ Ocean in Indonesia and Australia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams1999,Wooster2012"
+
+\end_inset
+
+.
  Cooling conditions represent 
 \begin_inset Quotes eld
 \end_inset
@@ -905,7 +1208,7 @@ reference "fig:Positive-phase-of-Indian-Ocean-Dipole"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1161,6 +1464,21 @@ Seasonal weather forecasting
 \end_layout
 
 \begin_layout Standard
+Climate modes of variability have a strong influence on local weather.
+ This influence can be exerted on seasonal time scales.
+ Therefore, an active area of research is seasonal weather forecasting using
+ climate indices.
+ However, seasonal fire weather forecasting has received less research attention.
+ This section describes the approaches used in seasonal forecasting.
+ It also briefly describes fire weather forecasting limitations and feasibility
+ in Australia.
+\end_layout
+
+\begin_layout Subsection
+Statistical and dynamical models
+\end_layout
+
+\begin_layout Standard
 Seasonal forecasting uses statistical-empirical methods as well as dynamical
  models 
 \begin_inset CommandInset citation
@@ -1256,6 +1574,10 @@ key "Doblas-Reyes2013"
  
 \end_layout
 
+\begin_layout Subsection
+Fire weather forecasting 
+\end_layout
+
 \begin_layout Standard
 Variables that are usually forecasted are temperature and precipitation.
  The forecast for them is better for their mean values than the extremes
@@ -1338,8 +1660,21 @@ acknowledged that ENSO and fire activity could not have a link in other
 Characterization of study regions
 \end_layout
 
+\begin_layout Standard
+This investigation explores fire weather in the Southern Hemisphere.
+ Two study regions were selected: Victoria, Australia and Ecuador.
+ This section characterizes these regions's geography, climate and fire
+ history.
+\end_layout
+
 \begin_layout Subsection
-Localization and geography
+Geography
+\end_layout
+
+\begin_layout Standard
+The geography of Victoria and Ecuador are described separately.
+ The characterization presents location, area, and landscape features.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -1375,6 +1710,7 @@ key "Sherbon1975"
 \end_inset
 
 .
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1583,43 +1919,16 @@ key "Anchaluisa2013"
  Further, these species are prone to wildfires in the Andean dry season.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Ecuador's mainland physiography.
- Taken from: www.madrimasd.org 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Ecuador's-mainland-physiography"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Climate and weather
+\end_layout
+
+\begin_layout Standard
+​This section provides information about general climate characteristics
+ in Victoria and Ecuador.
+ These characteristics include climate classifications and climatologies.
+ For Victoria, it also includes the synoptic features of fire weather.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -1740,6 +2049,13 @@ The Great Dividing Range (GDR), has created three main climatic zones: northern,
 
 \begin_layout Subsubsection
 Fire weather in Victoria
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Fire-weather-in-Victoria"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2020,8 +2336,23 @@ name "fig:Climate-classification-of-Ecuador"
 Fire
 \end_layout
 
+\begin_layout Standard
+There is more fire history documentation in Victoria than in Ecuador.
+ Therefore, the characterization in Victoria uses concrete examples of catastrop
+hic events.
+ More general information is presented for Ecuador, with an emphasis on
+ more recent events.
+\end_layout
+
 \begin_layout Subsubsection
-Victoria 
+Victoria
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Victoria-fire"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
