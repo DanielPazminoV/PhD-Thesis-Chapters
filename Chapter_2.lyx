@@ -861,18 +861,11 @@ key "McBride2009"
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "sub:Meterological-variables"
-
-\end_inset
-
-, 
-\begin_inset CommandInset ref
-LatexCommand ref
 reference "sub:Fire-weather-in-Victoria"
 
 \end_inset
 
-, 
+ and 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Victoria-fire"
@@ -935,7 +928,7 @@ key "Williams1999,Wooster2012"
 \end_inset
 
 .
- Cooling conditions represent 
+ On the other hand, cool anomalies in the same region represent 
 \begin_inset Quotes eld
 \end_inset
 
@@ -944,14 +937,16 @@ La Niña
 \end_inset
 
  conditions.
- The phenomena is referred as oscillation since these two conditions alternate
- in periods of approximately four years.
- These changing conditions in the sea surface temperature reverse the Walker
+ The ENSO phenomena is referred as oscillation since these two phases—warm
+ and cool—alternate in periods of approximately four years.
+ 
+\end_layout
+
+\begin_layout Standard
+These changing conditions in the sea surface temperature reverse the Walker
  circulation.
  This change in the circulation pattern drives the atmospheric response,
  which can have an effect in places distant where it started.
- For example, the change in sea surface temeprature anomalies in the east
- Tropical Pacific can affectclimate in Indonesia and Australia.
  This type of response is referred as 
 \begin_inset Quotes eld
 \end_inset
@@ -961,6 +956,8 @@ teleconnection
 \end_inset
 
 .
+ The change in the atmospheric circulation pattern has a strong linkage
+ with the ocean.
  
 \end_layout
 
@@ -971,7 +968,7 @@ The normal state of the Tropical Pacific Ocean is relatively cool waters
  near to the surface of the ocean.
  The hot and moist air mass originated in the west travel with a westely
  direction in the upper troposphere.
- Along the way they lose heat and moisturte.
+ Along the way it loses heat and moisture.
  Cool and dry air sinks in the east side of the ocean reinforcing the circulatio
 n pattern.
  This circulation parttern is known as 
@@ -990,7 +987,11 @@ key "Bjerknes1969"
 \end_inset
 
  in honour to Sir Gilbert Thomas Walker.
- A weekening of the easterlies reduces the upwelling in the eastern part
+ 
+\end_layout
+
+\begin_layout Standard
+A weekening of the easterlies reduces the upwelling in the eastern part
  of the Tropical Pacific Ocean.
  This produces an increase in the sea surface temperature, which transfers
  heat to the atmosphere weakinning the Walker circulation and in extreme
@@ -1005,8 +1006,12 @@ El Niño
 \end_inset
 
  event.
- At the same time, the changes in the circulation of air masses produced
- by the heat flux (changes in sea surface temperatures) produce variations
+ 
+\end_layout
+
+\begin_layout Standard
+At the same time, the changes in the circulation of air masses produced
+ by the heat flux—changes in sea surface temperatures—produce variations
  in surface pressures along the Tropcial Pacific.
  This is the main manifestation of a larger phenomena called the 
 \begin_inset Quotes eld
@@ -1033,8 +1038,15 @@ El Niño-Southern Oscillation
 \begin_layout Standard
 A common ENSO metric is the Southern Oscillation Index (SOI).
  The SOI represents the difference in normalized surface pressure between
- Taihiti and Darwin, Australia.
- We adopted the SOI’s calculation method proposed by the National Oceanic
+ Taihiti and Darwin, Australia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "NOAA"
+
+\end_inset
+
+.
+ I adopted the SOI’s calculation method proposed by the National Oceanic
  and Atmospheric Administration 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1050,11 +1062,26 @@ key "NOAA"
  The SOI has an open ended scale with positive and negative values.
  A negative SOI value represents above-average warm SST conditions in the
  eastern tropical Pacific Ocean.
- This represents an ’El Niño’ phase of the phenomenon.
+ This represents an 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ phase of the phenomenon.
  El Niño brings wet conditions to the coasts of southern Ecuador and northern
  Peru.
- The opposite pattern occurs with a positive SOI value, representing a ’La
- Niña’ phase.
+ The opposite pattern occurs with a positive SOI value, representing a 
+\begin_inset Quotes eld
+\end_inset
+
+La Niña
+\begin_inset Quotes erd
+\end_inset
+
+ phase.
 \end_layout
 
 \begin_layout Standard
@@ -1104,10 +1131,26 @@ o
 \end_inset
 
 W longitude.
- This is the ’Niño 3.4’ region.
+ This is the 
+\begin_inset Quotes eld
+\end_inset
+
+Niño 3.4
+\begin_inset Quotes erd
+\end_inset
+
+ region.
  The index requires the calculation of 3-month running means and its climatology.
  The ONI is the difference between these two values.
- An 'El Niño' condition exits if there is at least an anomaly of +0.5 
+ An 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ condition exits if there is at least an anomaly of +0.5 
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -1126,7 +1169,15 @@ o
 
 \end_inset
 
-C indicates a ’La Niña’ phase.
+C indicates a 
+\begin_inset Quotes eld
+\end_inset
+
+La Niña
+\begin_inset Quotes erd
+\end_inset
+
+ phase.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1134,7 +1185,15 @@ reference "fig:El-Nino-Regions."
 
 \end_inset
 
- shows the 'El Niño' regions in the Tropical Pacific Ocean.
+ shows the 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ regions in the Tropical Pacific Ocean.
 \end_layout
 
 \begin_layout Standard
@@ -1159,7 +1218,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-'El Niño' regions.
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ regions.
  Source: National Oceanic and Atmospheric Administration (NOAA) 
 \begin_inset CommandInset label
 LatexCommand label
@@ -1186,10 +1252,17 @@ Indian Ocean Dipole
 
 \begin_layout Standard
 The Indian Ocean Dipole (IOD) is another coupled ocean-atmosphere physical
- process.
- This process is characterized by cool sea surface temperatures in Sumatra
- and warmer than average SST in the western side of the Indian Ocean basin—posit
-ive IOD—(see Figure 
+ process 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Saji1999"
+
+\end_inset
+
+.
+ The IOD is characterized by cool sea surface temperatures in Sumatra and
+ warmer than average SST in the western side of the Indian Ocean basin—positive
+ IOD—(see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Positive-phase-of-Indian-Ocean-Dipole"
@@ -1198,9 +1271,23 @@ reference "fig:Positive-phase-of-Indian-Ocean-Dipole"
 
 ).
  This dipole structure explains 12% of the variance in sea suface temperature
- in this region.
- This is a process independent of the El Nino-Southern Oscillation, although
- this is a matter of ongoing debate.
+ in this region 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Saji1999"
+
+\end_inset
+
+.
+ This is a process independent of ENSO, although this is a matter of ongoing
+ debate 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dommenget2002"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -1251,18 +1338,25 @@ name "fig:Positive-phase-of-Indian-Ocean-Dipole"
 \end_layout
 
 \begin_layout Standard
-However, the mechanisms that drive both events are similar.
+However, the mechanisms that drive IOD and ENSO events are similar.
  The IOD process starts with the cooling of SST in Sumatra.
  A wekenning—or even reversal—of the westerly winds close to sea surface
  enhances the SST warming in the west side of the Indian Ocean basin.
  The warm SST produce convection, which drives precipitation over eastern
  Africa.
- The hot and moist air produce by the convection process travel on a westerly
+ The hot and moist air produced by the convection process travel on a westerly
  direction.
  On the upper troposphere the air mass dries and cools, and then sinks over
  Sumatra.
  The subsidence of these air masses produce drought conditions over Indonesia.
- The entire process starts in May and peaks in October.
+ The entire process starts in May and peaks in October 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Saji1999"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -1275,7 +1369,7 @@ Dipole Mode Index
 \begin_inset Quotes erd
 \end_inset
 
- (DMI) .
+ (DMI).
  The DMI is the difference of averaged SST anomalies in the west (50 
 \begin_inset script superscript
 
@@ -1339,7 +1433,14 @@ o
 
 \end_inset
 
-S-Equator) Indian Ocean.
+S-Equator) Indian Ocean 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Saji1999"
+
+\end_inset
+
+.
  This simple index demonstrated to be useful in representing the variance
  of SST in this region.
  It also proved to be independent of ENSO metrics.
@@ -1351,18 +1452,31 @@ Southern Annular Mode
 
 \begin_layout Standard
 The Southern Annular Mode (SAM) is the main source of interannual climate
- variability in the Southern Hemisphere.
- This refers to the zonally symetric—annular—structure of circulation around
- Antartica.
+ variability in the Southern Hemisphere 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ThompsonandSolomon2002"
+
+\end_inset
+
+.
+ This refers to the zonally symetric circulation around Antartica.
  The SAM produces an alternating pattern of strong and weak westerly winds
  in this region.
  This winds are cold and wet and surround Antartica as a belt.
- The SAM drives the expansion and contraction of this belt.
+ The SAM drives the expansion and contraction of the circulation.
  
 \end_layout
 
 \begin_layout Standard
-This phenomena is caused by the non-uniform heating of the Earth.
+This phenomena is caused by the non-uniform heating of the Earth 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "KingandTurner2007"
+
+\end_inset
+
+.
  This heating regulates heat and mass transport that creates zones of high
  and low pressure in the planet.
  The intensity of the pressure gradient between midlatitudes and latitudes
@@ -1370,10 +1484,9 @@ This phenomena is caused by the non-uniform heating of the Earth.
  Anomalously high pressures in midlatitudes and low pressures close to the
  poles strenghten the circumpolar vortex.
  The strengthenning process shifts the circulation close to the pole.
- .
- This contraction of the belt produces below-average precipitation in many
- regions of the Southern Hemisphre.
- This is a positive SAM event (see Figure 
+ This contraction of the circulation belt produces below-average precipitation
+ in many regions of the Southern Hemisphere.
+ This process refers to a positive SAM event (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Positive-phase-of-Southern-Annular-Mode"
@@ -1381,7 +1494,7 @@ reference "fig:Positive-phase-of-Southern-Annular-Mode"
 \end_inset
 
 ).
- On the otherm hand, when the presure anomalies show the opposite pattern
+ On the other hand, when the pressure anomalies show the opposite pattern
  the circumpolar vortex is weakened and the circulation is shifted away
  from the South Pole.
  The effect of precipitation over the same regions is the opposite.
@@ -1412,7 +1525,14 @@ status open
 
 \begin_layout Plain Layout
 Positive phase of the Southern Annular Mode.
- Source: Ricardo Villalva.
+ Source: 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Jones2012"
+
+\end_inset
+
+.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -1435,8 +1555,15 @@ name "fig:Positive-phase-of-Southern-Annular-Mode"
 
 \begin_layout Standard
 There are many indices to measure the intensity of this mode of variability.
- Gong and Wing (1999) defined SAM as the difference of normalized monthly
- presure between 40 
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Gong1999"
+
+\end_inset
+
+ defined SAM as the difference of normalized monthly pressure between 40
+ 
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -1455,7 +1582,15 @@ o
 \end_inset
 
 S.
- Another commnly used index is the Antartic Annular Oscillation Index (AAO).
+ Another commnly used index is the Antartic Annular Oscillation Index (AAO)
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "NOAA_2016_AAO"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -1466,16 +1601,22 @@ Seasonal weather forecasting
 \begin_layout Standard
 Climate modes of variability have a strong influence on local weather.
  This influence can be exerted on seasonal time scales.
- Therefore, an active area of research is seasonal weather forecasting using
- climate indices.
- However, seasonal fire weather forecasting has received less research attention.
- This section describes the approaches used in seasonal forecasting.
- It also briefly describes fire weather forecasting limitations and feasibility
- in Australia.
+ Investigating seasonal fire weather forecasting using climate indices is
+ an active area of research 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kitzberger2002,Nicholls2007,Harris2013"
+
+\end_inset
+
+.
+ This section describes the approaches used in seasonal weather forecasting.
+ It also briefly describes seasonal fire weather forecasting limitations
+ and feasibility in Australia.
 \end_layout
 
 \begin_layout Subsection
-Statistical and dynamical models
+Statistical and dynamical forecasting
 \end_layout
 
 \begin_layout Standard
@@ -1515,12 +1656,13 @@ key "Troccoli2005"
 \end_inset
 
 .
- This occurs when several predictors are variables in the forecast and they
+ This occurs when there are several predictors in the forecast and they
  are correlated.
 \end_layout
 
 \begin_layout Standard
-Dynamical forecasts rely on the physical modelation of the climate system.
+On the other hand, dynamical forecasts rely on the physical modelation of
+ the climate system.
  A simple model describes the interactions of the atmosphere only.
  In complex models, all the components of the system and their interactions
  take part.
@@ -1546,6 +1688,7 @@ key "Doblas-Reyes2013"
 
 .
  Additionally, ensemble dynamical models perform better than a single model
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Pepler2015"
@@ -1554,7 +1697,7 @@ key "Pepler2015"
 
 .
  Yet, sophisticated statistical methods can have an accuracy comparable
- to the dynamical counterparts
+ to the dynamical counterparts 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Doblas-Reyes2013"
@@ -1579,8 +1722,9 @@ Fire weather forecasting
 \end_layout
 
 \begin_layout Standard
-Variables that are usually forecasted are temperature and precipitation.
- The forecast for them is better for their mean values than the extremes
+Seasonal weather forecasting usually predicts variables such as temperature
+ and precipitation.
+ Their forecast is better mean values than the extremes
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Doblas-Reyes2013,Pepler2015"
@@ -1598,10 +1742,16 @@ key "Roads2005"
 \end_inset
 
 .
+ Therefore, the study of fire weather prediction has also explored other
+ techniques.
+ For example, the investigation of seasonal prediction associated with large-sca
+le events like ENSO.
+ 
 \end_layout
 
 \begin_layout Standard
-In Australia, there is a relationship between fire activity and ENSO.
+In Australia, there are regions that exhibit a relationship between fire
+ activity and ENSO.
  Tasmania exhibits more area burnt with decreased rainfall in the coincident
  summer season
 \begin_inset CommandInset citation
@@ -1663,6 +1813,11 @@ Characterization of study regions
 \begin_layout Standard
 This investigation explores fire weather in the Southern Hemisphere.
  Two study regions were selected: Victoria, Australia and Ecuador.
+ These regions were selected because they represent different conditions
+ where fires in this hemispehre can occur.
+ For example, fires in mid-latidues and the tropics respectively.
+ However, they are also linked since both share the same bushfire-prone
+ vegetation: the Eucalyptus.
  This section characterizes these regions's geography, climate and fire
  history.
 \end_layout
@@ -1672,8 +1827,10 @@ Geography
 \end_layout
 
 \begin_layout Standard
-The geography of Victoria and Ecuador are described separately.
- The characterization presents location, area, and landscape features.
+Victoria and Ecuador present very different landscapes.
+ The most remarkable difference is the elevation of the mountains that divide
+ their territory.
+ This characterization presents data on location, area, and landscape features.
  
 \end_layout
 
@@ -1683,7 +1840,25 @@ Victoria
 
 \begin_layout Standard
 Victoria is localized in southeastern Australia ranging in latitude from
- 34º2' to 39º8' S (see Fig.
+ 34
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 2’ S to 39
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 8’ S and between longitudes (see Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1828,8 +2003,8 @@ key "InstitutoGeograficoMilitarIGM2013a"
  Coast, Andean and Amazon regions.
  Each of these regions has diverse geographical features, climate, and ecosystem
 s.
- The highlands are the most wildfire-prone region because of its specific
- natural characteristics.
+ The highlands are the most wildfire-prone region because of its climate
+ and vegetation.
 \end_layout
 
 \begin_layout Standard
@@ -1877,8 +2052,8 @@ name "fig:Location-of-Ecuador."
 \end_layout
 
 \begin_layout Standard
-The Andes mountains are the most important geographical feature of Ecuador—and
- South-America— 
+The Andes mountains are the most important geographical feature of Ecuador
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Insel2010"
@@ -1888,15 +2063,38 @@ key "Insel2010"
 .
  This mountain range crosses Ecuador from North to South.
  The Ecuadorian Andes comprises two flanks of mountains: the eastern and
- western ’Cordilleras’.
+ western 
+\begin_inset Quotes eld
+\end_inset
+
+Cordilleras
+\begin_inset Quotes erd
+\end_inset
+
+.
  Between these two flanks—that include active volcanoes—there are several
  inter-Andean valleys.
  Many of these Andean plateaus are over 3000 m above sea level.
  The steep elevations have an important effect on local climate.
- The lapse rate create the conditions for different Bio-climatic zones to
- exit.
+ The lapse rate create the conditions for different bio-climatic zones to
+ exit 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pourrut1995"
+
+\end_inset
+
+.
  This enhances biodiversity.
- Yet, the original vegetation of the Andean valleys has almost disappeared.
+ Yet, the original vegetation of the Andean valleys has almost disappeared
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Anchaluisa2013"
+
+\end_inset
+
+.
  Most of the endemic vegetation was replaced by the Australian specie Eucalyptus
  globulus around 1860 
 \begin_inset CommandInset citation
@@ -1924,15 +2122,24 @@ Climate and weather
 \end_layout
 
 \begin_layout Standard
-​This section provides information about general climate characteristics
- in Victoria and Ecuador.
- These characteristics include climate classifications and climatologies.
+​This section provides general information about climate and weather in
+ the two regions.
+ This characterization includes the description of their main climate drivers,
+ regionalizations and climatologies.
  For Victoria, it also includes the synoptic features of fire weather.
+ This is important because these regions have especific climate characteristics
+ that influence fire weather.
+ Although large-scale phenomena like ENSO might link fire weather behaviour
+ in both regions.
  
 \end_layout
 
 \begin_layout Subsubsection
 Climate in Victoria
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Standard
@@ -1946,9 +2153,9 @@ key "BoM"
 .
  These classification schemes are based on temperature, vegetation and seasonal
  rainfall criteria respectively.
- Since the investigation of bushfires links climate to fuel loads—dry vegetation
-—the classification based on the vegetation criteria is perhaps the most
- appropiate to describe Victoria's climate in relation to Australia.
+ Since bushfires are linked to the effect of climate on fuel loads, the
+ classification based on the vegetation criteria is perhaps the most appropiate
+ to describe Victoria's climate.
  This classification originally proposed by Köppen in early years of the
  20
 \begin_inset script superscript
@@ -1967,6 +2174,8 @@ reference "fig:Climate-classification-of-Australia"
 \end_inset
 
 ).
+ Overall, in a temperate climate summers are hot and dry; while winters
+ are cold and wet.
  Victoria's climate is also influenced by its topography 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2028,21 +2237,45 @@ name "fig:Climate-classification-of-Australia"
 
 \begin_layout Standard
 The Great Dividing Range (GDR), has created three main climatic zones: northern,
- southern and southeastern Victoria.
+ southern and southeastern Victoria 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Luke1978"
+
+\end_inset
+
+.
  In northern Victoria, precipitation is influenced by northwesterly air
  masses.
  The north-west region of this climatic zone receives an annual average
  of 250 to 300 mm of precipitation and endures intense heatwaves; whereas,
- in the north-east the precense of mountains raises the precitation range
+ in the north-east the precense of mountains raises the precipitation range
  to 800-1000 mm in a year.
  Precipitation in southern Victoria also increases with altitude; however,
  westerly winds drive its formation.
  In contrast, variations in temperature in this zone are driven by northerly
- winds, which produce summers with average air temperature of 28 ºC and
- maxima of 43 ºC.
+ winds, which produce summers with average air temperature of 28 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C and maxima of 43 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C.
  In southeastern Victoria, synoptic systems in the Tasman Sea influence
  its precipitation rate, especially in the eastern region that recieves
- in average 1000 mm in a year.
+ on average 1000 mm a year.
  The western region of southeastern Victoria is less influenced by the Tasman
  Sea, and receives in average 600 mm of precipitation.
 \end_layout
@@ -2110,9 +2343,18 @@ key "Mills2005"
 \end_inset
 
 .
- According to this study, “Ash Wednesday” was categorized as an unusually
- extreme event corresponding to the 0.1 % of registered bushfires in 40 years
- in this state.
+ According to this study, a catastrophic bushfire event like “Ash Wednesday”
+ (February 16
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ 1983) was categorized as an unusually extreme event corresponding to the
+ 0.1 % of registered bushfires in 40 years in this state.
 \end_layout
 
 \begin_layout Quote
@@ -2138,8 +2380,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Historic Chart Analysis at 11am EDT on "Ash Wednesday", Wed 16th February
- 1983 showing areas with extreme fire weather.
+Mean sea level pressure at 11 am Eastern Daylight Time on "Ash Wednesday"
+ (February 16
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 1983) showing areas with extreme fire weather.
  Source: Bureau of Meteorology.
 \begin_inset CommandInset label
 LatexCommand label
@@ -2165,9 +2416,10 @@ Climate in Ecuador
 \end_layout
 
 \begin_layout Standard
-The Tropical Andes climate has several drivers.
+Since most bushfires in Ecuador occur in the Andean region (citation), the
+ climate characterization focuses on this region.
  The Amazon forest, oceanic currents, and the topography are among the main
- drivers 
+ climate drivers in the Tropical Andes 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Martinez2011"
@@ -2177,22 +2429,13 @@ key "Martinez2011"
 .
  The Amazon forest—through Evapo-transpiration—produces a great amount of
  water vapor.
- This water precipitates along the western Cordillera because of an orographic
- precipitation process.
- This precipitation is also produced in the eastern Cordillera.
- Air masses advected from the Pacific Ocean produce this effect.
- The influence of the Pacific Ocean in the climate variability is important.
- The Pacific Decadal Oscillation (PDO) is the main driver of decadal climate
- variability in this region 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Martinez2011"
-
-\end_inset
-
-.
- On the other hand, the inter-annual variability depends on the El Niño
- Southern Oscillation (ENSO) 
+ Topography forces this water to precipitate in the western Cordillera.
+ Orographic precipitation also occurs in the eastern Cordillera.
+ Air masses advected from the Pacific Ocean bring moisture to this flank
+ of the Andes.
+ The influence of the Pacific Ocean in the Tropical Andes climate variability
+ is important.
+ The inter-annual variability on this region depends on ENSO 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Vuille1999,Villacis2003,Martinez2011"
@@ -2201,6 +2444,7 @@ key "Vuille1999,Villacis2003,Martinez2011"
 
 .
  These influences create several climate regions within the Andes.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2222,7 +2466,16 @@ o
 
 \end_inset
 
-C to 20 oC.
+C to 20 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C.
  Maximum temperatures span from 22 
 \begin_inset script superscript
 
@@ -2337,11 +2590,11 @@ Fire
 \end_layout
 
 \begin_layout Standard
-There is more fire history documentation in Victoria than in Ecuador.
+Fire history is better documented in Victoria than in Ecuador.
  Therefore, the characterization in Victoria uses concrete examples of catastrop
-hic events.
+hic events occurred in the last 100 years.
  More general information is presented for Ecuador, with an emphasis on
- more recent events.
+ recent events.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2469,7 +2722,7 @@ name "fig:Fire-seasons-in-Australia"
 
 \begin_layout Standard
 Bushfires in Victoria have had a significant impact.
- There is better documentation of bushfire impacts after the European settlement
+ There is more documentation of bushfire impacts after the European settlement
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2536,23 +2789,9 @@ key "DEPIa"
 
 .
  This event motivated authorities to create a special commission—Royal Comission
-—to investigate its causes deeply 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "DEPIa"
-
-\end_inset
-
-.
+—to investigate its causes deeply.
  A prolonged drought, and a hot and dry summer created the conditions for
- this event to occur 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "DEPIa"
-
-\end_inset
-
-.
+ this event to occur.
  Additionally, the causes of the fires were anthropogenic 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2635,23 +2874,9 @@ o
 
 \end_inset
 
-C, and relative humidity was below 15% 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "DEPIa"
-
-\end_inset
-
-.
- Hot and dry northerly winds created these conditions 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "DEPIa"
-
-\end_inset
-
-.
- Additionally, a strong cold front coming increased the difficulty to suppress
+C, and relative humidity was below 15%.
+ Hot and dry northerly winds created these conditions.
+ Additionally, a strong cold front increased the difficulty to suppress
  the fires 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2661,14 +2886,7 @@ key "DEPIa"
 
 .
  This cold front changed the direction of the fire front and increased its
- size 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "DEPIa"
-
-\end_inset
-
-.
+ size.
  The causes of the fires were accidental, deliberate and some not identified
  
 \begin_inset CommandInset citation
@@ -2697,7 +2915,7 @@ key "VBRC_2009_final_report"
 
 \end_inset
 
-and destroyed 430,000 hectares 
+ and destroyed 430,000 hectares 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "DEPIa"
@@ -2844,9 +3062,10 @@ Ecuador
 \end_layout
 
 \begin_layout Standard
-Wilfires mostly occur in three geographical regions of Ecuador.
- The Andean region has large extensions of introduced Eucalyptus forests
- 
+Bushfires occur in three geographical regions of Ecuador (citation).
+ However, the Ecuadorian Andes endures most of the bushfire occurrences
+ (citation).
+ This region has large extensions of introduced Eucalyptus forests 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Anchaluisa2013"
@@ -2895,8 +3114,8 @@ key "MinisteriodelAmbiente2013"
 .
  The Metropolitan District of Quito (MDQ) is particularly vulnerable to
  wildfires.
- The vulnerability is high because 15.4 percent of the national population
- lives here.
+ The vulnerability is high because 15.4% of the national population lives
+ here.
  Additionally, vegetation covers 60.46 percent of its territory 
 \begin_inset CommandInset citation
 LatexCommand citep
