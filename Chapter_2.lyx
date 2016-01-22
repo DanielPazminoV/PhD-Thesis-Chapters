@@ -107,7 +107,53 @@ Background
 Introduction
 \end_layout
 
+\begin_layout Standard
+The introduction chapter explained the aims, significance and scope of this
+ research project.
+ It also provided a general context for the study.
+ The purpose of this chapter is to expand on the context setting.
+ Therefore, it presents a detailed characterization of the study regions:
+ Victoria, Australia and Ecuador.
+ Additionally, it also explains some of the most important concepts used
+ throughout the thesis.
+ Explaining them is important because it provides background for the next
+ chapters, in particular for the literature review.
+\end_layout
+
+\begin_layout Standard
+Three concepts are essential for this thesis.
+ These are fire weather, climate modes of variability and seasonal forecasting.
+ Fire weather is the main topic of this thesis.
+ This chapter examines its main variables, modeling approaches and relationship
+ with associated events like heatwaves.
+ Drivers of fire weather are large-scale phenomena known as climate modes
+ of variability.
+ The background describes three climate modes, which are the most relevant
+ for this project.
+ The El Niño-Southern Oscillation, the Indian Ocean Dipole and the Southern
+ Annular Mode.
+ Finally, it provides a brief introduction to seasonal weather forecasting
+ techniques.
+ 
+\end_layout
+
+\begin_layout Standard
+On the other hand, the characterization of the study regions focuses on
+ three aspects.
+ The geography, climate and fire history of Victoria and Ecuador.
+ The geography characterization describes the significant landscape features
+ of both areas.
+ The climate description explains the major drivers, classification of climatic
+ regions and climatologies.
+ The fire section describes the causes and impacts of bushfires with historical
+ cases.
+\end_layout
+
 \begin_layout Section
+Definition of concepts
+\end_layout
+
+\begin_layout Subsection
 Fire weather
 \end_layout
 
@@ -126,7 +172,7 @@ The primary focus of this investigation is fire weather.
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Fire weather variables 
 \begin_inset CommandInset label
 LatexCommand label
@@ -226,7 +272,7 @@ key "VanWagner1974"
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Forest Fire Danger Index
 \end_layout
 
@@ -326,8 +372,8 @@ key "Lucas2010"
  
 \end_layout
 
-\begin_layout Subsubsection
-Drought factor
+\begin_layout Paragraph
+Drought factor:
 \end_layout
 
 \begin_layout Standard
@@ -644,8 +690,8 @@ key "Mount1972"
  
 \end_layout
 
-\begin_layout Subsubsection
-Keet-Byram Drought Index (KBDI)
+\begin_layout Paragraph
+Keet-Byram Drought Index (KBDI):
 \end_layout
 
 \begin_layout Standard
@@ -655,23 +701,19 @@ key "KeetchJJ"
 
 \end_inset
 
- developed the index for the U.S Department of Agriculture-Forest Service.
+ developed the index for the United States Department of Agriculture-Forest
+ Service.
  The index used an eight inches layer of soil for evaluation, yielding a
  scale that ranges from 0 to 800.
  A zero value represents saturation.
- 
-\end_layout
-
-\begin_layout Standard
-Daily rainfall and maximum temperature are fundamental variables for the
+ Daily rainfall and maximum temperature are fundamental variables for the
  calculation of this index.
  Additionally, its calculation is only possible for areas where the mean
  annual rainfall is known.
- 
 \end_layout
 
-\begin_layout Subsubsection
-Danger classes
+\begin_layout Paragraph
+Danger classes:
 \end_layout
 
 \begin_layout Standard
@@ -734,7 +776,7 @@ name "fig:Danger-classes-for-FFDI"
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Heatwaves
 \end_layout
 
@@ -876,7 +918,7 @@ reference "sub:Victoria-fire"
  
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Climate modes of variability
 \end_layout
 
@@ -891,7 +933,7 @@ Large-scale meteorological and oceanographic phenomena drive natural climate
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 El Niño-Southern Oscillation
 \end_layout
 
@@ -1246,7 +1288,7 @@ name "fig:El-Nino-Regions."
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Indian Ocean Dipole
 \end_layout
 
@@ -1446,7 +1488,7 @@ key "Saji1999"
  It also proved to be independent of ENSO metrics.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Southern Annular Mode
 \end_layout
 
@@ -1594,7 +1636,7 @@ key "NOAA_2016_AAO"
  
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Seasonal weather forecasting
 \end_layout
 
@@ -1615,7 +1657,7 @@ key "Kitzberger2002,Nicholls2007,Harris2013"
  and feasibility in Australia.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Statistical and dynamical forecasting
 \end_layout
 
@@ -1717,7 +1759,7 @@ key "Doblas-Reyes2013"
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Fire weather forecasting 
 \end_layout
 
@@ -2139,10 +2181,6 @@ Climate in Victoria
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 Australia uses three methods to classify climate 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2278,137 +2316,6 @@ C.
  on average 1000 mm a year.
  The western region of southeastern Victoria is less influenced by the Tasman
  Sea, and receives in average 600 mm of precipitation.
-\end_layout
-
-\begin_layout Subsubsection
-Fire weather in Victoria
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Fire-weather-in-Victoria"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The meteorological variables of bushfire weather are governed by large-scale
- synoptic patterns that have particular characteristics in different regions
- of Australia 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BureauofMeteorology2008"
-
-\end_inset
-
-.
- However, the synoptic weather patterns associated with bushfires all have
- hot-dry air advection processes in common, and often the passage of cold
- fronts in initiated bushfire areas 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Bradstock2012"
-
-\end_inset
-
-.
- For example, bushfire weather in southeast Australia is characterized by
- an atmospheric high-pressure centre (“high”) in the Tasman Sea and a strong
- cold front arriving from the west 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BureauofMeteorology2008"
-
-\end_inset
-
- (see Fig.
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Historic-Chart-Analysis-1"
-
-\end_inset
-
- ).
-\end_layout
-
-\begin_layout Standard
-On the other hand, the passage of a cold front causes abrupt changes in
- wind direction converting bushfires in extreme or even catastrophic events.
- A strong 850-hPa temperature gradient (associated with cold front arrivals)
- is highly correlated with extreme bushfire events in Victoria 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Mills2005"
-
-\end_inset
-
-.
- According to this study, a catastrophic bushfire event like “Ash Wednesday”
- (February 16
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-th
-\end_layout
-
-\end_inset
-
- 1983) was categorized as an unusually extreme event corresponding to the
- 0.1 % of registered bushfires in 40 years in this state.
-\end_layout
-
-\begin_layout Quote
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/Bushfire_weather_synoptic_pattern.png
-	lyxscale 25
-	scale 120
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Mean sea level pressure at 11 am Eastern Daylight Time on "Ash Wednesday"
- (February 16
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-th
-\end_layout
-
-\end_inset
-
-, 1983) showing areas with extreme fire weather.
- Source: Bureau of Meteorology.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Historic-Chart-Analysis-1"
-
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -2576,10 +2483,6 @@ name "fig:Climate-classification-of-Ecuador"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -2708,10 +2611,6 @@ name "fig:Fire-seasons-in-Australia"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3048,10 +2947,6 @@ name "fig:Fire-columns-during-Black-Saturday"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -3272,6 +3167,62 @@ key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
 
 \begin_layout Section
 Summary
+\end_layout
+
+\begin_layout Standard
+This chapter comprised two parts.
+ First, it explained important concepts for the argument of the thesis.
+ Additionally, it also characterized the study regions for this research:
+ Victoria, Australia and Ecuador.
+ This summary highlights the most important aspects of both sections.
+ 
+\end_layout
+
+\begin_layout Standard
+Three concepts are essential for this thesis.
+ The first concept is fire weather.
+ It refers to the meteorological conditions that foster bushfire occurrences.
+ The main fire weather variables are temperature, relative humidity, wind
+ speed and precipitation.
+ These variables can be combined in mathematical equations to evaluate fire
+ danger.
+ The second concept is climate modes of variability.
+ These are large-scale meteorological and oceanographic phenomena.
+ They can influence local climate from remote places.
+ The Southern Hemisphere has three important climate modes of variability.
+ They are the El Niño-Southern Oscillation (ENSO), the Indian Ocean Dipole
+ (IOD), and the Southern Annular Mode (SAM).
+ Finally, a sub-section explained seasonal weather forecasting.
+ It refers to the use of weather variables to predict weather behaviour
+ in lead times of months.
+ Statistical and dynamical models are used in seasonal weather forecasting.
+ This chapter also characterized the study regions of this research.
+ 
+\end_layout
+
+\begin_layout Standard
+The characterization featured several links between Victoria and Ecuador.
+ First of all, vegetation is their landscape connection.
+ They share the Eucalyptus as the dominant species in bushfire-prone areas.
+ The two regions also share ENSO as a climate driver.
+ In fact, ENSO is the main climate driver for Ecuador.
+ However, Victoria's climate is more complex.
+ Interactions between ENSO, the IOD, and the SAM strongly influence its
+ climate Finally, Ecuador lacks comprehensive fire history documentation.
+ However, data obtained from recent years suggests that bushfire impacts
+ in Ecuador are severe.
+ This hazard endangers one of the most biodiverse countries in the world.
+ On the other hand, Victoria's fire history is better documented.
+ It has endured catastrophic bushfire events over the last 100 years.
+ 
+\end_layout
+
+\begin_layout Standard
+The definition of essential concepts and the characterization of the study
+ regions was a necessary step.
+ This information provides background to analyse critically the relevant
+ scientific literature.
+ The next chapter presents the literature review for this project.
 \end_layout
 
 \begin_layout Standard
