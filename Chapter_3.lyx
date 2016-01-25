@@ -105,49 +105,7 @@ Introduction
 \end_layout
 
 \begin_layout Section
-Bushfire and heatwave weather
-\end_layout
-
-\begin_layout Standard
-Bushfires and heatwaves are dangerous natural hazards in Australia.
- In the last 100 years, heatwaves were the most hazardous natural phenomena
- for people in Australia 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Haynes2010"
-
-\end_inset
-
-.
- Bushfires ranked fourth.
- These events have also had important consequences for the Australian economy.
- Bushfires are the third most destructive natural hazard 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "McAneney2009"
-
-\end_inset
-
-.
- These events were responsible for 20% of property losses during the period
- 1900 to 2003.
- Heatwaves increase the energy demand because of the intense use of air
- conditioning systems.
- They also affect the physical integrity of civil infrastructure 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Pezza2011,Boschat2014,Cowan"
-
-\end_inset
-
-.
- The impacts produced by these events are significant for Australia.
- Therefore great effort has been devoted to understand how these events
- are produced.
- The meteorological aspects seem to link these events.
- However, in this study we show that the weather patterns of bushfire and
- heatwaves demonstrate important differences.
- 
+Fire weather synoptic patterns and long-term variability 
 \end_layout
 
 \begin_layout Standard
@@ -221,190 +179,167 @@ key "Simmonds1999"
 \end_layout
 
 \begin_layout Standard
-To understand the relationship between these events, it is worth reviewing
- their connection to one of the major Australian climate drivers: El Niño
- Southern Oscillation (ENSO) 
+The meteorological variables of bushfire weather are governed by large-scale
+ synoptic patterns that have particular characteristics in different regions
+ of Australia 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Power1999,Lau2000,Risbey2009a,White2013,Klingaman2013"
+key "BureauofMeteorology2008"
 
 \end_inset
 
 .
- Several studies have addressed the relationship between ENSO and fire weather
- in Australia 
+ However, the synoptic weather patterns associated with bushfires all have
+ hot-dry air advection processes in common, and often the passage of cold
+ fronts in initiated bushfire areas 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Williams2001,Lucas2007"
+key "Bradstock2012"
 
 \end_inset
 
-(Williams and Karoly 1999; Verdon et al.
- 2004; Lucas et al.
- 2007).
- Most of these studies assert that there is a significant relationship between
- ‘El Niño’ phase of ENSO and fire weather.
- However in Victoria, fire activity is only moderately associated with ENSO
+.
+ For example, bushfire weather in southeast Australia is characterized by
+ an atmospheric high-pressure centre (“high”) in the Tasman Sea and a strong
+ cold front arriving from the west 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BureauofMeteorology2008"
+
+\end_inset
+
+ (see Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Historic-Chart-Analysis-1"
+
+\end_inset
+
+ ).
+\end_layout
+
+\begin_layout Standard
+On the other hand, the passage of a cold front causes abrupt changes in
+ wind direction converting bushfires in extreme or even catastrophic events.
+ A strong 850-hPa temperature gradient (associated with cold front arrivals)
+ is highly correlated with extreme bushfire events in Victoria 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mills2005"
+
+\end_inset
+
+.
+ According to this study, a catastrophic bushfire event like “Ash Wednesday”
+ (February 16
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ 1983) was categorized as an unusually extreme event corresponding to the
+ 0.1 % of registered bushfires in 40 years in this state.
+\end_layout
+
+\begin_layout Quote
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../Chapter_2/Figures/Bushfire_weather_synoptic_pattern.png
+	lyxscale 25
+	scale 120
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mean sea level pressure at 11 am Eastern Daylight Time on "Ash Wednesday"
+ (February 16
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 1983) showing areas with extreme fire weather.
+ Source: Bureau of Meteorology.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Historic-Chart-Analysis-1"
+
+\end_inset
+
  
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Harris2013"
+\end_layout
 
 \end_inset
 
-.
- On the other hand, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Perkins2012"
+
+\end_layout
 
 \end_inset
 
-have suggested that ENSO phases can modulate the duration and amplitude
- of heatwaves on a global scale.
- Yet, heatwaves in southeastern Australia are not modulated by tropical
- dynamics
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Pezza2011"
 
-\end_inset
-
-.
- This has been corroborated for heatwaves in Melbourne 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Boschat2014"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
-Bushfires occur in hot and dry conditions that generally occur during heatwaves.
- A logical train of thought would be that bushfires happen during or in
- the latter stages of a heatwaves.
- The aim of this study is to compare weather patterns of bushfires and heatwaves.
- This study considers the state of Victoria in southeast Australia during
- the period 1961-2011.
- This investigation is important because Victoria is a region affected by
- bushfires and heatwaves.
- Forecasting efforts can benefit from a deeper understanding of their synoptic
- differences.
-\end_layout
+Bushfires and heatwaves are dangerous natural hazards in Australia.
+ In the last 100 years, heatwaves were the most hazardous natural phenomena
+ for people in Australia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Haynes2010"
 
-\begin_layout Standard
-After the introduction, the remaining sections of the article are organized
- as follow.
- Section two describes the characteristics of the datasets employed in this
- research.
- It establishes key definitions and describes the study methods including
- the statistical analysis.
- Section three presents the comparison between bushfires and heatwaves in
- Victoria.
- Finally, section four presents a discussion of the results and conclusions.
+\end_inset
+
+.
+ Bushfires ranked fourth.
+ These events have also had important consequences for the Australian economy.
+ Bushfires are the third most destructive natural hazard 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "McAneney2009"
+
+\end_inset
+
+.
+ These events were responsible for 20% of property losses during the period
+ 1900 to 2003.
+ Heatwaves increase the energy demand because of the intense use of air
+ conditioning systems.
+ They also affect the physical integrity of civil infrastructure 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pezza2011,Boschat2014,Cowan"
+
+\end_inset
+
+.
+ The impacts produced by these events are significant for Australia.
+ Therefore great effort has been devoted to understand how these events
+ are produced.
+ The meteorological aspects seem to link these events.
  
 \end_layout
 
 \begin_layout Section
-Bushfire weather indices, climate modes of variability and seasonal bushfire
- weather forecasting
-\end_layout
-
-\begin_layout Subsection
-Bushfire weather indices
-\end_layout
-
-\begin_layout Subsection
-Climate modes of variability and bushfire weather
-\end_layout
-
-\begin_layout Standard
-Among the most important modes of climate variability for Australia are
- El Niño—Southern Oscillation (ENSO), the Southern Annular Mode (SAM) and
- the Indian Ocean Dipole (IOD) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Risbey2009"
-
-\end_inset
-
-.
- Improving the capacity to predict extreme bushfire seasons will rely on
- understanding how they are influenced by these large-scale atmospheric
- circulation variations.
- 
-\end_layout
-
-\begin_layout Standard
-ENSO is associated with potentially dangerous bushfire weather in southeast
- and central Australia especially during El Niño events (characterised by
- positive SST anomalies in the central and equatorial Pacific Ocean); relative
- humidity, being the parameter most influenced by ENSO 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Williams1999"
-
-\end_inset
-
-.
- A positive phase of SAM (lower than normal pressures in the polar region)
- produces significant reductions in rainfall in southern Australia, including
- the south western tip of Werstern Australia, southern Victoria and Tasmania
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Risbey2009"
-
-\end_inset
-
-; which might have an influence in preconditioning bushfires in these regions.
- In Victoria, positive IOD events (warmer SST anomalies in the Western Indian
- Ocean relative to the east) are correlated with higher maximum temperatures
- and lower precipitation in spring (September-October-November, SON), exacerbati
-ng fuel loads dryness in the bushfire season (December-January-February,
- DJF) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Cai2009"
-
-\end_inset
-
-.
- Finally, it has been demonstrated for this region there exists a potential
- to develop a forecasting tool to predict bushfire seasons based on climate
- variables that have a moderate relationship with ENSO 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Harris2013"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-ENSO has an important influence over bushfire regimes in several regions
- of the world (citations).
- For example, there is a link between El Nino events and decreased fire
- acitity in the Southern of the United States (citation).
- 
-\end_layout
-
-\begin_layout Standard
-Fire weather is influenced by ENSO in several regions in Australia.
- This influence is exacervated in the southeast when there is a superposition
- of the Interdecal Pacific Oscillation (IPO) and ENSO (citation).
- 
-\end_layout
-
-\begin_layout Subsection
-Seasonal fire weather forecasting
-\end_layout
-
-\begin_layout Section
-Wildfire weather in Ecuador
+Fire weather forecasting and climate modes of variability
 \end_layout
 
 \begin_layout Standard
@@ -546,6 +481,146 @@ key "Beckage2003"
 \end_layout
 
 \begin_layout Standard
+Among the most important modes of climate variability for Australia are
+ El Niño—Southern Oscillation (ENSO), the Southern Annular Mode (SAM) and
+ the Indian Ocean Dipole (IOD) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Risbey2009"
+
+\end_inset
+
+.
+ Improving the capacity to predict extreme bushfire seasons will rely on
+ understanding how they are influenced by these large-scale atmospheric
+ circulation variations.
+ 
+\end_layout
+
+\begin_layout Standard
+To understand the relationship between these events, it is worth reviewing
+ their connection to one of the major Australian climate drivers: El Niño
+ Southern Oscillation (ENSO) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Power1999,Lau2000,Risbey2009a,White2013,Klingaman2013"
+
+\end_inset
+
+.
+ Several studies have addressed the relationship between ENSO and fire weather
+ in Australia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2001,Lucas2007"
+
+\end_inset
+
+(Williams and Karoly 1999; Verdon et al.
+ 2004; Lucas et al.
+ 2007).
+ Most of these studies assert that there is a significant relationship between
+ ‘El Niño’ phase of ENSO and fire weather.
+ However in Victoria, fire activity is only moderately associated with ENSO
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harris2013"
+
+\end_inset
+
+.
+ On the other hand, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Perkins2012"
+
+\end_inset
+
+have suggested that ENSO phases can modulate the duration and amplitude
+ of heatwaves on a global scale.
+ Yet, heatwaves in southeastern Australia are not modulated by tropical
+ dynamics
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pezza2011"
+
+\end_inset
+
+.
+ This has been corroborated for heatwaves in Melbourne 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Boschat2014"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ENSO is associated with potentially dangerous bushfire weather in southeast
+ and central Australia especially during El Niño events (characterised by
+ positive SST anomalies in the central and equatorial Pacific Ocean); relative
+ humidity, being the parameter most influenced by ENSO 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams1999"
+
+\end_inset
+
+.
+ A positive phase of SAM (lower than normal pressures in the polar region)
+ produces significant reductions in rainfall in southern Australia, including
+ the south western tip of Werstern Australia, southern Victoria and Tasmania
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Risbey2009"
+
+\end_inset
+
+; which might have an influence in preconditioning bushfires in these regions.
+ In Victoria, positive IOD events (warmer SST anomalies in the Western Indian
+ Ocean relative to the east) are correlated with higher maximum temperatures
+ and lower precipitation in spring (September-October-November, SON), exacerbati
+ng fuel loads dryness in the bushfire season (December-January-February,
+ DJF) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cai2009"
+
+\end_inset
+
+.
+ Finally, it has been demonstrated for this region there exists a potential
+ to develop a forecasting tool to predict bushfire seasons based on climate
+ variables that have a moderate relationship with ENSO 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harris2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ENSO has an important influence over bushfire regimes in several regions
+ of the world (citations).
+ For example, there is a link between El Nino events and decreased fire
+ acitity in the Southern of the United States (citation).
+ 
+\end_layout
+
+\begin_layout Standard
+Fire weather is influenced by ENSO in several regions in Australia.
+ This influence is exacervated in the southeast when there is a superposition
+ of the Interdecal Pacific Oscillation (IPO) and ENSO (citation).
+ 
+\end_layout
+
+\begin_layout Standard
 The west coast of South America is one of the regions most affected by ENSO.
  The coastal areas of Peru and Ecuador experience massive rainfall episodes
  during strong El Niño events 
@@ -585,18 +660,6 @@ key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013,Rodas2015"
  can provide useful information.
  These insights could be of special interest to emergency response services
  and planning authorities.
-\end_layout
-
-\begin_layout Standard
-This article comprises six sections.
- In the first section we provide background and justify the importance of
- this study.
- Section two describes the Ecuadorian Andean region as our study area.
- Section three presents details about the datasets employed in this research.
- Section four explains the different methods applied.
- Section five shows the results of our investigation.
- Finally, section six presents a discussion of the results and concluding
- remarks.
 \end_layout
 
 \begin_layout Section
