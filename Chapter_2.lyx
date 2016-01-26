@@ -130,8 +130,8 @@ Three concepts are essential for this thesis.
  of variability.
  The background describes three climate modes, which are the most relevant
  for this project.
- The El Niño-Southern Oscillation, the Indian Ocean Dipole and the Southern
- Annular Mode.
+ These are the El Niño-Southern Oscillation, the Indian Ocean Dipole and
+ the Southern Annular Mode.
  Finally, it provides a brief introduction to seasonal weather forecasting
  techniques.
  
@@ -163,12 +163,12 @@ The primary focus of this investigation is fire weather.
  this topic.
  The fire weather background comprises three aspects.
  First, it explains which meteorological variables contribute to fire conditions.
- Additionally, it explains how they exert their influence and.
+ Additionally, it explains how they exert their influence.
  This section also describes how mathematical models represent the effect
  of fire weather variables on bushfires.
  It includes a description of the Australian Forest Fire Danger Index (FFDI)
- to explain the quantification of fire weather.
- Finally, the relationship between heatwaves and fire weather is also described.
+ to explain the quantification of fire danger based on weather parameters.
+ Finally, the relationship between fire weather and heatwaves is also described.
  
 \end_layout
 
@@ -218,9 +218,9 @@ key "BureauofMeteorology2008"
 
 .
  Atmospheric instability also contributes to the spread of these events
- because it produces spotting (spotfires).
+ because it produces spotting—spotfires—.
  The intensity of bushfires is determined by the flammability and distribution
- of vegetation; which are controlled by precipitation in seasonal time scales
+ of vegetation; which are controlled by precipitation on seasonal time scales
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -244,10 +244,10 @@ key "McArthur1966,McArthur1967"
 
 \end_inset
 
- quantifies danger based on vegetation drying.
+ quantifies danger focusing on the effect of weather on vegetation.
  Therefore, this index targets ignition.
- On the other hand, the effect of atmospheric instability in producing spotting
- is the basis of the Haines Index 
+ On the other hand, the the Haines Index basis is the effect of atmospheric
+ instability in producing spotting 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Haines"
@@ -273,12 +273,11 @@ key "VanWagner1974"
 \end_layout
 
 \begin_layout Subsubsection
-Forest Fire Danger Index
+Forest Fire Danger Index (FFDI)
 \end_layout
 
 \begin_layout Standard
-Australian fire authorities use the Forest Fire Danger Index (FFDI) for
- risk management 
+Australian fire authorities use the FFDI for bushfire risk management 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Luke1978"
@@ -286,7 +285,7 @@ key "Luke1978"
 \end_inset
 
 .
- The index was originally formulated by Alan Grant McArthur
+ The index was originally formulated by Alan Grant McArthur 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "McArthur1966,McArthur1967"
@@ -332,7 +331,10 @@ Where:
 \end_layout
 
 \begin_layout Standard
-T: Air temperature (
+\begin_inset Formula $T$
+\end_inset
+
+: Air temperature (
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -345,15 +347,24 @@ C).
 \end_layout
 
 \begin_layout Standard
-v: Wind speed (Km/h).
+\begin_inset Formula $v$
+\end_inset
+
+: Wind speed (Km/h).
 \end_layout
 
 \begin_layout Standard
-RH: Relative humidity (%).
+\begin_inset Formula $RH$
+\end_inset
+
+: Relative humidity (%).
 \end_layout
 
 \begin_layout Standard
-DF: Drought factor.
+\begin_inset Formula $DF$
+\end_inset
+
+: Drought factor.
 \end_layout
 
 \begin_layout Standard
@@ -367,7 +378,7 @@ key "Lucas2010"
 \end_inset
 
 .
- The index also requieres the computation of a drought factor.
+ The index also requires the computation of a drought factor.
  This factor represents the effect of precipitation on fueld loads drying.
  
 \end_layout
@@ -444,18 +455,27 @@ Where:
 \end_layout
 
 \begin_layout Standard
-D: Drought Factor.
+\begin_inset Formula $D$
+\end_inset
+
+: Drought Factor.
  
 \end_layout
 
 \begin_layout Standard
-I: Soil dryness index (mm equivalent).
+\begin_inset Formula $I$
+\end_inset
+
+: Soil dryness index (mm equivalent).
  
 \end_layout
 
 \begin_layout Standard
-The significant rain is any event that maximizes y, according to the following
- cases shown in table 
+The significant rain is any event that maximizes 
+\begin_inset Formula $y$
+\end_inset
+
+, according to the following cases shown in table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Significant-rain-event"
@@ -658,17 +678,27 @@ Where:
 \end_layout
 
 \begin_layout Standard
-N: Time since the rain event in days.
+\begin_inset Formula $N$
+\end_inset
+
+: Time since the rain event in days.
  
 \end_layout
 
 \begin_layout Standard
-P: Rainfall in mm during an event.
+\begin_inset Formula $P$
+\end_inset
+
+: Rainfall in mm during an event.
  
 \end_layout
 
 \begin_layout Standard
-The DF also requires the computation of a soil dryness index.
+The 
+\begin_inset Formula $DF$
+\end_inset
+
+ also requires the computation of a soil dryness index.
  Soil dryness represents the amount of rain necessary to saturate the upper
  200 mm of the soil layer.
  This step represents the short-term effect of precipitation on fuels.
@@ -687,7 +717,18 @@ key "Mount1972"
 \end_inset
 
 .
- 
+ The computation of the 
+\begin_inset Formula $DF$
+\end_inset
+
+ in Australia commonly uses the 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "KeetchJJ"
+
+\end_inset
+
+ method.
 \end_layout
 
 \begin_layout Paragraph
@@ -720,7 +761,14 @@ Danger classes:
 The FFDI has six danger classes.
  Originally, the index was calibrated for a maximum value of 100.
  Over the last years, weather conditions in catastrophic bushfire events
- have yileded values above this limit.
+ have yileded values above this limit 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lucas2010"
+
+\end_inset
+
+.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -899,15 +947,8 @@ key "McBride2009"
  Finally, the increased insolation generates surface heat fluxes.
  These fluxes heat the air in the mixing layer.
  Fire weather comprises these processes as well.
- Although, its analysis of involves more variables and interactions (subsections
+ Although, its analysis involves more variables and interactions (see subsection
  
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sub:Fire-weather-in-Victoria"
-
-\end_inset
-
- and 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Victoria-fire"
@@ -927,21 +968,50 @@ Large-scale meteorological and oceanographic phenomena drive natural climate
  variability.
  These drivers are known as climate modes of variability.
  For example, El Niño-Southern Oscillation (ENSO), Indian Ocean Dipole (IOD),
- and Southern Annular Mode (SAM) are important climate modes of variability.
+ and Southern Annular Mode (SAM) are important climate modes of variability
+ in the Southern Hemisphere 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bjerknes1966,Bjerknes1969,Aceituno1988,Saji1999,ThompsonandSolomon2002"
+
+\end_inset
+
+.
  This section describes them since they can exert significant influence
- on fire weather.
+ on fire weather 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams1999,Cai2009"
+
+\end_inset
+
+.
  
 \end_layout
 
 \begin_layout Subsubsection
-El Niño-Southern Oscillation
+El Niño-Southern Oscillation (ENSO)
 \end_layout
 
 \begin_layout Standard
-El Niño-Southern Oscillation (ENSO) is a is a large-scale process that drives
- climate on a global scale.
+ENSO is a is a large-scale process that drives climate on a global scale
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bjerknes1966,Bjerknes1969"
+
+\end_inset
+
+.
  During ENSO events, the Tropical Pacifc Ocean interacts with the atmosphere
- in a coupled system.
+ in a coupled system 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bjerknes1969"
+
+\end_inset
+
+.
  The most common manifestation of this process is the warming and cooling
  of sea surface temperature.
  Warming conditions represent 
@@ -953,7 +1023,7 @@ El Niño
 \end_inset
 
  conditions.
- This state usually bring above-average precipitation in th coasts of Ecuador
+ This state usually brings above-average precipitation in th coasts of Ecuador
  and Peru 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -980,13 +1050,27 @@ La Niña
 
  conditions.
  The ENSO phenomena is referred as oscillation since these two phases—warm
- and cool—alternate in periods of approximately four years.
+ and cool—alternate in periods of approximately four years 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "NOAA"
+
+\end_inset
+
+.
  
 \end_layout
 
 \begin_layout Standard
-These changing conditions in the sea surface temperature reverse the Walker
- circulation.
+These changing conditions in the sea surface temperature make weaker —or
+ even reverse—the Walker circulation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bjerknes1969"
+
+\end_inset
+
+.
  This change in the circulation pattern drives the atmospheric response,
  which can have an effect in places distant where it started.
  This type of response is referred as 
@@ -1063,6 +1147,13 @@ Southern Oscillation
 \begin_inset Quotes erd
 \end_inset
 
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bjerknes1969"
+
+\end_inset
+
 .
  For this reason this phenomena is regarded as coupled ocean-atmophere process.
  The name 
@@ -1088,8 +1179,8 @@ key "NOAA"
 \end_inset
 
 .
- I adopted the SOI’s calculation method proposed by the National Oceanic
- and Atmospheric Administration 
+ I adopted the SOI’s calculation method proposed by the United States National
+ Oceanic and Atmospheric Administration 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "NOAA"
@@ -1268,7 +1359,8 @@ El Niño
 \end_inset
 
  regions.
- Source: National Oceanic and Atmospheric Administration (NOAA) 
+ Source: United States National Oceanic and Atmospheric Administration (NOAA)
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:El-Nino-Regions."
@@ -1485,7 +1577,14 @@ key "Saji1999"
 .
  This simple index demonstrated to be useful in representing the variance
  of SST in this region.
- It also proved to be independent of ENSO metrics.
+ It also proved to be independent of ENSO metrics 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Saji1999"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1527,7 +1626,14 @@ key "KingandTurner2007"
  poles strenghten the circumpolar vortex.
  The strengthenning process shifts the circulation close to the pole.
  This contraction of the circulation belt produces below-average precipitation
- in many regions of the Southern Hemisphere.
+ in many regions of the Southern Hemisphere 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ho2011"
+
+\end_inset
+
+.
  This process refers to a positive SAM event (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1672,7 +1778,14 @@ key "Doblas-Reyes2013,Troccoli2005"
 
 .
  Statistical- empirical models describe the relationship between predictands
- and predictors usually assuming linear relationships.
+ and predictors usually assuming linear relationships 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Troccoli2005"
+
+\end_inset
+
+.
  Common predictans are temperature and precipitation 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1691,6 +1804,7 @@ key "Doblas-Reyes2013,Troccoli2005"
 
 .
  One of the most common problems with this approach is multicollinearity
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Troccoli2005"
@@ -1721,7 +1835,7 @@ key "Doblas-Reyes2013,Troccoli2005"
 
 \begin_layout Standard
 Dynamical models have in general better forecasting accuracy than statistical-em
-pirical methods
+pirical methods 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Doblas-Reyes2013"
@@ -1766,7 +1880,7 @@ Fire weather forecasting
 \begin_layout Standard
 Seasonal weather forecasting usually predicts variables such as temperature
  and precipitation.
- Their forecast is better mean values than the extremes
+ Their forecast is better mean values than the extremes 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Doblas-Reyes2013,Pepler2015"
@@ -1795,7 +1909,7 @@ le events like ENSO.
 In Australia, there are regions that exhibit a relationship between fire
  activity and ENSO.
  Tasmania exhibits more area burnt with decreased rainfall in the coincident
- summer season
+ summer season 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Nicholls2007"
@@ -1803,7 +1917,7 @@ key "Nicholls2007"
 \end_inset
 
 .
- Since ENSO is a major driver of Australian rainfall
+ Since ENSO is a major driver of Australian rainfall 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Risbey2009a"
@@ -1844,7 +1958,7 @@ key "Nicholls2007"
 
 \end_inset
 
-acknowledged that ENSO and fire activity could not have a link in other
+ acknowledged that ENSO and fire activity could not have a link in other
  regions of the country.
 \end_layout
 
@@ -1870,8 +1984,8 @@ Geography
 
 \begin_layout Standard
 Victoria and Ecuador present very different landscapes.
- The most remarkable difference is the elevation of the mountains that divide
- their territory.
+ The most remarkable difference is the elevation of the mountain ranges
+ that divide their territory.
  This characterization presents data on location, area, and landscape features.
  
 \end_layout
@@ -1900,7 +2014,7 @@ o
 
 \end_inset
 
- 8’ S and between longitudes (see Fig.
+ 8’ S (see Fig.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1909,7 +2023,7 @@ reference "fig:Localization-of-Victoria-1"
 \end_inset
 
 ).
- This state occupies 227,618 km
+ This state occupies 227,618 Km
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -1918,11 +2032,103 @@ reference "fig:Localization-of-Victoria-1"
 
 \end_inset
 
-, and is physically divided in four regions: Murray Basin Plains, Victorian
- Highlands, Southern Lowlands, Southern Uplands 
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sherbon1975"
+
+\end_inset
+
+ and has a population of 5,9 million people 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ABS"
+
+\end_inset
+
+.
+ The Great Dividing Range is its most important physical feature 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Luke1978"
+
+\end_inset
+
+.
+ These mountain ranges comprise the Victorian Alps at the north-east of
+ the state.
+ The maximum elevation in Victoria reaches 1,986 m at Mount Bogong.
+ The elevation difference creates several climatic regions in Victoria.
+ The Murray River Basin plains comprise large areas of agricultural land
+ that extend to the west of the Great Dividing Range.
+ In constrast, the north-west of Victoria or 
+\begin_inset Quotes eld
+\end_inset
+
+Mallee
+\begin_inset Quotes erd
+\end_inset
+
+ region is a flat and dessert area.
+ Victoria's southern limit is the Bass Strait.
+ The southern lowlands of Victoria encompasses Melbourne, its capital city
+ and major urban centre with a population of 4,4 million people 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ABS"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+On the other hand, most rural areas of Victoria comprise large forested
+ areas.
+ Many of them belong to national parks.
+ For example, Grampians National Park is located to the west of Melbourne.
+ It has an extension of 167,219 Ha 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "StateGovernmentVictoria2016"
+
+\end_inset
+
+.
+ The Wilsons Promontory National Park is located to the south-east of the
+ city.
+ The park comprises an area of 50,500 Ha 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "StateGovernmentVictoria2016"
+
+\end_inset
+
+.
+ To the east of the city, Gippsland is a region that also has extensive
+ forested areas.
+ The vegetation of Victoria makes it prone to bushfires 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2012"
+
+\end_inset
+
+.
+ The Eucalyptus Myrtaceae is the dominant specie in these forests 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2012"
+
+\end_inset
+
+.
+ Non Eucalyptus forests include the specie Melaleuca (Myraceae) and the
+ Callitris (Cupressaceae) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2012"
 
 \end_inset
 
@@ -1976,7 +2182,14 @@ Ecuador
 \end_layout
 
 \begin_layout Standard
-Ecuador is located in the north-west side of South-America (see Figure 1).
+Ecuador is located in the north-west side of South-America (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Location-of-Ecuador."
+
+\end_inset
+
+).
  The country has a diverse geography.
  It comprises a continental territory between the latitudes 01
 \begin_inset script superscript
@@ -2033,7 +2246,8 @@ key "InstitutoGeograficoMilitarIGM2013a"
 
 \end_inset
 
- 
+.
+ In the year 2010, the country had a population of 14,5 million people 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "InstitutoGeograficoMilitarIGM2013a"
@@ -2041,12 +2255,20 @@ key "InstitutoGeograficoMilitarIGM2013a"
 \end_inset
 
 .
- The Andes mountains divide the continental Ecuador into three areas: the
- Coast, Andean and Amazon regions.
+ The Andes mountains are the most important geographical feature of Ecuador
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Insel2010"
+
+\end_inset
+
+.
+ They divide the continental Ecuador into three areas: the Coast, Andean
+ and Amazon regions.
  Each of these regions has diverse geographical features, climate, and ecosystem
 s.
- The highlands are the most wildfire-prone region because of its climate
- and vegetation.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2094,16 +2316,7 @@ name "fig:Location-of-Ecuador."
 \end_layout
 
 \begin_layout Standard
-The Andes mountains are the most important geographical feature of Ecuador
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Insel2010"
-
-\end_inset
-
-.
- This mountain range crosses Ecuador from North to South.
+Thie Andes range crosses Ecuador from North to South.
  The Ecuadorian Andes comprises two flanks of mountains: the eastern and
  western 
 \begin_inset Quotes eld
@@ -2118,8 +2331,8 @@ Cordilleras
  inter-Andean valleys.
  Many of these Andean plateaus are over 3000 m above sea level.
  The steep elevations have an important effect on local climate.
- The lapse rate create the conditions for different bio-climatic zones to
- exit 
+ The atmospheric lapse rate create the conditions for different bio-climatic
+ zones to exit 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Pourrut1995"
@@ -2127,7 +2340,6 @@ key "Pourrut1995"
 \end_inset
 
 .
- This enhances biodiversity.
  Yet, the original vegetation of the Andean valleys has almost disappeared
  
 \begin_inset CommandInset citation
@@ -2156,7 +2368,8 @@ key "Anchaluisa2013"
 \end_inset
 
  with great ecological impact.
- Further, these species are prone to wildfires in the Andean dry season.
+ Further, these species are prone to bushfires in the Andean dry season.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -2167,12 +2380,9 @@ Climate and weather
 ​This section provides general information about climate and weather in
  the two regions.
  This characterization includes the description of their main climate drivers,
- regionalizations and climatologies.
- For Victoria, it also includes the synoptic features of fire weather.
+ regionalization of its climate and climatologies.
  This is important because these regions have especific climate characteristics
  that influence fire weather.
- Although large-scale phenomena like ENSO might link fire weather behaviour
- in both regions.
  
 \end_layout
 
@@ -2315,7 +2525,7 @@ C.
  its precipitation rate, especially in the eastern region that recieves
  on average 1000 mm a year.
  The western region of southeastern Victoria is less influenced by the Tasman
- Sea, and receives in average 600 mm of precipitation.
+ Sea, receiving on average 600 mm of precipitation.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2323,8 +2533,8 @@ Climate in Ecuador
 \end_layout
 
 \begin_layout Standard
-Since most bushfires in Ecuador occur in the Andean region (citation), the
- climate characterization focuses on this region.
+Since most bushfires in Ecuador occur in the highlands, the climate characteriza
+tion focuses on this region.
  The Amazon forest, oceanic currents, and the topography are among the main
  climate drivers in the Tropical Andes 
 \begin_inset CommandInset citation
@@ -2334,8 +2544,7 @@ key "Martinez2011"
 \end_inset
 
 .
- The Amazon forest—through Evapo-transpiration—produces a great amount of
- water vapor.
+ The Amazon forests produce a great amount of water vapor.
  Topography forces this water to precipitate in the western Cordillera.
  Orographic precipitation also occurs in the eastern Cordillera.
  Air masses advected from the Pacific Ocean bring moisture to this flank
@@ -2541,15 +2750,6 @@ key "Bryant2008"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Luke1978"
-
-\end_inset
-
-.
- The fire-prone vegetation of the genus Eucalyptus—family Mytaceae— dominate
- these forests 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Williams2012"
 
 \end_inset
 
@@ -2784,7 +2984,7 @@ key "DEPIa"
 \end_inset
 
 .
- This cold front changed the direction of the fire front and increased its
+ This cold front changed the direction of the fire flank and increased its
  size.
  The causes of the fires were accidental, deliberate and some not identified
  
@@ -2957,9 +3157,8 @@ Ecuador
 \end_layout
 
 \begin_layout Standard
-Bushfires occur in three geographical regions of Ecuador (citation).
- However, the Ecuadorian Andes endures most of the bushfire occurrences
- (citation).
+Bushfires occur in three geographical regions of Ecuador.
+ However, the Ecuadorian Andes endures most of the bushfire occurrences.
  This region has large extensions of introduced Eucalyptus forests 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2968,7 +3167,7 @@ key "Anchaluisa2013"
 \end_inset
 
 .
- Thus, the availability of fuels makes it the most wildfire-prone region.
+ Thus, the availability of fuels makes it the most bushfire-prone region.
  The fire season in the Ecuadorian Andes spans from July to November 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2985,7 +3184,7 @@ key "Estacio2012,SecretariadeAmbiente2013"
 \end_inset
 
 .
- The coast and the Galapagos Islands experience wildfire episodes from January
+ The coast and the Galapagos Islands experience bushfire episodes from January
  to May 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2997,9 +3196,9 @@ key "SecretariadeAmbiente2013"
 \end_layout
 
 \begin_layout Standard
-Wildfires produce severe impacts in Ecuador.
+Bushfires produce severe impacts in Ecuador.
  Yet, information about these impacts is scarce and disperse.
- Wildfires produced 21.570 Ha of area burnt in Ecuador in 2012 
+ Wildfires produced 21,570 Ha of area burnt in Ecuador in 2012 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "MinisteriodelAmbiente2013"
@@ -3011,7 +3210,7 @@ key "MinisteriodelAmbiente2013"
  wildfires.
  The vulnerability is high because 15.4% of the national population lives
  here.
- Additionally, vegetation covers 60.46 percent of its territory 
+ Additionally, vegetation covers 60.46 % of its territory 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "SecretariadeAmbiente2013"
@@ -3019,7 +3218,7 @@ key "SecretariadeAmbiente2013"
 \end_inset
 
 .
- Wildfires destroyed 2700 Ha of the MDQ vegetation in 2009 
+ Bushfires destroyed 2700 Ha of the MDQ vegetation in 2009 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Estacio2012"
@@ -3027,7 +3226,7 @@ key "Estacio2012"
 \end_inset
 
 .
- In 2012, the area burnt by wildfires increased to 4.882,16 Ha 
+ In 2012, the area burnt by bushfires increased to 4,882.16 Ha 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "SecretariadeAmbiente2013"
@@ -3102,7 +3301,7 @@ name "fig:Bushfire-in-the-urban-rural-interface-of-Quito"
 \end_layout
 
 \begin_layout Standard
-Unfortunately, wildfires in Ecuador are anthropogenic in nature 
+Unfortunately, bushfires in Ecuador are anthropogenic in nature 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "MinisteriodelAmbiente2013"
@@ -3120,7 +3319,7 @@ key "SecretariadeAmbiente2013"
 
 .
  Burning forests to convert them to agricultural use is the main cause of
- wildfires in the country 
+ bushfires in the country 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013,Rodas2015"
@@ -3138,7 +3337,7 @@ key "SecretariadeAmbiente2013"
 
 .
  Rural communities burn agricultural waste, which is a traditional practice
- that fosters wildfire occurrences 
+ that fosters bushfires occurrences 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Estacio2012"
@@ -3190,7 +3389,7 @@ Three concepts are essential for this thesis.
  These are large-scale meteorological and oceanographic phenomena.
  They can influence local climate from remote places.
  The Southern Hemisphere has three important climate modes of variability.
- They are the El Niño-Southern Oscillation (ENSO), the Indian Ocean Dipole
+ These are the El Niño-Southern Oscillation (ENSO), the Indian Ocean Dipole
  (IOD), and the Southern Annular Mode (SAM).
  Finally, a sub-section explained seasonal weather forecasting.
  It refers to the use of weather variables to predict weather behaviour
