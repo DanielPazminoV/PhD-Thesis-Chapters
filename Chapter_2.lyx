@@ -2391,7 +2391,106 @@ Climate in Victoria
 \end_layout
 
 \begin_layout Standard
-Australia uses three methods to classify climate 
+ENSO, IOD, and SAM drive Victoria's inter-annual climate variability 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "and references therein"
+key "Verdon-Kidd2008"
+
+\end_inset
+
+.
+ These drivers contribute producing wetter or drier conditions in this region.
+ This influence depends on the phase of each climate mode.
+ For example, strong 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ events can bring hot and dry conditions to Victoria 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BoM_ENSO_2016"
+
+\end_inset
+
+.
+ The opposite is true for 
+\begin_inset Quotes eld
+\end_inset
+
+La Niña
+\begin_inset Quotes erd
+\end_inset
+
+ conditions.
+ Additionally, positive SAM and IOD phases reduce rainfall in Victoria 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cai2009,Ho2011"
+
+\end_inset
+
+.
+ Their negative phases inverse the effect.
+ 
+\end_layout
+
+\begin_layout Standard
+On the other hand, the influence of these climate modes also varies between
+ seasons.
+ For instance, ENSO is important during the entire year 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BoM_ENSO_2016"
+
+\end_inset
+
+.
+ SAM reduces rainfall in winter while increasing it in spring and summer
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hendon2007"
+
+\end_inset
+
+.
+ The IOD influences temperature and precipitation in Victoria particularly
+ in winter and spring 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cai2009,Risbey2009b"
+
+\end_inset
+
+.
+ However, the interactions between them are not entirely understood 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Verdon-Kidd2008"
+
+\end_inset
+
+.
+ In fact, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Risbey2009b"
+
+\end_inset
+
+ argue that they all dependent on the others, especially ENSO and the IOD.
+ In spite of these complex interactions, it is possible to regionalise Victoria'
+s climate.
+ 
+\end_layout
+
+\begin_layout Standard
+Australia uses three methods to classify climate regions 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "BoM"
@@ -2459,8 +2558,17 @@ status open
 \begin_layout Plain Layout
 Climate classification of Australia based on a modified Köppen classification
  system.
- Classification derived from 0.025 x 0.025 degree resolution mean rainfall,
- mean maximum temperature and mean minimum temperature gridded data.
+ Classification derived from 0.025 x 0.025
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ resolution mean rainfall, mean maximum temperature and mean minimum temperature
+ gridded data.
  All means are based on a standard 30-year climatology (1961 to 1990).
  Source: Australian Bureau of Meteorology.
  
