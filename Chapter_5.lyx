@@ -589,7 +589,14 @@ key "Dowdy2009"
 \end_layout
 
 \begin_layout Subsubsection
-Formulation of the Victorian Seasonal Bushfire Index
+Formulation of the Victorian Seasonal Bushfire Index 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Formulation-VSBI"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -756,7 +763,7 @@ Seasonal bushfire weather variability
 \end_layout
 
 \begin_layout Subsubsection
-McArthur Forest Fire Danger Computation
+McArthur Forest Fire Danger computation
 \end_layout
 
 \begin_layout Standard
@@ -1655,7 +1662,155 @@ name "fig:Seasonal-Seasonal-FFDI"
 \end_layout
 
 \begin_layout Subsubsection
-Victorian Seasonal Bushfire Index Computation
+Victorian Seasonal Bushfire Index computation
+\end_layout
+
+\begin_layout Standard
+The bias-corrected renalysis data was also used to compute the VSBI.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Victorian-Seasonal-Bushfire-time-series"
+
+\end_inset
+
+ shows a time series during the period 1961-2010.
+ This index was used as an alternative to the seasonal metrics of the FFDI
+ in the investigation fire weather forecasting skill.
+ The VSBI computation is derived from the agregation of normalizaed values
+ of its variables (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Formulation-VSBI"
+
+\end_inset
+
+).
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSBI-Time-Series-Variables"
+
+\end_inset
+
+ presents the time series of the VSBI variables.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Victorian-Seasonal-Bushfire-time-series"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSBI-Time-Series-Variables"
+
+\end_inset
+
+ show values for the DJF season.
+ The VSBI computation also comprised the season.
+ The appendix shows these results.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/VSBI/VSBI_1961_2010.png
+	lyxscale 10
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Victorian Seasonal Bushfire Index for the period 1961-2010.
+ The computation used bias-corrected 20CR data.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Victorian-Seasonal-Bushfire-time-series"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/VSBI/VSBI_variables.png
+	lyxscale 10
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Victorian Seasonal Bushfire Index variables for the period 1961-2010.
+ The time series correspond to normalized spatial averages of a) temperature
+ (T), b) relative humidity (RH), and c) precipitation (P) over Victoria,
+ Australia during December-January-Februaary (DJF).
+ These variables correspond to bias-corrected 20CR data.
+ Panel d) shows sea surface temperature (SST).
+ This time series uses data in the 'El Nino1+2' region from the HADISST
+ dataset.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:VSBI-Time-Series-Variables"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2248,11 +2403,46 @@ key "Stickler2014"
 \end_layout
 
 \begin_layout Subsubsection
-Formulation of the Victorian Seasonal Bushfire Index 
+Computation of the Victorian Seasonal Bushfire Index
+\end_layout
+
+\begin_layout Standard
+In comparisson to the time series of seasonal FFDI, the VSBI does not present
+ any particular trend in the period 1961-2010.
+ However, the VSBI time series shows that this fire weather metric is particular
+ly sensitive to the sea surface temperature parameter.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Victorian-Seasonal-Bushfire-time-series"
+
+\end_inset
+
+ depicts how the VSBI peaks during the two strongest 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ events during this period—the 1982-1983 and 1997-1998 events—.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSBI-Time-Series-Variables"
+
+\end_inset
+
+displays how these peaks are clearly linked to the sea surface temperature
+ variability.
+ The next section discusses weather the VSBI is a better metric of seasonal
+ fire danger and if it does have skill to forecast fire activity.
+ 
 \end_layout
 
 \begin_layout Subsection
-Drivers of bushfire weather 
+Bushfire weather drivers
 \end_layout
 
 \begin_layout Standard
@@ -2314,7 +2504,7 @@ ed as FFDI>25.
 The strong influence of SAM over rainfall in Victoria is well known 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Risbey2009a,Ho2011"
+key "Risbey2009b,Ho2011"
 
 \end_inset
 
