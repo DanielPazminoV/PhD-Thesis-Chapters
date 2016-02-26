@@ -105,561 +105,257 @@ Introduction
 \end_layout
 
 \begin_layout Section
-Fire weather synoptic patterns and long-term variability 
+Fire weather synoptic patterns 
 \end_layout
 
 \begin_layout Standard
-Common variables of bushfire weather are air temperature, relative humidity,
- wind speed and rainfall.
- They are governed by large-scale weather patterns.
- These patterns have particular characteristics in different regions of
- Australia (BoM, 2009) .
- Weather patterns associated with bushfires have hot-dry air advection processes
- in common.
- Often the passage of cold fronts in bushfire areas is another characteristic.
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Bradstock2012"
-
-\end_inset
-
-.
- For example, bushfire weather in southeast Australia comprises a 'high'
- in the Tasman Sea.
- A strong cold front arriving from the west is also present (BoM, 2009).
- The passage of a cold front is associated with high winds and abrupt changes
- in wind direction.
- This can transform bushfires into extreme or even catastrophic events.
- In fact, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Mills2005"
-
-\end_inset
-
- demonstrated that a strong 850-hPa temperature gradient (associated with
- cold front arrivals) is highly correlated with extreme bushfire events
- in Victoria, Australia (see Figure 1 for location of Victoria).
- The common characteristic of bushfires and heatwaves in Victoria is the
- hot and dry environment.
- The northerly winds associated with the anticyclone in the Tasman Sea are
- linked with these conditions.
- Yet the precursors of these events can be quite different.
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Pezza2011"
-
-\end_inset
-
-demonstrated that an anticyclone (or high) in the Tasman Sea is the principal
- driver of Heatwaves in Victoria.
- In that study, heatwaves were defined as any event of three or more consecutive
- days with maximum temperatures equal to or greater than the 90th percentile
- of the monthly climatological mean.
- The minimum temperature should not drop below the 90th percentile in the
- second and third days.
- Heatwaves were associated with cyclones and anticyclones using a tracking
- scheme 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Simmonds1999"
-
-\end_inset
-
- for the period 1979-2008.
- The stability of the high in the Tasman Sea supports the dry air advection
- to southeastern Australia.
- This would prevent the passage of cold fronts, which makes this high a
- ‘blocking’ anticyclone.
- Even though there is a clear relationship between bushfires and heatwaves,
- to our knowledge these events have not been investigated in an integrated
- manner.
+Synoptic patterns help us understand how the climate system drives meteorologica
+l events.
+ Fire weather in southeastern Australia has a typical pattern.
+ Over the Tasman Sea, a quasi-stationary anticyclone is present.
+ Its circulation advects hot and dry air from the interior of the continent.
+ These environmental conditions make vegetation prone to fire ignitions.
+ At the same time, a cyclone over the Southern Ocean supports the arrival
+ of cold fronts to this region.
+ These cold fronts can turn a “bad” fire weather day into a catastrophic
+ event.
+ They change and extending the flank of the fire fronts (citations).
+ Several fire weather studies describe this pattern.
+ Most investigations focus on the catastrophic events.
 \end_layout
 
 \begin_layout Standard
-The meteorological variables of bushfire weather are governed by large-scale
- synoptic patterns that have particular characteristics in different regions
- of Australia 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BureauofMeteorology2008"
-
-\end_inset
-
-.
- However, the synoptic weather patterns associated with bushfires all have
- hot-dry air advection processes in common, and often the passage of cold
- fronts in initiated bushfire areas 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Bradstock2012"
-
-\end_inset
-
-.
- For example, bushfire weather in southeast Australia is characterized by
- an atmospheric high-pressure centre (“high”) in the Tasman Sea and a strong
- cold front arriving from the west 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BureauofMeteorology2008"
-
-\end_inset
-
- (see Fig.
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Historic-Chart-Analysis-1"
-
-\end_inset
-
- ).
+Mills (2005) performed an evaluation of the meteorological conditions of
+ "Ash Wednesday".
+ This study used a contemporary numerical weather prediction model to simulate
+ the event.
+ The investigation used data from the Australian National Meteorological
+ Centre.
+ The author also used The National Centre for Environmental Prediction (NCEP)
+ reanalysis dataset.
+ Mills (2005) proposed a parameter to assess and predict fire weather.
+ The study used the 850 hPa level horizontal temperature gradient.
+ The cyclone-anticyclone dipole structure is the basis for this parameter.
+ Extreme fires are more likely to occur when there are greater temperature
+ differences between the cold front air mass and the hot column of air over
+ southern Australia.
+ Using this criterion, Mills (2005) established that "Ash Wednesday" ranks
+ in the 0.1% of events using 40 years of reanalysis data.
 \end_layout
 
 \begin_layout Standard
-On the other hand, the passage of a cold front causes abrupt changes in
- wind direction converting bushfires in extreme or even catastrophic events.
- A strong 850-hPa temperature gradient (associated with cold front arrivals)
- is highly correlated with extreme bushfire events in Victoria 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Mills2005"
-
-\end_inset
-
-.
- According to this study, a catastrophic bushfire event like “Ash Wednesday”
- (February 16
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-th
-\end_layout
-
-\end_inset
-
- 1983) was categorized as an unusually extreme event corresponding to the
- 0.1 % of registered bushfires in 40 years in this state.
-\end_layout
-
-\begin_layout Quote
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename ../Chapter_2/Figures/Bushfire_weather_synoptic_pattern.png
-	lyxscale 25
-	scale 120
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Mean sea level pressure at 11 am Eastern Daylight Time on "Ash Wednesday"
- (February 16
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-th
-\end_layout
-
-\end_inset
-
-, 1983) showing areas with extreme fire weather.
- Source: Bureau of Meteorology.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Historic-Chart-Analysis-1"
-
-\end_inset
-
+Reproducing the arrival of cold fronts is the key factor in forecasting
+ extreme fire weather (citations).
+ Mills (2005) investigation also comprised a simulation that provided further
+ insights on the wind structures that made “Ash Wednesday” catastrophic.
+ It highlighted that not only the mobility of the frontal system created
+ this extreme fire event, but also the depth of the trough system.
+ In this study, the cold front arrival was simulated with a 1-hour lag.
+ Over time, computer simulations of extreme fire events in this region have
+ become more sophisticated.
  
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-Bushfires and heatwaves are dangerous natural hazards in Australia.
- In the last 100 years, heatwaves were the most hazardous natural phenomena
- for people in Australia 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Haynes2010"
-
-\end_inset
-
-.
- Bushfires ranked fourth.
- These events have also had important consequences for the Australian economy.
- Bushfires are the third most destructive natural hazard 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "McAneney2009"
-
-\end_inset
-
-.
- These events were responsible for 20% of property losses during the period
- 1900 to 2003.
- Heatwaves increase the energy demand because of the intense use of air
- conditioning systems.
- They also affect the physical integrity of civil infrastructure 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Pezza2011,Boschat2014,Cowan"
-
-\end_inset
-
-.
- The impacts produced by these events are significant for Australia.
- Therefore great effort has been devoted to understand how these events
- are produced.
- The meteorological aspects seem to link these events.
+Engels et al.
+ (2012) simulated the meteorological conditions of "Black Saturday".
+ Their study focused on simulating with great detail the mesoscale phenomena.
+ The investigation also determined the spatial and temporal variability
+ of fire danger.
+ The investigation used the UK Met Office Unified Model.
+ The highest resolution of the model reaches has a 444 m of horizontal grid
+ spacing.
+ This simulation proved to be quite accurate.
+ It reproduced the arrival of the cold front of that day with a 30 minutes
+ lag compared to observations.
+ Using the results of the numerical model, the McArthur's Forest Fire Danger
+ Index was computed (Noble et al., 1980).
+ The paper demonstrates how changes in temperature, humidity and wind influenced
+ the spatial and temporal variability of fire danger on "Black Saturday".
+ The specific mesoscale meteorological conditions of that day provoked these
+ changes.
+ The fine resolution of this modelling effort also allowed to understand
+ the effects of topography on fire weather.
  
+\end_layout
+
+\begin_layout Standard
+Mills (2005) and Engels et al.
+ (2012) are examples of the approach that many studies use to examine fire
+ weather in this region.
+ Both have used a single case study to simulate and explain fire weather
+ behavior.
+ “Ash Wednesday” and "Black Saturday" are the most relevant cases regarding
+ human fatalities and economic impact, and therefore the focus of great
+ research attention.
+ Investigating single case fire weather studies has been useful to identify
+ the main characteristics of these events.
+ However, fire weather research with a long-term synoptic approach has been
+ less common.
+ Exploring the synoptic climate signal based on a long-term analysis could
+ contribute to extending the lead time of the forecasts.
+ Addtionally, a synoptic climatology could contribute to the understanding
+ the mechanisms that drive fire weather.
+\end_layout
+
+\begin_layout Standard
+Reeder et at.
+ (2015) provided further insights on fire weather patterns with a long-term
+ approach.
+ They investigated the role of Rossby waves and extreme fronts on fire weather.
+ This research used the European Centre for Medium-Range Weather Forecasts
+ ERA-interim Reanalysis.
+ The analysis covered the period 1979-2010 and focused on southeastern Australia.
+ The study used days with extreme cold fonts days to define extreme fire
+ weather events.
+ A surface temperature drop of a least of 17 oC ( ▵ T>1 7 o C ) after the
+ passage of the cold front defined extreme cold fronts.
+ Identifying extreme and strong cold fronts ( 12 o C< ▵ T<17 o C ) proved
+ to be useful in establishing fire weather days.
+ Using this criterion, composites of several weather variables were computed.
+ The computation included Rossby waves breaking anomalies.
+ 
+\end_layout
+
+\begin_layout Standard
+Reeder et at.
+ (2015) attribute an anticyclone in the Tasman Sea as the driver of hot
+ and dry air to southeastern Australia.
+ The amplification of a Rossby wave that eventually overturns produces this
+ anticyclone.
+ The Rossby wave breaking produces a potential vorticity anomaly in this
+ region.
+ This mechanism has been attributed to the occurrence of heatwaves.
+ However, Reeder et at.
+ (2015) argue that fire weather and heatwave conditions are usually different.
+ This study only mentions that cold fronts are the defining feature of fire
+ weather.
+ It would be interesting to explore if the differences between these two
+ types of events.
+ Our ability to predict these events could benefit from an understanding
+ of the characteristics that distinguish them.
+ The interactions between them also remain unexplored.
+ Therefore, to investigate this relationship, it is also important to review
+ the heatwave literature.
+\end_layout
+
+\begin_layout Standard
+Pezza et al.
+ (2012) investigated the synoptic climatology of heatwaves in southern Australia.
+ This study provided an original heatwave definition.
+ Three consecutive days with maximum temperature above the 90th percentile
+ define a heatwave.
+ The criteria included the lack of relief during the nights.
+ The minimum temperature on the second and third days should also be above
+ the 90th percentile.
+ The definition required using a monthly climatology.
+ The period of analysis was 1979 2008.
+ The investigation used an automatic tracking scheme (citations).
+ With this system, the Pezza et al.
+ (2012) investigated the trajectories of the cyclones and anticyclones.
+ The study determined that a high in the Tasman Sea produces heatwave conditions
+ in southeastern Australia.
+ A wave train amplification that starts in the Indian Ocean creates the
+ anticyclone.
+ In contrast to fire weather research, the investigation of heatwaves has
+ considered the interactions or co-occurrences with other extreme events.
+\end_layout
+
+\begin_layout Standard
+Boschat et al.
+ (2014) examined the large-scale connections between heatwaves in Victoria
+ and extreme rainfall events in Queensland.
+ The co-occurrence of these events motivated this study.
+ In this investigation, they computed composites of several climate variables
+ during the period 1979-2013.
+ These computations used the ERA-interim reanalysis.
+ The results were not sensitive to the use of alternative reanalysis products.
+ Additionally, the investigation included an air parcels trajectory simulation.
+ The air parcel tracking started on the first day of the extreme event.
+ This study found that there is no dynamic link between heatwaves in Victoria
+ and extreme rainfall events in Queensland.
+ Tropical convection drives extreme rainfall events in Queensland.
+ This convention usually occurs during strong “La Nina” events.
+ On the other hand, heatwaves in Victoria are locally driven.
+ An anticyclone produced by a wave train amplification that starts in the
+ in the Indian Ocean generates heatwaves.
+ Boschat et al.
+ (2014) acknowledge that this anticyclone pattern is also present during
+ extreme rainfall events in southern Queensland.
+ However, the air parcel tracking allowed to determine that a different
+ process forms this anticyclone.
+ The high pressure system forms as part of a tropical-ex-tropical influence
+ of "La Nina" events.
+ 
+\end_layout
+
+\begin_layout Standard
+Pezza et al.
+ (2012) investigation undertakes the synoptic climatology approach that
+ seems less explored in fire weather.
+ It appears that a lack of robust fire activity records hampers these studies.
+ For example, Mills (2005) and Reeder et al.
+ (2015) rely first on weather parameters to identify extreme fire days.
+ Mills (2005) used the 850 hPa horizontal temperature gradient before the
+ cold front arrival.
+ On the other hand, Reeder et al.
+ (2015) used the temperature difference after the passage of the cold front.
+ In both cases, they validated they approaches with the available fire activity
+ dates.
+ These dates are scarce in the scientific literature.
+ Therefore, the logical behind their approaches is sound.
+ Oficial bushfire records of the Victorian Government have not been peer-reviewe
+d.
+ However, they have been used in other fire investigations (Harris 2013).
+ Therefore, they could be useful to investigate long-term fire weather patterns.
+ Pezza et al.
+ (2012) also mention that fire and heatwaves are related events without
+ providing further details.
+\end_layout
+
+\begin_layout Standard
+Maximum and minimum temperature are the basic variables to compute heatwaves.
+ Long-term and high-quality records of these variables span the entire the
+ entire 20th century.
+ For example, the Australian Climate Observations Reference Network - Surface
+ Air Temperature (ACORN-SAT) dataset (citation).
+ Therefore, the feasibility to perform long-term analysis increases.
+ Despite this, the long-term analysis of heatwaves only starts on the nineteen-s
+eventies.
+ For example, Pezza et al.
+ (2012) acknowledge that their study period is not long enough to establish
+ significant trends.
+ 
+\end_layout
+
+\begin_layout Standard
+Additionally, the investigations have focused on the sub-regional processes
+ that drive fire weather.
+ However, climate modes of variability exert a significant influence on
+ weather—and fire weather—in Australia.
+ For example, “El Nino” events generally bring dry conditions to Australia
+ (Risbey, 2009).
+ On the other, hand wet conditions are usually linked to a “La Nina” events.
+ Moreover, the Indian Ocean dynamics has contributed to several droughts
+ in southeastern Australia (citations).
+ In fact, positive phases of the Indian Ocean Dipole produce hot and dry
+ conditions during in spring in Victoria.
+ These environmental conditions contribute to the availability of fuels
+ and an increase in extreme fire events in this region (Cai, 2009).
+ A large-scale analysis of the weather patterns associated with fire activity
+ in this region could offer further insights to disentangle the influences
+ of these climate modes of variability over fire weather.
+ To accomplish this, a long-term analysis of fire weather is again necessary.
+ A synoptic climatology of fire weather could contribute to having greater
+ confidence in the global patterns that drive fire weather in this region.
+\end_layout
+
+\begin_layout Section
+Fire weather long-term variability
 \end_layout
 
 \begin_layout Section
 Fire weather forecasting and climate modes of variability
-\end_layout
-
-\begin_layout Standard
-Wildfires are a global phenomenon that produces severe impacts 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Luke1978,Conard1997,Morton2003"
-
-\end_inset
-
-.
- Catastrophic wildfire events claim lives 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Haynes2008,Haynes2010"
-
-\end_inset
-
-, degrade the environment 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Shakesby1993,Stephens2004,Lane2010"
-
-\end_inset
-
-and destroy building infrastructure 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Morton2003,McAneney2009,Crompton2010"
-
-\end_inset
-
-.
- Wildfires also contribute to biodiversity loss 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Kodandapani2008,Pastro2011"
-
-\end_inset
-
-and affect the climate 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Conard1997"
-
-\end_inset
-
-.
- They are part of the natural evolution of vegetation ecosystems (HaynesBradstoc
-k 2012).
- However, human actions amplify the impact over people, nature and infrastructur
-e 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Pausas2011"
-
-\end_inset
-
-.
- In fact, wildfires have a strong anthropogenic ignition pattern.
- In addition, population growth in rural areas increase human vulnerability
- to this hazard.
- The threat of wildfires have encouraged extensive research on the behavior
- of its precursors.
-\end_layout
-
-\begin_layout Standard
-Weather is one of the key components that contributes to wildfire activity
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Powell1983,Williams1999,Mills2005,Haines,Mccaw2007,Dowdy2012,Engel2013"
-
-\end_inset
-
-.
- Wildfire weather refers to the meteorological influence over wildfires
- over a period of time —usually within days—.
- Common variables associated with wildfire weather are temperature, relative
- humidity, wind speed and precipitation 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "BoM2009"
-
-\end_inset
-
-.
- Each variable exerts influence in the liberation of water content in vegetation.
- This process—Evapotranspiration—controls the availability of fuels to be
- burnt.
- Most of the research conducted on wildfires and climate focuses on this
- daily approach 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Roads2005"
-
-\end_inset
-
-.
- Yet, the study of wildfire predictability on a seasonal scale is also important.
- A key factor to explore this perspective is El Niño Southern-Oscillation
- (ENSO) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Swetnam1983,Simard1985,Kitzberger2002,Beckage2003,Wooster2012"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-ENSO produces negative rainfall anomalies in some wildfire-prone regions
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Swetnam1983,Simard1985,Kitzberger2002,Beckage2003,Wooster2012"
-
-\end_inset
-
-.
- The intensity of these anomalies depends on the regional influence of ENSO
- over climate.
- These rainfall deficits occur over the months before—and during–the wildfire
- season.
- ENSO’s influence may even increase by the superposition of the Inter-decadal
- Pacific Oscillation (IPO) (Verdon 2004).
- ENSO also has an influence over ignition patterns.
- In some regions it fosters the occurrence of lightning strikes 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Beckage2003"
-
-\end_inset
-
-.
- These facts encourage the investigation of new studies of ENSO and wildfire
- weather around the world.
-\end_layout
-
-\begin_layout Standard
-Among the most important modes of climate variability for Australia are
- El Niño—Southern Oscillation (ENSO), the Southern Annular Mode (SAM) and
- the Indian Ocean Dipole (IOD) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Risbey2009"
-
-\end_inset
-
-.
- Improving the capacity to predict extreme bushfire seasons will rely on
- understanding how they are influenced by these large-scale atmospheric
- circulation variations.
- 
-\end_layout
-
-\begin_layout Standard
-To understand the relationship between these events, it is worth reviewing
- their connection to one of the major Australian climate drivers: El Niño
- Southern Oscillation (ENSO) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Power1999,Lau2000,Risbey2009a,White2013,Klingaman2013"
-
-\end_inset
-
-.
- Several studies have addressed the relationship between ENSO and fire weather
- in Australia 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Williams2001,Lucas2007"
-
-\end_inset
-
-(Williams and Karoly 1999; Verdon et al.
- 2004; Lucas et al.
- 2007).
- Most of these studies assert that there is a significant relationship between
- ‘El Niño’ phase of ENSO and fire weather.
- However in Victoria, fire activity is only moderately associated with ENSO
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Harris2013"
-
-\end_inset
-
-.
- On the other hand, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Perkins2012"
-
-\end_inset
-
-have suggested that ENSO phases can modulate the duration and amplitude
- of heatwaves on a global scale.
- Yet, heatwaves in southeastern Australia are not modulated by tropical
- dynamics
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Pezza2011"
-
-\end_inset
-
-.
- This has been corroborated for heatwaves in Melbourne 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Boschat2014"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-ENSO is associated with potentially dangerous bushfire weather in southeast
- and central Australia especially during El Niño events (characterised by
- positive SST anomalies in the central and equatorial Pacific Ocean); relative
- humidity, being the parameter most influenced by ENSO 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Williams1999"
-
-\end_inset
-
-.
- A positive phase of SAM (lower than normal pressures in the polar region)
- produces significant reductions in rainfall in southern Australia, including
- the south western tip of Werstern Australia, southern Victoria and Tasmania
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Risbey2009"
-
-\end_inset
-
-; which might have an influence in preconditioning bushfires in these regions.
- In Victoria, positive IOD events (warmer SST anomalies in the Western Indian
- Ocean relative to the east) are correlated with higher maximum temperatures
- and lower precipitation in spring (September-October-November, SON), exacerbati
-ng fuel loads dryness in the bushfire season (December-January-February,
- DJF) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Cai2009"
-
-\end_inset
-
-.
- Finally, it has been demonstrated for this region there exists a potential
- to develop a forecasting tool to predict bushfire seasons based on climate
- variables that have a moderate relationship with ENSO 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Harris2013"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-ENSO has an important influence over bushfire regimes in several regions
- of the world (citations).
- For example, there is a link between El Nino events and decreased fire
- acitity in the Southern of the United States (citation).
- 
-\end_layout
-
-\begin_layout Standard
-Fire weather is influenced by ENSO in several regions in Australia.
- This influence is exacervated in the southeast when there is a superposition
- of the Interdecal Pacific Oscillation (IPO) and ENSO (citation).
- 
-\end_layout
-
-\begin_layout Standard
-The west coast of South America is one of the regions most affected by ENSO.
- The coastal areas of Peru and Ecuador experience massive rainfall episodes
- during strong El Niño events 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Rodbell1999"
-
-\end_inset
-
-.
- Yet, there has not been enough research on its influence over other natural
- hazards.
- Wildfires occur all over South America 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Manta2008"
-
-\end_inset
-
-(Manta 2008).
- However, studies about wildfire weather in the northern Andean region are
- scarce.
- This study aims to describe the seasonal variability of wildfire weather
- in Ecuador.
- Also, we investigate if there is a link between this type of weather and
- ENSO in this region.
- This is important because wildfires occur every year in this country producing
- severe impacts 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013,Rodas2015"
-
-\end_inset
-
-.
- A better understanding of wildfire weather variability and its precursors
- can provide useful information.
- These insights could be of special interest to emergency response services
- and planning authorities.
 \end_layout
 
 \begin_layout Section
