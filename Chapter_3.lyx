@@ -120,19 +120,13 @@ l events.
  These cold fronts can turn a “bad” fire weather day into a catastrophic
  event.
  They change and extending the flank of the fire fronts (citations).
- Several fire weather studies describe this pattern.
- Most investigations focus on the catastrophic events.
+ Several fire weather studies describe this pattern (citations).
+ Most investigations focus on the catastrophic events (citations).
 \end_layout
 
 \begin_layout Standard
 Mills (2005) performed an evaluation of the meteorological conditions of
  "Ash Wednesday".
- This study used a contemporary numerical weather prediction model to simulate
- the event.
- The investigation used data from the Australian National Meteorological
- Centre.
- The author also used The National Centre for Environmental Prediction (NCEP)
- reanalysis dataset.
  Mills (2005) proposed a parameter to assess and predict fire weather.
  The study used the 850 hPa level horizontal temperature gradient.
  The cyclone-anticyclone dipole structure is the basis for this parameter.
@@ -141,11 +135,8 @@ Mills (2005) performed an evaluation of the meteorological conditions of
  southern Australia.
  Using this criterion, Mills (2005) established that "Ash Wednesday" ranks
  in the 0.1% of events using 40 years of reanalysis data.
-\end_layout
-
-\begin_layout Standard
-Reproducing the arrival of cold fronts is the key factor in forecasting
- extreme fire weather (citations).
+ On the other hand, reproducing the arrival of cold fronts is the key factor
+ in forecasting extreme fire weather (citations).
  Mills (2005) investigation also comprised a simulation that provided further
  insights on the wind structures that made “Ash Wednesday” catastrophic.
  It highlighted that not only the mobility of the frontal system created
@@ -160,41 +151,33 @@ Reproducing the arrival of cold fronts is the key factor in forecasting
 Engels et al.
  (2012) simulated the meteorological conditions of "Black Saturday".
  Their study focused on simulating with great detail the mesoscale phenomena.
- The investigation also determined the spatial and temporal variability
- of fire danger.
- The investigation used the UK Met Office Unified Model.
- The highest resolution of the model reaches has a 444 m of horizontal grid
- spacing.
- This simulation proved to be quite accurate.
  It reproduced the arrival of the cold front of that day with a 30 minutes
  lag compared to observations.
+ The investigation also determined the spatial and temporal variability
+ of fire danger.
  Using the results of the numerical model, the McArthur's Forest Fire Danger
  Index was computed (Noble et al., 1980).
  The paper demonstrates how changes in temperature, humidity and wind influenced
  the spatial and temporal variability of fire danger on "Black Saturday".
- The specific mesoscale meteorological conditions of that day provoked these
- changes.
- The fine resolution of this modelling effort also allowed to understand
- the effects of topography on fire weather.
  
 \end_layout
 
 \begin_layout Standard
 Mills (2005) and Engels et al.
- (2012) are examples of the approach that many studies use to examine fire
- weather in this region.
- Both have used a single case study to simulate and explain fire weather
- behavior.
+ (2012) are examples of a typical approach to examine fire weather in this
+ region.
+ Several studies focus on a single case study to simulate and explain fire
+ weather behavior (citations).
  “Ash Wednesday” and "Black Saturday" are the most relevant cases regarding
- human fatalities and economic impact, and therefore the focus of great
- research attention.
+ human fatalities and economic impact (citations), and therefore the focus
+ of great research attention.
  Investigating single case fire weather studies has been useful to identify
  the main characteristics of these events.
  However, fire weather research with a long-term synoptic approach has been
  less common.
  Exploring the synoptic climate signal based on a long-term analysis could
  contribute to extending the lead time of the forecasts.
- Addtionally, a synoptic climatology could contribute to the understanding
+ Addtionally, a synoptic climatology could contribute to better understand
  the mechanisms that drive fire weather.
 \end_layout
 
@@ -203,35 +186,51 @@ Reeder et at.
  (2015) provided further insights on fire weather patterns with a long-term
  approach.
  They investigated the role of Rossby waves and extreme fronts on fire weather.
- This research used the European Centre for Medium-Range Weather Forecasts
- ERA-interim Reanalysis.
  The analysis covered the period 1979-2010 and focused on southeastern Australia.
  The study used days with extreme cold fonts days to define extreme fire
  weather events.
- A surface temperature drop of a least of 17 oC ( ▵ T>1 7 o C ) after the
- passage of the cold front defined extreme cold fronts.
- Identifying extreme and strong cold fronts ( 12 o C< ▵ T<17 o C ) proved
- to be useful in establishing fire weather days.
- Using this criterion, composites of several weather variables were computed.
- The computation included Rossby waves breaking anomalies.
- 
+ A surface temperature drop of a least of 17 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
 \end_layout
 
-\begin_layout Standard
-Reeder et at.
- (2015) attribute an anticyclone in the Tasman Sea as the driver of hot
+\end_inset
+
+C ( ▵T > 17 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C ) after the passage of the cold front defined extreme cold fronts.
+ Identifying extreme cold fronts proved to be useful in establishing fire
+ weather days.
+ Reeder et at.
+ (2015) attributed an anticyclone in the Tasman Sea as the driver of hot
  and dry air to southeastern Australia.
  The amplification of a Rossby wave that eventually overturns produces this
  anticyclone.
  The Rossby wave breaking produces a potential vorticity anomaly in this
  region.
- This mechanism has been attributed to the occurrence of heatwaves.
+ 
+\end_layout
+
+\begin_layout Standard
+This mechanism has also been attributed to the occurrence of heatwaves (citation
+s).
  However, Reeder et at.
  (2015) argue that fire weather and heatwave conditions are usually different.
  This study only mentions that cold fronts are the defining feature of fire
  weather.
- It would be interesting to explore if the differences between these two
- types of events.
+ Other studies also mention that fire and heatwaves are related events without
+ providing further details (citations).
+ It would be interesting to explore the differences between these two types
+ of events.
  Our ability to predict these events could benefit from an understanding
  of the characteristics that distinguish them.
  The interactions between them also remain unexplored.
@@ -243,13 +242,30 @@ Reeder et at.
 Pezza et al.
  (2012) investigated the synoptic climatology of heatwaves in southern Australia.
  This study provided an original heatwave definition.
- Three consecutive days with maximum temperature above the 90th percentile
- define a heatwave.
+ Three consecutive days with maximum temperature above the 90
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ percentile define a heatwave.
  The criteria included the lack of relief during the nights.
  The minimum temperature on the second and third days should also be above
- the 90th percentile.
+ the 90
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ percentile.
  The definition required using a monthly climatology.
- The period of analysis was 1979 2008.
+ The period of analysis was 1979-2008.
  The investigation used an automatic tracking scheme (citations).
  With this system, the Pezza et al.
  (2012) investigated the trajectories of the cyclones and anticyclones.
@@ -266,14 +282,8 @@ Boschat et al.
  (2014) examined the large-scale connections between heatwaves in Victoria
  and extreme rainfall events in Queensland.
  The co-occurrence of these events motivated this study.
- In this investigation, they computed composites of several climate variables
- during the period 1979-2013.
- These computations used the ERA-interim reanalysis.
- The results were not sensitive to the use of alternative reanalysis products.
- Additionally, the investigation included an air parcels trajectory simulation.
- The air parcel tracking started on the first day of the extreme event.
- This study found that there is no dynamic link between heatwaves in Victoria
- and extreme rainfall events in Queensland.
+ However, this study found that there is no dynamic link between heatwaves
+ extreme rainfall events in Victoria and Queensland respectively.
  Tropical convection drives extreme rainfall events in Queensland.
  This convention usually occurs during strong “La Nina” events.
  On the other hand, heatwaves in Victoria are locally driven.
@@ -291,7 +301,8 @@ Boschat et al.
 
 \begin_layout Standard
 Pezza et al.
- (2012) investigation undertakes the synoptic climatology approach that
+ (2012) and Boschat et al.
+ (2014) investigations undertake the synoptic climatology approach that
  seems less explored in fire weather.
  It appears that a lack of robust fire activity records hampers these studies.
  For example, Mills (2005) and Reeder et al.
@@ -308,9 +319,7 @@ Pezza et al.
 d.
  However, they have been used in other fire investigations (Harris 2013).
  Therefore, they could be useful to investigate long-term fire weather patterns.
- Pezza et al.
- (2012) also mention that fire and heatwaves are related events without
- providing further details.
+ 
 \end_layout
 
 \begin_layout Standard
