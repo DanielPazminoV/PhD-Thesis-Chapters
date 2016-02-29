@@ -110,35 +110,122 @@ Fire weather synoptic patterns
 
 \begin_layout Standard
 Synoptic patterns help us understand how the climate system drives meteorologica
-l events.
+l events 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sturman2006"
+
+\end_inset
+
+.
  Fire weather in southeastern Australia has a typical pattern.
- Over the Tasman Sea, a quasi-stationary anticyclone is present.
- Its circulation advects hot and dry air from the interior of the continent.
- These environmental conditions make vegetation prone to fire ignitions.
+ Over the Tasman Sea, a quasi-stationary anticyclone is present 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BoM2009"
+
+\end_inset
+
+.
+ Its circulation advects hot and dry air from the interior of the continent
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mills2005,Engel2013,Reeder2015"
+
+\end_inset
+
+.
+ These environmental conditions make vegetation prone to fire ignitions
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2012"
+
+\end_inset
+
+.
  At the same time, a cyclone over the Southern Ocean supports the arrival
- of cold fronts to this region.
- These cold fronts can turn a “bad” fire weather day into a catastrophic
- event.
- They change and extending the flank of the fire fronts (citations).
- Several fire weather studies describe this pattern (citations).
- Most investigations focus on the catastrophic events (citations).
+ of cold fronts to this region 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Reeder1987,Fiddes2015"
+
+\end_inset
+
+.
+ These cold fronts can produce a catastrophic bushfire event because they
+ change and extend the flank of the fire fronts 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mills2005,Engel2013,Reeder2015"
+
+\end_inset
+
+.
+ Some of these investigations that describe this pattern focus on the catastroph
+ic events 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mills2005,Mills2005a,Cruz2012,Engel2013,Fiddes2015,Reeder2015"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Mills (2005) performed an evaluation of the meteorological conditions of
- "Ash Wednesday".
- Mills (2005) proposed a parameter to assess and predict fire weather.
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ performed an evaluation of the meteorological conditions of "Ash Wednesday".
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ proposed a parameter to assess and predict fire weather.
  The study used the 850 hPa level horizontal temperature gradient.
  The cyclone-anticyclone dipole structure is the basis for this parameter.
  Extreme fires are more likely to occur when there are greater temperature
  differences between the cold front air mass and the hot column of air over
  southern Australia.
- Using this criterion, Mills (2005) established that "Ash Wednesday" ranks
- in the 0.1% of events using 40 years of reanalysis data.
- On the other hand, reproducing the arrival of cold fronts is the key factor
- in forecasting extreme fire weather (citations).
- Mills (2005) investigation also comprised a simulation that provided further
- insights on the wind structures that made “Ash Wednesday” catastrophic.
+ Using this criterion, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ established that "Ash Wednesday" ranks in the 0.1% of events using 40 years
+ of reanalysis data.
+ 
+\end_layout
+
+\begin_layout Standard
+On the other hand, reproducing the arrival of cold fronts is a key factor
+ in forecasting extreme fire weather 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mills2005,Engel2013"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ investigation also comprised a simulation that provided further insights
+ on the wind structures that made “Ash Wednesday” catastrophic.
  It highlighted that not only the mobility of the frontal system created
  this extreme fire event, but also the depth of the trough system.
  In this study, the cold front arrival was simulated with a 1-hour lag.
@@ -148,43 +235,80 @@ Mills (2005) performed an evaluation of the meteorological conditions of
 \end_layout
 
 \begin_layout Standard
-Engels et al.
- (2012) simulated the meteorological conditions of "Black Saturday".
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Engel2013"
+
+\end_inset
+
+ simulated the meteorological conditions of "Black Saturday".
  Their study focused on simulating with great detail the mesoscale phenomena.
  It reproduced the arrival of the cold front of that day with a 30 minutes
  lag compared to observations.
  The investigation also determined the spatial and temporal variability
  of fire danger.
  Using the results of the numerical model, the McArthur's Forest Fire Danger
- Index was computed (Noble et al., 1980).
+ Index was computed 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Noble1980"
+
+\end_inset
+
+.
  The paper demonstrates how changes in temperature, humidity and wind influenced
  the spatial and temporal variability of fire danger on "Black Saturday".
  
 \end_layout
 
 \begin_layout Standard
-Mills (2005) and Engels et al.
- (2012) are examples of a typical approach to examine fire weather in this
- region.
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Engel2013"
+
+\end_inset
+
+ are examples of a typical approach to examine fire weather in this region.
  Several studies focus on a single case study to simulate and explain fire
- weather behavior (citations).
+ weather behavior 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mills2005,Mills2005a,Cruz2012,Engel2013,Fiddes2015,Reeder2015"
+
+\end_inset
+
+.
  “Ash Wednesday” and "Black Saturday" are the most relevant cases regarding
- human fatalities and economic impact (citations), and therefore the focus
- of great research attention.
+ human fatalities and economic impact 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Blanchi2010,Blanchi2012"
+
+\end_inset
+
+, and therefore the focus of great research attention.
  Investigating single case fire weather studies has been useful to identify
  the main characteristics of these events.
  However, fire weather research with a long-term synoptic approach has been
  less common.
- Exploring the synoptic climate signal based on a long-term analysis could
- contribute to extending the lead time of the forecasts.
- Addtionally, a synoptic climatology could contribute to better understand
- the mechanisms that drive fire weather.
+ 
 \end_layout
 
 \begin_layout Standard
-Reeder et at.
- (2015) provided further insights on fire weather patterns with a long-term
- approach.
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Reeder2015"
+
+\end_inset
+
+ provided further insights on fire weather patterns with a long-term approach.
  They investigated the role of Rossby waves and extreme fronts on fire weather.
  The analysis covered the period 1979-2010 and focused on southeastern Australia.
  The study used days with extreme cold fonts days to define extreme fire
@@ -210,37 +334,54 @@ o
 C ) after the passage of the cold front defined extreme cold fronts.
  Identifying extreme cold fronts proved to be useful in establishing fire
  weather days.
- Reeder et at.
- (2015) attributed an anticyclone in the Tasman Sea as the driver of hot
- and dry air to southeastern Australia.
- The amplification of a Rossby wave that eventually overturns produces this
- anticyclone.
- The Rossby wave breaking produces a potential vorticity anomaly in this
- region.
  
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Reeder2015"
+
+\end_inset
+
+ argue that Rossby wave breaking produces a potential vorticity anomaly
+ in this region.
+ This anomaly generates an antyclone in the Tasman Sea that drives hot and
+ dry air to southeastern Australia.
 \end_layout
 
 \begin_layout Standard
-This mechanism has also been attributed to the occurrence of heatwaves (citation
-s).
- However, Reeder et at.
- (2015) argue that fire weather and heatwave conditions are usually different.
+This mechanism has also been attributed to the occurrence of heatwaves.
+ However, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Reeder2015"
+
+\end_inset
+
+ claim that fire weather and heatwave conditions are usually different.
  This study only mentions that cold fronts are the defining feature of fire
  weather.
  Other studies also mention that fire and heatwaves are related events without
- providing further details (citations).
- It would be interesting to explore the differences between these two types
- of events.
- Our ability to predict these events could benefit from an understanding
- of the characteristics that distinguish them.
- The interactions between them also remain unexplored.
+ providing further details 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pezza2011,Boschat2014"
+
+\end_inset
+
+.
+ However, the characteristics that distinguish them and their interactions
+ remain unexplored.
  Therefore, to investigate this relationship, it is also important to review
  the heatwave literature.
 \end_layout
 
 \begin_layout Standard
-Pezza et al.
- (2012) investigated the synoptic climatology of heatwaves in southern Australia.
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2011"
+
+\end_inset
+
+ investigated the synoptic climatology of heatwaves in southern Australia.
  This study provided an original heatwave definition.
  Three consecutive days with maximum temperature above the 90
 \begin_inset script superscript
@@ -266,32 +407,78 @@ th
  percentile.
  The definition required using a monthly climatology.
  The period of analysis was 1979-2008.
- The investigation used an automatic tracking scheme (citations).
- With this system, the Pezza et al.
- (2012) investigated the trajectories of the cyclones and anticyclones.
+ The investigation used an automatic tracking scheme 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Murray1999"
+
+\end_inset
+
+.
+ With this system, the 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2011"
+
+\end_inset
+
+ investigated the trajectories of the cyclones and anticyclones.
  The study determined that a high in the Tasman Sea produces heatwave conditions
  in southeastern Australia.
- A wave train amplification that starts in the Indian Ocean creates the
+ Other studies agree with this result 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Parker2014a"
+
+\end_inset
+
+.
+ According to 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2011"
+
+\end_inset
+
+, a wave train amplification that starts in the Indian Ocean creates the
  anticyclone.
- In contrast to fire weather research, the investigation of heatwaves has
- considered the interactions or co-occurrences with other extreme events.
+ In contrast to fire weather research in this region, the investigation
+ of heatwaves has considered the interactions with other extreme events.
 \end_layout
 
 \begin_layout Standard
-Boschat et al.
- (2014) examined the large-scale connections between heatwaves in Victoria
- and extreme rainfall events in Queensland.
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Boschat2014"
+
+\end_inset
+
+ examined the large-scale connections between heatwaves in Victoria and
+ extreme rainfall events in Queensland.
  The co-occurrence of these events motivated this study.
  However, this study found that there is no dynamic link between heatwaves
  extreme rainfall events in Victoria and Queensland respectively.
  Tropical convection drives extreme rainfall events in Queensland.
  This convention usually occurs during strong “La Nina” events.
  On the other hand, heatwaves in Victoria are locally driven.
- An anticyclone produced by a wave train amplification that starts in the
- in the Indian Ocean generates heatwaves.
- Boschat et al.
- (2014) acknowledge that this anticyclone pattern is also present during
- extreme rainfall events in southern Queensland.
+ This study agrees with 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2011"
+
+\end_inset
+
+, attributing to a wave train amplification that starts in the in the Indian
+ Ocean the generation of an anticyclone that produces heatwave conditions.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Boschat2014"
+
+\end_inset
+
+ acknowledge that this anticyclone pattern is also present during extreme
+ rainfall events in southern Queensland.
  However, the air parcel tracking allowed to determine that a different
  process forms this anticyclone.
  The high pressure system forms as part of a tropical-ex-tropical influence
@@ -300,41 +487,106 @@ Boschat et al.
 \end_layout
 
 \begin_layout Standard
-Pezza et al.
- (2012) and Boschat et al.
- (2014) investigations undertake the synoptic climatology approach that
- seems less explored in fire weather.
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2011"
+
+\end_inset
+
+and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Boschat2014"
+
+\end_inset
+
+ investigations undertake the synoptic climatology approach that seems less
+ explored in fire weather research.
  It appears that a lack of robust fire activity records hampers these studies.
- For example, Mills (2005) and Reeder et al.
- (2015) rely first on weather parameters to identify extreme fire days.
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Reeder2015"
+
+\end_inset
+
+ rely first on weather parameters to identify extreme fire days.
  Mills (2005) used the 850 hPa horizontal temperature gradient before the
  cold front arrival.
- On the other hand, Reeder et al.
- (2015) used the temperature difference after the passage of the cold front.
- In both cases, they validated they approaches with the available fire activity
- dates.
- These dates are scarce in the scientific literature.
+ On the other hand, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Reeder2015"
+
+\end_inset
+
+ used the temperature difference after the passage of the cold front.
+ In both cases, they validated they approaches with fire activity dates
+ published in the scientific literature.
+ These dates are scarce.
  Therefore, the logical behind their approaches is sound.
  Oficial bushfire records of the Victorian Government have not been peer-reviewe
 d.
- However, they have been used in other fire investigations (Harris 2013).
+ However, they have been used in other fire investigations 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harris2013"
+
+\end_inset
+
+.
  Therefore, they could be useful to investigate long-term fire weather patterns.
  
 \end_layout
 
 \begin_layout Standard
-Maximum and minimum temperature are the basic variables to compute heatwaves.
- Long-term and high-quality records of these variables span the entire the
- entire 20th century.
+The investigation of long-term heatweatter patterns is also feasible.
+ Maximum and minimum temperature are the basic variables to compute heatwaves.
+ Long-term and high-quality records of these variables span the entire 20
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ century in Australia.
  For example, the Australian Climate Observations Reference Network - Surface
- Air Temperature (ACORN-SAT) dataset (citation).
- Therefore, the feasibility to perform long-term analysis increases.
- Despite this, the long-term analysis of heatwaves only starts on the nineteen-s
-eventies.
- For example, Pezza et al.
- (2012) acknowledge that their study period is not long enough to establish
- significant trends.
+ Air Temperature (ACORN-SAT) dataset complied these records 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Trewin2013"
+
+\end_inset
+
+.
+ Despite this, most heatwaves studies on southeastern Australia start their
+ analyses only after the nineteen-seventies 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Boschat2014,Parker2013,Pezza2011"
+
+\end_inset
+
+.
+ This hampers the ability to reach conclusions about trends.
  
+\end_layout
+
+\begin_layout Section
+Fire weather long-term variability
+\end_layout
+
+\begin_layout Section
+Fire weather forecasting and climate modes of variability
 \end_layout
 
 \begin_layout Standard
@@ -360,15 +612,14 @@ Additionally, the investigations have focused on the sub-regional processes
 \end_layout
 
 \begin_layout Section
-Fire weather long-term variability
-\end_layout
-
-\begin_layout Section
-Fire weather forecasting and climate modes of variability
-\end_layout
-
-\begin_layout Section
 Summary
+\end_layout
+
+\begin_layout Standard
+Exploring the synoptic climate signal based on a long-term analysis could
+ contribute to extending the lead time of the forecasts.
+ Addtionally, a synoptic climatology could contribute to better understand
+ the mechanisms that drive fire weather.
 \end_layout
 
 \begin_layout Standard
