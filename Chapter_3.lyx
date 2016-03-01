@@ -149,7 +149,7 @@ key "Williams2012"
  of cold fronts to this region 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Reeder1987,Fiddes2015"
+key "Reeder1987"
 
 \end_inset
 
@@ -163,8 +163,8 @@ key "Mills2005,Engel2013,Reeder2015"
 \end_inset
 
 .
- Some of these investigations that describe this pattern focus on the catastroph
-ic events 
+ Some of the investigations that describe this pattern focus on the catastrophic
+ events 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Mills2005,Mills2005a,Cruz2012,Engel2013,Fiddes2015,Reeder2015"
@@ -182,15 +182,8 @@ key "Mills2005"
 \end_inset
 
  performed an evaluation of the meteorological conditions of "Ash Wednesday".
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Mills2005"
-
-\end_inset
-
- proposed a parameter to assess and predict fire weather.
- The study used the 850 hPa level horizontal temperature gradient.
+ The author proposed the 850 hPa level horizontal temperature gradient as
+ a parameter to assess fire weather.
  The cyclone-anticyclone dipole structure is the basis for this parameter.
  Extreme fires are more likely to occur when there are greater temperature
  differences between the cold front air mass and the hot column of air over
@@ -204,11 +197,7 @@ key "Mills2005"
 
  established that "Ash Wednesday" ranks in the 0.1% of events using 40 years
  of reanalysis data.
- 
-\end_layout
-
-\begin_layout Standard
-On the other hand, reproducing the arrival of cold fronts is a key factor
+ On the other hand, reproducing the arrival of cold fronts is a key factor
  in forecasting extreme fire weather 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -218,6 +207,9 @@ key "Mills2005,Engel2013"
 
 .
  
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Mills2005"
@@ -280,7 +272,7 @@ key "Engel2013"
  weather behavior 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Mills2005,Mills2005a,Cruz2012,Engel2013,Fiddes2015,Reeder2015"
+key "Mills2005,Mills2005a,Cruz2012,Engel2013"
 
 \end_inset
 
@@ -331,9 +323,8 @@ o
 
 \end_inset
 
-C ) after the passage of the cold front defined extreme cold fronts.
- Identifying extreme cold fronts proved to be useful in establishing fire
- weather days.
+C ) defined extreme cold fronts.
+ Identifying them proved to be useful in establishing fire weather days.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -343,12 +334,38 @@ key "Reeder2015"
 
  argue that Rossby wave breaking produces a potential vorticity anomaly
  in this region.
- This anomaly generates an antyclone in the Tasman Sea that drives hot and
- dry air to southeastern Australia.
+ According to the author, this anomaly generates an anticyclone in the Tasman
+ Sea that drives hot and dry air to southeastern Australia.
+ 
 \end_layout
 
 \begin_layout Standard
-This mechanism has also been attributed to the occurrence of heatwaves.
+The circulation produced by an anticyclone in the Tasman Sea has also been
+ attributed to the occurrence of heatwaves 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pezza2012,Parker2013,Boschat2014"
+
+\end_inset
+
+.
+ In fact, a recent study investigated the oceanic influences that enhanced
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+Black Saturday
+\begin_inset Quotes erd
+\end_inset
+
+ extreme heatwave and cold front 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fiddes2015"
+
+\end_inset
+
+.
  However, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -357,33 +374,33 @@ key "Reeder2015"
 \end_inset
 
  claim that fire weather and heatwave conditions are usually different.
- This study only mentions that cold fronts are the defining feature of fire
- weather.
- Other studies also mention that fire and heatwaves are related events without
- providing further details 
+ On one hand, this study argues that cold fronts are the defining feature
+ of fire weather.
+ On the other hand, several studies mention that fire and heatwaves are
+ related events without providing evidence or further references 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Pezza2011,Boschat2014"
+key "Pezza2012,Parker2013,Boschat2014"
 
 \end_inset
 
 .
- However, the characteristics that distinguish them and their interactions
- remain unexplored.
- Therefore, to investigate this relationship, it is also important to review
- the heatwave literature.
+ Therefore, the especific characteristics that distinguish them and their
+ interactions remain unexplored.
+ Investigating this relationship demands to review some relevant heatwave
+ literature.
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Pezza2011"
+key "Pezza2012"
 
 \end_inset
 
  investigated the synoptic climatology of heatwaves in southern Australia.
- This study provided an original heatwave definition.
- Three consecutive days with maximum temperature above the 90
+ In this study, three consecutive days with maximum temperature above the
+ 90
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -392,7 +409,7 @@ th
 
 \end_inset
 
- percentile define a heatwave.
+ percentile defined a heatwave.
  The criteria included the lack of relief during the nights.
  The minimum temperature on the second and third days should also be above
  the 90
@@ -414,21 +431,14 @@ key "Murray1999"
 
 \end_inset
 
-.
- With this system, the 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Pezza2011"
-
-\end_inset
-
- investigated the trajectories of the cyclones and anticyclones.
- The study determined that a high in the Tasman Sea produces heatwave conditions
- in southeastern Australia.
- Other studies agree with this result 
+, to investigate the trajectories of the cyclones and anticyclones.
+ The study determined that an anticyclone in the Tasman Sea produces heatwave
+ conditions in southeastern Australia advecting hot and dry air to the interior
+ of the continent.
+ Other studies concur with this mechanism 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Parker2014a"
+key "Parker2013,Parker2014a"
 
 \end_inset
 
@@ -436,17 +446,19 @@ key "Parker2014a"
  According to 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Pezza2011"
+key "Pezza2012"
 
 \end_inset
 
 , a wave train amplification that starts in the Indian Ocean creates the
  anticyclone.
- In contrast to fire weather research in this region, the investigation
- of heatwaves has considered the interactions with other extreme events.
+ 
 \end_layout
 
 \begin_layout Standard
+In contrast to fire weather research, the investigation of heatwaves in
+ this region has considered the interactions with other extreme events.
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Boschat2014"
@@ -456,53 +468,55 @@ key "Boschat2014"
  examined the large-scale connections between heatwaves in Victoria and
  extreme rainfall events in Queensland.
  The co-occurrence of these events motivated this study.
- However, this study found that there is no dynamic link between heatwaves
- extreme rainfall events in Victoria and Queensland respectively.
+ However, this reasecrh found that there is no dynamic link between them.
  Tropical convection drives extreme rainfall events in Queensland.
- This convention usually occurs during strong “La Nina” events.
- On the other hand, heatwaves in Victoria are locally driven.
- This study agrees with 
+ This convection usually occurs during strong “La Nina” events.
+ On the other hand, heatwaves in Victoria are locally driven by the mechanisms
+ described by 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Pezza2011"
+key "Pezza2012"
 
 \end_inset
 
-, attributing to a wave train amplification that starts in the in the Indian
- Ocean the generation of an anticyclone that produces heatwave conditions.
- 
+.
+ In contrast, 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Boschat2014"
+key "Parker2014a"
 
 \end_inset
 
- acknowledge that this anticyclone pattern is also present during extreme
- rainfall events in southern Queensland.
- However, the air parcel tracking allowed to determine that a different
- process forms this anticyclone.
- The high pressure system forms as part of a tropical-ex-tropical influence
- of "La Nina" events.
+ found that tropical cyclone outflow reinforces the potencial vorticity
+ of the antyclone that produces heatwave conditions in this region.
  
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Pezza2011"
+key "Pezza2012"
 
 \end_inset
 
-and 
+, 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Boschat2014"
 
 \end_inset
 
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Parker2014a"
+
+\end_inset
+
  investigations undertake the synoptic climatology approach that seems less
  explored in fire weather research.
- It appears that a lack of robust fire activity records hampers these studies.
+ It appears that a lack of robust fire activity records hampers these type
+ of studies.
  For example, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -518,8 +532,15 @@ key "Reeder2015"
 \end_inset
 
  rely first on weather parameters to identify extreme fire days.
- Mills (2005) used the 850 hPa horizontal temperature gradient before the
- cold front arrival.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ used the 850 hPa horizontal temperature gradient before the cold front
+ arrival.
  On the other hand, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -532,9 +553,8 @@ key "Reeder2015"
  published in the scientific literature.
  These dates are scarce.
  Therefore, the logical behind their approaches is sound.
- Oficial bushfire records of the Victorian Government have not been peer-reviewe
-d.
- However, they have been used in other fire investigations 
+ Eventhough the oficial bushfire database of the Victorian Government has
+ not been peer-reviewed, it has been used in other fire investigations 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Harris2013"
@@ -542,12 +562,14 @@ key "Harris2013"
 \end_inset
 
 .
- Therefore, they could be useful to investigate long-term fire weather patterns.
- 
+ Therefore, it could be useful to investigate long-term fire weather patterns.
+ Additionally, extending the synoptic climatology of heatwaves is another
+ reasearch task that could be undertaken.
 \end_layout
 
 \begin_layout Standard
-The investigation of long-term heatweatter patterns is also feasible.
+The investigation of long-term heatweatter patterns in southeastern Australia
+ is feasible.
  Maximum and minimum temperature are the basic variables to compute heatwaves.
  Long-term and high-quality records of these variables span the entire 20
 \begin_inset script superscript
@@ -568,11 +590,28 @@ key "Trewin2013"
 \end_inset
 
 .
+ Additionally, there are reanalysis products that span the 20
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ century
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Compo2011,Stickler2014"
+
+\end_inset
+
+.
  Despite this, most heatwaves studies on southeastern Australia start their
  analyses only after the nineteen-seventies 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Boschat2014,Parker2013,Pezza2011"
+key "Pezza2012,Parker2013,Boschat2014,Parker2014a"
 
 \end_inset
 
