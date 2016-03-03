@@ -621,23 +621,145 @@ key "Pezza2012,Parker2013,Boschat2014,Parker2014a"
 \end_layout
 
 \begin_layout Section
-Fire weather long-term variability
+Forest Fire Danger Index and fire weather variability 
 \end_layout
 
 \begin_layout Standard
-The investigation of synoptic patterns is necessary for fire research.
- However, an alternative approach is to use fire weather indices.
- These indices quantify the risk that weather conditions pose to fire occurrence.
- Some of these indices also provide information about fire behaviour.
+The previous section described synoptic patterns linked to fire activity.
+ Fire weather indices offer a complementary approach to fire research.
+ These indices quantify the risk that weather conditions pose to fire occurrence
+ and behaviour.
  They are also useful metrics to assess the changes in fire danger over
- long periods of time.
- Australian researchers and forecasters usually use the McArthur Forest
- Fire Danger Index (citation).
+ extended periods of time.
+ The use of the McArthur Forest Fire Danger Index (FFDI) has been common
+ in Australia (citation).
  Therefore, this section reviews the literature that evaluated fire weather
  variability using this index.
  Although, some results are contrasted with global and regional investigations
  that used alternative indices.
  An analysis of fire weather projections complements this discussion.
+\end_layout
+
+\begin_layout Standard
+The FFDI has been the basis to understand fire weather in Australia.
+ Willimas and Karoly (1999) found that “El Nino” events increase fire danger
+ in central and eastern Australia.
+ Using the FFDI, Long (2006) found that extreme events in Victoria occurred
+ with a wind flowing from the north or north-west.
+ This result is consistent with the results discussed in the previous section.
+ Lucas (2010) developed a historical database of FFDI values.
+ This study computed FFDI from weather stations across the country for the
+ period 1973-2008.
+ Clarke at al.
+ (2013) simulated fire weather spatial distribution in southeastern Australia.
+ The authors used the Weather Reasearch and Forecasting (WRF) model (citation)
+ for the period 1985-2009.
+ They found that WFR was suitable to provide spatially continuous fire weather
+ information in this region.
+ However, the development of a global fire weather dataset have provided
+ an alternative source of continuous fire weather data for this region (Field
+ et al.
+ 2009).
+ This section of the review provides particular attention to the analysis
+ of FFDI trends.
+\end_layout
+
+\begin_layout Standard
+Fire weather in southeastern Australia has become more dangerous.
+ Lucas et al.
+ (2007) investigated fire weather recent trends in southeast Australia.
+ They found that there were significant positive trends in several metrics
+ of FFDI.
+ Clarke et al.
+ (2012) agree with these results.
+ In this study, the authors built on the work of Lucas (2010) calculating
+ the FFDI in more stations, extending the period of analysis, and homogenizing
+ wind speed data for the computations.
+ Clarke et al.
+ (2012) analyzed trends with FFDI metrics and found that there are significant
+ increases in fire danger in Australia-especially in the southeast of the
+ continent.
+ Fire weather variability before the nineteen-seventies has not been investigate
+d in this region.
+ Extending this record would provide valuable information about past fire
+ weather changes.
+ However, this research remains a challenge due to the lack of weather stations
+ records.
+ Using reanalysis products could be an alternative approach to address this
+ problem.
+ In contrast, the investigation of future fire weather has received more
+ research attention.
+\end_layout
+
+\begin_layout Standard
+Climate projections suggest that fire danger will continue its increasing
+ trend in southeastern Australia.
+ Lucas et al.
+ (2007) determined that the number of days with extreme fire weather might
+ increase of 15% to 65% by 2020.
+ Hasson et al.
+ (2009) show that the frequency of extreme bushfire events over will increase
+ to 1 or 2 per year at the end of the 21
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ century.
+ Clarke et al.
+ (2011) argue that a higher bushfire risk potential expected in the 21
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th 
+\end_layout
+
+\end_inset
+
+century.
+ This study also shows evidence that future bushfires seasons could be more
+ prolonged.
+ 
+\end_layout
+
+\begin_layout Standard
+As shown in this review most studies use the FFDI to describe fire weather
+ in this region.
+ Despite its acceptance by the scientific community, the FFDI has significant
+ shortcomings.
+ First of all, empirical research is the basis of this index.
+ Therefore, its equation may not represent the actual physical relationship
+ between them.
+ The index does not consider the influence of topography on fire weather.
+ Additionally, the calibration of the FFDI considered the vegetation characteris
+tics of southeastern Australia.
+ Therefore, it may not represent fire conditions in other regions of the
+ continent.
+ Even the language of its fire danger ratings have also been questioned.
+ According to the VBRC the FFDI failed to represent the specific extreme
+ nature of “Black Saturday” (VBRC, 2010).
+ Moreover, this report suggests to develop a new index.
+ However, proposals for a new Australian fire weather index have not been
+ published in the scientific literature.
+ 
+\end_layout
+
+\begin_layout Standard
+The criticisms to the FFDI have been balanced with studies that show its
+ efficiency.
+ For example, Dowdy et al.
+ (2009) presented a comparative study of the FFDI and the widely used Candain
+ Fire Weather Index (FWI).
+ The investigation mathematically deconstructed the two indices to establish
+ comparisons.
+ The study found that these two indices offer comparable results in the
+ Australian context.
+ Albeit its limitations, the FFDI continues to be the stepping stone of
+ fire weather research in Australia.
+ 
 \end_layout
 
 \begin_layout Section
