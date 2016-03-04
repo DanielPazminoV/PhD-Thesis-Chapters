@@ -233,24 +233,19 @@ key "Engel2013"
 
 \end_inset
 
- simulated the meteorological conditions of "Black Saturday".
- Their study focused on simulating with great detail the mesoscale phenomena.
- It reproduced the arrival of the cold front of that day with a 30 minutes
- lag compared to observations.
- The investigation also determined the spatial and temporal variability
- of fire danger.
- Using the results of the numerical model, the McArthur's Forest Fire Danger
- Index was computed 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Noble1980"
+ simulated the meteorological conditions of 
+\begin_inset Quotes eld
+\end_inset
 
+Black Saturday
+\begin_inset Quotes erd
 \end_inset
 
 .
- The paper demonstrates how changes in temperature, humidity and wind influenced
- the spatial and temporal variability of fire danger on "Black Saturday".
- 
+ Their study used the UK Unified Model to simulate with great precision
+ the mesoscale phenomena of this event.
+ For example, it reproduced the arrival of the cold front of that day with
+ 30 minutes lag compard to observations.
 \end_layout
 
 \begin_layout Standard
@@ -621,7 +616,7 @@ key "Pezza2012,Parker2013,Boschat2014,Parker2014a"
 \end_layout
 
 \begin_layout Section
-Forest Fire Danger Index and fire weather variability 
+Fire weather characterized by the McArthur Forest Fire Danger Index
 \end_layout
 
 \begin_layout Standard
@@ -632,7 +627,7 @@ The previous section described synoptic patterns linked to fire activity.
  They are also useful metrics to assess the changes in fire danger over
  extended periods of time.
  The use of the McArthur Forest Fire Danger Index (FFDI) has been common
- in Australia (citation).
+ in Australia.
  Therefore, this section reviews the literature that evaluated fire weather
  variability using this index.
  Although, some results are contrasted with global and regional investigations
@@ -642,49 +637,138 @@ The previous section described synoptic patterns linked to fire activity.
 
 \begin_layout Standard
 The FFDI has been the basis to understand fire weather in Australia.
- Willimas and Karoly (1999) found that “El Nino” events increase fire danger
- in central and eastern Australia.
- Using the FFDI, Long (2006) found that extreme events in Victoria occurred
- with a wind flowing from the north or north-west.
- This result is consistent with the results discussed in the previous section.
- Lucas (2010) developed a historical database of FFDI values.
- This study computed FFDI from weather stations across the country for the
- period 1973-2008.
- Clarke at al.
- (2013) simulated fire weather spatial distribution in southeastern Australia.
- The authors used the Weather Reasearch and Forecasting (WRF) model (citation)
- for the period 1985-2009.
- They found that WFR was suitable to provide spatially continuous fire weather
- information in this region.
- However, the development of a global fire weather dataset have provided
- an alternative source of continuous fire weather data for this region (Field
- et al.
- 2009).
- This section of the review provides particular attention to the analysis
- of FFDI trends.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Williams1999"
+
+\end_inset
+
+ found that “El Niño” events increase fire danger in central and eastern
+ Australia.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Long2006"
+
+\end_inset
+
+ found that extreme events in Victoria occurred with a wind flowing from
+ the north or north-west.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Blanchi2010"
+
+\end_inset
+
+ showed that the majority of house losses during bushfires in Australia
+ occured in the most extreme fire weather days.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lucas2010"
+
+\end_inset
+
+ developed a historical fire weather database for Australia using weather
+ station data.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Clarke2013a"
+
+\end_inset
+
+ demonstrated that the Weather Reasearch and Forecasting (WRF) model 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Skamarock2008"
+
+\end_inset
+
+ was useful to simulate the long-term spatial distribution of fire danger
+ in southeastern Australia.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Engel2013"
+
+\end_inset
+
+ examined the spatial and temporal variability of fire danger during 
+\begin_inset Quotes eld
+\end_inset
+
+Black Saturday
+\begin_inset Quotes erd
+\end_inset
+
+.
+ To my knowledge, the FFDI has not been used internationally.
+ However, 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Field2015"
+
+\end_inset
+
+ suggest its use to contrast their results in the development of a global
+ fire weather dataset using the Canadian Fire Weather Index (FWI) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VanWagner1974"
+
+\end_inset
+
+.
+ The FFDI has also been used to analyse fire weather trends.
 \end_layout
 
 \begin_layout Standard
 Fire weather in southeastern Australia has become more dangerous.
- Lucas et al.
- (2007) investigated fire weather recent trends in southeast Australia.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lucas2007"
+
+\end_inset
+
+ investigated fire weather recent trends in southeast Australia.
  They found that there were significant positive trends in several metrics
  of FFDI.
- Clarke et al.
- (2012) agree with these results.
- In this study, the authors built on the work of Lucas (2010) calculating
- the FFDI in more stations, extending the period of analysis, and homogenizing
- wind speed data for the computations.
- Clarke et al.
- (2012) analyzed trends with FFDI metrics and found that there are significant
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Clarke2013"
+
+\end_inset
+
+ agree with these results.
+ In this study, the authors built on the work of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lucas2010"
+
+\end_inset
+
+ calculating the FFDI in more stations, extending the period of analysis,
+ and homogenizing wind speed data for the computations.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Clarke2013"
+
+\end_inset
+
+ analyzed trends with FFDI metrics and found that there are significant
  increases in fire danger in Australia-especially in the southeast of the
- continent.
- Fire weather variability before the nineteen-seventies has not been investigate
-d in this region.
- Extending this record would provide valuable information about past fire
- weather changes.
- However, this research remains a challenge due to the lack of weather stations
- records.
+ continent-.
+ These studies describe fire weather variability after the nineteen-seventies.
+ However, extending the FFDI record would provide valuable information about
+ past fire weather changes.
+ This type of research research remains a challenge due to the lack of weather
+ stations records.
  Using reanalysis products could be an alternative approach to address this
  problem.
  In contrast, the investigation of future fire weather has received more
@@ -694,12 +778,24 @@ d in this region.
 \begin_layout Standard
 Climate projections suggest that fire danger will continue its increasing
  trend in southeastern Australia.
- Lucas et al.
- (2007) determined that the number of days with extreme fire weather might
- increase of 15% to 65% by 2020.
- Hasson et al.
- (2009) show that the frequency of extreme bushfire events over will increase
- to 1 or 2 per year at the end of the 21
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lucas2007"
+
+\end_inset
+
+ determined that the number of days with extreme fire weather might experience
+ an increase in the range of 15% to 65% by 2020.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Hasson2009"
+
+\end_inset
+
+ show that the frequency of extreme bushfire events over will increase to
+ 1 or 2 per year at the end of the 21
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -709,8 +805,14 @@ th
 \end_inset
 
  century.
- Clarke et al.
- (2011) argue that a higher bushfire risk potential expected in the 21
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Clarke2011"
+
+\end_inset
+
+ argue that a higher bushfire risk potential is expected in the 21
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -720,28 +822,44 @@ th
 \end_inset
 
 century.
- This study also shows evidence that future bushfires seasons could be more
+ This study also shows evidence that future bushfire seasons could be more
  prolonged.
  
 \end_layout
 
 \begin_layout Standard
-As shown in this review most studies use the FFDI to describe fire weather
- in this region.
+As shown in this review, most studies use the FFDI to describe fire weather
+ in Australia.
  Despite its acceptance by the scientific community, the FFDI has significant
  shortcomings.
  First of all, empirical research is the basis of this index.
  Therefore, its equation may not represent the actual physical relationship
- between them.
+ between its variables.
  The index does not consider the influence of topography on fire weather.
  Additionally, the calibration of the FFDI considered the vegetation characteris
 tics of southeastern Australia.
  Therefore, it may not represent fire conditions in other regions of the
  continent.
- Even the language of its fire danger ratings have also been questioned.
- According to the VBRC the FFDI failed to represent the specific extreme
- nature of “Black Saturday” (VBRC, 2010).
- Moreover, this report suggests to develop a new index.
+ Even the language of its fire danger ratings have also been questioned
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VBRC_2009_final_report"
+
+\end_inset
+
+.
+ After the 
+\begin_inset Quotes eld
+\end_inset
+
+Black Saturday
+\begin_inset Quotes erd
+\end_inset
+
+ fires, the FFDI ratings were updated to represent catastrophic events like
+ this.
+ Moreover, this report suggests the development of a new index.
  However, proposals for a new Australian fire weather index have not been
  published in the scientific literature.
  
@@ -750,9 +868,14 @@ tics of southeastern Australia.
 \begin_layout Standard
 The criticisms to the FFDI have been balanced with studies that show its
  efficiency.
- For example, Dowdy et al.
- (2009) presented a comparative study of the FFDI and the widely used Candain
- Fire Weather Index (FWI).
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Dowdy2009"
+
+\end_inset
+
+ presented a comparative study of the FFDI and the widely used FWI.
  The investigation mathematically deconstructed the two indices to establish
  comparisons.
  The study found that these two indices offer comparable results in the
@@ -764,6 +887,19 @@ The criticisms to the FFDI have been balanced with studies that show its
 
 \begin_layout Section
 Fire weather forecasting and climate modes of variability
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Verdon2004"
+
+\end_inset
+
+ showed that the co-occurrence of “El Niño” events with the positive phase
+ of the Interdecadal Pacific Oscillation exacerbates fire danger in eastern
+ Australia.
+ Include studies in Tasmania and Nothern Australia (Sara Harris).
 \end_layout
 
 \begin_layout Standard
