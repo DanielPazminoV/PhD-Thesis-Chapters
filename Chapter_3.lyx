@@ -890,38 +890,145 @@ Fire weather forecasting and climate modes of variability
 \end_layout
 
 \begin_layout Standard
+The FFDI and other fire weather indices estimate bushfire risk based on
+ current-daily-weather conditions.
+ However, using these indices to forecast seasonal fire weather is a more
+ ambitious task.
+ For example, using dynamical models requires extensive computing resources
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Roads2005"
+
+\end_inset
+
+.
+ Other studies have explored the feasibility of using ENSO's to predict
+ fire danger (citations).
+ This review focuses on this approach.
+ This section reports on the influence of ENSO on fire weather and activity.
+ The review also includes regional cliamte influences specific to Australia
+ and South America fire activity.
+ Finally, it also discusses the use of climate modes of variability in fire
+ forecasting.
+\end_layout
+
+\begin_layout Standard
+ENSO has a significant influence on fire occurrence in several regions of
+ the world.
+ For example, “La Nina” events increase fire activity in the southern regions
+ of the United States 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Beckage2003"
+
+\end_inset
+
+.
+ The effect of "La Nina" is the same in northern Argentina (citation).
+ In fact, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kitzberger2001"
+
+\end_inset
+
+demonstrated that fire activity linked to ENSO in the Americas is synchronized.
+ In contrast, “El Nino” events increase fire occurrence in regions such
+ as in Indonesia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wooster2012"
+
+\end_inset
+
+ and the Brazilian Amazon region (citations).
+ Despite its global influence, ENSO's role on fire activity remains unexplored
+ in most of the world.
+ Australia is perhaps an exception.
+ 
+\end_layout
+
+\begin_layout Standard
+In Australia, most studies about inter-anual climate variability and fire
+ have focused on ENSO.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Williams1999"
+
+\end_inset
+
+determined that “El Nino” events drive fire weather in most of the central
+ and eastern Australia.
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Verdon2004"
 
 \end_inset
 
- showed that the co-occurrence of “El Niño” events with the positive phase
- of the Interdecadal Pacific Oscillation exacerbates fire danger in eastern
- Australia.
- Include studies in Tasmania and Nothern Australia (Sara Harris).
+ showed that positive phases of the Inter-decadal Pacific Oscillation exacerbate
+ this influence.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2008"
+
+\end_inset
+
+ argues that increased rainfall linked to ENSO produces more vegetation
+ that burns on the dry season in northern Australia.
+ However, there are fewer studies on fire activity and other climate modes
+ of variability.
+ 
 \end_layout
 
 \begin_layout Standard
-Additionally, the investigations have focused on the sub-regional processes
- that drive fire weather.
- However, climate modes of variability exert a significant influence on
- weather—and fire weather—in Australia.
- For example, “El Nino” events generally bring dry conditions to Australia
- (Risbey, 2009).
- On the other, hand wet conditions are usually linked to a “La Nina” events.
- Moreover, the Indian Ocean dynamics has contributed to several droughts
- in southeastern Australia (citations).
- In fact, positive phases of the Indian Ocean Dipole produce hot and dry
- conditions during in spring in Victoria.
- These environmental conditions contribute to the availability of fuels
- and an increase in extreme fire events in this region (Cai, 2009).
- A large-scale analysis of the weather patterns associated with fire activity
- in this region could offer further insights to disentangle the influences
- of these climate modes of variability over fire weather.
- To accomplish this, a long-term analysis of fire weather is again necessary.
- A synoptic climatology of fire weather could contribute to having greater
- confidence in the global patterns that drive fire weather in this region.
+The influence of IOD and SAM on fire acitivity in Australia is less understood.
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Cai2009"
+
+\end_inset
+
+ found that positive phases of the IOD produce hot and dry conditions during
+ in spring in southeast Australia.
+ This situation leads to more available fuel loads and extreme fire events
+ in summer.
+ Even though SAM is an important climate driver for Australia, its relationship
+ with fire activity has not been investigated.
+ Understanding the links between climate modes of varability and fire is
+ essential for forecasting purposes.
+ 
+\end_layout
+
+\begin_layout Standard
+The Australian Bureau of Meteorology includes ENSO's state in their seasonal
+ outlook reports.
+ These outlooks also include information about temperature and precipitation.
+ Fire management agencies use these reports to assess qualitatively seasonal
+ fire danger.
+ However, several authors suggest the use of ENSO indicators to predict
+ quantitatively fire activity in Australia.
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nicholls2007"
+
+\end_inset
+
+ argue that ENSO indices have this skill in Tasmania.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2013"
+
+\end_inset
+
+ reached a similar conclusion for Victoria.
+ These studies deserve a closer analysis.
 \end_layout
 
 \begin_layout Section
