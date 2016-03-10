@@ -904,7 +904,7 @@ key "Roads2005"
 
 .
  Other studies have explored the feasibility of using ENSO's to predict
- fire danger (citations).
+ fire danger using statistical approaches (citations).
  This review focuses on this approach.
  This section reports on the influence of ENSO on fire weather and activity.
  The review also includes regional cliamte influences specific to Australia
@@ -915,17 +915,32 @@ key "Roads2005"
 
 \begin_layout Standard
 ENSO has a significant influence on fire occurrence in several regions of
- the world.
- For example, “La Nina” events increase fire activity in the southern regions
- of the United States 
+ the world 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Beckage2003"
+key "Carmona-Moreno2005"
 
 \end_inset
 
 .
- The effect of "La Nina" is the same in northern Argentina (citation).
+ For example, “La Nina” events increase fire activity in the southern regions
+ of the United States 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Beckage2003,Swetnam1983"
+
+\end_inset
+
+.
+ The effect of late stages of "La Nina" is the same in northern Argentina
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "KitzbergerT.&Veblen2003"
+
+\end_inset
+
+.
  In fact, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -942,7 +957,21 @@ key "Wooster2012"
 
 \end_inset
 
- and the Brazilian Amazon region (citations).
+, tropical Mexico 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Roman-Cuesta2003"
+
+\end_inset
+
+ and the Brazilian Amazon region 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Barlow2004"
+
+\end_inset
+
+.
  Despite its global influence, ENSO's role on fire activity remains unexplored
  in most of the world.
  Australia is perhaps an exception.
@@ -1006,12 +1035,13 @@ key "Cai2009"
 
 \begin_layout Standard
 The Australian Bureau of Meteorology includes ENSO's state in their seasonal
- outlook reports.
+ outlook reports (e.g.
+ see http://www.bom.gov.au/climate/ahead/, accessed 9 March 2016).
  These outlooks also include information about temperature and precipitation.
  Fire management agencies use these reports to assess qualitatively seasonal
  fire danger.
- However, several authors suggest the use of ENSO indicators to predict
- quantitatively fire activity in Australia.
+ However, some authors suggest the use of ENSO indicators to predict quantitativ
+ely fire activity in Australia.
  For example, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1029,6 +1059,151 @@ key "Harris2013"
 
  reached a similar conclusion for Victoria.
  These studies deserve a closer analysis.
+\end_layout
+
+\begin_layout Standard
+Tasmania and Victoria offer fire activity forecasting skill using ENSO indices
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nicholls2007,Harris2013"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nicholls2007"
+
+\end_inset
+
+ correlated area burnt data with climate variables and ENSO indicators.
+ Their analysis spanned the period 1952 to 2004.
+ The climate variables used in the correlation were rainfall, maximum temperatur
+e.
+ The ENSO predictors were the SOI and SST in the Coral Sea.
+ The study found that rainfall is the primary driver of fire activity in
+ summer.
+ This research also established that SST values in winter are strongly correlate
+d with area burnt in summer.
+ On the other hand, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2013"
+
+\end_inset
+
+ performed a similar approach for Victoria.
+ In this study, the authors also correlated area burnt data with ENSO indices
+ and climate variables.
+ Although, the period of analysis was shorter than Nichols et al.
+ (2007).
+ The study spanned from 1972 to 2010.
+ The climate variables used in this research were vapor pressure at 0900
+ and 1500 hours, maximum and minimum temperature and rainfall.
+ The ENSO indices used were SOI, NINO1+2, NINO3, NINO4, and NINO3.4.
+ The study determined that vapor pressure at 1500 hours during the season
+ September-October-November offers the greatest forecasting skill.
+ The study also found that ENSO indices offer a moderate skill to forecast
+ fire activity in Victoria.
+\end_layout
+
+\begin_layout Standard
+The approach used in the investigations of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nicholls2007"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2013"
+
+\end_inset
+
+ have limitations.
+ Using standard climate modes of variability indices for regional seasonal
+ forecasts could be misleading.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Verdon-Kidd2008a"
+
+\end_inset
+
+ argue that this approach fails to recognize the specific regional influences.
+ Additionally, the interaction of climate modes of variability in regions
+ like Victoria is complex.
+ Therefore, investigating linear relationships is a short-coming.
+ Moreover, from a short-term perspective, every climate event is different.
+ Its trajectories vary widely depending on the initial conditions of the
+ system 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VonStorch2001"
+
+\end_inset
+
+.
+ This characteristic is difficult to take into account in a statistical-empirica
+l forecasting model.
+ On the other hand, the long-term relationship between climate modes of
+ variability and weather changes over time.
+ These changes occur due to natural variability and anthropogenic climate
+ change 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wang2013"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Despite its limitations, these studies provide useful information and can
+ be improved.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Nicholls2007"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2013"
+
+\end_inset
+
+ rely on official fire activity records.
+ However, it would be important to contrast this information with alternative
+ sources of fire data.
+ In fact, fire and management decisions (e.g.
+ fire suppression) influence area burnt.
+ Therefore, it would be desirable also to use fire weather indices in the
+ analyzes.
+ Using fire weather indices could also be useful to extend the period of
+ the correlations.
+ Extending these analyzes would require computing fire weather indices with
+ reanalysis data (e.g.
+ 20CR or ERA-CLIM).
+ Finally, as acknowledged by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Risbey2009b"
+
+\end_inset
+
+, the influence of different climate modes of variability in Australia varies
+ depending on the region and season.
+ Therefore, it would be interesting to investigate the forecasting skill
+ of other climate modes of variability.
 \end_layout
 
 \begin_layout Section
