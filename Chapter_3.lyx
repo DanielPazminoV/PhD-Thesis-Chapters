@@ -1206,6 +1206,180 @@ key "Risbey2009b"
  of other climate modes of variability.
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Chen2011"
+
+\end_inset
+
+ explored the feasibility to forecast extreme fire seasons in South America.
+ The authors proposed a Fire Season Severity (FSS) index based on SST anomalies.
+ The robust link between SST and precipitation is the basis of the index
+ (citations).
+ The mechanism behind this link is the displacement of the Intertropical
+ Convergence Zone (ITCZ).
+ Variations in SST anomalies produce this movement (citation).
+ A linear combination of the Oceanic Nino Index (ONI) and the Atlantic Multideca
+dal Oscillation Index (AMO) defines this index.
+ Its design used fire activity data from the Moderate Resolution Imaging
+ Spectroradiometer (MODIS) satellite 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Justice2002"
+
+\end_inset
+
+.
+ The calibration period was 2001-2009, testing against alternative satellite
+ data for 2010.
+ The model was able to predict accurately extreme fire seasons with lead
+ times of 3 to 5 months.
+ The authors emphasized the role of droughts in producing severe fire seasons.
+ However, the study did not quantify the fire activity variability explained
+ by precipitation.
+ The short period of analysis hampers the ability to assess this relationship.
+ Other forecasting schemes proposed in South America have had a more local
+ focus.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kitzberger2002"
+
+\end_inset
+
+proposed a seasonal fire activity forecasting scheme for northern Patagonia,
+ Argentina.
+ The logic behind the index is simple.
+ Extreme bushfires can occur in a switch from “El Nino” to “La Nina” phase
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Baisan1990,Swetnam1990,Kitzberger1997,Veblen1999"
+
+\end_inset
+
+.
+ In the first phase, abundant precipitation fosters vegetation growth, followed
+ by hot and dry conditions that increase fuel availability.
+ The investigation used official fire data from four national parks in Patagonia.
+ The index uses 36 months of ENSO indices data (SOI or NINO1+2) previous
+ a fire season.
+ The index can assess fire severity with three months in advance.
+ This empirical model uses a “high” versus “low” seasonal fire danger rating.
+ The threshold for this rating is 250 Ha of burnt area (in the test with
+ best results).
+ The model was able to explain 53% of the variance and misclassified only
+ 4 out of 43 fire seasons.
+ However, the author acknowledges several limitations with his model.
+ Since every ENSO event is different, its arrival timing might affect the
+ results.
+ Similarly, ENSO teleconnections patterns differ in each event 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Villalba1994"
+
+\end_inset
+
+.
+ The model also assumes that fuel moisture as the only limiting factor.
+ Although in reality, ignition sources also play a role.
+ Finally, it also assumes that the relationship between ENSO and regional
+ climate is stable over time.
+ However, as already noted in this review, is not the case.
+ 
+\end_layout
+
+\begin_layout Standard
+There are no other seasonal fire danger forecasting schemes proposed for
+ South America.
+ Although, the relationship between SST and fire weather could be helpful
+ to understand seasonal predictability.
+ The SST variability drives fire weather conditions in the Amazon region
+ and northern Patagonia.
+ On the other hand, strong “El Nino” events bring heavy precipitation to
+ the coasts of Ecuador and Peru 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rasmusson1982,Horel1986,Rodbell1999"
+
+\end_inset
+
+.
+ However, less is know about the influence of SST on the Andean climate.
+ This influence important because many areas are prone to bushfires (citations).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Garreaud2009"
+
+\end_inset
+
+ reviewed the scientific literature on the Andean climate.
+ In this review, the author generalizes about ENSO's influence over the
+ Andes.
+ “El Nino” events bring less than normal precipitation on the tropical Andes.
+ Conversely, it produces higher than normal precipitation in the sub-tropics.
+ In both latitudinal ranges, it produces warmer than average air temperature.
+ Overall, “La Nina” years the opposite pattern prevails for temperature
+ and precipitation.
+ The ENSO signal on the tropical Andes contrasts with the torrential rains
+ that strong “El Nino” brings to the coast.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Garreaud2009"
+
+\end_inset
+
+ argues that this phenomenon occurs due to a distortion of the Hadley cell
+ circulation.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Vuille2000"
+
+\end_inset
+
+and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Francou2004"
+
+\end_inset
+
+ studied the influence of SST in the tropical Andes region.
+ Both agree that “El Nino” brings less precipitation and higher air temperature.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Francou2004"
+
+\end_inset
+
+ demonstrated that his effect produces negative mass balances on the mountain
+ glaciers.
+ However, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Vuille2000"
+
+\end_inset
+
+ highlight that SST anomalies originated in the Pacific Ocean only influences
+ climate on the northwestern side of the Ecuadorian Andes.
+ On the other hand, SST anomalies from the tropical Atlantic Ocean explain
+ most of the climate variability in the western “Cordillera” .
+\end_layout
+
 \begin_layout Section
 Summary
 \end_layout
