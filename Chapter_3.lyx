@@ -104,6 +104,31 @@ Literature review
 Introduction
 \end_layout
 
+\begin_layout Standard
+The background chapter provided information to understand the basic science
+ and research context.
+ This chapter presents a more specific, detailed and critical review of
+ the scientific literature.
+ After the introduction, five sections comprise this literature review.
+ The first part analyses the synoptic patterns linked to fire weather.
+ Subsequently, the chapter discusses investigations of bushfire danger using
+ the McArthur Forest Fire Danger Index.
+ The review also examines the use of climate variables and ENSO indices
+ in seasonal bushfire forecasting.
+ The synthesis of research gaps follows these discussions.
+ Finally, the last section summarizes the literature review.
+ 
+\end_layout
+
+\begin_layout Standard
+The review has a bias towards Australia since it has generated more research
+ than South America on these topics.
+ The first two sections do not include information on this region.
+ However, fire weather forecasting in South America has received some research
+ attention.
+ Therefore, its studies are also included in this review.
+\end_layout
+
 \begin_layout Section
 Fire weather synoptic patterns 
 \end_layout
@@ -118,7 +143,7 @@ key "Sturman2006"
 \end_inset
 
 .
- Fire weather in southeastern Australia has a typical pattern.
+ For example, fire weather in southeastern Australia has a typical pattern.
  Over the Tasman Sea, a quasi-stationary anticyclone is present 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -182,9 +207,8 @@ key "Mills2005"
 \end_inset
 
  performed an evaluation of the meteorological conditions of "Ash Wednesday".
- The author proposed the 850 hPa level horizontal temperature gradient as
- a parameter to assess fire weather.
- The cyclone-anticyclone dipole structure is the basis for this parameter.
+ The author proposed the 850 hPa level horizontal temperature gradient south
+ to Australia as a parameter to assess fire weather.
  Extreme fires are more likely to occur when there are greater temperature
  differences between the cold front air mass and the hot column of air over
  southern Australia.
@@ -197,8 +221,17 @@ key "Mills2005"
 
  established that "Ash Wednesday" ranks in the 0.1% of events using 40 years
  of reanalysis data.
- On the other hand, reproducing the arrival of cold fronts is a key factor
- in forecasting extreme fire weather 
+ This temperature gradient parameter could be useful for forecasting purposes
+ and has already been used to assess future extreme fire seasons 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hasson2009"
+
+\end_inset
+
+.
+ On the other hand, reproducing the arrival of cold fronts is another key
+ factor in forecasting extreme fire weather 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Mills2005,Engel2013"
@@ -244,8 +277,10 @@ Black Saturday
 .
  Their study used the UK Unified Model to simulate with great precision
  the mesoscale phenomena of this event.
- For example, it reproduced the arrival of the cold front of that day with
- 30 minutes lag compard to observations.
+ The model was able to capture horizontal convective rolls and nocturnal
+ bores.
+ It was also capable of reproducing the arrival of the cold front of that
+ day with a 30 minutes lag compared to observations.
 \end_layout
 
 \begin_layout Standard
@@ -295,7 +330,8 @@ key "Reeder2015"
 
 \end_inset
 
- provided further insights on fire weather patterns with a long-term approach.
+ provided further insights on fire weather patterns with a climatological
+ perspective.
  They investigated the role of Rossby waves and extreme fronts on fire weather.
  The analysis covered the period 1979-2010 and focused on southeastern Australia.
  The study used days with extreme cold fonts days to define extreme fire
@@ -406,8 +442,8 @@ th
 
  percentile defined a heatwave.
  The criteria included the lack of relief during the nights.
- The minimum temperature on the second and third days should also be above
- the 90
+ In their hetwave definition, the minimum temperature on the second and
+ third days should also be above the 90
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -426,7 +462,7 @@ key "Murray1999"
 
 \end_inset
 
-, to investigate the trajectories of the cyclones and anticyclones.
+ to investigate the trajectories of the cyclones and anticyclones.
  The study determined that an anticyclone in the Tasman Sea produces heatwave
  conditions in southeastern Australia advecting hot and dry air to the interior
  of the continent.
@@ -465,7 +501,7 @@ key "Boschat2014"
  The co-occurrence of these events motivated this study.
  However, this reasecrh found that there is no dynamic link between them.
  Tropical convection drives extreme rainfall events in Queensland.
- This convection usually occurs during strong “La Nina” events.
+ This convection usually occurs during strong “La Niña” events.
  On the other hand, heatwaves in Victoria are locally driven by the mechanisms
  described by 
 \begin_inset CommandInset citation
@@ -563,8 +599,8 @@ key "Harris2013"
 \end_layout
 
 \begin_layout Standard
-The investigation of long-term heatweatter patterns in southeastern Australia
- is feasible.
+The investigation of long-term heatwave weather patterns in southeastern
+ Australia is feasible.
  Maximum and minimum temperature are the basic variables to compute heatwaves.
  Long-term and high-quality records of these variables span the entire 20
 \begin_inset script superscript
@@ -577,7 +613,7 @@ th
 
  century in Australia.
  For example, the Australian Climate Observations Reference Network - Surface
- Air Temperature (ACORN-SAT) dataset complied these records 
+ Air Temperature (ACORN-SAT) dataset compiled these records 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Trewin2013"
@@ -594,7 +630,7 @@ th
 
 \end_inset
 
- century
+ century 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Compo2011,Stickler2014"
@@ -630,8 +666,6 @@ The previous section described synoptic patterns linked to fire activity.
  in Australia.
  Therefore, this section reviews the literature that evaluated fire weather
  variability using this index.
- Although, some results are contrasted with global and regional investigations
- that used alternative indices.
  An analysis of fire weather projections complements this discussion.
 \end_layout
 
@@ -644,8 +678,8 @@ key "Williams1999"
 
 \end_inset
 
- found that “El Niño” events increase fire danger in central and eastern
- Australia.
+ found that “El Niño” events increase fire danger in most of central and
+ eastern Australia.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -653,8 +687,8 @@ key "Long2006"
 
 \end_inset
 
- found that extreme events in Victoria occurred with a wind flowing from
- the north or north-west.
+ found that extreme fire weather in Victoria occurred with a wind flowing
+ from the north or north-west.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -687,8 +721,8 @@ key "Skamarock2008"
 
 \end_inset
 
- was useful to simulate the long-term spatial distribution of fire danger
- in southeastern Australia.
+ was useful to simulate the spatial distribution of fire danger in southeastern
+ Australia.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -708,7 +742,7 @@ Black Saturday
  To my knowledge, the FFDI has not been used internationally.
  However, 
 \begin_inset CommandInset citation
-LatexCommand citealp
+LatexCommand citet
 key "Field2015"
 
 \end_inset
@@ -736,7 +770,7 @@ key "Lucas2007"
 
  investigated fire weather recent trends in southeast Australia.
  They found that there were significant positive trends in several metrics
- of FFDI.
+ of the FFDI.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -794,8 +828,8 @@ key "Hasson2009"
 
 \end_inset
 
- show that the frequency of extreme bushfire events over will increase to
- 1 or 2 per year at the end of the 21
+ showed that the frequency of extreme bushfire events will increase to 1
+ or 2 per year by the end of the 21
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -822,8 +856,8 @@ th
 \end_inset
 
 century.
- This study also shows evidence that future bushfire seasons could be more
- prolonged.
+ This study also shows evidence that future bushfire seasons could start
+ earlier and be more prolonged.
  
 \end_layout
 
@@ -844,7 +878,7 @@ tics of southeastern Australia.
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "VBRC_2009_final_report"
+key "Teague2010"
 
 \end_inset
 
@@ -859,7 +893,14 @@ Black Saturday
 
  fires, the FFDI ratings were updated to represent catastrophic events like
  this.
- Moreover, this report suggests the development of a new index.
+ Moreover, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Teague2010"
+
+\end_inset
+
+ suggest the development of a new index.
  However, proposals for a new Australian fire weather index have not been
  published in the scientific literature.
  
@@ -878,22 +919,21 @@ key "Dowdy2009"
  presented a comparative study of the FFDI and the widely used FWI.
  The investigation mathematically deconstructed the two indices to establish
  comparisons.
- The study found that these two indices offer comparable results in the
- Australian context.
+ The study found that they offer comparable results in the Australian context.
  Albeit its limitations, the FFDI continues to be the stepping stone of
  fire weather research in Australia.
  
 \end_layout
 
 \begin_layout Section
-Fire weather forecasting and climate modes of variability
+Fire weather forecasting 
 \end_layout
 
 \begin_layout Standard
 The FFDI and other fire weather indices estimate bushfire risk based on
  current-daily-weather conditions.
  However, using these indices to forecast seasonal fire weather is a more
- ambitious task.
+ complex task.
  For example, using dynamical models requires extensive computing resources
  
 \begin_inset CommandInset citation
@@ -903,14 +943,22 @@ key "Roads2005"
 \end_inset
 
 .
- Other studies have explored the feasibility of using ENSO's to predict
- fire danger using statistical approaches (citations).
+ Other studies have explored the feasibility of using ENSO indices to predict
+ fire danger using statistical approaches 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kitzberger2002,Nicholls2007,Harris2013"
+
+\end_inset
+
+.
  This review focuses on this approach.
  This section reports on the influence of ENSO on fire weather and activity.
- The review also includes regional cliamte influences specific to Australia
- and South America fire activity.
- Finally, it also discusses the use of climate modes of variability in fire
+ It also discusses the use of other climate modes of variability in fire
  forecasting.
+ Finally, the review also analyzes some specific climate influences that
+ foster fire activity in South America.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -927,12 +975,12 @@ key "Carmona-Moreno2005"
  of the United States 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Beckage2003,Swetnam1983"
+key "Swetnam1990,Beckage2003"
 
 \end_inset
 
 .
- The effect of late stages of "La Nina" is the same in northern Argentina
+ The effect of late stages of "La Niña" is the same in northern Argentina
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -948,8 +996,9 @@ key "Kitzberger2001"
 
 \end_inset
 
-demonstrated that fire activity linked to ENSO in the Americas is synchronized.
- In contrast, “El Nino” events increase fire occurrence in regions such
+ demonstrated that fire activity linked to ENSO is synchronized in regions
+ of North and South America.
+ In contrast, “El Niño” events increase fire occurrence in regions such
  as in Indonesia 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -979,7 +1028,7 @@ key "Barlow2004"
 \end_layout
 
 \begin_layout Standard
-In Australia, most studies about inter-anual climate variability and fire
+In Australia, most studies about inter-anual climate variability and bushfires
  have focused on ENSO.
  
 \begin_inset CommandInset citation
@@ -988,7 +1037,7 @@ key "Williams1999"
 
 \end_inset
 
-determined that “El Nino” events drive fire weather in most of the central
+ determined that “El Niño” events drive fire weather in most of the central
  and eastern Australia.
  
 \begin_inset CommandInset citation
@@ -1028,8 +1077,8 @@ key "Cai2009"
  in summer.
  Even though SAM is an important climate driver for Australia, its relationship
  with fire activity has not been investigated.
- Understanding the links between climate modes of varability and fire is
- essential for forecasting purposes.
+ Understanding the links between climate modes of varability and bushfires
+ is essential for forecasting purposes.
  
 \end_layout
 
@@ -1038,10 +1087,10 @@ The Australian Bureau of Meteorology includes ENSO's state in their seasonal
  outlook reports (e.g.
  see http://www.bom.gov.au/climate/ahead/, accessed 9 March 2016).
  These outlooks also include information about temperature and precipitation.
- Fire management agencies use these reports to assess qualitatively seasonal
+ Fire management agencies use these reports to qualitatively assess seasonal
  fire danger.
- However, some authors suggest the use of ENSO indicators to predict quantitativ
-ely fire activity in Australia.
+ However, some authors suggest that ENSO indicators have potential to quantitati
+vely predict fire activity in Australia.
  For example, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1080,8 +1129,8 @@ key "Nicholls2007"
 
  correlated area burnt data with climate variables and ENSO indicators.
  Their analysis spanned the period 1952 to 2004.
- The climate variables used in the correlation were rainfall, maximum temperatur
-e.
+ The climate variables used in the correlation were rainfall and maximum
+ temperature.
  The ENSO predictors were the SOI and SST in the Coral Sea.
  The study found that rainfall is the primary driver of fire activity in
  summer.
@@ -1101,7 +1150,7 @@ key "Harris2013"
  (2007).
  The study spanned from 1972 to 2010.
  The climate variables used in this research were vapor pressure at 0900
- and 1500 hours, maximum and minimum temperature and rainfall.
+ and 1500 hours, maximum and minimum temperature, and rainfall.
  The ENSO indices used were SOI, NINO1+2, NINO3, NINO4, and NINO3.4.
  The study determined that vapor pressure at 1500 hours during the season
  September-October-November offers the greatest forecasting skill.
@@ -1134,11 +1183,11 @@ key "Verdon-Kidd2008a"
 
 \end_inset
 
- argue that this approach fails to recognize the specific regional influences.
- Additionally, the interaction of climate modes of variability in regions
- like Victoria is complex.
+ argue that this approach fails to recognize the specific regional influences
+ of the climate modes of variability.
+ Additionally, their interaction in regions like Victoria is complex.
  Therefore, investigating linear relationships is a short-coming.
- Moreover, from a short-term perspective, every climate event is different.
+ Moreover, every climate event is different.
  Its trajectories vary widely depending on the initial conditions of the
  system 
 \begin_inset CommandInset citation
@@ -1150,8 +1199,8 @@ key "VonStorch2001"
 .
  This characteristic is difficult to take into account in a statistical-empirica
 l forecasting model.
- On the other hand, the long-term relationship between climate modes of
- variability and weather changes over time.
+ Additionally, the long-term relationship between climate modes of variability
+ and weather changes over time.
  These changes occur due to natural variability and anthropogenic climate
  change 
 \begin_inset CommandInset citation
@@ -1184,8 +1233,8 @@ key "Harris2013"
  rely on official fire activity records.
  However, it would be important to contrast this information with alternative
  sources of fire data.
- In fact, fire and management decisions (e.g.
- fire suppression) influence area burnt.
+ In fact, fire management decisions influence area burnt (e.g.
+ fire suppression, planned burns).
  Therefore, it would be desirable also to use fire weather indices in the
  analyzes.
  Using fire weather indices could also be useful to extend the period of
@@ -1204,6 +1253,8 @@ key "Risbey2009b"
  depending on the region and season.
  Therefore, it would be interesting to investigate the forecasting skill
  of other climate modes of variability.
+ In South America, the feasibility to forecast extreme fire seasons has
+ also been explored.
 \end_layout
 
 \begin_layout Standard
@@ -1213,14 +1264,27 @@ key "Chen2011"
 
 \end_inset
 
- explored the feasibility to forecast extreme fire seasons in South America.
- The authors proposed a Fire Season Severity (FSS) index based on SST anomalies.
+ proposed a Fire Season Severity (FSS) index for South America based on
+ SST anomalies.
  The robust link between SST and precipitation is the basis of the index
- (citations).
- The mechanism behind this link is the displacement of the Intertropical
- Convergence Zone (ITCZ).
- Variations in SST anomalies produce this movement (citation).
- A linear combination of the Oceanic Nino Index (ONI) and the Atlantic Multideca
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kousky1984,Ropelewski1987,Fernandes2011"
+
+\end_inset
+
+.
+ The mechanism behind this link could be the displacement of the Intertropical
+ Convergence Zone (ITCZ) produced by variations in SST anomalies 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Zeng2008"
+
+\end_inset
+
+.
+ A linear combination of the Oceanic Niño Index (ONI) and the Atlantic Multideca
 dal Oscillation Index (AMO) defines this index.
  Its design used fire activity data from the Moderate Resolution Imaging
  Spectroradiometer (MODIS) satellite 
@@ -1239,7 +1303,7 @@ key "Justice2002"
  However, the study did not quantify the fire activity variability explained
  by precipitation.
  The short period of analysis hampers the ability to assess this relationship.
- Other forecasting schemes proposed in South America have had a more local
+ Other forecasting schemes proposed in South America have had a rather local
  focus.
 \end_layout
 
@@ -1250,10 +1314,10 @@ key "Kitzberger2002"
 
 \end_inset
 
-proposed a seasonal fire activity forecasting scheme for northern Patagonia,
+ proposed a seasonal fire activity forecasting scheme for northern Patagonia,
  Argentina.
  The logic behind the index is simple.
- Extreme bushfires can occur in a switch from “El Nino” to “La Nina” phase
+ Extreme bushfires can occur in a switch from “El Niño” to “La Niña” phase
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1262,21 +1326,22 @@ key "Baisan1990,Swetnam1990,Kitzberger1997,Veblen1999"
 \end_inset
 
 .
- In the first phase, abundant precipitation fosters vegetation growth, followed
- by hot and dry conditions that increase fuel availability.
+ In the first phase, abundant precipitation fosters vegetation growth—and
+ therefore fuel availability—, followed by hot and dry conditions that increase
+ fire danger.
  The investigation used official fire data from four national parks in Patagonia.
  The index uses 36 months of ENSO indices data (SOI or NINO1+2) previous
  a fire season.
- The index can assess fire severity with three months in advance.
- This empirical model uses a “high” versus “low” seasonal fire danger rating.
+ This forecasting tool can assess fire severity with three months in advance.
+ This model uses a “high” versus “low” seasonal fire danger rating.
  The threshold for this rating is 250 Ha of burnt area (in the test with
  best results).
- The model was able to explain 53% of the variance and misclassified only
+ The index was able to explain 53% of the variance and misclassified only
  4 out of 43 fire seasons.
  However, the author acknowledges several limitations with his model.
  Since every ENSO event is different, its arrival timing might affect the
  results.
- Similarly, ENSO teleconnections patterns differ in each event 
+ Similarly, ENSO's teleconnection patterns differ in each event 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Villalba1994"
@@ -1288,7 +1353,7 @@ key "Villalba1994"
  Although in reality, ignition sources also play a role.
  Finally, it also assumes that the relationship between ENSO and regional
  climate is stable over time.
- However, as already noted in this review, is not the case.
+ However, as already noted in this review, this is not the case.
  
 \end_layout
 
@@ -1298,8 +1363,15 @@ There are no other seasonal fire danger forecasting schemes proposed for
  Although, the relationship between SST and fire weather could be helpful
  to understand seasonal predictability.
  The SST variability drives fire weather conditions in the Amazon region
- and northern Patagonia.
- On the other hand, strong “El Nino” events bring heavy precipitation to
+ and northern Patagonia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kousky1984,Ropelewski1987,Fernandes2011,Kitzberger2001,Kitzberger2002"
+
+\end_inset
+
+.
+ On the other hand, strong “El Niño” events bring heavy precipitation to
  the coasts of Ecuador and Peru 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1309,7 +1381,6 @@ key "Rasmusson1982,Horel1986,Rodbell1999"
 
 .
  However, less is know about the influence of SST on the Andean climate.
- This influence important because many areas are prone to bushfires (citations).
  
 \end_layout
 
@@ -1326,10 +1397,10 @@ key "Garreaud2009"
  “El Nino” events bring less than normal precipitation on the tropical Andes.
  Conversely, it produces higher than normal precipitation in the sub-tropics.
  In both latitudinal ranges, it produces warmer than average air temperature.
- Overall, “La Nina” years the opposite pattern prevails for temperature
- and precipitation.
+ Overall, the opposite pattern prevails for temperature and precipitation
+ during “La Niña” years.
  The ENSO signal on the tropical Andes contrasts with the torrential rains
- that strong “El Nino” brings to the coast.
+ that strong “El Niño” brings to the coast.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1349,7 +1420,7 @@ key "Vuille2000"
 
 \end_inset
 
-and 
+ and 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Francou2004"
@@ -1357,7 +1428,7 @@ key "Francou2004"
 \end_inset
 
  studied the influence of SST in the tropical Andes region.
- Both agree that “El Nino” brings less precipitation and higher air temperature.
+ Both agree that “El Niño” brings less precipitation and higher air temperature.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1365,8 +1436,8 @@ key "Francou2004"
 
 \end_inset
 
- demonstrated that his effect produces negative mass balances on the mountain
- glaciers.
+ demonstrated that this effect produces negative mass balances on the tropical
+ Andean mountain glaciers.
  However, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1374,10 +1445,83 @@ key "Vuille2000"
 
 \end_inset
 
- highlight that SST anomalies originated in the Pacific Ocean only influences
- climate on the northwestern side of the Ecuadorian Andes.
+ highlight that SST anomalies from the Pacific Ocean only influence climate
+ on the northwestern side of the Ecuadorian Andes.
  On the other hand, SST anomalies from the tropical Atlantic Ocean explain
  most of the climate variability in the western “Cordillera” .
+\end_layout
+
+\begin_layout Section
+Research gaps
+\end_layout
+
+\begin_layout Standard
+Several research gaps emerge from this literature review.
+ Overall, there are weather and climate studies for South America.
+ However, the information is dispersed.
+ Additionally, South America lacks information about fire activity and its
+ relationship with weather.
+ The Andean region is perhaps one of the areas with less information.
+ On the other hand, the absence of fire weather studies before the nineteen-seve
+nties seems to be a common factor in Australia.
+ This gap is further discussed.
+\end_layout
+
+\begin_layout Standard
+The three research areas discussed in this review lack extended periods
+ of analyses.
+ These gaps occur due to the unavailability of fire activity records and
+ weather station data.
+ However, the compilation and comparison of existing fire records could
+ be useful in extending these analyzes.
+ Additionally, the use of reanalysis products might also be an alternative
+ to address this gap.
+\end_layout
+
+\begin_layout Standard
+In addition to extending the period of analyzes, the investigation of the
+ differences between bushfire and heatwave weather patterns is an interesting
+ research endeavour.
+ The literature considers them related events, although 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Reeder2015"
+
+\end_inset
+
+ argue they are different.
+ However, there is no comprehensive study of how they differ.
+ This investigation is important because it could improve weather forecasting
+ capabilities.
+\end_layout
+
+\begin_layout Standard
+The development and improvement of fire weather indices is another area
+ that offers research opportunities.
+ In Australia, the McArthur Forest Fire Danger Index would benefit from
+ a revision.
+ In fact, as suggested by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Teague2010"
+
+\end_inset
+
+, perhaps a new index would be required.
+ On the other hand, several studies have evaluated seasonal forecasting
+ potential using ENSO indices 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nicholls2007,Harris2013"
+
+\end_inset
+
+.
+ However, these studies did not propose a model or simple index.
+ The potential of other indices has not been invstigated either.
+ Therefore, it would be interesting to test a new fire weather index that
+ offers seasonal predictability skill in Australia.
+ 
 \end_layout
 
 \begin_layout Section
@@ -1385,10 +1529,22 @@ Summary
 \end_layout
 
 \begin_layout Standard
-Exploring the synoptic climate signal based on a long-term analysis could
- contribute to extending the lead time of the forecasts.
- Addtionally, a synoptic climatology could contribute to better understand
- the mechanisms that drive fire weather.
+The literature review has discussed four main areas.
+ First of all, it compared and contrasted bushfire and heatwave weather
+ patterns literature.
+ Secondly, it discussed bushfire danger studies based on the McArthur Forest
+ Fire Danger Index.
+ The review also examined studies that aim to forecast seasonal fire danger
+ using ENSO indicators.
+ Finally, the research gaps have been synthesized.
+\end_layout
+
+\begin_layout Standard
+The next chapter addresses two of the identified gaps.
+ It aims to describe the differences between bushfire and heatwave weather
+ patterns.
+ It also extends the period of analysis of these two types of events.
+ This investigation was conducted for Victoria, Australia.
 \end_layout
 
 \begin_layout Standard
