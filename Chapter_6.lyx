@@ -18,6 +18,9 @@
 \fancyfoot{}
 \raggedbottom
 \setlength{\parindent}{8mm}
+
+%URL line breaking:
+\usepackage[hyphens]{url}
 \end_preamble
 \use_default_options true
 \master ../Master.lyx
@@ -93,8 +96,7 @@
 \begin_body
 
 \begin_layout Chapter
-Wildfire Weather in Ecuador: Seasonal Variability and the El Niño-Southern
- Oscillation Influence 
+Validations 
 \begin_inset Newpage newpage
 \end_inset
 
@@ -106,24 +108,41 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-In the last chapter, seasonal metrics of the FFDI were used to explore the
- variability of seasonal bushfire weather in Victoria Australia and their
- relationship with ENSO.
- The possibility to forecast seasonal bushfire weather using a simple index
- that incorporates ENSO metrics was explored.
- In this chapter a similar approach will be undertaken to explore bushfire
- weather in Ecuador.
- The same index (FFDI) will be used to explore seasonal bushfire weather
- since this index was calibrated to the vegetation of southeastern Australia
- were the Eucalyptus is dominant as well as in Ecuador where this Australian
- specie was introduced.
- This country was selected because the Tropical Andes is one the regions
- where less information has been generated, although bushfires have severe
- impacts that in most cases have not been quantified.
- Since there are no long-term records of bushfire activity in Ecuador, the
- approach will only explore bushfire weather, and the influence of ENSO
- in its behaviour.
+Chapter 4 presented seasonal composites of fire weather variables.
+ These composites link climate to extreme bushfire occurrences in Victoria.
+ This analysis reflects average—large-scale—climate patterns associated
+ with bushfire activity.
+ The composites showed anomalies with consistent features from spring—September-
+October-November—to summer—December-January-February—.
+ Overall, the anomalies are moderate to strong in Victoria and the Tropical
+ Pacific Ocean.
  
+\end_layout
+
+\begin_layout Standard
+The aim of this chapter is to complement the investigation of average spatial
+ patterns.
+ Chapter 5 investigates the long-term interannual variability of seasonal
+ fire weather in Victoria.
+ Fire weather was investigated using seasonal metrics of the McArthur Forest
+ Fire Danger Index.
+ This index quantifies bushfire danger using meteorological data.
+ Additionally, this chapter proposes an alternative bushfire index: “Victorian
+ Seasonal Bushfire Index” (VSBI).
+ This index is build upon the anomalous areas found in chapter 4.
+\end_layout
+
+\begin_layout Standard
+Finally, this chapter explores the capability of the VSBI to forecast fire
+ weather and activity.
+ The investigation required four groups of data: bushfire activity records,
+ climate variables, fire weather metrics and climate indices.
+ Each group of data comprises several variables the were linearly correlated
+ for spring, summer and from spring to summer.
+ This anlysis showed that the VSBI presents a moderate seasonal forecasting
+ skill.
+ However, relative humidity on its own showed a stronger predictive capability
+ than the proposed index.
 \end_layout
 
 \begin_layout Section
@@ -135,776 +154,433 @@ Data
 \end_layout
 
 \begin_layout Subsubsection
-Weather station
+Bushfire activity records
 \end_layout
 
 \begin_layout Standard
-This study required weather station (WS) data from the Andean region in
- Ecuador.
- A limitation with this dataset was that only six stations had enough records
- for this study.
- The selected period of analysis was 1997-2012.
- This period had almost complete daily information.
- The variables for this research are air temperature (Tmax), relative humidity
- (RH), wind speed (W) and precipitation (P).
- Each of the stations provided data on an eight-hourly basis.
- The hour selected for the computations was 1 p.m.
- local time (GMT 18:00).
- Table 1 describes each of the stations.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Table 1: Selected weather stations in the Ecuadorian Andean region.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-resizebox{
-\backslash
-textwidth}{!}{%
-\end_layout
-
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="6">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Estation name
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Estation code
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Province
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Latitude
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Longitude
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Elevation (m)
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-La Tola
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-M002
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pichincha
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0o 13' 46'' S
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78o 22' 0''
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2480
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Rumipamba-Salcedo
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-M004
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Cotopaxi
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1o 1' 12'' S
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78o 35' 41''
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2685
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Canar
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-M031
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Canar
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2o 33' 7'' S
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78o 56' 43''
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3083
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-La Argelia-Loja
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-M033
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Loja
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4o 2' 1'' S
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-79o 12' 4''
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2160
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Palmas-Azuay
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-M045
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Azuay
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2o 42' 58'' S
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78o 37' 47''
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2400
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-San Gabriel
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-M103
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Carchi
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0o 36' 15'' N
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-77o 49' 10''
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2860
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+This experiment analysed the same bushfire activity datasets used in the
+ previous chapter.
+ Additionally, the definitions of bushfire event remain the same.
+ A bushfire event in Victoria's Department of Environment, Land, Water and
+ Planning (DELWP) dataset refers to any event that burnt more than 10.000
+ hectares.
+ Risk Frontiers (RF) database defines a bushfire as the consolidation of
+ several bushfire—newspaper—reports in Victoria.
+ Using these definitions, both datasets are comparable as demonstrated in
+ chapter 4.
+ The period of validated bushfire records data is 1961-2010.
+ December-January-February (DJF) is the selected bushfire season in this
+ investigation, since extreme bushfire occurrences are scarce in other months.
+ For example, the DELWP database regitered 31 events during the DJF season
+ over the period 1961-2011.
+ The other three seasons of the year registered only 11 events during the
+ same period.
+ The investigation before this period requires alternative variables such
+ as fire weather metrics.
+ 
 \end_layout
 
 \begin_layout Subsubsection
-Reanalysis
+Fire weather metrics
 \end_layout
 
 \begin_layout Standard
-This research also used reanalysis data from the Twentieth Century Reanalysis
- Project (20CR) (Compo 2011).
- The 20CR relies on a data assimilation algorithm of surface pressure values.
- Sea-surface temperature and sea ice distributions are boundary conditions
- in this model.
- The 20CR yields an ensemble mean of realizations.
- This produces the best possible representation of the state of the atmosphere.
- This dataset yields six-hourly data on 24 vertical levels.
- The 1000 hPa-level data is the first vertical level.
- Thus, it is the most likely to represent surface values.
- The hour selected for calculations with this data was 4 p.m.
- local time (GMT 06:00).
- This is the time closest to the hour adopted for most wildfire potential
- computations (3 p.m.) with the Australian Forest Fire Danger Index (FFDI)—to
- be explained next—.
- The 20CR has data with a resolution of 2o x 2o.
- Thus, the extracted data is a grid in the Ecuadorian Andean region.
-\end_layout
+The quantification of fire weather required the computation of the McArthur
+ Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
+ The FFDI provides daily values of bushfire danger based on meterological
+ data.
+ However, this research used a seasonal perspective approach.
+ Thus, it was necessary to compute seasonal metrics of fire weather based
+ on the FFDI.
+ There are two common seasonal metrics of this index.
+ The first metric is a cumulative sum of daily FFDI values (FFDI
+\begin_inset script subscript
 
-\begin_layout Standard
-This dataset presents limitations common to all reanalysis products.
- There is greater uncertainty in regions were there are less observations.
- This is a particular problem in Africa, some regions in Asia and South
- America.
- There is less reliability in the first half of the century due to lack
- of observations.
- Although there have been studies that reflect this data represents well
- climate variability during this period 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Ashcroft2014"
+\begin_layout Plain Layout
+cum
+\end_layout
 
 \end_inset
 
-.
- Yet, studies for South America are not available.
- Additionally, some variables are better represented than others.
+).
+ The second metric is the number of days with FFDI values greater than an
+ arbitrary threshold.
+ For this investigation the chosen threshold was 25 (FFDI>25).
+ Values above this threshold reflect days with very high to catastrophic
+ bushfire danger.
+ The data used for the analyses was time series of FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ and FFDI>25 in Victoria.
+ The period of the FFDI computation was 1920-2010.
+\end_layout
+
+\begin_layout Standard
+On the other hand, the VSBI requires normalized climate data averaged—summed
+ in the case of precipitation—for each variable.
+ A time series of VSBI values was a third input of fire weather in the analyses.
+ The methodology section presents a detailed descripion of the VSBI formulation.
+ The analyses used climate data to compute seasonal fire weather indices.
 \end_layout
 
 \begin_layout Subsubsection
-ENSO indices
+Climate variables
 \end_layout
 
 \begin_layout Standard
-A common ENSO metric is the Southern Oscillation Index (SOI).
- The SOI represents the difference in normalized surface pressure between
- Taihiti and Darwin, Australia.
- We adopted the SOI’s calculation method proposed by the National Oceanic
- and Atmospheric Administration 
+The computation of fire weather indices used daily values of climate variables.
+ The calculations with weather station (WS) data used 3 pm records.
+ This is the approximate time when the most sever fire weather conditions
+ occur 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "NOAA"
+key "Lucas2010"
 
 \end_inset
 
 .
- The index reflects the changes in air-mass fluxes in the tropical Pacific
- Ocean.
- These fluxes, are a manifestation of changes in sea surface temperature
- (SST).
- The SOI has an open ended scale with positive and negative values.
- A negative SOI value represents above-average warm SST conditions in the
- eastern tropical Pacific Ocean.
- This represents an ’El Niño’ phase of the phenomenon.
- El Niño brings wet conditions to the coasts of southern Ecuador and northern
- Peru.
- The opposite pattern occurs with a positive SOI value, representing a ’La
- Niña’ phase.
-\end_layout
-
-\begin_layout Standard
-Another ENSO index is the Oceanic Niño Index (ONI) 
+ Six Victorian weather stations were selected for this analysis—shown in
+ the appendix—.
+ These stations provide the best available information for the computation
+ of this index 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "NOAAa"
+key "Lucas2010"
 
 \end_inset
 
 .
- The ONI measures monthly SST values in the tropical Pacific Ocean.
- The measurements take place in the region from 5 oN to 5 oS latitude and
- 120 oW to 170 oW longitude.
- This is the ’Niño 3.4’ region.
- The index requires the calculation of 3-month running means and its climatology.
- The ONI is the difference between these two values.
- An ’El Niño’ condition exits if there is at least an anomaly of +0.5 oC
- in this computation.
- An anomaly of -0.5 oC indicates a ’La Niña’ phase.
+ Seasonal fire weather in Victoria was also estimated using reanalysis data.
+ Using the 20CR and HADISST data allowed to extend the calculations to the
+ first half of the 20
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ century.
+ Climate data was also used to compute climate indices.
+\end_layout
+
+\begin_layout Subsubsection
+Climate indices
+\end_layout
+
+\begin_layout Standard
+This investigation also explored the influence of several climate modes
+ of variability over bushfires in Victoria.
+ The El Niño Southern Oscillation (ENSO), Indean Ocean Dipole (IOD) and
+ Southern Annular Mode (SAM) are among the most important for this region
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gong1999,Williams2001,Cai2009,Risbey2009b,Ho2011,Ummenhofer2011,White2013"
+
+\end_inset
+
+.
+ Seasonal weather composites suggested a strong influence of ENSO over bushfire
+ occurrences in Victoria.
+ Thus, the analysis has a higher emphasis over this driver.
+ 
+\end_layout
+
+\begin_layout Standard
+The analysis used three ENSO indices, and one index for the IOD and SAM
+ respectively.
+ The Southern Oscillation Index (SOI), NINO3.4 and NINO1+2.
+ The Dipole Mode Index (DMI) and Antartic Oscillation (AAO) revealed the
+ relationships with IOD and SAM respectively.
+ The analysis used climate indices data from several institutions: Australian
+ Bureau of Meteorology (SOI), National Oceanic and Atmospheric Administration
+ (NINO3.4, AAO), Japan Agency for Marine-Earth Science and Technology (DMI).
+ The climatologies used in the calculation of these indices were were 1951-2000
+ (NINO3.4.), 1958-2010 (DMI), and 1979-2000 (AAO).
+ The NINO1+2 index was computed using the HADISST data.
+ The climatology for this index was 1911-2011 
 \end_layout
 
 \begin_layout Subsection
 Methodology
 \end_layout
 
-\begin_layout Subsubsection
-Data pre-processing
-\end_layout
-
 \begin_layout Standard
-The computation of wildfire potential usually requires continuous daily
- data.
- Thus, only six stations in the Ecuadorian Andean region were suitable for
- this study.
- The selected stations are representative of the ecosystems that are prone
- to wildfire.
- The available records in these stations spanned the period 1997-2012.
- Yet, the period of analysis is short.
- Thus, reanalysis data was bias-corrected to extend the availability of
- records.
-\end_layout
-
-\begin_layout Standard
-The bias-correction was necessary for several reasons.
- First, 1000 hPa reanalysis data does not represent surface level values.
- Second, there was a 3-hour difference between the time of the two dataset’s
- values.
- Third, reanalysis data in the highlands may differ in quality to sea-level
- outputs.
- Thus, we plotted probability density functions (PDFs) of the reanalysis
- and weather station datasets.
- This allowed to determine the differences between their data distributions.
- Applying linear scaling techniques was a suitable approach to bias-correct
- the required variables.
-\end_layout
-
-\begin_layout Standard
-The aim of the study was to estimate wildfire potential for the entire Ecuadoria
-n Andean region.
- Thus, a calculation of daily averages for each wildfire weather variable
- yielded regional values.
- With the reanalysis dataset the procedure is straightforward.
- These data is spatially and temporally continuous.
- However, the weather stations data had some missing days.
- Therefore, calculating averages over daily anomalies made the results less
- sensitive to missing data.
+The investigation of fire weather variability and forecasting skill in Victoria
+ required four analyses: validation of bushfire activity data, computation
+ of the McArthur Forest Fire Danger Index, formulation of the Victorian
+ Seasonal Bushfire Index, and calculation of linear correlations.
+ 
 \end_layout
 
 \begin_layout Subsubsection
-Forest Fire Danger Index (FFDI) calculation
+Validation of bushfire activity data
 \end_layout
 
 \begin_layout Standard
-Ecuador currently does not have any scientifically designed wildfire potential
- index.
- Therefore, an alternative approach was to use an index suitable for this
- region.
- The FFDI is an Australian wildfire potential index (Noble 1980).
- This index uses daily values of temperature, relative humidity and wind
- speed.
- The index also incorporates a drought factor.
- This factor represents the availability of fuels.
- This is measured indirectly using soil moisture indexes such us the Keetch–Byra
-m drought index (Keetch JJ 1968).
- The FFDI equation is expressed as follows:
+A comparison of the two bushfire datasets available—DELWP and Peril Aus—was
+ necessary to confirm their consistency.
+ Chapter 4 describes the details of this process.
+\end_layout
+
+\begin_layout Subsubsection
+Computation of the McArthur Forest Fire Danger Index
 \end_layout
 
 \begin_layout Standard
-FFDI=2e−0.45+0.987∗Ln(DF)−0.0345RH+0.0338T+0.0234v(1)
-\end_layout
-
-\begin_layout Standard
-The variables represented are drought factor (DF), relative humidity (RH),
- temperature (T) and wind speed (v).
- This empirical index is valid for the southeastern forest ecosystem of
- Australia.
- In this wildfire-prone ecosystem, the eucalyptus is the dominant vegetation.
- On the other side of the world, Latin-America—including Ecuador—experienced
- a massive introduction of this specie 
+The investigation used the FFDI to explore seasonal fire weather in Victoria.
+ This index is commoly used in Australia to assess fire behaviour 
 \begin_inset CommandInset citation
-LatexCommand citet
-key "Anchaluisa2013"
+LatexCommand citep
+key "Lucas2010"
 
 \end_inset
 
 .
- Thus, is reasonable to expect that this index may represent the Ecuadorian
- wildfire potential.
+ The computation of the FFDI requires meteorological data reported on individual
+ weather stations.
+ The regional average of each FFDI variable was used to compute values for
+ Victoria.
+ On the other hand, averaging the gridded reanalysis data over Victoria
+ yielded regional values for the computation of the index.
+ The 20CR and WS data comprise daily values.
+ However, this investigation aimed to analyse fire weather with a seasonal
+ perspective.
+ 
 \end_layout
 
 \begin_layout Standard
-The application of this index with weather station and reanalysis data yielded
- daily values.
- With weather station data the calculation comprised the period 1997-2012.
- The bias-corrected reanalysis data allowed to extend the method for the
- period 1963-2012.
- For each year, a sum of the daily FFDI values provided a seasonal metric
- of wildfire potential.
- This cumulative FFDI corresponds to the wildfire season July-August-September
- (JAS).
- Finally, we calculated the 90th percentile on the seasonal FFDI time series.
- This determined which were extreme wildfire seasons during the period 1963-2012.
+The analysis used two seasonal metrics of FFDI.
+ The first metric was the seasonal sum of daily FFDI values.
+ The second metric was the number of days in a season that an FFDI exceeds
+ a value of 25.
+ In both cases, the seasons considered were SON and DJF.
+ Additionally, a comparison of reanalysis and weather station data revealed
+ the need for bias correction.
+ Probability density functions (PDFs) and seasonal time series allowed to
+ make these comparisons between the two types of data.
+ The discussion section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Seasonal-fire-weather-variability"
+
+\end_inset
+
+ further examines the biases found in the 20CR data.
+ 
+\end_layout
+
+\begin_layout Standard
+The approach used to bias-correct the reanalysis dataset was to apply linear
+ scaling techniques.
+ Maximum temperature and wind speed required additive and multiplicative
+ linear scaling respectively.
+ On the other hand, relative humidity is a calculated variable.
+ Therefore, the best approach was to bias-correct the variables required
+ for its computation.
+ The required variables are maximum temperature and specific humidity.
+ Specific humidity required additive linear scaling.
+ The equations required for its calcualtion are: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+q\equiv\frac{m_{v}}{m_{v}+m_{d}}=\frac{w}{w+1}\approx w
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+ws\equiv\frac{m_{vs}}{m_{d}}=\frac{e_{s}R_{d}}{R_{v}\left(p-e_{s}\right)}\thickapprox0.622\frac{e_{s}}{p}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+e_{s}\left(T\right)=e_{s()}exp\left[\left(\frac{L_{v}\left(T\right)}{R_{v}}\right)\left(\frac{1}{T_{o}}-\frac{1}{T}\right)\right]\thickapprox611exp\left(\frac{17.67\left(T-T_{o}\right)}{T-29.65}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+RH=100\frac{w}{w_{s}}\thickapprox0.263pq\left[exp\left(\frac{17.67\left(T-To\right)}{T-29.65}\right)\right]^{-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $q:$
+\end_inset
+
+ specific humidity or the mass mixing ratio of water vapor to total air
+ (dimensionless)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{v}:$
+\end_inset
+
+ specific mass of water vapor (Kg)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{vs}:$
+\end_inset
+
+specific mass of water vapor at equilibrium (Kg)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{d}$
+\end_inset
+
+: specific mass of dry air (Kg)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $w:$
+\end_inset
+
+mass mixing ratio of water vapor to dry air at equilibrium (dimensionless)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $w_{s}:$
+\end_inset
+
+mass mixing ratio of water vapor to dry air at equilibrium (dimensionless)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e_{s}(T):$
+\end_inset
+
+saturation vapor pressure (Pa)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e_{s()}:$
+\end_inset
+
+saturation vapor pressure at 
+\begin_inset Formula $T_{o}$
+\end_inset
+
+ (Pa)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{d}:$
+\end_inset
+
+specific gas constant for dry air (J 
+\begin_inset Formula $Kg^{-1}$
+\end_inset
+
+ 
+\begin_inset Formula $K^{-1}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{v}:$
+\end_inset
+
+specific gas constant for water vapor (J 
+\begin_inset Formula $Kg^{-1}$
+\end_inset
+
+ 
+\begin_inset Formula $K^{-1}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p:$
+\end_inset
+
+pressure (Pa)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{v}(T)$
+\end_inset
+
+: specific enthalpy of vaporization J 
+\begin_inset Formula $Kg^{-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T$
+\end_inset
+
+: temperature (K)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{o}$
+\end_inset
+
+: reference temperature (273.16 K)
+\end_layout
+
+\begin_layout Standard
+Precipitation was not bias-corrected.
+ The bias-correction attempts for this variable were not successful.
+ However, the FFDI is less sensitive to precipitation changes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dowdy2009"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsubsection
-Investigation of ENSO influence over wildfire seasons
-\end_layout
-
-\begin_layout Standard
-We used several approaches to investigate ENSO’s link over wildfire seasons.
- Firstly, it was important to know the influence of ENSO in the months leading
- to the wildfire season JAS.
- Thus, we applied linear correlations of ENSO’s indexes (seasonal averages)
- with FFDI values.
- These averages comprised three-months seasons starting from October-November-De
-cember (OND) of the previous year.
- The correlation also included the SOI and Niño 3.4 values for the concurrent
- JAS season.
-\end_layout
-
-\begin_layout Standard
-Secondly, we explored the relationship of each wildfire variable with ENSO.
- This comprised exploring the link of concurrent FFDI variables (JAS) with
- antecedent (AMJ) and concurrent ENSO indexes values—SOI and Niño 3.4—.
- The computation of linear correlations allowed to establish these relationships.
-\end_layout
-
-\begin_layout Standard
-A third approach compared the extreme wildfire seasons with ENSO’s categories
- of intensity.
- We used the categories proposed by the Australian Bureau of Meteorology.
- Finally, we expanded this analysis using a χ2 test.
- In this test, we used categories of seasonal FFDI and ENSO strength.
- The categories for seasonal FFDI were extreme (FFDI >90th percentile),
- medium (50th percentile<FFDI<=90th percentile), and low (FFD<=50 percentile).
- The numbers of ENSO years were added within three categories: very strong
- El Niño, Weak-Moderate-Strong El Niño, and La Niña.
- The strength of ENSO years corresponds to the Australian Bureau of Meteorology
- classification available at http://www.bom.gov.au/climate/enso/enlist/.
-\end_layout
-
-\begin_layout Section
-Results
-\end_layout
-
-\begin_layout Standard
-Figure 2 shows PDFs for each wildfire weather variable.
- These results represent the deviations between original WS and 20CR data.
- All 20CR PDFs have deviations from the WS data.
- The daily deviations from the mean including all seasons are 8.9 oC (Tmax),
- 11 (RH), 1.6 m/s (W) and 4.5 mm (P).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/original_variables_pdfs.png
-	lyxscale 15
-	scale 75
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Probability density functions (PDFs) of original data (without bias-correction).
- The PDFs show data for four wildfire variables: Maximum Temperature (Tmax),
- Relative Humidity (RH), Wind Speed (W) and Precipitation (P).
- The period of analysis is 1997-2012.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
+Formulation of the Victorian Seasonal Bushfire Index 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Formulation-VSBI"
 
 \end_inset
 
@@ -912,176 +588,83 @@ Probability density functions (PDFs) of original data (without bias-correction).
 \end_layout
 
 \begin_layout Standard
-Figure 3 presents time series of the same variables.
- The values correspond to seasonal averages for Tmax, RH and W during JAS.
- P corresponds to a seasonal sum.
- The figure shows Pearson’s linear correlation coefficients between 20CR
- and WS data for 16 seasons.
- The results were statistically significant only for W (r=0.52,p=0.04).
+The composites presented in chapter 4 revealed the seasonal patterns of
+ each VSBI variable.
+ Temperature, relative humidity and precipitation presented intense anomalies
+ over Victoria (33S-36S; 145E-150E).
+ Additionally, the NINO1+2 region (0-10S, 90W-80W) presented strong and
+ also statistical significant anomalies.
+ These anomalies are a manifestation of regional and global climate dynamics
+ linked to bushfire occurrences in Victoria.
+ Therefore, the analysis used these regions for the VSBI formulation.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/original_variables_time_series.png
-	lyxscale 15
-	scale 75
+The VSBI represents a simplified relationship between these variables.
+ This relationship links large-scale and local climate processes that produce
+ bushfire conditions.
+ The VSBI assumes a linear relationship between the variables.
+ Temperature, relative humidity and precipitation have the effect of preconditio
+ning bushfire occurrences drying fuel loads 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BoM2009"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Seasonal July-August-September (JAS) time series of wildfire weather variables
- in Ecuador for the period 1997-2012.
- Original Tweentieth Century Reanalysis (20CR) and weather station (WS)
- data correspond to regional averages in the Ecuadorean Andean region.
- Pearson’s linear correlation coefficients for 16 seasons are: a) Maximum
- temperature (Tmax)(r=0.36,p=0.17), b) Relative humidity (RH) (r=0.14,p=0.59),
- c) Wind speed (W) (r=0.52,p=0.04), d) Precipitation (P) (r=0.33, p=0.21).
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+.
+ This was the main criteria for their selection The index also incorporates
+ SST in the NINO1+2 region as another variable.
+ The seasonal patterns showed in chapter 4 reveled that this variable is
+ an important predictor of bushfire activity in Victoria.
+ The computation of the VSBI is the aggregation of sub-indices based on
+ these variables.
+ 
 \end_layout
 
 \begin_layout Standard
-The bias-correction process comprised the application of linear scaling
- techniques for every wildfire weather variable.
- However, the bias-correction of all variables did not improve the seasonal
- FFDI calculation (not shown).
- Only the temperature bias-correction significantly improved the FFDI results.
- Thus, for this study we only show the bias-correction results for this
- variable (see Figure 4).
-\end_layout
-
-\begin_layout Standard
-Figure 4 shows PDFs of original and bias-corrected Tmax data.
- The application of additive linear scaling successfully centers the mean
- of the 20CR.
- Additionally, Figure 5 presents original and bias-corrected results of
- the seasonal time series for Tmax.
- After the bias-correction, 20CR maximum temperature data has a comparable
- magnitude with WS data.
- The linear scaling did not affect the correlation coefficients between
- the two types of data.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/tmax_pdfs.png
-	lyxscale 15
-	scale 75
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Probability density functions (PDFs) of original and bias-corrected maximum
- temperature (Tmax) in the Ecuadorian Andean region.
- The figure shows weather station (WS), Tweentieth Century Reanalysis (20CR)
- and 20CR data with bias-correction (20CR(bc)).
- These data comprises the seasons July-August-September (JAS) for the period
- 1997-2012.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/tmax_time_series.png
-	lyxscale 10
-	scale 75
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Time series of seasonal averages of original and bias-corrected maximum
- temperature in the Ecuadorian Andean region.
- The figure shows weather station (WS) and Tweentieh Century Reanalysis
- (20CR) data.
- These data comprises the seasons July-August-September (JAS) for the period
- 1997-2012.
- Panel a) and b) linear correlations statistics are r=0.36,p=0.17,n=16.
- The bias-correction technique applied was additive linear scaling.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Figure 6 presents the results of the FFDI calculation with original and
- bias-corrected data.
- The results show PDFs of WS and bias-corrected 20CR data.
- The bias-correction increases the similarity between the distribution of
+The first step in computing the VSBI was to use the anomalies from the selected
+ regions to compute spatial averages.
+ Subsequently, these daily means were averaged for the seasons September-October
+-November (SON) and DJF respectively.
+ The climatologies used were 1900-2010 for the 20CR and 1911-2011 for HADISST
  data.
+ On the other hand, the daily values of the six weather stations were averaged
+ to calculate regional anomalies.
+ This procedure allowed to calculate the VSBI sub-indices using weather
+ station data.
+ The available period of WS data was 1974-2010.
+ The time series generated were divided by their standard deviation to normalize
+ them.
+ Finally, the VSBI is represented in the following in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:VSBI"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSBI-calculation-procedure"
+
+\end_inset
+
+ shows the VSBI calculation procedure.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula 
+\begin{equation}
+VSBI=\frac{T}{\sigma_{T}}-\frac{RH}{\sigma_{RH}}-\frac{P}{\sigma_{P}}+\frac{SST_{1+2}}{\sigma_{SST_{1+2}}}\label{eq:VSBI}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1089,80 +672,32 @@ Figure 6 presents the results of the FFDI calculation with original and
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/fddi_pfds.png
-	lyxscale 15
-	scale 75
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Probability density functions (PDFs) of original and bias-corrected Forest
- Fire Danger Index (FFDI) data in the Ecuadorian Andean region.
- The figure shows FFDI calculated with weather station (WS), Tweentieth
- Century Reanalysis (20CR) and 20CR data with bias-correction (20CR(bc)).
- These data comprises the seasons July-August-September (JAS) for the period
- 1997-2012.
+VSBI calculation procedure 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:VSBI-calculation-procedure"
+
+\end_inset
+
+ 
 \end_layout
 
 \end_inset
 
 
 \end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Figure 7 presents seasonal (JAS) time series of FFDI.
- The figure displays three time series.
- FFDI calculated with WS data comprises the period 1997-2012.
- Two more time series show FFDI calculated with reanalysis data.
- The calculation used original (20CR) and bias-corrected (20CR(bc)) reanalysis
- data.
- These time series span the period 1963-2012.
- The FFDI time series calculated with original reanalysis data over-estimates
- seasonal wildfire potential.
- The overestimation is—on average—of 65 units during the period 1997-2012.
- These data—WS and 20CR—have a moderate linear correlation (r=0.53,p=0.04).
- FFDI calculated with bias-corrected reanalysis data under-estimates the
- FFDI computed with observed values.
- The magnitude of the underestimation is less than the initial over-estimation
- (47 units).
- The bias-correction does not significantly affect the linear correlation
- between WS and 20CR(bc) data (r=0.53,p=0.05).
- These results encouraged us to extend the FFDI calculation for the period
- 1963-2012.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/Seasonal_FFDI_ec_1963_2012.png
-	lyxscale 10
+	filename Figures/VSBI/VSBI computation Diagram.png
+	lyxscale 50
 	scale 50
 
 \end_inset
@@ -1170,71 +705,250 @@ status collapsed
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Time series of Forest Fire Danger Index (FFDI) seasonal values in the Ecuadorian
- Andean region.
- The figure shows FFDI calculated with weather station (WS) and Tweentieh
- Century Reanalysis (20CR) data.
- These data comprises the seasons July-August-September (JAS) for the period
- 1997-2012 for WS, and 1963-2012 for 20CR and 20CR(bc) data.
- Original WS and 20CR linear correlation statistics for the period 1997-2012
- are r=0.53,p=0.04,n=16.
- These statistics for original WS and bias corrected 20CR(bc) data are r=0.51,p=0.
-05,n=16.
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Subsubsection
+Calculation of linear correlations
+\end_layout
 
+\begin_layout Standard
+The investigation used linear correlations to analyse the relationship between
+ bushfire activity records, seasonal fire weather metrics, climate variables
+ and indices.
+ The correlations were computed for spring (SON-SON), summer (DJF-DJF),
+ and from spring to summer (SON-DJF).
+ The analysis used bias-corrected reanalysis data for the periods 1960-2009
+ (SON-SON), 1961-2010 (DJF-DJF), and 1960-2010 (SON-DJF).
+ The SAM index—AAO— was excluded from the analysis.
+ The AAO did not show a significant correlation with most variables in a
+ first analysis undertaken for the period 1980-2010 (see appendix).
+ The figures highlight the statistically significant results at the 5% level.
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Standard
+This section shows the results of the seasonal fire weather variability
+ in Victoria represented by the FFDI and the VSBI.
+ Additionally, describes the basic relationships between the data used in
+ this investigation during the antecedent (SON) and simultaneous (DJF) bushfire
+ seasons.
+ This section also presents the fire weather—and activity—seasonal forecasting
+ skill of these variables from SON to DJF 
+\end_layout
+
+\begin_layout Subsection
+Seasonal fire weather variability
+\end_layout
+
+\begin_layout Subsubsection
+McArthur Forest Fire Danger computation
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Probability-density-functions-FFDI"
+
+\end_inset
+
+ shows PDFs of FFDI caclulated with weather station, orginal, and bias-corrected
+ reanalysis data.
+ The plot shows that the FFDI daily mean was accurately adjusted.
+ 
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cumulative-FFDI-(FFDI)-1974-2010"
+
+\end_inset
+
+ shows two times series of seasonal FFDI in Victoria.
+ Panel a) presents the results using FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
 \end_layout
 
 \end_inset
 
+with weather stations and original reanalysis data.
+ Panel b) presents FFDI
+\begin_inset script subscript
 
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ presents a comparisson with bias-corrected 20CR data.
+ These calcualtions comprise the season DJF during the period 1974-2010.
+ Before this period weather stations do not have enough records to compute
+ the FFDI.
+ Weather station data was necessary to bias-correct the FFDI results computed
+ with reanalysisd data.
+ 
 \end_layout
 
 \begin_layout Standard
-Having an extended FFDI dataset allowed us to investigate the influence
- of ENSO over seasonal wildfire variability in Ecuador.
- Table 2 shows linear correlation’s ’R’ coefficients of seasonal ENSO metrics
- with FFDI.
- The table shows how the evolution of ENSO in previous—and the concurrent
- season—is associated with wildfire potential.
- Previous seasons start one year earlier on October-November-December (OND),
- and continue in three-months intervals including the wildfire season July-Augus
-t-September (JAS).
- These correlations show that the influence of ENSO is associated to wildfire
- potential in the preceding (AMJ) and concurrent (JAS) season.
- ENSO does not seem to have a direct relationship further back in time.
- This is valid using the SOI and Niño 3.4 indexes.
+Fire weather computed using WS data depict Victoria with more extreme seasons
+ compared to the original (without bias-correction) results using reanalysis
+ data.
+ In spite of this, the results present a similar variability for the two
+ seasonal FFDI metrics.
+ Panel a) shows the time series for FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ that show a moderate linear correlation (r=0.47, p=0.00, n=37).
+ However, on an interanual basis they differ on magnitude.
+ Therefore a bias-correction of reanalysis data was required.
+ Panel b) shows the results for the bias-correction process (r=0.45, p=0.06,
+ n=37).
+ On the other hand, figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Number-of-days-ffdi-1974-2010"
+
+\end_inset
+
+ shows the same comparison using time series of FFDI>25.
+ The correlation coefficients for these time series are a) r=0.33, p=0.05,
+ n=37 and b) r= 0.52, p=0.00, n=37.
+ For every FFDI variable bias-corrected, panel a) presents original data
+ and panel b) the result with the adjustment.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
+\begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/gray_pdfs/FFDI_pdfs.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Pearson’s R coefficients between Southern Oscillation Index (SOI), Niño
- 3.4 seasonal averages and bias-corrected Forest Fire Danger Index (FFDI)
- values.
- ENSO indices correspond to the seasons October-November-December (OND)—previous
- year—, January-February-March (JFM), April-May-June (AMJ) and July-August-Septe
-mber (JAS).
- FFDI values are the cumulative sum of daily values during the season JAS.
- The linear correlations correspond to the period 1963-2012.
+Probability density functions of bias-corrected seasonal FFDI in Victoria,
+ Australia for the period 1974-2010.
+ The plot shows the adjustment in the distribution of FFDI data.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Probability-density-functions-FFDI"
+
+\end_inset
+
+
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/FFDI_cumulative_1974_2010.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cumulative FFDI (FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+) in Victoria, Australia for the period 1974-2010.
+ The correlation coeficients are a) r=0.47, p=0.00, n=37, and b) r=0.45, p=0.06,
+ n=37.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cumulative-FFDI-(FFDI)-1974-2010"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/FFDI_g25_1974_2010.png
+	lyxscale 20
+	scale 90
 
 \end_inset
 
@@ -1244,282 +958,21 @@ mber (JAS).
 \begin_layout Plain Layout
 \noindent
 \align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="9">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-SOI
-\end_layout
+Number of days with greater than 25 FFDI (FFD>25) in Victoria, Australia
+ for the period 1974-2010.
+ The correlation coeficients are a) r=0.33, p=0.05, n=37, and b) r= 0.52, p=0.00,
+ n=37 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Number-of-days-ffdi-1974-2010"
 
 \end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
 
 \end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Nino 3.4
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-OND
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-JFM
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-AMJ
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-JAS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-OND
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-JFM
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-AMJ
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-JAS
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-FFDI(bc)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.06
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.02
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.37
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.34
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.02
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.07
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.37
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.40
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
 
 \end_inset
 
@@ -1532,24 +985,53 @@ FFDI(bc)
 \end_layout
 
 \begin_layout Standard
-These results encouraged further analysis into the concurrent (JAS) and
- antecedent (AMJ) seasons.
- Table 3 presents the results of linear correlations applied to every wildfire
- variable in the concurrent season, with ENSO indices in the antecedent
- and concurrent season.
- The relationships among FFDI variables are physically consistent.
- The R coefficients for these variables with ENSO indexes are moderate are
- statistically significant at the 5 percent level.
- This holds valid for all variables with the exception of precipitation.
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maximum-temperature-PDFs"
+
+\end_inset
+
+ and figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maximun-temperature-time-series"
+
+\end_inset
+
+ show PDFs and seasonal (DJF) time series for maximum temperature respectively.
+ Maximum temperature show a deviation from the mean of 2.36 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C.
+ Therefore, additive linear scaling was applied to the reanalysis data.
+ For the seasonal time series the correlation coefficients are a) r=0.88,
+ p=0.00, n=37 and b) r= 0.88, p=0.00, n=37.
+ 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
+\begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/TMAX/gray_pdfs/VIC_TMAX.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
 
 \end_layout
 
@@ -1557,712 +1039,44 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-R linear coefficients of concurrent (JAS) wildfire weather variables with
- antecedent (AMJ) and concurrent ENSO indexes.
- Wildfire variables correspond to original 20CR data with the exception
- of maximum temperature (Tmax) which was bias-corrected.
- The period of analysis is 1964-2012.
+Maximum temperature probability density functions.
+ The plot shows the adjustment in the distribution of temperature data.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Maximum-temperature-PDFs"
+
+\end_inset
+
+ 
 \end_layout
 
 \end_inset
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
-\begin_inset ERT
-status open
+\begin_inset Graphics
+	filename Figures/FFDI_variables/TMAX/gray_time_series/TMAX_time_series.png
+	lyxscale 20
+	scale 90
 
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-resizebox{
-\backslash
-textwidth}{!}{%
-\end_layout
-
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="10">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-JAS
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-AMJ
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-JAS
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Tmax(bc)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-RH
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-W
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-P
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Nino 3.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-SOI
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Nino 3.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-SOI
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Tmax(bc)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.00
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.83
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.64
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.35
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.63
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.58
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.66
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.54
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-RH
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.00
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.82
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.68
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.38
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.36
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.43
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.41
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-W
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.00
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.46
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.32
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.36
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-0.45
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
--0.51
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-P
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.00
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.07
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.11
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.16
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.21
-\end_layout
-
 \end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-This investigation also explored the relationship between ENSO and extreme
- wildfire seasons.
- Our definition of extreme wildfire seasons filtered years with cumulative
- FFDI above the 90th percentile for the period 1963-212.
- Table 4 shows that the most extreme seasons occurred during the years 1982,
- 1991, 1997, 2009 and 2012.
- Each season was compared with historical categorizations of strength of
- ENSO events.
- With the exception of the year 2012, extreme wildfire weather occurred
- during El Niño events.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
 
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2270,366 +1084,81 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Extreme wildfire potential in Ecuador and associated ENSO types.
- A calculation of the 90th percentile of seasonal (JAS) FFDI from 1963 to
- 2012 yielded five extreme seasons.
- A strong El Niño event is common is extreme seasons.
- The classification of ENSO types belongs to the Australian Bureau of Meteorolog
-y available at http://www.bom.gov.au/climate/enso/enlist/
+Temperature time series.
+ The corelation coeficientas are a) r=0.88, p=0.00, n=37 and b) r= 0.88, p=0.00,
+ n=37.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Maximun-temperature-time-series"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Specific-Humidity-PDFs"
+
+\end_inset
+
+ and figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Specific-humidity-time-series"
+
+\end_inset
+
+ show PDFs and seasonal (DJF) time series for specific humidity.
+ This variable presented a deviation from the mean of 8.63x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-4
+\end_layout
+
+\end_inset
+
+ Kg/Kg.
+ Therefore, additive linear scaling was applied.
+ The time series correlation coefficients for this variable are a) r =0.33,
+ p=0.05, n=37 and b) r=0.85, p=0.00, n=37.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-resizebox{
-\backslash
-textwidth}{!}{%
-\end_layout
+\begin_inset Graphics
+	filename Figures/FFDI_variables/SHUM/gray_pdfs/SHUM_pdfs.png
+	lyxscale 20
+	scale 90
 
 \end_inset
 
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="4">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Extreme wilfire potential (JAS)
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-ENSO type
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Year
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Cumulative FFDI
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-SOI
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Nino 3.4
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1982
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-147
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Very strong El Nino
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Very strong el Nino
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1991
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-145
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Moderate to strong el Nino
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Moderate to strong El Nino
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1997
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-140
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Strong el Nino
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Very strong El Nino
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2009
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-151
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Weak to moderate El Nino
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Moderate El Nino
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2012
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-212
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Strong la Nina
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Moderate to strong La Nina
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Table 4 expands on the categorical analysis of seasonal wildfire potential
- and ENSO strength with a χ2 test.
- The table shows that most very strong El Niño events—two out of four years—have
- a connection with extreme wildfire seasons.
- Within the range of Weak-Moderate-Strong El Niño events, most years—13
- out 22—occur during low wildfire potential—seasonal FFDI<=50th percentile—.
- However, two years belong to the extreme wildfire weather category.
- Finally, most La Niña years occur during medium and low seasonal FFDI—23
- out 24 years—.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2637,266 +1166,42 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Chi-squared test for categories of wildfire seasons—seasonal FFDI—and ENSO
- events in Ecuador for the period 1963-2012 (50 season in total).
+Specific humidity probability density functions.
+ The plot shows the adjustment in the distribution of specific humidity
+ data.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Specific-Humidity-PDFs"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="5">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Seasonal FFDI
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Extreme
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Medium
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Low
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-ENSO (SST)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Very strong El Nino 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Weak-Moderate-Strong El Nino
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-13
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-La Nina
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-11
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
+\begin_inset Graphics
+	filename Figures/FFDI_variables/SHUM/gray_time_series/SHUM_time_series.png
+	lyxscale 20
+	scale 90
 
 \end_inset
 
@@ -2904,6 +1209,880 @@ La Nina
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Specific humidity seasonal time series.
+ The correlation coeficients are a) r =0.33, p=0.05, n=37 and b) r=0.85, p=0.00,
+ n=37.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Specific-humidity-time-series"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Relative-Humidity-PDFs"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Relative-humidity-time-series"
+
+\end_inset
+
+ show PDFs and time series for relative humidity respectively.
+ This variable presented a deviation from the mean of 4.05%.
+ The time series correlation coefficients are a) r=0.78, p = 0.00, n= 37 and
+ b) r=0.80, p=0.00, n=37.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/RH/gray_pdfs/VIC_RH_pdfs.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Relative humidity probability density functions.
+ The plot shows the adjustment in the distribution of relative humidity
+ data.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relative-Humidity-PDFs"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/RH/gray_time_series/RH_time_series.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Relative humidity time series.The correlation coeficients are a) r=0.78, p
+ = 0.00, n= 37 and b) r=0.80, p=0.00, n=37.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relative-humidity-time-series"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wind-speed-PDFs"
+
+\end_inset
+
+ and figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wind-speed-time-series"
+
+\end_inset
+
+ show PDFs and time series for wind speed respectively.
+ In this case, the deviation of the mean was 1.37 Km/h.
+ The bias-correction used multiplicative linear scaling.
+ The time series correlation coefficients are a) r=0.31, p=0.06, n=37 and
+ b) r=0.31 p=0.06, n=37.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/W/gray_pdfs/W_pdfs.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Wind speed probability density functions.
+ The plot shows the adjustment in the distribution of wid speed data.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wind-speed-PDFs"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/W/gray_time_series/W_time_series.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Wind speed seasonal time series.
+ The correlation coeficients are a) r=0.31, p=0.06, n=37 and b) r=0.31 p=0.06,
+ n=37.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wind-speed-time-series"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precipitation-PDF"
+
+\end_inset
+
+ shows the precipitation PDFs.
+ No bias-correction was applied.
+ The correlation coefficients are r=-0.12 and p=0.49.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/P/gray_pdfs/P_pdf.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Precipitation probability density functions.
+ This variable was not bias-corrected.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precipitation-PDF"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/P/gray_time_series/P_time_series.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Precipitation seasonal time series.
+ The correlation coefficients are r=-0.12 and p=0.49.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precipitation-time-series"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A final step of the FFDI calculation process was to extend the results using
+ the reanalysis data.
+ Therefore, it was possible to extend the results to the period 1920-2010.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Seasonal-Seasonal-FFDI"
+
+\end_inset
+
+ show the results.
+ The time series correlation coefficients (comparing the period 1974-2010)
+ are a) r=0.47 p=0.00, n=37 and b) r=0.32, p=0.06, n=37.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/FFDI_bc_1920_2010.png
+	lyxscale 20
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Seasonal FFDI (with bias-correction) in Victoria, Australia for the period
+ 1920-2010.
+ The correlation coeficients are a) r=0.47 p=0.00, n=37 and b) r=0.32, p=0.06,
+ n=37.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Seasonal-Seasonal-FFDI"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Victorian Seasonal Bushfire Index computation
+\end_layout
+
+\begin_layout Standard
+The bias-corrected renalysis data was also used to compute the VSBI.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Victorian-Seasonal-Bushfire-time-series"
+
+\end_inset
+
+ shows a time series during the period 1961-2010.
+ This index was used as an alternative to the seasonal metrics of the FFDI
+ in the investigation of fire weather forecasting skills.
+ The VSBI computation is derived from the agregation of normalizaed values
+ of its variables (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Formulation-VSBI"
+
+\end_inset
+
+).
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSBI-Time-Series-Variables"
+
+\end_inset
+
+ presents the time series of the VSBI variables.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Victorian-Seasonal-Bushfire-time-series"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSBI-Time-Series-Variables"
+
+\end_inset
+
+ show values for the DJF season.
+ The VSBI computation also comprised the season.
+ The appendix shows these results.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/VSBI/VSBI_1961_2010.png
+	lyxscale 10
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Victorian Seasonal Bushfire Index for the period 1961-2010.
+ The computation used bias-corrected 20CR data.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Victorian-Seasonal-Bushfire-time-series"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/VSBI/VSBI_variables.png
+	lyxscale 10
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Victorian Seasonal Bushfire Index variables for the period 1961-2010.
+ The time series correspond to normalized spatial averages of a) temperature
+ (T), b) relative humidity (RH), and c) precipitation (P) over Victoria,
+ Australia during December-January-Februaary (DJF).
+ These variables correspond to bias-corrected 20CR data.
+ Panel d) shows sea surface temperature (SST).
+ This time series uses data in the 'El Nino1+2' region from the HADISST
+ dataset.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:VSBI-Time-Series-Variables"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Seasonal forecasting skill
+\end_layout
+
+\begin_layout Subsubsection
+Relationship between variables in spring (SON-SON)
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Correlation-coeficients-SON-SON"
+
+\end_inset
+
+ shows the linear correlation coeficients of the analyzed variables in spring.
+ The correlations used bias-corrected 20CR reanalysis data.
+ The results in coloured circles represent correlations with a 5% statistical
+ significance level.
+ The size of the circles represents the stregth of the correlation.
+ Temperature and relative humidity show a physically consistent relationsip.
+ However, these variables do not have strong correlations with precipitation.
+ 
+\end_layout
+
+\begin_layout Standard
+The VSBI shows a significant correlation at the 5% level with climate variables.
+ The index is also significantly correlated at the 5% level with El Niño
+ indices.
+ The VSBI in this season did not show any correlation with the AAO index.
+ However, it presented a moderate, positive and statistically significant
+ relationship with the DMI.
+ This relationship is stronger than the relationship with NINO3.4 and SOI
+ indices.
+ 
+\end_layout
+
+\begin_layout Standard
+Correlations among El Niño indices also presented expected results.
+ The correlation between SST1.2 with SOI and NINO3.4 is negative and positively
+ respectively.
+ The correlation between SOI and NINO3.4 is negative.
+ Among the El Niño indices, NINO3.4 presented more statistically significant
+ results.
+ The DMI index presented moderate to strong correlations with every variable.
+ The AAO index only presented a statistically significant—negative—correlation
+ with temperature—results shown in appendix—.
+ 
+\end_layout
+
+\begin_layout Standard
+The two seasonal metrics of FFDI demonstrated the expected correlations
+ with climate variables.
+ Additionally, a moderate correlation exists between the two metrics in
+ this season.
+ Therefore, the physical relationship was sound.
+ Therefore, we can expect that the correlations with the climate indices
+ to be correct.
+ FFDIcum showed more statistically significant correlations with climate
+ modes of variability than FFDI>25.
+ Specifically, the correlations between NINO3.4, SOI, DMI, and FFDIcum are
+ significant.
+ However, these correlations are not significant when using FFDI>25.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Correlations/1961-2010/20CR/SON-SON/SON-SON.png
+	lyxscale 10
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Correlation coeficients using renalyasis (20CR) data during September-October-No
+vember (SON) for the period 1961-2010.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correlation-coeficients-SON-SON"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Relationship between variables in summer (DJF-DJF)
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Correlation-coeficients-DJF-DJF-1"
+
+\end_inset
+
+ presents the linear correlation results between the analysed variables
+ in the simultaneous bushfire season.
+ These results also demonstrated that temperature and relative humidity
+ correlated well.
+ Nevertheless, precipitation does not show the same consistency.
+\end_layout
+
+\begin_layout Standard
+The VSBI show a moderate to strong correlation with FFDI variables in this
+ season.
+ Its relationship with fire activity metrics is moderate.
+ The index shows moderate correlations with the oceaninc Niño indices.
+ However, there is no relationhip for the VSBI with the SOI and DMI in this
+ season.
+ 
+\end_layout
+
+\begin_layout Standard
+El Niño indices also show strong correlations among them in summer.
+ Overall, climate indices do not display a significant relationship with
+ fire weather or activity in this season.
+ The significant correlations between El Niño indices and RF records were
+ the exception.
+\end_layout
+
+\begin_layout Standard
+The seasonal metrics of FFDI show moderate and statistically significant
+ correlations with fire activity.
+ Maximum temperature was the variable that showed the most robust relationship
+ with FFDI metrics.
+ The correlation between both metrics of FFDI is strong.
+ 
+\end_layout
+
+\begin_layout Standard
+Fire activity records have stronger correlations with VSBI than FFDI in
+ this season.
+ Among the climate variables, maximum temperature and relative humidity
+ showed the highest correlations.
+ These results were consistent with weather station as well as alternative
+ reanalysis data (see Chapter 6).
+ The results are consistent also for the two periods analysed.
+ This variable showed less statistically significant results using reanalysis
+ data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Correlations/1961-2010/20CR/DJF-DJF/DJF-DJF.png
+	lyxscale 10
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Correlation coeficients using renalyasis (20CR) data during December-January-Feb
+ruary (DJF) for the period 1961-2010.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correlation-coeficients-DJF-DJF-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Relationship between variables from spring to summer (SON-DJF)
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Correlation-coeficients-SON-DJF"
+
+\end_inset
+
+ shows two panels.
+ Panel a) presents the correlations between climate variables in spring
+ (SON), and fire weather and activity in summer (DJF).
+ Additionally, panel b) display the correlations between climate indices
+ in spring (SON), and fire weather and activiy in summer (DJF).
+\end_layout
+
+\begin_layout Standard
+Panel a) shows that relative humidty is the best predictor of fire weather
+ and activity in Victoria.
+ The VSBI shows a comparable skill than relative humidity.
+ Maximum temperature presents a weaker prediction skill than relative humidity
+ and maximum temperature.
+ Precipitation shows no forecasting skill with this data.
+ On the other hand, panel b) shows that climate and oceanic indices in spring
+ have a weak correlation with fire activity in summer in Victoria.
+ Moreover, these variables do no have a correlation with fire weather metrics.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Correlations/1961-2010/20CR/SON-DJF/SON-DJF.png
+	lyxscale 10
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Correlation coeficients using renalyasis (20CR) data from September-October-Nove
+mber (SON) and December--January-February (DJF) during the period 1961-2010
+ respectively.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correlation-coeficients-SON-DJF"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -2916,193 +2095,448 @@ La Nina
 Discussion
 \end_layout
 
-\begin_layout Standard
-This study has investigated the variability of seasonal wildfire potential
- in Ecuador.
- The analysis included the examination of the relationship of wildfire weather
- and ENSO phases.
- Using a seasonal metric of wildfire potential—cumulative FFDI during the
- season July-August-September—, this study detected that five extreme seasons
- occurred during the period 1963-2012.
- An extreme season was defined as any year with a seasonal FFDI greater
- than the 90th percentile value.
- Most of these seasons—four out of five—occurred during diverse categories
- of El Niño strength.
+\begin_layout Subsection
+Seasonal fire weather variability 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Seasonal-fire-weather-variability"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Original seasonal FFDI computation (1974-2010)
 \end_layout
 
 \begin_layout Standard
-The El Niño events in the Tropical Andes produce a below-average precipitation
- pattern 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Garreaud2009"
+The FFDI computed with WS data depict more extreme fire weather for Victoria
+ than the calculation using the 20CR.
+ This difference is likely to occur for several reasons.
+ FFDI variables from renalysis data do not correspond exactly to surface
+ values.
+ Near- surface reanalysis data was available at the 1000 h-Pa level.
+ Calculations using these data do not exactly represent surface level conditions.
+ Additionally, the FFDI computed with weather station data use values at
+ 3 pm.
+ Yet, reanalysis data for FFDI variables is available at 6-hourly intervals.
+ These intervals limited the availability of data to 4 pm values.
+ Moreover, there are intrinsic limitations in the reanalysis dataset already
+ discussed in Chapter 2.
+ The linear scaling techniques adjusted the biases without significantly
+ altering the correlations.
+ However, the bushfire weather variability could change if we use a different
+ bushfire index.
+ 
+\end_layout
 
-\end_inset
-
-.
- Yet, this response is not uniform in the Ecuadorian Andes 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Villacis2003"
-
-\end_inset
-
-.
- No relationship exists between ENSO and precipitation during the wet season
- (October-May) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Villacis2003"
-
-\end_inset
-
-.
- Yet, there is a consistent trend with below-average precipitation during
- the dry season (June-August) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Villacis2003"
-
-\end_inset
-
-.
- This may occur because precipitation has some Atlantic influence as well
+\begin_layout Standard
+An alternative index might show a different seasonal fire weather trend.
+ Yet, the difference is unlikely to be significant.
  
 \begin_inset CommandInset citation
-LatexCommand citep
-key "Vuille1999"
-
-\end_inset
-
-.
- Additionally, ENSO can largely explain the inter-annual variability of
- temperature (Vuille 2000).
- El Niño events are associated with higher temperatures in most of the Ecuadoria
-n Andes 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Vuille1999"
-
-\end_inset
-
-.
- However, these studies relied on a relatively short period—approximately
- 30 years—of weather station data.
- Moreover, they include only some wildfire variables —temperature and precipitat
-ion—.
- In spite of this, they show a consistent agreement on the effect of El
- Niño over environmental conditions conducive to wildfires.
- This agrees with our overall results.
- Nevertheless, this should be carefully analyzed considering the use of
- reanalysis data in this study.
-\end_layout
-
-\begin_layout Standard
-The general limitations of reanalysis data were discussed in the data and
- methods section.
- The results shown in Table 3 demonstrate that the precipitation produced
- by ENSO’s teleconnections is not well represented by the 20CR data.
- This variable should be strongly influenced by ENSO.
- Yet, the linear correlations do not show any link.
- This is an unexpected result especially for the dry season.
- The rest of the wildfire variables do show a statistically significant
- relationship with ENSO.
- In spite of the acknowledged biases in the data, the relationship is physically
- consistent.
- Yet, the coarse resolution of the reanalysis data brings uncertainty to
- the results.
- The quantification of these uncertainties is beyond the scope of this study.
- This could be accomplished examining each 20CR realization.
- An alternative approach could be the use of other reanalysis products.
- Although, the limitations may be similar.
- Another source of uncertainty is the selected wildfire index.
-\end_layout
-
-\begin_layout Standard
-The FFDI is an empirically designed index calibrated for southeast Australia.
- To our knowledge, this index has not being tested outside of Australia.
- The ecosystems of southeast Australia and the Ecuadorian Andes share the
- wildfire-prone Eucaliptus globulus vegetation.
- Yet, the particular characteristics of the Tropical Andean ecosystems may
- produce imprecise wildfire potential results.
- The computation of alternative indexes could provide a source of validation.
- The Canadian Forest Fire Weather Index (FWI) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "VanWagner1987"
-
-\end_inset
-
-has been used in several countries with positive results 
-\begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Dowdy2009"
 
 \end_inset
 
+ determined that the FFDI could be comparable to the Canadian Fire Weather
+ Index (FWI).
+ The study compared the two indices for Australian conditions.
+ The FWI is an internationally recognized fire weather index 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "VanWagner1974,VanWagner2005,Dowdy2009a"
+
+\end_inset
+
 .
- Although computationally more complex to calculate, it could be interesting
- to test how well it represents fire weather in Ecuador compared to the
- FFDI.
- A future endeavor might be as well the design of an Ecuadorian Fire Weather
- Index System.
- Finally, another approach to strengthen this analysis would be the investigatio
-n of ENSO’influence over wildfire activity rather than fire weather.
+ Therefore, the FFDI can be representative of fire weather conditions in
+ Victoria.
+ Nevertheless, the use of only one realization of the 20CR leaves non-quantified
+ uncertainties.
+ 
+\end_layout
+
+\begin_layout Standard
+The 20CR reanalysis has 56 model realizations 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Compo2011"
+
+\end_inset
+
+.
+ Every realization represents an equally possible state of the atmosphere
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Compo2011"
+
+\end_inset
+
+.
+ Therefore, fire weather computed with a mean value realization has a degree
+ of uncertainty.
+ This uncertainty could be quantified.
+ Thus, the bias-correction results are only valid for one possible state
+ of the atmosphere.
+ However, the seasonal bushfure weather computations show an increasing
+ trend consistent with an atmosphere under a global warming process 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stocker2013"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The increasing trend in seasonal bushfire weather computations for Victoria
+ agrees with the results of other investigations for southeastern Australia
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lucas2007,Hennessy2005,Hasson2009"
+
+\end_inset
+
+.
+ In fact, climate change is extending the bushfire season in this region
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Clarke2011"
+
+\end_inset
+
+.
+ However, the available data bases showed that most bushfires occur during
+ DJF.
+ Therefore, in this investigation the fire season was defined as the season
+ December-January-February.
+ The results can change—although not significantly- if the bushfire season
+ is extended (e.g.
+ November-December-January-February-March—).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Bias-correction of fire weather variables (1974-2010)
+\end_layout
+
+\begin_layout Standard
+Every bushfire weather variable showed a significant correlation between
+ weather station and 20CR data.
+ Temperature, relative humidity and wind speed presented a similar variability
+ with differences in magnitude.
+ The application of linear scaling techniques corrected the mean of these
+ three variables.
+ The results were satisfactory since the correlations did not significantly
+ change—and in some cases even improved—.Additionally, the bias-correction
+ of reanalysis data produced similar outcomes in magnitude.
+ 
+\end_layout
+
+\begin_layout Standard
+Although, the bias-correction process yielded satisfactory results, weather
+ station data was not homogenized.
+ This is a limitation that is particularly evident for wind speed.
+ The seasonal values fo this variable show an abrupt increase after the
+ year 2000.
+ The change in the technology to measure the variable might cause the inhomogene
+ities.
+ On the other hand, linear scaling techniques did not correct biases in
+ precipitation.
+ 
+\end_layout
+
+\begin_layout Standard
+The 20CR data does no accurately represents precipitation in Victoria.
+ The linear scaling bias-correction techniques did not yield better results
+ for this variable.
+ Therefore, the FFDI computation did not use bias-corrected data for precipitati
+on.
+ However, the FFDI is less sensitive to changes in this variable 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dowdy2009a"
+
+\end_inset
+
+.
+ This weaker sensitivity might occur because the FFDI equation does not
+ explicitly includes precipitation.
+ This variable is part of the drought factor.
+ This factor does not include precipitation explicitly either.
+ The drought factor computation requires the calculation of moisture deficits.
+ In this research, the use of the KBDI yields these deficits.
+\end_layout
+
+\begin_layout Subsubsection
+Bias-corrected seasonal FFDI computation (1974-2010)
+\end_layout
+
+\begin_layout Standard
+After the bias-correction, the magnitude of FFDI results is acceptable.
+ However, after the bias-correction, the FFDI with reanalysis data slightly
+ over-estimates seasonal fire weather.
+ For most years, this over-estimation is not significant.
+ Additionally, FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ seems to be a better metric of seasonal bushfire weather than FFDI>25.
+ The results with FFDIcum show a higher correlation between bushfire danger
+ and activity.
+ The result is consistent using weather station and alternative reanalysis
+ data (see Chapter 6).
+ This result is also similar using bias-corrected data.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Extended seasonal FFDI computation (1920-2010)
+\end_layout
+
+\begin_layout Standard
+The extended FFDI computation covered the period 1920-2010.
+ The bias-correction used the adjustment factors determined for the period
+ 1974-2010.
+ The calculation required finding the date with the higher precipitation
+ to set the soil moisture deficit to zero.
+ This factor is part of the KBDI calculation.
+ After the computation, the correlation analysis covered only for the period
+ 1974-2010.
+ For this period FFDI computed with station data was available.
+ The results were moderately correlated and similar to those obtained before
+ extending the results.
+ 
+\end_layout
+
+\begin_layout Standard
+However, there is greater uncertainty in the accuracy of this results.
+ Certain variables could present even larger biases before the period 1974-2010.
+ The difference might be significant for variables like wind speed because
+ of the incorporation of new technologies to measure this variable.
+ Additionally, after the bias-correction the seasonal FFDI underestimates
+ fire weather.
+ This FFDI result is not consistent with the overestimation yielded for
+ the period 1974-2010.
+ There is no weather station data to compare the fields for the period 1920-1973.
+ Therefore, an alternative approach could be the validation against an independe
+nt reanalysis product like ERA-clim 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stickler2014"
+
+\end_inset
+
+.
+ This analysis is shown in Chapter 6.
+\end_layout
+
+\begin_layout Subsubsection
+Computation of the Victorian Seasonal Bushfire Index
+\end_layout
+
+\begin_layout Standard
+In comparisson to the time series of seasonal FFDI, the VSBI does not present
+ any particular trend in the period 1961-2010.
+ However, the VSBI time series shows that this fire weather metric is particular
+ly sensitive to the sea surface temperature parameter.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Victorian-Seasonal-Bushfire-time-series"
+
+\end_inset
+
+ depicts how the VSBI peaks during the two strongest 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ events during this period—the 1982-1983 and 1997-1998 events—.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSBI-Time-Series-Variables"
+
+\end_inset
+
+ displays how these peaks are clearly linked to the sea surface temperature
+ variability.
+ The next section discusses weather the VSBI is a better metric of seasonal
+ fire danger than FFDI metrics and if it has skill to forecast fire activity.
+ 
 \end_layout
 
 \begin_layout Subsection
-Conclusding remarks
+Fire weather drivers
 \end_layout
 
 \begin_layout Standard
-Roboust long-term wildfire activity records do not exist in Ecuador.
- The MDQ has started to produce more detailed information about wildfire
- impacts based on satellite data starting from the year 2009 
+The relationship between variables in spring shows a significant influence
+ of the IOD.
+ These results agree with the findings of 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Estacio2012"
+key "Cai2009"
 
 \end_inset
 
 .
- However, the rest of the country lacks this information that would be valuable
- to evaluate ENSO’s influence over wildfires.
- For example, basic fire statistics such as the number of fire occurrences
- and area burnt per year would provide additional metrics to evaluate the
- impact of El Niño events over wildfires in Ecuador.
- Further investigation of ENSO’s influence over wildfires in Ecuador could
- enhance our capacity to anticipate these events.
+ Positive IOD events drive hot and dry weather conditions during spring
+ in Victoria.
+ These environmental conditions dry fuel loads.
+ Dried fuel loads makes the summer season more prone to bushfires.
+ The IOD exerts a stronger influence than ENSO in this season.
+ This result also agrees with the findings of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Cai2009"
+
+\end_inset
+
+.
+ However, there is a strong correlation between the DMI and ENSO indices.
+ Therefore, the IOD might not be independent of ENSO as other studies suggest
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dommenget2002"
+
+\end_inset
+
+.
+ In fact, ENSO indices show how El Niño events also drive Victorian climate
+ in spring.
 \end_layout
 
 \begin_layout Standard
-Several studies agree that there is potential to use ENSO to forecast wildfire
- seasons 
+Among the ENSO indices, NINO 3.4 showed the strongest relationships with
+ climate variables.
+ This strong correlation reflects how the oceanic component of ENSO might
+ drive fire weather.
+ In the previous chapter, seasonal anomalies in this region showed statistically
+ significant anomalies.
+ These anomalies have a link with bushfire occurrences in Victoria.
+ These patterns justified the decision to include the SST of this region
+ in the VSBI formulation.
+ In contrast, SAM does not have a significant influence on preconditioning
+ bushfire seasons.
+ The appendix shows the correlations for this variable.
+\end_layout
+
+\begin_layout Standard
+The strong influence of SAM over rainfall in Victoria is well known 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Simard1985,Nicholls2007,Wooster2012,Harris2013"
+key "Risbey2009b,Ho2011"
 
 \end_inset
 
 .
- In fact, a predictive index has already been proposed for the Norhtern
- Patagonia region in Argentina 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Kitzberger2002"
+ Therefore, is an unexpected result the lack of influence of SAM over fire
+ weather.
+ The use of different climatologies could explain the weak influence of
+ SAM (see appendix).
+ The climatology used for bushfire variables was 1961-2011.
+ On the other hand, the climatology for SAM was 1979-2000.
+ Although the correlation results for climate indices vary from spring to
+ summer.
+\end_layout
+
+\begin_layout Standard
+Overall, the correlations between climate indices and bushfire metrics in
+ DJF are not strong.
+ Thus, these findings contrast with the results in the previous season.
+ The influence of ENSO and IOD is greater in spring than summer.
+ These modes of variability have more influence building-up fuels loads
+ in spring, rather than exacerbating bushfire danger in summer.
+ However, ENSO and IOD do not show much skill to forecast fire weather.
+ The results are better for ENSO indices and the DMI when correlated to
+ fire activity.
+ The different climatologies used for the calculation of the indices might
+ influence this outcome.
+\end_layout
+
+\begin_layout Subsection
+Bushfire predictors 
+\end_layout
+
+\begin_layout Standard
+Relative humidity and temperature in spring are strong predictors of bushfire
+ metrics in summer.
+ They have higher prediction skill than VSBI, FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum 
+\end_layout
 
 \end_inset
 
-.
- However, as acknowledged by the author, the use of statistical-empirical
- methods to investigate seasonal wildfire predictability has limitations.
- For example, the assumption of stable ENSO phase’s relationships over a
- long period of time.
- Another important assumption to consider is the fixed timing of ENSO arrival.
- In spite of this, simple indices based on the relationship of ENSO and
- wildfire weather—or activity—can provide valuable information for decision
- makers.
- This information will facilitate timely decisions that can minimize economic
- impacts, protect the environment, and potentially save lives.
+and FFDI>25.
+ Moreover, relative humidity is the variable that most influences fire weather
+ in Victoria.
+ This result is consistent using weather station and alternative reanalysis
+ data (see Chpater 6).
+ Additionally, the correlations for relative humidity show similar results
+ in the tests performed—correlations in SON, DJF and from SON to DJF—.
+ The analysis computed correlations in spring (SON), summer (DJF), and from
+ spring to summer.
+ This result agrees with the findings of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2013"
+
+\end_inset
+
+ using vapor pressure as predictor.
+ However, it is worth acknowledging again that weather stations data was
+ not homogenized.
+ Additionally, precipitation from reanalysis data was not bias-corrected.
+ Finally, it is also important to contrast this result with the skill of
+ the VSBI as an integrated index.
+\end_layout
+
+\begin_layout Standard
+The VSBI has a stronger hability to predict bushfire activity than FFDI
+ metrics.
+ The forecasting skill of the index is higher using weather station data
+ (see Chapter 6).
+ However, the prediction skill is even higher for relative humidity on its
+ own compared to VSBI (see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Correlation-coeficients-SON-DJF"
+
+\end_inset
+
+) and FFDI metrics (see appendix).
+ The reduced computation complexity of the VSBI oversimplifies the relationship
+ between fire weather variables.
+ Indeed, the index's linear relationship assumption do not enhance its predictio
+n skill.
+ Eventhough, the amount of data used in this anlysis was short—50 years—it
+ is unlikely that the VSBI will show greater predictive skill using more
+ years.
+ Additionally, the choice of a short or extended bushfire season —December-Janua
+ry-February or November-December-January-February-March—is also unlikely
+ to change this result.
 \end_layout
 
 \begin_layout Section
@@ -3110,29 +2544,55 @@ Summary
 \end_layout
 
 \begin_layout Standard
-This chapter has explored seasonal bushfire weather in Ecuador over the
- second half of the Twentieth Century using a seasonal metric of the FFDI
- (FFD_cum), since this metric seems to represent better the overall situation
- of seasonal bushfire weather than FFDI>X threshold.
- This index was calculated using weather station as well as bias-corrected
- 20CR reanalysis data in Ecuador.
- The influence of ENSO over bushfire weather in this region has been explored
- using this metric as well as ENSO indices.
- It was established that different categories of El Nino events usually
- drive bushfire weather situations/patterns in the Ecuadorian Tropical Andes.
- In fact, ENSO has a direct influence over every bushfire weather variable
- in the antecedent (AMJ), as well as in the concurrent fire season (JAS).
- Therefore, the straightforward use of ENSO indices is already a bushfire
- weather forecasting tool for Ecuador.
- Further steps to refine the analysis would involve the computation of seasonal
- bushfire weather with alternative indices (which could apply as well for
- Victoria) or the development of an Ecuadorian bushfire weather index (this
- was done for Victoria) , the use of alternative reanalysis products (which
- could apply as well for Victoria), the use alternative realizations of
- the 20 CR (which could apply as well for Victoria), and the investigation/gener
-ation of long-term records of bushfire activity for Ecuador (which was validated
- for Victoria with two data sets, but which is absolutely out of the scope
- of this project for Ecuador).
+This investigation explored seasonal fire weather variability in Victoria.
+ Seasonal metrics of the McArthur Forest Fire Danger Index quantified bushfire
+ danger using meteorological data.
+ This chapter also proposed an alternative index: the “Victorian Seasonal
+ Bushfire Index” (VSBI).
+ The VSBI aggregates normalized seasonal averages of bushfire weather variables.
+ The computation of the two indices used weather station and bias-corrected
+ reanalysis data.
+ Linear scaling techniques were used to bias-correct these data.
+ Additionally, the chapter explores the relationship between bushfire activity,
+ fire weather, climate modes of variability and meteorological variables.
+ The relationship was analysed computing linear correlations for several
+ variables in spring, summer and from spring to summer.
+ This analysis investigated fire weather and activity prediction skills.
+ 
+\end_layout
+
+\begin_layout Standard
+The seasonal fire weather variability shows an increasing trend during the
+ period 1961-2010.
+ This trend is consistent using weather station and reanalysis data.
+ The trend is also consistent using different seasonal metrics of the FFDI.
+ On the other hand, the VSBI shows a strong correlation with seasonal metrics
+ of the FFDI in summer.
+ VSBI in spring also shows moderate and statistically significant correlations
+ with FFDI.
+ VSBI and bushfire activity in summer are moderately correlated.
+ However, relative humidity showed a stronger predictive skill than the
+ VSBI itself—or FFDI—.
+ This result implies that the linear assumption in the formulation of the
+ VSBI does not increase its capability to represent—and predict—fire weather.
+ Nevertheless, it seems that the availability of water content in the environmen
+t is the most robust predictor of fire weather and activity in Victoria.
+ Therefore, the development of a simple index to evaluate and forecast fire
+ weather and activity in Victoria could be refined focusing on this variable
+ and associated parameters (e.g.
+ soil moisture).
+ 
+\end_layout
+
+\begin_layout Standard
+The next chapter aims to test the sensitivity of the results of the previous
+ and present chapters.
+ The bushfire and heatwave weather patterns in Victoria are reproduced using
+ an alternative fire activity database and heatwave definition.
+ Additionally, the long-term fire weather variability in this region is
+ examined with a second renalysis dataset.
+ Finally, the fire weather and activity forecasting skills are analysed
+ using weather station as well as alternative reanalysis data.
  
 \end_layout
 
@@ -3140,7 +2600,7 @@ ation of long-term records of bushfire activity for Ecuador (which was validated
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "/Users/danielpazmino/Documents/My_research/Thesis/LyX/library"
-options "/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
+options "bibtotoc,/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
 
 \end_inset
 
