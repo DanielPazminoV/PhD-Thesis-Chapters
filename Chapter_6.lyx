@@ -369,7 +369,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -479,7 +479,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -521,7 +521,11 @@ name "fig:a),-b)-and-daily-temperature-anomalies"
 
 \end_inset
 
- The quantification of fire weather required the computation of the McArthur
+ 
+\end_layout
+
+\begin_layout Standard
+The quantification of fire weather required the computation of the McArthur
  Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
  The FFDI provides daily values of bushfire danger based on meterological
  data.
@@ -569,7 +573,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -663,7 +667,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -761,7 +765,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -854,7 +858,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -948,7 +952,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1042,7 +1046,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1136,7 +1140,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1190,62 +1194,52 @@ McArthur Forest Fire Danger computation (1974-2010)
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
+The analysis of fire weather variability started with the computation of
+ the FFDI.
+ The computation used weather station data as well as an alternative reanalysis
+ dataset (ERA-20C).
+ The period of analysis was 1974-2010.
+ Weather station data was only available for this period.
+ The computed FFDI was analysed using probability density functions and
+ time series.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Probability-density-functions-FFDI"
 
 \end_inset
 
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
+ shows that the distributions of the FFDI computed reanalysis and weather
+ station data are quite similar.
+ The same procedure was applied to each FFDI.
+ Additionally, the verifications also included comparissons including time
+ series.
+ These steps revealed that precipitation could be bias-corected.
+ Bias-corrected precipitation data was later used to attempt an improvement
+ of the FFDI results.
+ However, after the bias-correcting this variable there were no improvements
+ in the resutls as figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Probability-density-functions-FFDI"
 
 \end_inset
 
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
+ show.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI/1974-2010/PDFs/FFDI_PDF.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -1283,107 +1277,35 @@ name "fig:Probability-density-functions-FFDI"
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cumulative-FFDI-(FFDI)-1974-2010"
 
 \end_inset
 
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
-\end_layout
-
-\begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
+ show time series of seasonal fire weather using the cumulative FFDI metric.
+ The figure displays the results with original data and using the bias-corrected
+ precipitation data.
+ The comparison with original data demonstrates a moderate correlation with
+ weather station data (r=0.52, p=0.00).
+ This figure also shows that the bias-correction does not improve the results.
+ The Pearson correlation coefficient decreases from 0.52 to 0.48.
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI/1974-2010/Time_series/FFDI_cum.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -1432,62 +1354,35 @@ name "fig:Cumulative-FFDI-(FFDI)-1974-2010"
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Number-of-days-ffdi-1974-2010"
 
 \end_inset
 
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
+ shows the results for an alternative seasonal fire weather variability
+ metric.
+ The results are expressed as the number of days with FFDI greater than
+ 25.
+ The results show that this metric agrees less with WS data than FFDIcum
+ (r=0.37,p=0.03).
+ Additionally, it also shows that the bias-correction decreases the correlation
+ coefficient to 0.32.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI/1974-2010/Time_series/FFDI_g25.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -1529,62 +1424,40 @@ name "fig:Number-of-days-ffdi-1974-2010"
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
+Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maximum-temperature-PDFs"
 
 \end_inset
 
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maximun-temperature-time-series"
 
 \end_inset
 
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
+ show the PDFs and time series for maximum temperature respectively.
+ The figures show that the ERA-20C and WS data agree well for this variable.
+ The PDFs show a slight deviation.
+ Additionally, the time series correlation is strong (r=0.63,p=0.00).
+ Therefore, this variable was not bias-corrected.
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI_variables/TMAX/PDFs/T_pdf.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -1621,51 +1494,6 @@ name "fig:Maximum-temperature-PDFs"
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1676,7 +1504,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI_variables/TMAX/Time_series/1974-2010/T_ts.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -1718,7 +1546,7 @@ name "fig:Maximun-temperature-time-series"
 \end_layout
 
 \begin_layout Standard
-Figure 
+Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Relative-Humidity-PDFs"
@@ -1732,24 +1560,26 @@ reference "fig:Relative-humidity-time-series"
 
 \end_inset
 
- show PDFs and time series for relative humidity respectively.
- This variable presented a deviation from the mean of 4.05%.
- The time series correlation coefficients are a) r=0.78, p = 0.00, n= 37 and
- b) r=0.80, p=0.00, n=37.
+ display the PDFs and time series for relative humidity respectively.
+ The distribution of reanalysis data for this variable agrees quite well
+ with observations.
+ On the other hand, the correlation coefficient for this variable was also
+ strong (r=0.64,p=0.00).
+ This variable did not require bias-correction either.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI_variables/RH/PDFs/RH_pdf.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -1787,51 +1617,6 @@ name "fig:Relative-Humidity-PDFs"
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1842,7 +1627,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI_variables/RH/Time_series/1974-2010/RH_ts.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -1884,62 +1669,42 @@ name "fig:Relative-humidity-time-series"
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
+Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wind-speed-PDFs"
 
 \end_inset
 
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wind-speed-time-series"
 
 \end_inset
 
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
+ present the probability density functions and time series for wind speed.
+ The data distributions between ERA-20C and WS values show a slight disagreement.
+ Despite this, the correlation between their time series is rather weak
+ (r=0.35,p=0.00).
+ The difference in magnitude between the mean of the time series was only
+ xxx Km/h.
+ Therefore, this variable was not bias-corrected.
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI_variables/W/PDFs/W_pdf.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -1976,51 +1741,6 @@ name "fig:Wind-speed-PDFs"
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2031,7 +1751,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI_variables/W/Time_series/1974-2010/W_ts.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -2073,51 +1793,6 @@ name "fig:Wind-speed-time-series"
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -2134,17 +1809,60 @@ clearpage
 \end_layout
 
 \begin_layout Standard
+Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precipitation-PDF"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precipitation-time-series"
+
+\end_inset
+
+ show PDFs and time series for precipitation.
+ Both figures demonstrate that the reanalysis data overestimates precipitation
+ in Victoria.
+ However, panel a) of figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precipitation-time-series"
+
+\end_inset
+
+ indicates that ERA-20C captures some precipitation's variability (r=0.49,p=0.00).
+ Therefore, the precipitation values were bias-corrected using a multiplicative
+ linear scaling factor of 3.08.
+ This factor was the result of dividing the mean of the two time-series.
+ As shown in panel b) of figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precipitation-time-series"
+
+\end_inset
+
+, the bias-correction reduced the values of the ERA-20C data.
+ After the bias-correction, the precipitation values are of similar magnitude
+ to those observed.
+ Additionally, the bias-correction did not alter the strength of the correlation.
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI_variables/P/PDFs/P.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -2181,51 +1899,6 @@ name "fig:Precipitation-PDF"
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2236,7 +1909,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI_variables/P/Time_series/1974-2010/P.png
-	lyxscale 10
+	lyxscale 20
 	scale 75
 
 \end_inset
@@ -2250,7 +1923,8 @@ status collapsed
 \begin_layout Plain Layout
 Precipitation time series in Victoria during the period 1974-2010 for the
  season December-January-February (DJF).
- The correlation coefficients are a) r=0.49, p=0.00, n=37, and b) r=, p=,n=37.
+ The correlation coefficients are a) r=0.49, p=0.00, n=37, and b) r=0.49, p=0.00,n=3
+7.
  Data source: Original and bias-corrected European Reanalysis of Global
  Climate Observations (ERA-20C, ERA-20C(bc) respectively) and weather stations
  in Victoria (WS).
@@ -2278,51 +1952,6 @@ name "fig:Precipitation-time-series"
 
 \end_layout
 
-\begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
-\end_layout
-
 \begin_layout Subsubsection
 McArthur Forest Fire Danger computation (1920-2010)
 \end_layout
@@ -2331,7 +1960,7 @@ McArthur Forest Fire Danger computation (1920-2010)
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2381,7 +2010,7 @@ name "fig:Seasonal-Seasonal-FFDI"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2431,7 +2060,7 @@ name "fig:Seasonal-Seasonal-FFDI-1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2477,7 +2106,7 @@ name "fig:Maximun-temperature-time-series-1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2523,7 +2152,7 @@ name "fig:Relative-humidity-time-series-1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2569,7 +2198,7 @@ name "fig:Wind-speed-time-series-1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2665,7 +2294,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2756,7 +2385,7 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2859,6 +2488,54 @@ On the other hand, the VSBI requires normalized climate data averaged—summed
  A time series of VSBI values was a third input of fire weather in the analyses.
  The methodology section presents a detailed descripion of the VSBI formulation.
  The analyses used climate data to compute seasonal fire weather indices.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Fire weather variability/Correlations/1974-2010/ERA20CWS/SON-SON/SON-SON.png
+	lyxscale 10
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pearson correlation coeficients for climate-bushfire relationships for September
+-October-November (SON) in Victoria during the period 1973-2009.
+ Data source: European Reanalysis of Global Climate Observations (ERA-20C),
+ Hadley Centre Sea Ice and Sea Surface Temperature data set (HadISST), and
+ weather station data in Victoria (WS).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correlation-coeficients-SON-SON-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3014,6 +2691,54 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
+	filename Figures/Fire weather variability/Correlations/1974-2010/ERA20CWS/DJF-DJF/DJF-DJF.png
+	lyxscale 10
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pearson correlation coeficients for climate-bushfire relationships for December-
+January-February (DJF) in Victoria during the period 1974-2010.
+ Data source: European Reanalysis of Global Climate Observations (ERA-20C),
+ Hadley Centre Sea Ice and Sea Surface Temperature data set (HadISST), and
+ weather stations data in Victoria.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correlation-coeficients-DJF-DJF-1-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
 	filename Figures/Fire weather variability/Correlations/1961-2010/ERA-20C/DJF-DJF/DJF-DJF.png
 	lyxscale 10
 	scale 75
@@ -3157,6 +2882,108 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
+	filename Figures/Fire weather variability/Correlations/1974-2010/ERA20CWS/SON-DJF/SON-DJF_part_1.png
+	lyxscale 10
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pearson correlation coeficients for climate-bushfire relationships from
+ September-October-November (SON) to December-January-February (DJF) in
+ Victoria during the period 1973-2010.
+ Panel a) and b) show the results for climate variables, fire weather and
+ activity using reanalysis and weather station data respectively.
+ Data source: European Reanalysis of Global Climate Observations (ERA-20C),
+ Hadley Centre Sea Ice and Sea Surface Temperature data set (HadISST), weather
+ stations in Victoria (WS).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correlation-coeficients-SON-DJF-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Fire weather variability/Correlations/1974-2010/ERA20CWS/SON-DJF/SON-DJF_part_2.png
+	lyxscale 10
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pearson correlation coeficients for climate-bushfire relationships from
+ September-October-November (SON) to December-January-February (DJF) in
+ Victoria during the period 1973-2010.
+ Panel a) and b) show the results for climate indices, fire weather and
+ activity using reanalysis and weather station data respectively.
+ Data source: European Reanalysis of Global Climate Observations (ERA-20C),
+ Hadley Centre Sea Ice and Sea Surface Temperature data set (HadISST), weather
+ stations in Victoria (WS).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correlation-coeficients-SON-DJF-2-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
 	filename Figures/Fire weather variability/Correlations/1961-2010/ERA-20C/SON-DJF/SON-DJF.png
 	lyxscale 10
 	scale 65
@@ -3202,6 +3029,19 @@ name "fig:Correlation-coeficients-SON-DJF"
 wide false
 sideways false
 status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Fire weather variability/Correlations/1920-2010/ERA-20C/SON-DJF/SON-DJF.png
+	lyxscale 10
+	scale 65
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
