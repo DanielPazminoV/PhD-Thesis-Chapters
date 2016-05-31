@@ -107,6 +107,34 @@ Validations
 Introduction
 \end_layout
 
+\begin_layout Standard
+Chapter 4 and 5 analysed complementary aspects of fire weather in Victoria,
+ Australia.
+ Chapter 4 examined the differences between bushfire and heatwave weather
+ patterns.
+ On the other hand, Chapter 5 analysed the fire weather variability and
+ seasonal forecasting skill.
+ This chapter aims to test if the findings of these two chapters are robust.
+ Chapter 6 reproduces these results using the same methods with alternative
+ sources of data.
+ The chapter consolidates the discussion about fire weather in Victoria
+ with robust results.
+\end_layout
+
+\begin_layout Standard
+Four sections comprise this chapter.
+ The data and methodology section provides details about the alternative
+ data sources.
+ It also summarises the methods described in the analogous sections of the
+ preceding chapters.
+ However, the reader has references to the corresponding chapters for more
+ methodological aspects.
+ The results section reproduces the findings of chapters 4 and 5.
+ The discussion section provides a deeper analysis of the original and reproduce
+d results.
+ The summary gives an overview of the chapter and highlights the key findings.
+\end_layout
+
 \begin_layout Section
 Data and methodology
 \end_layout
@@ -120,111 +148,89 @@ Bushfire activity records
 \end_layout
 
 \begin_layout Standard
-This experiment analysed the same bushfire activity datasets used in the
- previous chapter.
- Additionally, the definitions of bushfire event remain the same.
- A bushfire event in Victoria's Department of Environment, Land, Water and
- Planning (DELWP) dataset refers to any event that burnt more than 10.000
- hectares.
- Risk Frontiers (RF) database defines a bushfire as the consolidation of
- several bushfire—newspaper—reports in Victoria.
- Using these definitions, both datasets are comparable as demonstrated in
- chapter 4.
- The period of validated bushfire records data is 1961-2010.
- December-January-February (DJF) is the selected bushfire season in this
- investigation, since extreme bushfire occurrences are scarce in other months.
- For example, the DELWP database regitered 31 events during the DJF season
- over the period 1961-2011.
- The other three seasons of the year registered only 11 events during the
- same period.
- The investigation before this period requires alternative variables such
- as fire weather metrics.
- 
+The bushfire activity records are the same as those used in the previous
+ chapters.
+ The two datasets were produced by the Department of Environment, Land,
+ Water and Planning (DELWP) of Victoria and Risk Frontier's (RF).
+ Both datasets are comparable using events greater than 10.000 Ha as the
+ threshold to define bushfire events.
+ The selected period of analysis using this definition was 1961-2010.
+ The datasets have a greater correlation during this time.
+ Chapter 4 discusses further details about these datasets.
 \end_layout
 
 \begin_layout Subsubsection
 Heatwave definition
 \end_layout
 
-\begin_layout Subsubsection
-Fire weather metrics
+\begin_layout Standard
+The replication of the experiment conducted in Chapter 4 uses an alternative
+ heatwave definition.
+ Nairn et al.
+ (2009) explain in detail the selected criteria.
+ The scientific community in Australia has widely adopted this definition
+ (citation).
+ Nairn et al.
+ (2009) developed an index based on the combination of two concepts.
+ The first concept is 'Excess Heat'.
+ This criterion refers to an unusually high heat period that was not dispersed
+ due to high temperatures overnight.
+ The second concept is 'Heat Stress'.
+ It relates to a period that has been warmer in comparison to the previous
+ month.
+ Using these propositions, Nairn et al.
+ (2009) created an 'Excess Heat Factor':
 \end_layout
 
 \begin_layout Standard
-The quantification of fire weather required the computation of the McArthur
- Forest Fire Danger Index (FFDI) and the VSBI in Victoria.
- The FFDI provides daily values of bushfire danger based on meterological
- data.
- However, this research used a seasonal perspective approach.
- Thus, it was necessary to compute seasonal metrics of fire weather based
- on the FFDI.
- There are two common seasonal metrics of this index.
- The first metric is a cumulative sum of daily FFDI values (FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
+\begin_inset Formula 
+\begin{equation}
+EHI_{sig}=(T_{i}+T_{i+1}+T_{i+2})/3-T_{95}
+\end{equation}
 
 \end_inset
 
-).
- The second metric is the number of days with FFDI values greater than an
- arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
- Values above this threshold reflect days with very high to catastrophic
- bushfire danger.
- The data used for the analyses was time series of FFDI
-\begin_inset script subscript
 
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
- and FFDI>25 in Victoria.
- The period of the FFDI computation was 1920-2010.
 \end_layout
 
 \begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
- A time series of VSBI values was a third input of fire weather in the analyses.
- The methodology section presents a detailed descripion of the VSBI formulation.
- The analyses used climate data to compute seasonal fire weather indices.
-\end_layout
+\begin_inset Formula 
+\begin{equation}
+EHI_{accl}=(T_{i}+T_{i+1}+T_{i+2})/3-(T_{i-1}+...+T_{i-30})/30
+\end{equation}
 
-\begin_layout Subsubsection
-Climate variables
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-The computation of fire weather indices used daily values of climate variables.
- The calculations with weather station (WS) data used 3 pm records.
- This is the approximate time when the most sever fire weather conditions
- occur 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Lucas2010"
+\begin_inset Formula 
+\begin{equation}
+EHF=EHI_{sig}*\left|EHI_{accl}\right|
+\end{equation}
 
 \end_inset
 
-.
- Six Victorian weather stations were selected for this analysis—shown in
- the appendix—.
- These stations provide the best available information for the computation
- of this index 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Lucas2010"
 
+\end_layout
+
+\begin_layout Standard
+Where:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T:$
 \end_inset
 
-.
- Seasonal fire weather in Victoria was also estimated using reanalysis data.
- Using the 20CR and HADISST data allowed to extend the calculations to the
- first half of the 20
+ Daily average of maximum and minimum temperature.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{95}:$
+\end_inset
+
+ 95
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -233,8 +239,120 @@ th
 
 \end_inset
 
- century.
- Climate data was also used to compute climate indices.
+percentile of the long-term daily temperature (maximum and minimum temperature
+ average).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $EHI_{sig}:$
+\end_inset
+
+ Excess heat sub-index.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $EHI_{accl}:$
+\end_inset
+
+ Heat stress sub-index.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $EHF:$
+\end_inset
+
+Excess heat factor.
+\end_layout
+
+\begin_layout Standard
+This heatwave definition was tested against Pezza et al.
+ (2012) approach.
+ Both metrics are comparable selecting the 55th percentile of heatwaves
+ using Nairn et al.
+ (2009) definition.
+ The selected events represent extreme heatwaves in Victoria.
+\end_layout
+
+\begin_layout Subsubsection
+Fire weather metrics
+\end_layout
+
+\begin_layout Standard
+The fire weather metrics are those used in the previous chapter.
+ The analyses use two seasonal metrics of the Forest Fire Danger Index (FFDI).
+ The first FFDI metric is a cumulative sum of all FFDI daily values (FFDIcum).
+ The second FFDI metric is the number of days with FFDI greater than 25
+ (FFDI>25).
+ The third metric is the 'Victorian Seasonal Bushfire Index' (VSBI) proposed
+ in chapter 5.
+ Chapters 2 and 5 provide details on the formulation of the FFDI and VSBI
+ respectively.
+ Chapter 4 presents a critical review of the FFDI.
+ Chapter 5 discussed the limitations of the VSBI.
+ This chapter further discusses these indices.
+\end_layout
+
+\begin_layout Subsubsection
+Climate variables
+\end_layout
+
+\begin_layout Standard
+The replication of weather patterns used the same climate data as in Chapter
+ 4.
+ The sensitivity of these results was tested using alternative bushfire
+ dataset and heatwave definition.
+ The results are more sensible to these parameters.
+ Therefore, the climate data used in this chapter was the Twentieth Century
+ Reanalysis Project version 2 (20CR), the Hadley Centre Sea Ice and Sea
+ Surface Temperature data set (HadISST), and the Australian Climate Observations
+ Reference Network-Surface Air Temperature (ACORN-SAT).
+ Chapter 4 specifies the characteristics of these datasets.
+\end_layout
+
+\begin_layout Standard
+Reproducing Chapter 5 results required an alternative source of reanalysis
+ data.
+ During the execution of this research project, the European Centre for
+ Medium-Range Weather Forecasts (ECMWF) launched the European Reanalysis
+ of Global Climate Observations ERA-Clim project (citations).
+ This investigation used one of its products: the ERA-20C twentieth-century
+ reanalysis (citations).
+ This reanalysis product assimilated global climate data for the period
+ 1900-2010 using surface and upper-air data.
+ It comprises a dataset that provides 3-hourly data, with 125 Km spatial
+ resolution and 92 vertical levels.
+ 
+\end_layout
+
+\begin_layout Standard
+The use of the ERA-20C dataset has several advantages for this research
+ project.
+ First of all, it provides data with higher resolution.
+ ERA-20C provides data with a 125 Km spatial resolution, while the 20CR
+ outputs only reach 200 Km.
+ Secondly, the ERA-20C data yield surface—10m—climate data.
+ On the other hand, version 2 of the 20CR—which was used when the project
+ started—only provides values at the 1000 hPa level.
+ Therefore, bias-corrections were required to use this the 20CR data.
+ Finally, ERA-20C provides a dataset to assess the results independently.
+ Even though alternative ensemble members of the 20CR could have been used
+ to reproduce the results, the use of a different reanalysis product could
+ confirm that the results are robust.
+\end_layout
+
+\begin_layout Standard
+On the other hand, ERA-20C also has limitations.
+ This reanalysis product yields data from 1900 to 2010, while the 20CR project
+ covers a larger period (1851-2014).
+ Nevertheless, the analyses conducted in the previous chapters do not use
+ years before 1900.
+ Therefore, this limitation is not a disadvantage for this project.
+ Additionally, ERA-20C is a deterministic model.
+ It provides only one ensemble of data.
+ In contrast, the 20CR yields 56 realisations of possible states of the
+ climate.
+ This investigation has only used the ensemble mean of the 20CR.
+ Thus, the deterministic nature of the ERA-20CR is not a disadvantage either.
 \end_layout
 
 \begin_layout Subsubsection
@@ -242,37 +360,12 @@ Climate indices
 \end_layout
 
 \begin_layout Standard
-This investigation also explored the influence of several climate modes
- of variability over bushfires in Victoria.
- The El Niño Southern Oscillation (ENSO), Indean Ocean Dipole (IOD) and
- Southern Annular Mode (SAM) are among the most important for this region
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Gong1999,Williams2001,Cai2009,Risbey2009b,Ho2011,Ummenhofer2011,White2013"
-
-\end_inset
-
-.
- Seasonal weather composites suggested a strong influence of ENSO over bushfire
- occurrences in Victoria.
- Thus, the analysis has a higher emphasis over this driver.
- 
-\end_layout
-
-\begin_layout Standard
-The analysis used three ENSO indices, and one index for the IOD and SAM
- respectively.
- The Southern Oscillation Index (SOI), NINO3.4 and NINO1+2.
- The Dipole Mode Index (DMI) and Antartic Oscillation (AAO) revealed the
- relationships with IOD and SAM respectively.
- The analysis used climate indices data from several institutions: Australian
- Bureau of Meteorology (SOI), National Oceanic and Atmospheric Administration
- (NINO3.4, AAO), Japan Agency for Marine-Earth Science and Technology (DMI).
- The climatologies used in the calculation of these indices were were 1951-2000
- (NINO3.4.), 1958-2010 (DMI), and 1979-2000 (AAO).
- The NINO1+2 index was computed using the HADISST data.
- The climatology for this index was 1911-2011 
+This chapter uses the same climate indices analysed in previous chapters.
+ These include El Nino-Southern Oscillation (ENSO) indices such as NINO3.4.,
+ NINO1+2 (SST1.2.), and Southern Oscillation Index (SOI).
+ It also uses the Dipole Mode Index (DMI) which quantifies the intensity
+ of Indian Ocean Dipole (IOD) events.
+ Chapter 1 provides further details about ENSO and IOD and their indices.
 \end_layout
 
 \begin_layout Subsection
@@ -283,29 +376,84 @@ Methodology
 Composite analysis
 \end_layout
 
+\begin_layout Standard
+The composite analysis reproduces the results obtained in chapter 4.
+ These computations facilitate the comparison of bushfire and heatwave weather
+ patterns.
+ The calculations included daily and seasonal composites spanning the period
+ 1961-2010.
+ The daily plots compare weather patterns before and after (from day minus
+ 1 to day plus one) of the events.
+ The seasonal composites display the differences during the antecedent (Septembe
+r-October-November) and concurrent (December-January-February) bushfire/heatwave
+ seasons.
+ 
+\end_layout
+
+\begin_layout Standard
+For this test, the bushfire composites use the Risk Frontiers bushfire database
+ (RF).
+ On the other hand, the criteria defined by Nairn et al.
+ (2009) is adopted as a second heatwave definition.
+ These data is used to test the sensitivity of the results.
+ The analysis excluded days in which bushfire and heatwaves occurred simultaneou
+sly.
+ This procedure allowed producing plots that represent each type of event
+ exclusively.
+ Chapter 4 further describes the composite analysis methodology.
+\end_layout
+
 \begin_layout Subsubsection
 Fire weather variability analysis
 \end_layout
 
 \begin_layout Standard
-FFDI and VSBI
+​This sub-section replicates some of the results produced in chapter 5.
+ Fire weather variability was explored using seasonal metrics of the FFDI
+ as well as the VSBI.
+ For this experiment, the calculations used the ERA-20C as an alternative
+ source of data.
+ The first step in this process was to compare the reanalysis data against
+ observations.
+ This comparison used probability density functions and seasonal time series
+ to evaluate if any bias-corrections were required.
+ Initially, the climate data analysis was conducted for the period of available
+ weather station data (1974-2010).
+ However, time series were also plotted for the period 1920-2010 using the
+ reanalysis data.
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula 
-\begin{equation}
-VSBI=\frac{T}{\sigma_{T}}-\frac{RH}{\sigma_{RH}}-\frac{P}{\sigma_{P}}+\frac{SST_{1+2}}{\sigma_{SST_{1+2}}}\label{eq:VSBI}
-\end{equation}
-
-\end_inset
-
-
+Subsequently, the climate data was used to compute the FFDI (FFDIcum and
+ FFDI>25) and VSBI.
+ These computations analysed fire weather variability during the bushfire
+ season (December-January-February).
+ The calculations used observations and reanalysis data for the period 1974-2010.
+ The analysis for the period 1920-2010 used reanalysis data only.
+ Chapter 5 describes more details of the methodology to analyse fire weather
+ variability.
 \end_layout
 
 \begin_layout Subsubsection
-Seasonal forecasting skill anlaysis
+Seasonal forecasting skill analysis
+\end_layout
+
+\begin_layout Standard
+This sub-section reproduces the findings for seasonal forecasting skill
+ (see chapter 5).
+ In this analysis, linear correlations were used to understand the relationship
+ between four groups of data.
+ The data comprised weather variables, climate indices, fire weather metrics
+ and fire activity records.
+ The exploration of the relationships between these groups of data included
+ the seasons September-October-November (SON-SON), December-January-February
+ (DJF-DJF), and from spring to summer (SON-DJF).
+ The analysis included three periods for each season: 1974-2010, 1961-2010
+ and 1920-2010.
+ The first period includes correlations using weather station data.
+ The second period covers the entire length of bushfire activity records.
+ The last period spans most of the reanalysis dataset coverage.
+ Chapter 5 presents finer aspects of the methodology for this analysis.
 \end_layout
 
 \begin_layout Section
@@ -1707,22 +1855,6 @@ name "fig:Wind-speed-time-series"
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-clearpage
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1763,6 +1895,22 @@ reference "fig:Precipitation-time-series"
  to those observed.
  Additionally, the bias-correction did not alter the strength of the correlation.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+clearpage
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2056,7 +2204,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI_variables/1920-2010-time-series/FFDI_variables.png
 	lyxscale 10
-	scale 50
+	scale 75
 
 \end_inset
 
@@ -2180,7 +2328,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Fire weather variability/VSBI/VSBI_variables.png
 	lyxscale 10
-	scale 50
+	scale 75
 
 \end_inset
 
