@@ -157,33 +157,33 @@ name "sec:Data-and-methodology"
 \end_layout
 
 \begin_layout Subsection
-Datasets and definitions
+Data 
+\end_layout
+
+\begin_layout Subsubsection
+Bushfire activity records
 \end_layout
 
 \begin_layout Standard
-The Department of Environment, Land, Water and Planning (DELWP), which belongs
- to the State Government of Victoria, continuously updates an official bushfire
- events database.
- This is the main bushfire activity database used for this research.
- A bushfire event was defined as any fire occurrence that burnt more than
- 10,000 hectares.
- This definition allowed testing of the consistency of the information with
- alternative data.
- Over the period 1961-2011, 31 events were registered during the December-Januar
-y-February (DJF) season.
- The other three seasons of the year registered 11 events during the same
- period.
- Therefore the analysis was conducted only for the DJF season, since most
- bushfire occur during these months.
- 
+This thesis analysed two bushfire datasets.
+ The first bushfire activity dataset belongs to the Department of Environment,
+ Land, Water and Planning (DELWP) of the State Government of Victoria.
+ This dataset provides a compilation of bushfires since 1900 to present.
+ Additionally, the database provides the area burnt by each bushfire event.
+ This database provides official information.
+ Therefore, it was selected as the main bushfire dataset for the analyses
+ in this chapter.
+ However, the methodology for its compilation has not been published or
+ peer-reviewed.
+ Thus, the use of an alternative bushfire dataset that covers the same period
+ was necessary to validate this information.
 \end_layout
 
 \begin_layout Standard
-Researchers at Risk Frontiers (Macquarie University) compiled a natural
- hazard occurrence and consequences database.
- The name of the database is ‘PerilAUS’.
- It comprises events such as tropical cyclones, floods and bushfires in
- Australia.
+Researchers at Risk Frontiers (Macquarie University) developed a natural
+ hazard occurrence database (‘PerilAUS’).
+ This database comprises events such as tropical cyclones, floods and bushfires
+ in Australia.
  The information spans more than two hundred years to the present 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -193,7 +193,14 @@ key "Haynes2010"
 
 .
  This database compiles information from the Sydney Gazette and Sydney Morning
- Herald newspapers (Coates 1996).
+ Herald newspapers 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Coates1996"
+
+\end_inset
+
+.
  These newspapers started publishing in 1803 and 1842 respectively.
  The information was validated with local newspapers and official information
  where necessary 
@@ -218,112 +225,47 @@ on (CSIRO).
 \end_layout
 
 \begin_layout Standard
-PerilAUS establishes two types of bushfire data: reports and events (M.
+This database establishes two types of bushfire data: reports and events
+ (M.
  Mason, personal communication, August 16, 2013).
- Since the database has a focus on damage, a registered bushfire report
- refers to damage in a particular location.
- On the other hand, a bushfire event refers to the date when bushfires occurred
- —or started—, causing damage in several locations.
- For example, ‘Black Saturday’ a catastrophic bushfire that occurred on
- February 7th 2009 had 18 reports in different locations of Victoria (e.g.
+ A registered bushfire report refers to damage in a particular location.
+ On the other hand, a bushfire event refers to the date when bushfires occurred—
+or started—, causing damage in several places.
+ For example, the 'Black Saturday' fires produced reports in different locations
+ of Victoria (e.g.
  St.
  Andrews, Weerite, Marysville).
  However, this case is catalogued as a single bushfire event.
- For the purposes of this project, bushfire event dates from PerilAUS will
- be used as a secondary bushfire database for the analyses because it better
- suits a climatological definition (43 events in total for the period 1961-2011).
- This method has also been used in other investigations to associate bushfires
- with individual large-scale climate processes 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Blanchi2012"
-
-\end_inset
-
-.
- Since the information from this database was mainly compiled from newspapers,
- the frequency of bushfires over this period is a reflection of human fatalities
- and building damage rather than fire intensity (K.
+ The information from this database was compiled from newspapers.
+ Therefore, the frequency of bushfires over this period is a reflection
+ of human fatalities and building damage rather than fire intensity (K.
  Haynes, personal communication, August 13, 2013).
 \end_layout
 
-\begin_layout Standard
-The calculation of heatwave events was performed using the Australian Climate
- Observations Reference Network (ACORN-SAT) dataset.
- The Australian Bureau of Meteorology (BoM) generated this high quality
- station dataset (see http://www.bom.gov.au/climate/change/acorn-sat/documents/ACOR
-N-SAT-Fact-Sheet-WEB.pdf, accessed 13 August 2015).
- The weather stations selected were Melbourne Regional Office, Mildura,
- Nill and Sale, since they had more available records over the period 1961-2011.
- For this research, a heatwave in Victoria is any event that satisfied a
- heatwave definition simultaneously at the four stations.
- 
+\begin_layout Subsubsection
+Climate data 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Climate-data"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Heatwaves were calculated using two definitions.
- The first definition is a topical one based on excess heat indices (EHIs)
- (Nairn et al.
- 2009).
- In this definition, the average of daily maximum and minimum temperature
- (ADT) is used to calculate two sub-indices.
- The first sub-index estimates a short-term excess heat in the environment.
- This is an acclimatisation index calculated as the difference between three
- consecutive ADT values and the mean of the preceding 30 days.
- The second sub-index represents a long-term excess heat.
- It is calculated as the difference between three consecutive ADT values
- and the 95th percentile of all ADT values.
- The final index is the multiplication of the acclimatisation EHI and the
- absolute value of the long-term excess heat sub-index.
- The second approach defines a heatwave occurrence when the maximum temperature
- (Tmax) and minimum temperature (Tmin) exceeds the 90th percentile—for that
- month—for three and two consecutive days respectively 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Sadler2012,Pezza2011"
+The investigation used climate data from reanalysis products.
+ The Twentieth Century Reanalysis Project (20CR) was used for the analyses.
+ This reanalysis provides six-hourly averages with a 2x2
+\begin_inset script superscript
 
-\end_inset
-
-.
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Pezza2011"
-
-\end_inset
-
- definition was selected since it describes severe heatwaves.
- Therefore only the stronger heatwaves, above the 55th percentile of heatwaves
- calculated with 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Nairn2009"
-
-\end_inset
-
-methodology were selected for comparison.
- With 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Nairn2009"
-
-\end_inset
-
- methodology 14 events were detected.
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Pezza2011"
-
-\end_inset
-
- definition yielded 17 events.
+\begin_layout Plain Layout
+o
 \end_layout
 
-\begin_layout Standard
-The investigation also used climate data from reanalysis products.
- The Twentieth Century Reanalysis Project (20CR) was used in this research.
- This reanalysis provides six-hourly averages with a 2x2o resolution 
+\end_inset
+
+ resolution 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Compo2011"
@@ -340,7 +282,16 @@ key "Rayner2003"
 \end_inset
 
 were also used.
- This dataset yields monthly values with a 5x5o resolution.
+ This dataset yields monthly values with a 5x5
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ resolution.
  
 \end_layout
 
@@ -361,51 +312,274 @@ key "Ashcroft2014"
  
 \end_layout
 
+\begin_layout Standard
+On the other hand, the calculation of heatwave events used the Australian
+ Climate Observations Reference Network (ACORN-SAT) dataset.
+ The Australian Bureau of Meteorology (BoM) generated this high-quality
+ station dataset (see http://www.bom.gov.au/climate/change/acorn-sat/documents/ACOR
+N-SAT-Fact-Sheet-WEB.pdf, accessed 13 August 2015).
+ The weather stations selected were Melbourne Regional Office, Mildura,
+ Nill and Sale.
+ These stations provide the longest set of records.
+ 
+\end_layout
+
 \begin_layout Subsection
-Composite analysis
+Methodology
+\end_layout
+
+\begin_layout Subsubsection
+Analysis of bushfire acitivity records
+\end_layout
+
+\begin_layout Standard
+Fire activity records are the main data for this research.
+ The two databases used have information starting from the early 20thcentury.
+ However, their bushfire definitions are different.
+ Therefore, it was necessary to investigate area-burnt thresholds in DELWP's
+ dataset.
+ Fire events that burnt at least the area set by the threshold were aggregated.
+ This process allowed to establish comparisons with Risk Frontier's (RF)
+ database.
+ 
+\end_layout
+
+\begin_layout Standard
+The analyses examined two periods: 1911-1960 and 1961-2011.
+ It started from 1911 since meteorological data Victoria is more reliable
+ from this year (D.
+ Karoly, personal communication, XXX).
+ The year 2011 was selected since RF's data was available until this year.
+ On the other hand, splitting in half the period of analysis was an important
+ decision.
+ 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Wang2013"
+
+\end_inset
+
+ argues that the response of climate modes variability can change over long
+ periods of time.
+ Therefore, this chapter aims to explore the changes in fire activity between
+ the first and second half of the 20
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ century.
+ The next chapter investigates how these changes are linked to climate modes
+ variability.
+\end_layout
+
+\begin_layout Standard
+The investigation of fire activity focused on the season December-January-Februa
+ry (DJF).
+ An appraisal of the datasets revealed that most bushfires in Victoria occur
+ in DJF.
+ For example, 73% of bushfires (31 out of 42 events) in DELWP database happened
+ in this season (1961-2010).
+ For RF's database, the percentage increases to 83% (43 out 52 events).
+\end_layout
+
+\begin_layout Subsubsection
+Computation of heatwave dates
+\end_layout
+
+\begin_layout Standard
+Nairn et al.
+ (2009) explain in detail the selected criteria for the computation of heatwaves
+ in this chapter.
+ The scientific community in Australia has widely adopted this definition
+ (citation).
+ Nairn et al.
+ (2009) developed an index based on the combination of two concepts.
+ The first concept is 'Excess Heat'.
+ This criterion refers to a high heat period that was not dispersed due
+ to high temperatures overnight.
+ The second concept is 'Heat Stress'.
+ It relates to a period that has been warmer in comparison to the previous
+ month.
+ Using these propositions, Nairn et al.
+ (2009) created an 'Excess Heat Factor':
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+EHI_{sig}=(T_{i}+T_{i+1}+T_{i+2})/3-T_{95}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+EHI_{accl}=(T_{i}+T_{i+1}+T_{i+2})/3-(T_{i-1}+...+T_{i-30})/30
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+EHF=EHI_{sig}*\left|EHI_{accl}\right|
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T:$
+\end_inset
+
+ Daily average of maximum and minimum temperature.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{95}:$
+\end_inset
+
+ 95
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+percentile of the long-term daily temperature (maximum and minimum temperature
+ average).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $EHI_{sig}:$
+\end_inset
+
+ Excess heat sub-index.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $EHI_{accl}:$
+\end_inset
+
+ Heat stress sub-index.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $EHF:$
+\end_inset
+
+Excess heat factor.
+\end_layout
+
+\begin_layout Standard
+The experiment used a second heatwave definition.
+ Pezza et al.
+ (2012) describe the alternative approach used.
+ This definition was selected because it represents extreme heatwave events.
+ Pezza et al.
+ (2012) define a heatwave as a period of at least 3 consecutive days with
+ maximum temperature above the 90
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ percentile.
+ The criteria also requires that minimum temperature is above the 90
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ percentile in the second and thirds days.
+ The definition uses monthly climatologies.
+ 
+\end_layout
+
+\begin_layout Standard
+The experiment used a second heatwave definition.
+ Pezza et al.
+ (2012) describe the alternative approach used.
+ This definition was selected because it represents extreme heatwave events.
+ Pezza et al.
+ (2012) define a heatwave as a period of at least three consecutive days
+ with maximum temperature above the 90
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ percentile.
+ The criteria also require that minimum temperature be above the 90
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ percentile in the second and thirds days.
+ The definition uses monthly climatologies.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Climate-data"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Bushfire and heatwave composite analysis
 \end_layout
 
 \begin_layout Standard
 A composite analysis was undertaken to depict the general (average) prevailing
  conditions of Victoria.
- Daily anomaly composites were calculated for day -5 to day +5 of each bushfire
- and heatwave event.
+ Daily anomaly composites were calculated from day -1 to day +1 of each
+ bushfire and heatwave event.
  This describes the dynamical evolution of each phenomenon.
- It is important to emphasize that bushfire and heatwave events were analysed
+ It is important to emphasise that bushfire and heatwave events were analysed
  separately.
  Therefore, events that had coincident dates were not considered in the
  calculations.
  This consideration covered the three-heatwave dates definition plus three
  subsequent days.
- This covered bushfires that might have occurred immediately after a heatwave.
+ This window of days includes bushfires that might have occurred immediately
+ after a heatwave.
  This separation was performed comparing bushfire events from the DELWP
- database with heatwaves calculated with 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Nairn2009"
-
-\end_inset
-
-methodology (these results are shown in the paper).
- To validate the results all the calculations described in this research
- were also performed using PerilAUS bushfire database and 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Pezza2011"
-
-\end_inset
-
-heatwave definition (these results are shown in the supplementary material).
- The results using a second bushfire database and heatwave definition are
- robust and show only minor differences.
- Thus, only those obtained with the DELWP bushfire database and 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Nairn2009"
-
-\end_inset
-
-heatwaves definition are mentioned in this paper.
+ database with heatwaves calculated with Nairn et al.
+ (2009) methodology.
  
 \end_layout
 
@@ -415,7 +589,7 @@ Finally, seasonal anomaly composites were calculated for austral spring
  This represents the large-scale patterns in the preceding and concurrent
  bushfire and heatwave seasons.
  The anomalies were tested with a Student t-test with a 5% significance
- level and significant anomalies are indicated.
+ level, and significant anomalies are indicated.
  
 \end_layout
 
@@ -424,46 +598,40 @@ Results
 \end_layout
 
 \begin_layout Subsection
-Fire activity records
+Bushfire and heatwaves frequency in Victoria
 \end_layout
 
 \begin_layout Standard
-The main data for this research is the records of fire activity .
- The two databases used (DELWP and PerilAUS) have information starting from
- 1903.
- However the definitions of bushfire events for these databases are different.
- In order to compare these data, a burnt are threshold in the DELWP dataset
- was investigated.
- 
-\end_layout
-
-\begin_layout Standard
-Two period of analysis were defined.
- From 1911 to 1960 and 1961-2011.
- From 1911 meteorological information is more reliable in Victoria.
- The year 2011 was selected since the PerilAUs data was availabe until this
- year.
- The decision to split in half the period of analysis was also important.
- This was performed since the information was going to be compared with
- climate modes of variability indices.
- This is important because the variability of climate modes can change over
- long periods of time 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Wang2013"
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Bushfire-events-per"
 
 \end_inset
 
-.
+ shows the results of contrasting the two bushfire datasets available.
+ DELWP's records present a clear imbalance between for the two periods analysed.
+ This discrepancy is independent of the threshold used.
+ In contrast, RF's database shows approximately equivalent numbers.
 \end_layout
 
 \begin_layout Standard
-The results of this analysis are shown in table 4.2.
- DELWP's database shows clear a imbalance in bushfire events for any burnt
- area threshold.
- Thefore the second period was selected for all the analysis.
- A 10,000 Ha burnt are threshold yielded 47 bushfire events in DELWP's datset.
- For the same period 43 bushfire events were registered in PerilAUS database.
+On the other hand, DELWP's database registers 31 events that burnt at least
+ 10,000 Ha.
+ These events occurred during the period 1961-2011.
+ For the same period, RF database registers 43 events.
+ Therefore, the analyses used this period.
+ Additionally, this thesis defines a bushfire as any event that burnt more
+ than 10,000 Ha.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Time-series-of-BE"
+
+\end_inset
+
+ shows that the two bushfire databases are moderately correlated (r=0.44,
+ p=0.00).
 \end_layout
 
 \begin_layout Standard
@@ -476,7 +644,18 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Bushfire events per area burnt 
+Bushfire events per area burnt in Victoria during the season December-January-Fe
+bruary (DJF).
+ Data source: Department of Environment, Land, Water and Planning (DELWP)
+ and Risk Frontiers (RF).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Bushfire-events-per"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -593,7 +772,7 @@ DELWP
 \begin_inset Text
 
 \begin_layout Plain Layout
-PerilAUS
+RF
 \end_layout
 
 \end_inset
@@ -750,6 +929,8 @@ N/A
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 4
 \end_layout
 
@@ -759,6 +940,8 @@ N/A
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 49
 \end_layout
 
@@ -833,7 +1016,9 @@ N/A
 \begin_inset Text
 
 \begin_layout Plain Layout
-47
+
+\series bold
+31
 \end_layout
 
 \end_inset
@@ -842,6 +1027,8 @@ N/A
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 43
 \end_layout
 
@@ -871,18 +1058,171 @@ status open
 
 \end_layout
 
-\begin_layout --Separator--
-For period 1961-2011 the two databases are significantly correlated.
- Figure 4.2 show a time series of the two databases.
- The two time series are corrleated with and R coefficiente qual to 0.52
- and and P value of 9.5x10-5
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Bushfire-events-in-Victoria"
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/BE_EVENTS.png
+	lyxscale 10
+	scale 50
 
 \end_inset
 
-.
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Time series of bushfire events in Victoria (December-January-February) for
+ the period 1961-2011.
+ The red solid and black dashed time series correspond to data from the
+ Department of Environment, Land, Water and Planning (DELWP) and Risk Frontiers
+ (RF) data respectively (r=0.44,p=0.00).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Time-series-of-BE"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Time-series-of-HWs"
+
+\end_inset
+
+ shows times series of heatwave events in Victoria during the period 1961-2010.
+ The figure illustrates the frequency of events using Nairn et al.
+ (2009) and Pezza et al.
+ (2012) definitions.
+ The analysis using the 55
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ of values computed with Nairn et al.
+ (2009) definition yielded 13 heatwave events.
+ The computation using Pezza et al.
+ (2012) estimated the same number of heatwaves.
+ The two definitions describe different heatwaves episodes.
+ Their time series are not correlated (r=0.06, p=0.68).
+ Victoria experiences 1 or 2 severe events during extreme heatwave seasons.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/HW_EVENTS.png
+	lyxscale 10
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Time series of heatwave events in Victoria (December-January-February) for
+ the period 1961-2011.
+ The red solid and black dashed time series correspond to heatwaves computed
+ with Nairn et al.
+ (2009) and Pezza et al.
+ (2012) definitions respectively (r=0.06,p=0.68).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Time-series-of-HWs"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this chapter, the investigation used DELWP bushfire database and heatwaves
+ computed with Nairn et al.
+ (2009) definition.
+ Only 13% of bushfires (4 events) occurred simultaneously with heatwaves
+ in Victoria.
+ In this case, one heatwave produces these fires.
+ These bushfires are linked to 'Black Saturday' (see appendix).
+ These common days, have been excluded from the composites.
+ The separation yields a 'pure' signal of bushfires and heatwaves synoptic
+ weather patterns.
+ 
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Time-series-of-BE-HW"
+
+\end_inset
+
+ shows a comparison between bushfire (panel a) and heatwave (panel b) frequencie
+s.
+ In this figure, a times series of the Southern Oscillation Index (SOI)
+ has been included.
+ The frequency of bushfires events displays a discernible climate signal.
+ The polynomial curves show that there is a clear inter-decadal link between
+ bushfires and the SOI.
+ However, the inter-annual variability shows only a weak correlation.
+ The R coefficients between the SOI with bushfires and heatwaves are -0.16
+ and 0.22 respectively.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -895,9 +1235,9 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/Bushfire_events_Victoria_resized.png
-	lyxscale 25
-	scale 90
+	filename Figures/Figure_2.png
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -908,10 +1248,33 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Bushfire events in Victoria for the period 1961-2011.
+Time series of a) 27 bushfire events and b) 13 heatwave events in the period
+ 1961-2011 in Victoria, Australia (red bars representing events for the
+ season December-January-February).
+ Southern Oscillation Index (SOI) time series is presented as the average
+ for the season December-January-February (blue lines).
+ Monthly SOI values were taken from the Bureau of Meteorology web page.
+ The bushfire, heatwave and SOI time series were fitted to a 6th order polynomia
+l curve (black lines).
+ R coefficients of bushfire and heatwave events with the SOI are -0.16 and
+ 0.22 respectively.
+ Bushfire events data were obtained from theDepartment of Environment, Land,
+ Water and Planning (DELWP) database.
+ Heatwaves were defined as the 55
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ percentile of events computed using Nairn et al.
+ (2009) heatwave definition.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Bushfire-events-in-Victoria"
+name "fig:Time-series-of-BE-HW"
 
 \end_inset
 
@@ -923,44 +1286,13 @@ name "fig:Bushfire-events-in-Victoria"
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-An initial appraisal of the bushfire databases shows that they are significantly
- correlated for the period of analysis 1961-2011 (r=0.43, p=0.01) (Figure
- 1 supplementary material).
- On the other hand, the comparison of the frequency of heatwaves shows that
- the two definitions describe different heatwaves episodes since the results
- are not correlated (r=0.06, p=0.68).
- 
-\end_layout
-
-\begin_layout Standard
-The availability of this information permitted a comparison between bushfires
- and heatwaves events.
- There were only 4 bushfire events that occurred simultaneously with heatwaves
- in Victoria, DELWP bushfire database and Nairn’s heatwave definition were
- used for this comparison—as described in the methods section—.
- This result means that only 12.5% of bushfire events occur simultaneously
- with heatwaves.
- These common days, as shown in Table 1, have been excluded from the composites.
- The separation yields a ‘pure’ signal of bushfires and heatwaves synoptic
- weather patterns.
- 
-\end_layout
-
-\begin_layout Standard
-The frequency of bushfires events displays a discernible climate signal.
- In Figure 2 a times series of the Southern Oscillation Index (SOI) has
- been included.
- The polynomial curves show that there is a clear inter-decadal association
- between bushfires and the SOI.
- However, the inter-annual variability shows only a weak correlation (R
- coefficient of -0.16 and -0.22 for bushfires and heatwaves events respectively).
- 
 \end_layout
 
 \begin_layout Subsection
@@ -969,17 +1301,39 @@ Weather patterns for daily climatology
 
 \begin_layout Standard
 The air temperature (T) anomalies show differences between bushfires and
- heatwaves events (Figure 3).
+ heatwaves events (see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:a),-b)-and-daily-temperature-anomalies"
+
+\end_inset
+
+).
  Although the patterns are similar, the anomalies are weaker in the bushfire
  composites.
- This includes the warm area in Southeastern Australia.
+ This includes the warm area in southeastern Australia.
  The pattern also shows negative anomalies observed in Queensland and Western
  Australia.
- Heatwaves show a cold front on day +4 (not shown).
- On the other hand, bushfires show a cold front on day zero.
- This is consistent with the results of Mills (2005).
- Bushfire temperature anomalies over Victoria (+3 oC) are weaker than heatwave
- anomalies (+5 oC).
+ Bushfires show a cold front on day zero.
+ Bushfire temperature anomalies over Victoria (+3 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C) are weaker than heatwave anomalies (+5 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C).
  Finally, the dynamics of heatwave weather is more static than its bushfire
  counterpart.
  This means that although the patterns are similar, the heatwave anomalies
@@ -991,7 +1345,7 @@ The air temperature (T) anomalies show differences between bushfires and
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1011,11 +1365,16 @@ status collapsed
 
 \begin_layout Plain Layout
 a), b) and c) show air temperature anomalies at 1000 hPa level for day -1
- to day +1 respectively of 102 bushfire events (period 1900–2010).
+ to day +1 respectively of 27 bushfire events (period 1961–2011).
  d), e) and f) show air temperature anomalies at 1000 hPa level for day
- -1 to day +1 respectively of 75 heatwave events (period 1900-2010).
- Data obtained from the 20th century reanalysis project.
- Areas marked with “+” show anomalies statistically significant at the 5%
+ -1 to day +1 respectively of 13 heatwave events (period 1961-2011).
+ Bushfire records sourced from Department of Environment, Land, Water and
+ Planning (DELWP).
+ Heatwaves computed using the 55th percentile of values defined with Nairn
+ et al.
+ (2009) criteria.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ Areas marked with ‘+’ show anomalies statistically significant at the 5%
  level.
 \begin_inset CommandInset label
 LatexCommand label
@@ -1060,7 +1419,7 @@ y in Queensland.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1080,13 +1439,17 @@ status collapsed
 
 \begin_layout Plain Layout
 a), b) and c) show relative humidity anomalies at 1000 hPa level for day
- -1 to day +1 respectively of 102 bushfire events (period 1900–2010).
- d), e) and f) show relative humidity anomalies at 1000 hPa level for day
- -1 to day +1 respectively of 75 heatwave events (period 1903-2010).
- Data obtained from the 20th century reanalysis project.
- Areas marked with “+” show anomalies statistically significant at the 5%
+ -1 to day +1 respectively of 27 bushfire events (period 1961–2011).
+ d), e) and f) show air temperature anomalies at 1000 hPa level for day
+ -1 to day +1 respectively of 13 heatwave events (period 1961-2011).
+ Bushfire records sourced from Department of Environment, Land, Water and
+ Planning (DELWP).
+ Heatwaves computed using the 55th percentile of values defined with Nairn
+ et al.
+ (2009) criteria.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ Areas marked with ‘+’ show anomalies statistically significant at the 5%
  level.
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:a),-b)-and-daily-rh-anomlaies"
