@@ -18,6 +18,9 @@
 \fancyfoot{}
 \raggedbottom
 \setlength{\parindent}{8mm}
+
+%URL line breaking:
+\usepackage[hyphens]{url}
 \end_preamble
 \use_default_options true
 \master ../Master.lyx
@@ -262,6 +265,8 @@ The Twentieth Century Reanalysis Project
  Network (ACORN-SAT).
  The first two are reanalysis datasets while the last comprises weather
  station data.
+ The main criteria to select these data was the length of its records.
+ The three datasets cover at more than 100 years.
 \end_layout
 
 \begin_layout Standard
@@ -300,7 +305,8 @@ key "Compo2011"
  Version two of the 20CR—available when the project started—yields atmospheric
  fields for the period 1871–2008.
  This project comprises 56 possible realisations of the atmosphere.
- This project used the ensemble mean.
+ Since in this project it is not feasible to use every realization, the
+ study analysed the ensemble mean.
  The dataset yields 6-hourly daily data with a spatial grid of 2x2
 \begin_inset script superscript
 
@@ -352,14 +358,7 @@ th
 \end_inset
 
  century.
- They present fewer observations in the Southern Hemisphere 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Compo2011"
-
-\end_inset
-
-.
+ They present fewer observations in the Southern Hemisphere.
  Additionally, not all variables are equally well represented.
  However, recent results have shown that the 20CR represents well southeastern
  Australia’s climate 
@@ -388,7 +387,12 @@ th
 \end_inset
 
  2016).
- This dataset compiles maximum and minimum surface air temperature values.
+ Achieving this high-quality required to homogenise the data.
+ This means that changes in observations caused by artificial reasons (e.g.
+ weather station site moves, technology development, random errors, etc.)
+ have been corrected.
+ This dataset compiles maximum and minimum surface air temperature values
+ over 112 locations.
  These variables are required in several methods to define heatwaves.
  The weather stations selected for the analyses in this study were Melbourne
  Regional Office, Mildura, Nill and Sale.
@@ -473,12 +477,18 @@ Computation of heatwave dates
 \begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citet
+key "Nairn2009"
+
+\end_inset
+
+proposed a system to define heatwaves—with further details provided in 
+\begin_inset CommandInset citation
+LatexCommand citet
 key "Nairn2013"
 
 \end_inset
 
- explain in detail the selected criteria for the computation of heatwaves
- in this chapter.
+—.
  The defintion was adopted because it combines two useful concepts.
  The first concept is 
 \begin_inset Quotes eld
@@ -505,7 +515,7 @@ Heat Stress
  Using these propositions, 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -661,6 +671,8 @@ A composite analysis was undertaken to depict the general (average) prevailing
  conditions of Victoria.
  Daily anomaly composites were calculated from day -5 to day +5 of each
  bushfire and heatwave event.
+ Although, the plots only show days -1 to +1 because they better illustrate
+ the contrasts.
  This describes the dynamical evolution of each phenomenon.
  It is important to emphasise that bushfire and heatwave events were analysed
  separately.
@@ -674,7 +686,7 @@ A composite analysis was undertaken to depict the general (average) prevailing
  from the DELWP database with heatwaves calculated with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -737,7 +749,7 @@ reference "fig:Time-series-of-BE"
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1217,7 +1229,7 @@ reference "fig:Time-series-of-HWs"
  The figure illustrates the frequency of events using 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -1241,7 +1253,7 @@ th
  of values computed with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -1291,7 +1303,7 @@ Time series of heatwave events in Victoria (December-January-February) for
  with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -1332,7 +1344,7 @@ In this chapter, the investigation used DELWP bushfire database and heatwaves
  computed with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -1438,7 +1450,7 @@ th
  percentile of events computed using 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -1554,7 +1566,7 @@ th
  percentile of values defined with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -1663,7 +1675,7 @@ th
  percentile of values defined with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -1723,7 +1735,7 @@ key "Pezza2012"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1760,7 +1772,7 @@ th
  percentile of values defined with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -1832,7 +1844,7 @@ El Niño
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1868,7 +1880,7 @@ th
  percentile of values defined with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -1968,7 +1980,7 @@ b).
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2004,7 +2016,7 @@ th
  percentile of values defined with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -2038,7 +2050,7 @@ name "fig:Seasonal-composite-for-air-son"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2074,7 +2086,7 @@ th
  percentile of values defined with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -2156,7 +2168,7 @@ b).
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2192,7 +2204,7 @@ th
  percentile of values defined with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -2226,7 +2238,7 @@ name "fig:Seasonal-composite-for-rh-son"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2262,7 +2274,7 @@ th
  percentile of values defined with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -2330,7 +2342,7 @@ b).
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2366,7 +2378,7 @@ th
  percentile of values defined with 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Nairn2013"
+key "Nairn2009"
 
 \end_inset
 
@@ -2569,15 +2581,16 @@ ce.
  SOI were weak.
  This result suggests that the oceanic component of ENSO has a greater influence
  over bushfires (see Chapter 5).
- This moderate influence has also been demonstrated by
+ With a shorter period of analysis, 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Harris2013"
 
 \end_inset
 
-.
- ENSO has a greater influence over bushfires in other regions in Australia
+ also suggested that ENSO's influence over fire weather is moderate.
+ In contrast, ENSO has a greater influence over bushfires in other regions
+ in Australia
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Nicholls2007a,Harris2008"
