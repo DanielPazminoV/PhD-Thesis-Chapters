@@ -143,11 +143,65 @@ This study required weather station (WS) data from the Ecuadorian Andean
  region.
  Complete daily records were available only for six stations for the period
  1997-2012.
- Figure xxx shows the location of the stations.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Location-of-WS-EC"
+
+\end_inset
+
+ shows the location of the stations.
  Each of the stations provided data on an eight-hourly basis.
  The hour selected for the computations was 1 p.m.
  local time (GMT 18:00).
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Maps/Weather Stations Ecuador.png
+	lyxscale 75
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Location of weather stations in the Ecuadorian andean region 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Location-of-WS-EC"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -166,7 +220,14 @@ key "Compo2011"
 \end_inset
 
  and the ERA-20C reanalysis from the European Reanalysis of Global Climate
- Observations ERA-Clim project (citations).
+ Observations ERA-Clim project 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stickler2014,Stickler2014a"
+
+\end_inset
+
+.
  Chapters 5 and 6 provide further details about these datasets.
  
 \end_layout
@@ -665,6 +726,188 @@ name "fig:Time-series-FFDI"
 
 \begin_layout Section
 Discussion
+\end_layout
+
+\begin_layout Standard
+Reanalysis datasets are not suitable to investigate fire weather in the
+ Ecuadorian Andean region.
+ These climate reconstructions showed weak and no correlation with observations
+ respectively.
+ The 20CR showed better results than the ERA-20C.
+ However, the correlations with these data were not strong enough.
+ Therefore, the analysis was not extending the analysis back in time.
+ Additionally, the bias-corrections did not improve the results.
+ Thus, the discussion aims further to understand the limitations of reanalysis
+ datasets in this region.
+\end_layout
+
+\begin_layout Standard
+The caveats of these datasets were acknowledged in previous chapters.
+ However, the results showed biases that were unexpectedly large.
+ Therefore, the discussion will attempt to explain these discrepancies.
+ Topography and data assimilated in the reanalysis products are the main
+ aspects examined.
+ The discussion will also explore the feasibility of using alternative datasets.
+ 
+\end_layout
+
+\begin_layout Standard
+Topography is likely to cause major biases in the reanalysis data.
+ Mountain ranges can block circulation and influence regional climate greatly
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Beniston2005"
+
+\end_inset
+
+.
+ In fact, mountains can create a climate of their own 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ekhart1948"
+
+\end_inset
+
+.
+ The Ecuadorian Andes comprise the Eastern and Western 'Cordilleras' (see
+ Chapter 2).
+ Meteorological stations in the Ecuadorian Andes are located in the inter-Andean
+ valleys.
+ The two 'Cordilleras' surround these valleys.
+ These plains experience a broad range of microclimates produced by the
+ steep topography 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pourrut1995"
+
+\end_inset
+
+.
+ The results show that reanalysis datasets do not capture the regional variabili
+ty caused by this complex geographic region.
+ In contrast, reanalysis performs well in Victoria, which is a region predominan
+tly flat.
+ 
+\end_layout
+
+\begin_layout Standard
+Nevertheless, reanalysis datasets have demonstrated better results in other
+ mountain regions in the world.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Widmann1999"
+
+\end_inset
+
+ validated precipitation trends in the north-west United States from the
+ National Centers for Environmental Prediction (NCEP) reanalysis.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Frauenfeld2005"
+
+\end_inset
+
+ showed that the European Centre for Medium-Range Weather Forecasts (ECMWF)
+ reanalysis (ERA-40) was able to reproduce 2m air temperature variability
+ in the Tibetan Plateau.
+ Even though ERA-40 underestimated temperature by 7 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C this dataset demonstrated high temporal correlation with observations.
+ Therefore, bias-corrections were feasible.
+ 
+\end_layout
+
+\begin_layout Standard
+Reanalysis data have shown potential to capture climate variability in other
+ high elevation regions.
+ Thus, it is worth discussing the input data that generated the reanalysis
+ datasets.
+ The 20CR assimilates surface pressure and uses sea surface temperature
+ and sea ice concentrations as boundary conditions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Compo2011"
+
+\end_inset
+
+.
+ The International Surface Pressure Databank version 2 (ISPDv2) generated
+ the pressure data used on the 20CR 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cram2015"
+
+\end_inset
+
+.
+ On the other hand, the main data for the development of the ERA-20C dataset
+ was historical upper-air data 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stickler2014,Stickler2014a"
+
+\end_inset
+
+.
+ Although, the ERA-20C reanalysis also used the ISPDv2 data 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Poli2013,Cram2015"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+South America and Australasia are the populated regions with less land observati
+on stations for pressure data 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cram2015"
+
+\end_inset
+
+.
+ The authors show that only 7 out of 65 institutions that provided data
+ to the ISPDv2 belong to the Southern Hemisphere.
+ However, this thesis demonstrated that 20CR and ERA-20C can represent climate
+ variability in Victoria, Australia.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Cram2015"
+
+\end_inset
+
+ show that this region has a high density of locations for pressure data
+ collection.
+ In contrast, the Ecuadorian Andean region does not registers stations generatin
+g pressure information in the ISPDv2.
+ This database shows that pressure data from Ecuador is produced on the
+ coast.
+ Most data available from the neighbouring countries comes from the coast
+ as well.
+ Although, Colombia and Peru does show some stations in their Andean region.
+\end_layout
+
+\begin_layout Standard
+Discussion of upper-air data.
+\end_layout
+
+\begin_layout Standard
+What type of data could be used??
 \end_layout
 
 \begin_layout Section
