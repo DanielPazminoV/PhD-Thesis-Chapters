@@ -18,6 +18,10 @@
 \fancyfoot{}
 \raggedbottom
 \setlength{\parindent}{8mm}
+
+
+\usepackage{lineno}
+\linenumbers
 \end_preamble
 \use_default_options true
 \master ../Master.lyx
@@ -93,7 +97,7 @@
 \begin_body
 
 \begin_layout Chapter
-Fire weather in the Ecuadorian andean region 
+Fire weather in the Ecuadorian Andean region 
 \begin_inset Newpage newpage
 \end_inset
 
@@ -150,9 +154,9 @@ reference "fig:Location-of-WS-EC"
 
 \end_inset
 
- shows the location of the stations.
+ shows the location of the stations (see Appendix for more details).
  Each of the stations provided data on an eight-hourly basis.
- The hour selected for the computations was 1 p.m.
+ Therefore, the hour selected for the computations was 1 p.m.
  local time (GMT 18:00).
  
 \end_layout
@@ -161,7 +165,7 @@ reference "fig:Location-of-WS-EC"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -258,11 +262,11 @@ The aim of this study is to explore long-term trends in fire weather variability
 The variables that showed significant deviations from the mean were bias-correct
 ed.
  The bias-correction used linear scaling techniques.
- The application of additive and multiplicative linear scaling was useful
- to correct the biases.
  For relative humidity, the variables required for its calculation were
- bias-corrected for its recalculation.
- 
+ bias-corrected for its recalculation (e.g.
+ Specific humidity, see Appendix).
+ Relative humidity was recalculated usin the methods described in Chapter
+ 5.
 \end_layout
 
 \begin_layout Subsubsection
@@ -286,21 +290,20 @@ The investigation explored fire weather variability in Ecuador using the
 The computation of the FFDI in Ecuador used original and bias-corrected
  reanalysis data.
  As in the previous step, plotting PDFs and time series allowed to examine
- the computed FFDI data.
+ the FFDI results.
  The analyses also compared the results using weather station and reanalysis
  data.
- The PDFs used daily data.
  
 \end_layout
 
 \begin_layout Standard
-On the other hand, the comparison of time series required defining a seasonal
- metric of the FFDI.
+The comparison of FFDI time series required defining a seasonal metric of
+ the FFDI.
  Previous chapters used two metrics.
  The cumulative sum of daily values (FFDIcum) and the number of days with
  FFDI greater than 25 (FFDI>25).
- This analysis used only the FFDIcum metric.
- 
+ This analysis used only the FFDIcum metric because the danger classes in
+ the FFDI scale are based on Australian fire cases (see Chapter 2).
 \end_layout
 
 \begin_layout Section
@@ -320,8 +323,25 @@ reference "fig:PDFs-variables-original-data"
  The figure also shows the deviations from the mean for each variable.
  The 20CR data present larger deviations than ERA-20C for maximum temperature
  and relative humidity.
- In comparison to observations, maximum temperature deviates 9.2 oC (20CR)
- and 2.3 oC (ERA-20C).
+ In comparison to observations, maximum temperature deviates 9.2 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C (20CR) and 2.3 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C (ERA-20C).
  Relative humidity show biases of 11.4% (20CR) and 2.2% (ERA-20CR).
  On the other hand, the discrepancies are greater for wind speed and precipitati
 on with the ERA-20C data.
@@ -467,12 +487,12 @@ reference "fig:PDFs-variables-original-data"
 
 \end_inset
 
- demonstrated that maximum temperature (20CR and ERA-20C) and wind speed
- (ERA-20C) could be bias-corrected using these methods.
+ displays the bias-corection results for maximum temperature (20CR and ERA-20C)
+ and wind speed (ERA-20C).
  The application of additive linear scaling centred the means of the reanalysis
  data.
- For wind speed (ERA-20C), multiplicative linear scaling corrected the distribut
-ion of the reanalysis data.
+ For wind speed (ERA-20C), multiplicative linear scaling corrected the data
+ distribution.
 \end_layout
 
 \begin_layout Standard
@@ -598,7 +618,7 @@ reference "fig:PDFs-FFDI"
 
 \end_inset
 
- shows probability density functions for the computation of the FFDI.
+ shows FFDI probability density functions.
  The plot compares the results using observations and reanalysis (original
  and bias-corrected) data.
  The bias-correction improves the distribution of the FFDI data.
@@ -662,7 +682,7 @@ reference "fig:Time-series-FFDI"
 \end_inset
 
  displays time series of cumulative FFDI.
- The plot compares FFDI computed with observations and reanalysis (original
+ The plot contrasts FFDI computed with observations and reanalysis (original
  and bias-corrected) data.
  Using original 20CR data, the FFDIcum computation shows a weak relationship
  with observations.
@@ -729,25 +749,29 @@ Discussion
 \end_layout
 
 \begin_layout Standard
-Reanalysis datasets are not suitable to investigate fire weather in the
- Ecuadorian Andean region.
- These climate reconstructions showed weak and no correlation with observations
- respectively.
+The 20CR and ERA20C datasets are not suitable to investigate fire weather
+ in the Ecuadorian Andes.
+ These climate reconstructions showed weak—o even no correlation—with observatio
+ns.
  The 20CR showed better results than the ERA-20C.
- However, the correlations with these data were not strong enough.
- Therefore, the analysis was not extending the analysis back in time.
+ However, the correlations with these data were not strong.
+ Therefore, the analysis was not extended further back in time.
  Additionally, the bias-corrections did not improve the results.
- Thus, the discussion aims further to understand the limitations of reanalysis
- datasets in this region.
+ 
 \end_layout
 
 \begin_layout Standard
-The caveats of these datasets were acknowledged in previous chapters.
+The discussion aims to further understand the limitations of 20CR and ERA-20C
+ datasets in this region.
+ The caveats of these datasets were acknowledged in previous chapters.
  However, the results showed biases that were unexpectedly large.
+ Even more importantly, these datsets did not show to be capable of capturing
+ climate variations in time.
  Therefore, the discussion will attempt to explain these discrepancies.
- Topography and data assimilated in the reanalysis products are the main
- aspects examined.
- The discussion will also explore the feasibility of using alternative datasets.
+ Topography and the data assimilated in the reanalysis products are the
+ main aspects examined.
+ The discussion will also explore the feasibility of using alternative datasets
+ and future work.
  
 \end_layout
 
@@ -770,11 +794,26 @@ key "Ekhart1948"
 \end_inset
 
 .
- The Ecuadorian Andes comprise the Eastern and Western 'Cordilleras' (see
- Chapter 2).
+ The Ecuadorian Andes comprise the Eastern and Western 
+\begin_inset Quotes eld
+\end_inset
+
+Cordilleras
+\begin_inset Quotes erd
+\end_inset
+
+ (see Chapter 2).
  Meteorological stations in the Ecuadorian Andes are located in the inter-Andean
  valleys.
- The two 'Cordilleras' surround these valleys.
+ The two 
+\begin_inset Quotes eld
+\end_inset
+
+Cordilleras
+\begin_inset Quotes erd
+\end_inset
+
+ surround these valleys.
  These plains experience a broad range of microclimates produced by the
  steep topography 
 \begin_inset CommandInset citation
@@ -784,8 +823,8 @@ key "Pourrut1995"
 \end_inset
 
 .
- The results show that reanalysis datasets do not capture the regional variabili
-ty caused by this complex geographic region.
+ The results show that 20CR and ERA-20C do not grasp the regional climate
+ variability caused by this complex geographic region.
  In contrast, reanalysis performs well in Victoria, which is a region predominan
 tly flat.
  
@@ -828,10 +867,10 @@ C this dataset demonstrated high temporal correlation with observations.
 \end_layout
 
 \begin_layout Standard
-Reanalysis data have shown potential to capture climate variability in other
- high elevation regions.
+These studies showed that reanalysis can to capture climate variability
+ in other high elevation regions.
  Thus, it is worth discussing the input data that generated the reanalysis
- datasets.
+ datasets used in this research.
  The 20CR assimilates surface pressure and uses sea surface temperature
  and sea ice concentrations as boundary conditions 
 \begin_inset CommandInset citation
@@ -859,7 +898,7 @@ key "Stickler2014,Stickler2014a"
 \end_inset
 
 .
- Although, the ERA-20C reanalysis also used the ISPDv2 data 
+ Although, the ERA-20C reanalysis also used the ISPDv2 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Poli2013,Cram2015"
@@ -871,8 +910,8 @@ key "Poli2013,Cram2015"
 \end_layout
 
 \begin_layout Standard
-South America and Australasia are the populated regions with less land observati
-on stations for pressure data 
+South America and Australasia are the populated continents with less land
+ observation stations for pressure data 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Cram2015"
@@ -880,38 +919,144 @@ key "Cram2015"
 \end_inset
 
 .
- The authors show that only 7 out of 65 institutions that provided data
- to the ISPDv2 belong to the Southern Hemisphere.
+ Furtheremore, the authors show that only 7 out of 65 institutions that
+ provided data to the ISPDv2 belong to the Southern Hemisphere.
  However, this thesis demonstrated that 20CR and ERA-20C can represent climate
  variability in Victoria, Australia.
- 
+ In spite of the overall lack of data in the Soutehrn Hemisphere,
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Cram2015"
 
 \end_inset
 
- show that this region has a high density of locations for pressure data
+ showed that Victoria has a high density of locations for pressure data
  collection.
  In contrast, the Ecuadorian Andean region does not registers stations generatin
 g pressure information in the ISPDv2.
- This database shows that pressure data from Ecuador is produced on the
- coast.
- Most data available from the neighbouring countries comes from the coast
- as well.
- Although, Colombia and Peru does show some stations in their Andean region.
+ This database shows that pressure data from Ecuador is produced only in
+ a couple of stations on the coast.
+ In fact, most data available from the neighbouring countries comes from
+ the coast as well.
+ Although, Colombia and Peru does show some stations in their Andean regions.
 \end_layout
 
 \begin_layout Standard
-Discussion of upper-air data.
+On the other hand, data rescue activities of ERA-CLIM do not show progress
+ in the tropical Andean region.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Stickler2014"
+
+\end_inset
+
+ indicate that ERA-20C contribution to reanalysis development is the assimilatio
+n of upper-air data from the first half of the 20
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ century.
+ This new data processed corresponds to other regions in South America like
+ Bolivia, Chile and Brazil.
+ Additionally, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Stickler2014"
+
+\end_inset
+
+ argue that most of the current network has been established after the 1958—Inte
+rnational Geophysical Year—.
+ However, it seems that data from the tropical Andes is still not available.
 \end_layout
 
 \begin_layout Standard
-What type of data could be used??
+This section also aims to discuss alternative approaches to conduct fire
+ research in this region.
+ First of all, a higher resolution reanalysis could be used.
+ For example, [Field2015] used the NASA Modern ERA Retrospective-Analysis
+ for Research and Applications (MERRA, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Rienecker2011"
+
+\end_inset
+
+) in a recent global fire weather study.
+ This reanalysis product comprises atmospheric fields with a 1/2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ latitude and 2/3
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ longitude resolution for the period 1980-2012.
+ Additionally, it would be necessary to complete missing data in Ecuador's
+ weather stations dataset.
+ The selected weather stations provided the longest set of available records
+ starting from 1982.
+ Although, daily data was complete only after 1997.
+ Compiling additional data from neighbouring stations could be useful to
+ attempt completing missing days.
+ On the other hand, developing a fire activity database is another interesting
+ endeavour for this region.
+ This task could be accomplished using satellite data and newspaper reports.
+ Finally, investigating the meteorology of specific days of extreme fire
+ activity could complement the long-term perspective analysis.
+ 
 \end_layout
 
 \begin_layout Section
 Summary
+\end_layout
+
+\begin_layout Standard
+This chapter presented the investigation of fire weather variability in
+ the Ecuadorian Andes.
+ This bushfire-prone region (see Chapter 2) has scarce documentation about
+ this problem.
+ This research probably is the first scientific study about fire weather
+ in Ecuador.
+ The study used weather station data to explore seasonal fire weather from
+ 1997-2010.
+ The investigation used the McArthur Forest Fire Danger Index (FFDI).
+ The calibration of this index used the Eucalyptus, which typically fuels
+ fires in Australia and Ecuador.
+ 
+\end_layout
+
+\begin_layout Standard
+The study compared fire weather computed with reanalysis data against observatio
+ns.
+ It also contrasted the performance of each fire weather variable.
+ The investigation used the datasets analysed in previous chapters.
+ These datasets were the Twentieth Century Reanalysis Project (20CR) and
+ the ERA-20C reanalysis from the European Reanalysis of Global Climate Observati
+ons ERA-Clim project.
+ The results showed that these datasets present large biasses.
+ Their coarse resolution is not capable of representing climate variability
+ in this complex geographical region.
+ Additionally, linear scaling techniques could not reconcile the discrepancies.
+ Finally, the scarce data assimilated in the northern Andes affects the
+ reanalysis outputs.
+ The next chapter will present the conclusions from the thesis.
 \end_layout
 
 \begin_layout Standard
