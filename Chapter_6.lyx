@@ -112,13 +112,13 @@ Chapter 4 and 5 analysed complementary aspects of fire weather in Victoria,
  Australia.
  Chapter 4 examined the differences between bushfire and heatwave weather
  patterns.
- On the other hand, Chapter 5 analysed the fire weather variability and
- seasonal forecasting skill.
+ On the other hand, Chapter 5 analysed fire weather variability and seasonal
+ forecasting skill.
  This chapter aims to test if the findings of these two chapters are robust.
  Chapter 6 reproduces these results using the same methods with alternative
- sources of data.
+ data sources.
  The chapter consolidates the discussion about fire weather in Victoria
- with robust results.
+ with consistent results.
 \end_layout
 
 \begin_layout Standard
@@ -160,117 +160,22 @@ The bushfire activity records are the same as those used in the previous
 \end_layout
 
 \begin_layout Subsubsection
-Heatwave definition
+Heatwave dates
 \end_layout
 
 \begin_layout Standard
 The replication of the experiment conducted in Chapter 4 uses an alternative
  heatwave definition.
- Nairn et al.
- (2009) explain in detail the selected criteria.
- The scientific community in Australia has widely adopted this definition
- (citation).
- Nairn et al.
- (2009) developed an index based on the combination of two concepts.
- The first concept is 'Excess Heat'.
- This criterion refers to an unusually high heat period that was not dispersed
- due to high temperatures overnight.
- The second concept is 'Heat Stress'.
- It relates to a period that has been warmer in comparison to the previous
- month.
- Using these propositions, Nairn et al.
- (2009) created an 'Excess Heat Factor':
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-EHI_{sig}=(T_{i}+T_{i+1}+T_{i+2})/3-T_{95}
-\end{equation}
+ This experiment present the results using the heatwaves dates computed
+ in Chapter 4 using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-EHI_{accl}=(T_{i}+T_{i+1}+T_{i+2})/3-(T_{i-1}+...+T_{i-30})/30
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-EHF=EHI_{sig}*\left|EHI_{accl}\right|
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Where:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $T:$
-\end_inset
-
- Daily average of maximum and minimum temperature.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $T_{95}:$
-\end_inset
-
- 95
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-th
-\end_layout
-
-\end_inset
-
-percentile of the long-term daily temperature (maximum and minimum temperature
- average).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $EHI_{sig}:$
-\end_inset
-
- Excess heat sub-index.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $EHI_{accl}:$
-\end_inset
-
- Heat stress sub-index.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $EHF:$
-\end_inset
-
-Excess heat factor.
-\end_layout
-
-\begin_layout Standard
-This heatwave definition was tested against Pezza et al.
- (2012) approach.
- Both metrics are comparable selecting the 55th percentile of heatwaves
- using Nairn et al.
- (2009) definition.
- The selected events represent extreme heatwaves in Victoria.
+ heatwave definition.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -283,8 +188,15 @@ The fire weather metrics are those used in the previous chapter.
  The first FFDI metric is a cumulative sum of all FFDI daily values (FFDIcum).
  The second FFDI metric is the number of days with FFDI greater than 25
  (FFDI>25).
- The third metric is the 'Victorian Seasonal Bushfire Index' (VSBI) proposed
- in chapter 5.
+ The third metric is the 
+\begin_inset Quotes eld
+\end_inset
+
+Victorian Seasonal Bushfire Index
+\begin_inset Quotes erd
+\end_inset
+
+ (VSBI) proposed in chapter 5.
  Chapters 2 and 5 provide details on the formulation of the FFDI and VSBI
  respectively.
  Chapter 4 presents a critical review of the FFDI.
@@ -304,8 +216,8 @@ The replication of weather patterns used the same climate data as in Chapter
  The results are more sensible to these parameters.
  Therefore, the climate data used in this chapter was the Twentieth Century
  Reanalysis Project version 2 (20CR), the Hadley Centre Sea Ice and Sea
- Surface Temperature data set (HadISST), and the Australian Climate Observations
- Reference Network-Surface Air Temperature (ACORN-SAT).
+ Surface Temperature data set (HadISST1), and the Australian Climate Observation
+s Reference Network-Surface Air Temperature (ACORN-SAT).
  Chapter 4 specifies the characteristics of these datasets.
 \end_layout
 
@@ -314,11 +226,19 @@ Reproducing Chapter 5 results required an alternative source of reanalysis
  data.
  During the execution of this research project, the European Centre for
  Medium-Range Weather Forecasts (ECMWF) launched the European Reanalysis
- of Global Climate Observations ERA-Clim project (citations).
+ of Global Climate Observations ERA-Clim project 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stickler2014,Stickler2014a"
+
+\end_inset
+
+.
  This investigation used one of its products: the ERA-20C twentieth-century
- reanalysis (citations).
- This reanalysis product assimilated global climate data for the period
- 1900-2010 using surface and upper-air data.
+ reanalysis.
+ ERA-20C, assimilated surface pressure data—as well as marine wind observations—
+and used sea surace temperatues and sea ice concentrations as boundary condition
+s.
  It comprises a dataset that provides 3-hourly data, with 125 Km spatial
  resolution and 92 vertical levels.
  
@@ -361,7 +281,7 @@ Climate indices
 
 \begin_layout Standard
 This chapter uses the same climate indices analysed in previous chapters.
- These include El Nino-Southern Oscillation (ENSO) indices such as NINO3.4.,
+ These include El Niño-Southern Oscillation (ENSO) indices such as NINO3.4.,
  NINO1+2 (SST1.2.), and Southern Oscillation Index (SOI).
  It also uses the Dipole Mode Index (DMI) which quantifies the intensity
  of Indian Ocean Dipole (IOD) events.
@@ -393,8 +313,14 @@ r-October-November) and concurrent (December-January-February) bushfire/heatwave
 \begin_layout Standard
 For this test, the bushfire composites use the Risk Frontiers bushfire database
  (RF).
- On the other hand, the criteria defined by Nairn et al.
- (2009) is adopted as a second heatwave definition.
+ On the other hand, the criteria defined by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ is adopted as a second heatwave definition.
  These data is used to test the sensitivity of the results.
  The analysis excluded days in which bushfire and heatwaves occurred simultaneou
 sly.
@@ -408,7 +334,7 @@ Fire weather variability analysis
 \end_layout
 
 \begin_layout Standard
-​This sub-section replicates some of the results produced in chapter 5.
+​This sub-section replicates the results produced in chapter 5.
  Fire weather variability was explored using seasonal metrics of the FFDI
  as well as the VSBI.
  For this experiment, the calculations used the ERA-20C as an alternative
@@ -483,8 +409,14 @@ This sub-section aims to reproduce the results of bushfire and heatwave
  database.
  For this experiment, Risk Frontiers provided the bushfire records (RF).
  Additionally, the investigation used a second heatwave definition.
- Nairn et al.
- (2009) provide a detailed explanation of the heatwave definition employed.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ provide a detailed explanation of the heatwave definition employed.
  This sub-section starts presenting time series of fire activity and heatwaves.
  They are useful to understand the evolution of these two types of events.
  
@@ -511,9 +443,14 @@ reference "fig:Time-series-of-BF-HW"
  As expected, they seem to peak during very strong negative phases of the
  Southern Oscillation Index (shown in blue lines).
  However, the long-term relationship shows a rather weak relationship (r=-0.33).
- On the other hand, panel b) displays a time series of the 55th percentile
- of heatwaves using Nairn et al.
- (2009) definition during the same period.
+ On the other hand, panel b) displays a time series of heatwaves using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ definition during the same period.
  The panel shows that extreme heatwaves occur less frequently than extreme
  fire events.
  Additionally, there is no correlation between the heatwave and SOI time
@@ -525,7 +462,7 @@ reference "fig:Time-series-of-BF-HW"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -555,17 +492,14 @@ l curve (black lines).
  R coefficients of bushfire and heatwave events with the SOI are -0.33 and
  -0.04 respectively.
  Bushfire events data were obtained from the Risk Frontiers 'PerilAus' database.
- Heatwaves were defined as the 55
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-th
-\end_layout
+ Heatwaves were defined using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
 
 \end_inset
 
- percentile of events computed using Nairn et al.
- (2009) heatwave definition.
+ heatwave definition.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -638,8 +572,16 @@ C) during day -1.
 \end_layout
 
 \begin_layout Standard
-On the other hand, heatwaves present persistent hot anomalies (+ 3 oC) during
- the three days.
+On the other hand, heatwaves present persistent hot anomalies (+ 3 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C) during the three days.
  During day -1, heatwaves show perhaps even more intense anomalies than
  bushfires.
  The extent of the region affected by hot anomalies is also greater in compariso
@@ -661,7 +603,7 @@ n to bushfires.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -684,7 +626,16 @@ a), b) and c) show air temperature anomalies at 1000 hPa level for day -1
  to day +1 respectively of 41 bushfire events (period 1961–2011).
  d), e) and f) show air temperature anomalies at 1000 hPa level for day
  -1 to day +1 respectively of 13 heatwave events (period 1961-2011).
- Data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ Bushfire records sourced from Risk Frontiers (RF) database.
+ Heatwaves computed using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ criteria.
+ Climate data from the Tweentieth Century Reanalysis Project (20CR).
  Areas marked with ‘+’ show anomalies statistically significant at the 5%
  level.
 \begin_inset CommandInset label
@@ -745,7 +696,7 @@ The behaviour of relative humidity anomalies during heatwaves does not present
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -768,7 +719,16 @@ a), b) and c) show relative humidity anomalies at 1000 hPa level for day
  -1 to day +1 respectively of 41 bushfire events (period 1961–2011).
  d), e) and f) show relative humidity anomalies at 1000 hPa level for day
  -1 to day +1 respectively of 13 heatwave events (period 1961-2011).
- Data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ Bushfire records sourced from Risk Frontiers (RF) database.
+ Heatwaves computed using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ criteria.
+ Climate data from the Tweentieth Century Reanalysis Project (20CR).
  Areas marked with ‘+’ show anomalies statistically significant at the 5%
  level.
 \begin_inset CommandInset label
@@ -823,7 +783,7 @@ Heatwaves also present a wave train pattern with more intense anomalies
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -842,13 +802,22 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-a), b) and c) show geopotential height anomalies at 500 hPa level for day
+a), b) and c) show geopotential height anomalies at 1000 hPa level for day
  -1 to day +1 respectively of 41 bushfire events (period 1961–2011).
  d), e) and f) show geopotential height anomalies at 1000 hPa level for
  day -1 to day +1 respectively of 13 heatwave events (period 1961-2011).
- Data obtained from the Tweentieth Century Reanalysis Project (20CR).
- Scale from -80 to +80 m.
- Stippled areas show anomalies statistically significant at the 5% level.
+ Bushfire records sourced from Risk Frontiers (RF) database.
+ Heatwaves computed using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ criteria.
+ Climate data from the Tweentieth Century Reanalysis Project (20CR).
+ Areas marked with ‘+’ show anomalies statistically significant at the 5%
+ level.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:a),-b)-and-gz-daily-anomalies"
@@ -870,6 +839,88 @@ name "fig:a),-b)-and-gz-daily-anomalies"
 
 \begin_layout Subsubsection
 Seasonal large-scale circulation patterns 
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sea-surface-temperature"
+
+\end_inset
+
+ shows a composite of sea surface tempreature anomalies during bushfire
+ (panel a) and heatwave (panel b) events.
+ The patterns are consistent with the findings of Chapter 4.
+ Panel a) shows strong warming anomalies in the tropical Pacific Ocean.
+ In contrast, panel b) suggests a different dynamic.
+ During heatwave events the most relevant feature in the composite is the
+ large area of warming anomalies over the southern Indian Ocean.
+ North to this region, a small area of cool anomalies contrasts the overall
+ warming pattern.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Weather patterns/SSTs.png
+	lyxscale 10
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sea surface temperature (SST) anomalies composite of a) 17 bushfire and
+ b) 13 heatwave seasons occurred in the season December-January-February
+ (DJF) from 1961–2011.
+ Bushfire records sourced from Risk Frontiers (RF) database.
+ Heatwaves were computed using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ criteria.
+ Climate data obtained from the Met Office Hadley Centre’s sea ice and sea
+ surface temperature dataset (HadISST1) dataset.
+ Shaded areas show anomalies statistically significant at the 5% level.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sea-surface-temperature"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -939,12 +990,20 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Seasonal composite for 1000 hPa level air temperature (T) anomalies for
- September-October-November for a) 17 bushfire seasons, b) 13 heatwave seasons
- in the period 1961–2011.
- Data obtained from the Tweentieth Century Reanalysis Project (20CR).
- Black stippled areas show anomalies statistically significant at the 5%
- level..
+Seasonal composite for air temperature (T) anomalies (1000 hPa level) for
+ a) 17 bushfire and b) 13 heatwave seasons occurred in the season September-Octo
+ber-November (SON) from 1961–2011.
+ Bushfire records sourced from Risk Frontiers (RF) database.
+ Heatwaves were computed using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ criteria.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ Shaded areas show anomalies statistically significant at the 5% level.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Seasonal-composite-for-air-son"
@@ -1021,13 +1080,20 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Seasonal composite for 1000 hPa level air temperature (T) anomalies for
- December-January-February for a) 17 bushfire seasons, b) 13 heatwave seasons
- in the period 1961–2011.
- Daily climate data obtained from the Tweentieth Century Reanalysis Project
- (20CR).
- Black stippled areas show anomalies statistically significant at the 5%
- level.
+Seasonal composite for air temperature (T) anomalies (1000 hPa level) for
+ a) 17 bushfire and b) 13 heatwave seasons occurred in the season December-Janua
+ry-February (DJF) from 1961–2011.
+ Bushfire records sourced from Risk Frontiers (RF) database.
+ Heatwaves were computed using the 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ criteria.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ Shaded areas show anomalies statistically significant at the 5% level.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Seasonal-composite-for-air-djf"
@@ -1087,13 +1153,20 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Seasonal composite for 1000 hPa level relative humidity (RH) anomalies for
- September-October-November for a) 17 bushfire seasons, b) 13 heatwave seasons
- in the period 1961–2011.
- Daily climate data obtained from the Tweentieth Century Reanalysis Project
- (20CR).
- Clack stippled areas show anomalies statistically significant at the 5%
- level.
+Seasonal composite for relative humidity (RH) anomalies (1000 hPa level)
+ for a) 17 bushfire and b) 13 heatwave seasons occurred in the season September-
+October-November (SON) from 1961–2011.
+ Bushfire records sourced from Risk Frontiers (RF) database.
+ Heatwaves were computed using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ criteria.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ Shaded areas show anomalies statistically significant at the 5% level.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Seasonal-composite-for-rh-son"
@@ -1153,13 +1226,20 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Seasonal composite for 1000 hPa level relative humidity (RH) anomalies for
- December-January-February for a) 17 bushfire seasons, b) 13 heatwave seasons
- in the period 1961–2011.
- Daily climate data obtained from the Tweentieth Century Reanalysis Project
- (20CR).
- Black stippled areas show anomalies statistically significant at the 5%
- level.
+Seasonal composite for relative humidity (RH) anomalies (1000 hPa level)
+ for a) 17 bushfire and b) 13 heatwave seasons occurred in the season December-J
+anuary-February from 1961–2011.
+ Bushfire records sourced from Risk Frontiers (RF) database.
+ Heatwaves were computed using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ criteria.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ Shaded areas show anomalies statistically significant at the 5% level.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Seasonal-composite-for-rh-djf"
@@ -1221,13 +1301,30 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Seasonal composite for 300 hPa level zonal wind (Uwind) anomalies for December-J
-anuary-February for a) 18 bushfire seasons, b) 12 heatwave seasons in the
- period 1961–2011.
- Daily climate data obtained from the Tweentieth Century Reanalysis Project
- (20CR).
- Black stippled areas show anomalies statistically significant at the 5%
- level.
+Seasonal composite for zonal wind (Uwnd) anomalies for (300 hPa level) for
+ a) 17 bushfire and b) 13 heatwave seasons occurred in the season December-Janua
+ry-February (DJF) from 1961–2011.
+ Bushfire records sourced from Risk Frontiers (RF) database.
+ Heatwaves were computed using the 55
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ percentile of values defined with 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pezza2012"
+
+\end_inset
+
+ criteria.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ Shaded areas show anomalies statistically significant at the 5% level.
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Seasonal-composite-for-uwn-djf"
@@ -1352,7 +1449,7 @@ reference "fig:Cumulative-FFDI-(FFDI)-1974-2010"
  The comparison with original data demonstrates a moderate correlation with
  weather station data (r=0.52, p=0.00).
  This figure also shows that the bias-correction does not improve the results.
- The Pearson correlation coefficient decreases from 0.52 to 0.48.
+ The Pearson correlation coefficient slightly decreases from 0.52 to 0.51.
  
 \end_layout
 
@@ -1390,7 +1487,7 @@ cum
 
 ) in Victoria, Australia for the period 1974-2010 during the season Deceber-Janu
 ary-February (DJF).
- The correlation coeficients are a) r=0.52, p=0.00, n=37, and b) r=0.48, p=0.00,
+ The correlation coeficients are a) r=0.52, p=0.00, n=37, and b) r=0.51, p=0.00,
  n=37.
  Data source: Original and bias-corrected European Reanalysis of Global
  Climate Observations (ERA-20C, ERA-20C(bc) respectively) and weather stations
@@ -1428,9 +1525,8 @@ reference "fig:Number-of-days-ffdi-1974-2010"
  The results are expressed as the number of days with FFDI greater than
  25.
  The results show that this metric agrees less with WS data than FFDIcum
- (r=0.37,p=0.03).
- Additionally, it also shows that the bias-correction decreases the correlation
- coefficient to 0.32.
+ using the original data (r=0.37,p=0.03).
+ However, the bias-correction improves the correlation coefficient to 0.52.
 \end_layout
 
 \begin_layout Standard
@@ -1460,7 +1556,7 @@ status collapsed
 \begin_layout Plain Layout
 Number of days with greater than 25 FFDI (FFD>25) in Victoria, Australia
  for the period 1974-2010.
- The correlation coeficients are a) r=0.37, p=0.03, n=37, and b) r= 0.32, p=0.05,
+ The correlation coeficients are a) r=0.37, p=0.03, n=37, and b) r= 0.52, p=0.00,
  n=37.
  Data source: Original and bias-corrected European Reanalysis of Global
  Climate Observations (ERA-20C, ERA-20C(bc) respectively) and weather stations
@@ -1750,7 +1846,7 @@ reference "fig:Wind-speed-time-series"
  Despite this, the correlation between their time series is rather weak
  (r=0.35,p=0.00).
  The difference in magnitude between the mean of the time series was only
- xxx Km/h.
+ 2.87 Km/h.
  Therefore, this variable was not bias-corrected.
  
 \end_layout
@@ -1803,6 +1899,22 @@ name "fig:Wind-speed-PDFs"
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+clearpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1812,8 +1924,8 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/Fire weather variability/FFDI_variables/W/Time_series/1974-2010/W_ts.png
-	lyxscale 20
+	filename Figures/Fire weather variability/FFDI_variables/W/Time_series/1974-2010/W_original.png
+	lyxscale 10
 	scale 75
 
 \end_inset
@@ -1872,7 +1984,7 @@ reference "fig:Precipitation-time-series"
  show PDFs and time series for precipitation.
  Both figures demonstrate that the reanalysis data overestimates precipitation
  in Victoria.
- However, panel a) of figure 
+ However, panel a) in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Precipitation-time-series"
@@ -1883,7 +1995,7 @@ reference "fig:Precipitation-time-series"
  Therefore, the precipitation values were bias-corrected using a multiplicative
  linear scaling factor of 3.08.
  This factor was the result of dividing the mean of the two time-series.
- As shown in panel b) of figure 
+ As shown in panel b) in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Precipitation-time-series"
@@ -2041,10 +2153,10 @@ reference "fig:Cummulative-FFDI-1920-2010"
 \begin_layout Standard
 The results show that there is no significant long-term trend in fire weather
  variability.
- Additionally, the correlation for panel a) show a moderate agreement (r=0.56,p=0.
+ Additionally, the correlation for panel a) show a moderate agreement (r=0.53,p=0.
 00).
- However, the correlation decreases when the FFDI computation uses the bias-corr
-ected precipitation data (r=0.48,p=0.00).
+ However, the correlation slightly decreases when the FFDI computation uses
+ the bias-corrected precipitation data (r=0.52,p=0.00).
 \end_layout
 
 \begin_layout Standard
@@ -2057,8 +2169,8 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/Fire weather variability/FFDI/1920-2010/Time_series/FFDIcum.png
-	lyxscale 20
+	filename Figures/Fire weather variability/FFDI/1920-2010/Time_series/FFDI_cum.png
+	lyxscale 15
 	scale 75
 
 \end_inset
@@ -2072,7 +2184,7 @@ status collapsed
 \begin_layout Plain Layout
 Cummulative FFDI time series in Victoria during the period 1920-2010 for
  the season December-January-February (DJF).
- The correlation coeficients are a) r=0.52 p=0.00, n=91 and b) r=0.48, p=0.00,
+ The correlation coeficients are a) r=0.53 p=0.00, n=91 and b) r=0.52, p=0.00,
  n=91.
  Data source: Original and bias-corrected European Reanalysis of Global
  Climate Observations (ERA-20C, ERA-20C(bc) respectively) and weather stations
@@ -2116,9 +2228,10 @@ reference "fig:Cummulative-FFDI-1920-2010"
 , panel a) and b) show the results with original and boas-corrected reanalysis
  data.
  These results also show no long-term trend.
- Additionally, the correlation with weather station data is weak.
- In panel a), the correlation is 0.37.
- This correlation decreases with the bias-correction to 0.32.
+ Additionally, the correlation with weather station data is moderate.
+ In panel a), the correlation the weather station and reanalysis time series
+ is 0.53.
+ In panel b), the correlation decreases with the bias-correction to 0.49.
 \end_layout
 
 \begin_layout Standard
@@ -2132,7 +2245,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Figures/Fire weather variability/FFDI/1920-2010/Time_series/FFDI_g25.png
-	lyxscale 20
+	lyxscale 15
 	scale 75
 
 \end_inset
@@ -2146,7 +2259,7 @@ status collapsed
 \begin_layout Plain Layout
 Number of days with FFDI greater than 25 (FFDI>25) time series in Victoria
  during the period 1920-2010 for the season December-January-February (DJF).
- The correlation coeficients are a) r=0.37 p=0.03, n=91 and b) r=0.32, p=0.05,
+ The correlation coeficients are a) r=0.53 p=0.00, n=91 and b) r=0.49, p=0.00,
  n=91.
  Data source: Original and bias-corrected European Reanalysis of Global
  Climate Observations (ERA-20C, ERA-20C(bc) respectively) and weather stations
@@ -3075,16 +3188,120 @@ Discussion
 Bushfire and heatwave weather patterns
 \end_layout
 
-\begin_layout Subsubsection
-ENSO, bushfire and heatwaves
+\begin_layout Standard
+The replication of the analysis comparing bushfire and heatwave weather
+ patterns confirms the results found in Chapter 4.
+ The results are robust for daily as well as seasonal time scales.
+ The linkages with ENSO patterns also remain valid.
+ 
 \end_layout
 
-\begin_layout Subsubsection
-Daily weather patterns
+\begin_layout Standard
+The daily composites are perhaps the most consistent results.
+ For air temperature, using alternative bushfire and heatwave data shows
+ that the differences in their weather patterns persist.
+ Cold fronts remain the most important feature of fire weather.
+ On the other hand persistent heat anomalies characterize heatwaves events.
+ The relative humidity patterns confirm that heatwaves inVictoria present
+ dry anomalies in this region, with wet anomlies in several other areas
+ of the continent.
+ During bushfires in Victoria, Australia is predominantly dry.
+ The alternative data also is capable of reproducing the contrasting intensity
+ of the wave patterns during bushfires and heatwaves.
+ Heatwaves present more intense geopotential height anomalies than bushfires.
+ These anomalies also confirm the more dynamic nature of fire weather.
+ 
 \end_layout
 
-\begin_layout Subsubsection
-Seasonal weather patterns
+\begin_layout Standard
+On a daily time scale, the results show that the intensity of the frontal
+ activity is the most important feature of extreme fire weather in Victoria.
+ Therefore, indices aiming to predict fire weather with days in advance
+ should focus on metrics to evaluate the strength of cold fronts.
+ This contradicts the current state of practise where the FFDI, an index
+ whose most sensitive paramater is temperature, is the most commonly used
+ tool for fire emergencies.
+ Consequently, fire weather danger estimated by the FFDI might be misleading
+ during heatwave events.
+ This finding is a key message from this thesis.
+\end_layout
+
+\begin_layout Standard
+Alternative indices based on the leading effect of frontal activity over
+ extreme fire weather have already been published in the literature 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ proposed a simple alternative based on this criteria.
+ The author argues that measuring the 850 hPa horizontal temperature gradient
+ is a useful metric to anticipate extreme fire weather.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Reeder2015"
+
+\end_inset
+
+ proposed a similar parameter.
+ They used the difference in surface temperature after cold front passages
+ (∆ 17 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C) to identify extreme fire weather days.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mills2005"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Reeder2015"
+
+\end_inset
+
+ criteria could be used to study past extreme fire weather and make projections
+ (e.g.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Hasson2009"
+
+\end_inset
+
+).
+ Since there are already alternative fire weather metrics on a daily time
+ scale this research focused on the development of a new index for seasonal
+ prediction.
+ Therefore, the seasonal patterns are also discussed.
+\end_layout
+
+\begin_layout Standard
+On a seasonal time scale, bushfire and heatwave weather patterns also display
+ contrasting patterns.
+ During extreme fire activity in Victoria the weather patterns consistently
+ show warming anomalies in the tropical Pacific.
+ On the other hand, hetwaves do not seem to be linked to any activity on
+ the tropical pacific Ocean.
+ Perhaps, the most interesting pattern for heatwaves was a dipole structure
+ of warm and sligthly cool sea surface temperature anomalies in the southern
+ Indian Ocean.
+ This suggests that different mechanisms drive these two type of events
+ on this time scale.
+ This thesis focused on further investigating the fire weather and activity
+ drivers.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -3096,26 +3313,6 @@ name "sub:Seasonal-fire-weather-variability"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection
-Original seasonal FFDI computation (1974-2010)
-\end_layout
-
-\begin_layout Subsubsection
-Bias-correction of fire weather variables (1974-2010)
-\end_layout
-
-\begin_layout Subsubsection
-Bias-corrected seasonal FFDI computation (1974-2010)
-\end_layout
-
-\begin_layout Subsubsection
-Extended seasonal FFDI computation (1920-2010)
-\end_layout
-
-\begin_layout Subsubsection
-Computation of the Victorian Seasonal Bushfire Index
 \end_layout
 
 \begin_layout Subsection
