@@ -3316,11 +3316,131 @@ name "sub:Seasonal-fire-weather-variability"
 \end_layout
 
 \begin_layout Subsection
-Fire weather drivers
+Fire weather metrics, drivers and predictability
 \end_layout
 
-\begin_layout Subsection
-Bushfire predictors 
+\begin_layout Standard
+Overall, ERA-20C data reveal more consistency with observations than its
+ 20CR counterpart.
+ Therefore, this part of the discussion re-examines several aspects already
+ discussed in Chapter 5.
+ For example, the performance of the VSBI in comparison to seasonal metrics
+ of the FFDI.
+ Additionally, it also debates the influence of local climate variables
+ and remote drivers of fire weather.
+ Finally, it discusses the potential to predict seasonal fire weather and
+ activity in Victoria.
+\end_layout
+
+\begin_layout Standard
+The VSBI is an equivalent metric of fire weather in comparison to seasonal
+ metrics of the FFDI.
+ The results show that they are highly correlated during spring and summer.
+ They also show that their relationship with fire activity in summer is
+ similar.
+ The simplification of the relationships between variables in the VSBI equation
+ does not demonstrate to significantly affect the results in comparison
+ to the FFDI.
+ Additionally, the VSBI has the advantage to be simpler to compute than
+ the FFDI.
+ However, the VSBI equation might overestimate ENSO's influence over fire
+ weather.
+ In fact, the correlations show that its influence is considerably lower
+ in comparison to local climate variables.
+ 
+\end_layout
+
+\begin_layout Standard
+Regional climate conditions drive fire weather in Victoria.
+ The results demonstrate that remote drivers have less influence than climate
+ variables.
+ These findings agree with 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2013"
+
+\end_inset
+
+.
+ However, climate modes of variability do play a role in driving fire weather.
+ For example, ENSO and IOD moderately influence relative humidity.
+ This variable showed to be the principal component of fire weather metrics.
+ Additionally, it also demonstrated to have a moderate influence on fire
+ activity.
+ However, ENSO and IOD's influence is not constant.
+\end_layout
+
+\begin_layout Standard
+Remote fire weather drivers evolve from spring to summer.
+ During spring, the IOD and ENSO show a similar level of influence.
+ Furthermore, these two climate modes are highly correlated.
+ This result is consistent with the correlations presented in Chapter 5.
+ This finding contrast with 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Cai2009"
+
+\end_inset
+
+.
+ This thesis found no evidence to show that the IOD has a significantly
+ higher influence than ENSO during this season.
+ On the other hand, during summer, the IOD does not exert influence over
+ fire weather.
+ This behaviour was expected from the seasonal dynamic of this driver.
+ Unexpectedly, the influence of ENSO weakens during this season.
+ Previous studies (e.g.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Williams1999"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2013"
+
+\end_inset
+
+) used an extended fire season (November-March) which did not allow analyse
+ the evolution of the influence of this driver.
+ This finding suggests that the effect of remote climate drivers is greater
+ in spring than summer.
+ The weather patterns consistently support this thesis.
+\end_layout
+
+\begin_layout Standard
+The VSBI computed using observational data shows a high forecasting skill.
+ These data also demonstrate that the VSBI has greater predictive power
+ than climate variables and indices.
+ Additionally, results using observations show coherent relationships between
+ the prediction of fire weather and activity.
+ For example, greater skill to predict fire weather than activity.
+ On the other hand, using reanalysis data, there is consistency to show
+ that the VSBI has greater forecasting skill than climate indices.
+ However, some inconsistencies persist using ERA-20C.
+\end_layout
+
+\begin_layout Standard
+The VSBI does not show entirely consistent results using reanalysis data.
+ In spite that the ERA-20C data demonstrates a greater level of agreement
+ with observations than 20CR; these data shows that the index has a comparable
+ forecasting skill than climate variables.
+ Additionally, both reanalysis datasets show the greater predictive ability
+ for fire events rather than fire weather.
+ 
+\end_layout
+
+\begin_layout Standard
+These inconsistencies show the limitations of these reanalysis datasets
+ to conduct regional climate studies.
+ Their resolution could be a caveat for this analysis.
+ In contrast, both datasets showed substantial agreement when they were
+ used to investigate large-scale weather patterns.
+ On the other hand, data from more weather stations may be necessary to
+ have more robust agreements—currently not available—.
 \end_layout
 
 \begin_layout Section
