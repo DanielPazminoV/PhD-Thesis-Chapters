@@ -97,7 +97,7 @@
 \begin_body
 
 \begin_layout Chapter
-Fire weather in the Ecuadorian Andean region (test) 
+Fire weather in the Ecuadorian Andean region 
 \begin_inset Newpage newpage
 \end_inset
 
@@ -122,7 +122,7 @@ Chapters 5 and 6 investigated fire weather variability in Victoria, Australia.
 \begin_layout Standard
 This chapter investigates fire weather in Ecuador.
  The tropical Andes endures severe impacts from bushfire activity.
- However, this is one of the regions with fewer studies about fire weather.
+ However, this is one of the regions with few studies about fire weather.
  Ecuador and Victoria share the Eucalyptus as the dominant species in the
  bushfire-prone areas.
  Therefore, the investigation also uses the FFDI because its calibration
@@ -241,64 +241,85 @@ Methodology
 \end_layout
 
 \begin_layout Subsubsection
-Analysis of fire weather variables
+Realibility assessment of the FFDI
 \end_layout
 
 \begin_layout Standard
-The aim of this study is to explore long-term trends in fire weather variability.
- However, the length of the weather station records in Ecuador is rather
- short.
+The aim of this study is to explore long-term trends and variability in
+ fire weather.
+ First of all, the analysis examines the skill of the FFDI to represent
+ fire weather in this region.
+ This index was selected because its calibration used the Eucalyptus vegetation.
+ These species dominate the landscape of bushfire-prone areas in Ecuador
+ (see Chapter 2).
+ In spirte of this, the index might still not accurately represent fire
+ weatehr in the Ecuadorian Andes.
+ The lack of fire activity records to directly valdiate the index demanded
+ of the index's realiability assessment to use with alternative indicators.
+\end_layout
+
+\begin_layout Standard
+Several analysis were conducted to test the realiability of the FFDI.
+ First of all, linear correlations were computed between the FFDI and FFDI
+ variables.
+ The analysis used observations during the period 1997-2012.
+ This analysis estableses if there is physical consistency among the relationshi
+ps between fire weather variables and the index.
+ Additionally, the investigation explored the monthly variability of the
+ FFDI.
+ The analysis used the cummulative FFDI metric—sum of daily FFDI values—.
+ This analysis verifies if the index agrees with local bushfire reports.
+ According to this information, fire activity intensifies during the season
+ July-August-September (JAS) (see Chapter 2).
+ Therefore it is expected that the FFDI represents this months with higer
+ fire danger.
+ Finally, the study computed seasonal FFDI time series.
+ According to local report, the year 2012 was a particularly severe fire
+ season (see Chapter 2).
+ The time series should show 2012 with comparatively high fire danger if
+ the if the FFDI is an accurate metric of the fire weather in this region.
+ 
+\end_layout
+
+\begin_layout Standard
+Even if the FFDI proves to be an accurate fire weather metric for this region,
+ the length of the weather station records in Ecuador is short for the intended
+ study.
  Therefore, this investigation applies methods described in previous chapters
  to extend the analysis.
- The first step was to compare the reanalysis data against observations.
- Plotting probability density functions (PDFs) and seasonal time series
- facilitated the analysis.
- The PDFs allowed to examine the distribution of data and detect deviations
- from the mean.
- The time series allowed comparing trends, magnitudes and correlate data.
-\end_layout
-
-\begin_layout Standard
-The variables that showed significant deviations from the mean were bias-correct
-ed.
- The bias-correction used linear scaling techniques.
- For relative humidity, the variables required for its calculation were
- bias-corrected for its recalculation (e.g.
- Specific humidity, see Appendix).
- Relative humidity was recalculated usin the methods described in Chapter
- 5.
+ 
 \end_layout
 
 \begin_layout Subsubsection
-Fire weather variability computation
+Computation of extended FFDI time series
 \end_layout
 
 \begin_layout Standard
-The investigation explored fire weather variability in Ecuador using the
- FFDI.
- This index was selected because its calibration used the Eucalyptus vegetation
- (see Chapter 2).
- This type of vegetation is dominant in bushfire prone areas in Ecuador
- (see Chapter 2).
- The index was computed for July-August-September (JAS).
- These months represent the more intense fire season in the Ecuadorian Andean
- region (see Chapter 2).
+The first step to attemp extending the analysis was to compare the reanalysis
+ data against observations.
+ Plotting probability density functions (PDFs) and seasonal time series
+ facilitated the analysis.
+ The PDFs allowed the examination of the distribution of data and detect
+ deviations from the mean.
+ The time series allowed comparing trends, magnitudes and correlate data.
+ The reanalysis variables that showed significant deviations from the observed
+ climatology were bias-corrected.
+ The bias-correction used linear scaling techniques.
+ For relative humidity, the variables were bias-corrected for its recalculation
+ (e.g.
+ Specific humidity, see Appendix).
+ Relative humidity was recalculated using the methods described in Chapter
+ 5.
  
 \end_layout
 
 \begin_layout Standard
-The computation of the FFDI in Ecuador used original and bias-corrected
- reanalysis data.
- As in the previous step, plotting PDFs and time series allowed to examine
- the FFDI results.
- The analyses also compared the results using weather station and reanalysis
- data.
- 
-\end_layout
-
-\begin_layout Standard
-The comparison of FFDI time series required defining a seasonal metric of
- the FFDI.
+The FFDI was computed with bias-corrected reanalysis data.
+ These results were compared to FFDI data computed with observations.
+ As in the previous step, plotting PDFs and time series allowed assessment
+ of the FFDI results.
+ The comparison of FFDI time series required defining a seasonal metric
+ of the FFDI.
  Previous chapters used two metrics.
  The cumulative sum of daily values (FFDIcum) and the number of days with
  FFDI greater than 25 (FFDI>25).
@@ -308,6 +329,227 @@ The comparison of FFDI time series required defining a seasonal metric of
 
 \begin_layout Section
 Results
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Linear-correlation-coefficients-FFDI"
+
+\end_inset
+
+ shows the linear correlation coefficients between the FFDI and its variables.
+ The analysis uses averaged observations during the season July-August-September
+ (JAS) for the period 1997-2012.
+ The graph displays coloured circles for correlations with statistical significa
+nce above the 5% level.
+ The physical relationships between the fire weather variables are consistent.
+ Althoug some correlations don't show statistical significance (e.g.
+ relative humidity and temperature).
+ The index shows that temperature and relative humidity are the most sensitive
+ parameters in this region.
+ These variables have correlation coeffcients with the FFDI of 0.87 and -0.83
+ repectively.
+ On the other hand, precipitation (r=-0.79) and wind speed (r=0.69) are less
+ sensitive.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Analysis/FFDI_variables/FFDI_variables_correlations.png
+	lyxscale 3
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Linear correlation coefficients that display the relationships between the
+ McArthur Frest Fire Danger Index and its variables in the Ecuadorian andean
+ region.
+ The computation used weather station data during the season July-August-Septemb
+er for the period 1997-2012.
+ Coloured circles represent values with statistical significance at the
+ 5% level.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Linear-correlation-coefficients-FFDI"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Monthly-FFDI"
+
+\end_inset
+
+ monthly FFDI values during the period 1997-2012.
+ For each month of the year, the graph shows the variability of fire weather
+ represented by cumulative FFDI values.
+ The figure shows that fire danger starts increasing in July.
+ In the later months, it continues a steep increase reaching a peaks in
+ September and October.
+ From November to April, fire danger experiences a consistent decrease.
+ During May and June it plateaus before the start of the fire season.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Monthly_FFDI.png
+	lyxscale 5
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Monthly Forest Fire Danger Index values in the Ecuadorian andean region.
+ The computation used observations during the period 1997-2012.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Monthly-FFDI"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FFDI-seasons-Ecuador"
+
+\end_inset
+
+ shows seasonal FFDI time series computed on the Ecuadorian highlands.
+ The calculation uses averaged data from weather stations in this region.
+ The graph shows the results for cummulative FFDI for four seasons.
+ The time series display the seasonal FFDI variability for July-August-September
+ (JAS), October-November-December (OND), January-February-March (JFM), and
+ April-May-June (AMJ).
+ The seasons JAS and OND present the highest FFDIcum values.
+ The seasons JAS and OND have comparable FFDIcum means (158 and 157 respectively
+).
+ On the other hand, the season OND presents the most extreme values (238
+ in 2000 and 2008).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/TS/FFDI_obs_seasons_ec.png
+	lyxscale 10
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Time series of cumulative Forest Fire Danger Index values (FFDI) in the
+ Ecuadorian andean region.
+ Colored lines represent the seasonal FFDI evolution for diferent seasons
+ of the year during the period 1997-2012.
+ The lines show the results for July-August-September (JAS), October-November-De
+cember (OND), January-February-March (JFM), and April-May-June (AMJ).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FFDI-seasons-Ecuador"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -362,7 +604,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/PDFs/PDFs_variables_original.png
 	lyxscale 10
-	scale 90
+	scale 55
 
 \end_inset
 
@@ -431,7 +673,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/TS/TS_variables_original.png
 	lyxscale 10
-	scale 90
+	scale 55
 
 \end_inset
 
@@ -507,7 +749,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/PDFs/PDFs_variables_bc.png
 	lyxscale 10
-	scale 90
+	scale 55
 
 \end_inset
 
@@ -572,7 +814,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/TS/TS_variables_bc.png
 	lyxscale 10
-	scale 90
+	scale 55
 
 \end_inset
 
@@ -636,7 +878,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/PDFs/PDFs_FFDI.png
 	lyxscale 10
-	scale 90
+	scale 55
 
 \end_inset
 
@@ -706,7 +948,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/TS/TS_FFDI.png
 	lyxscale 10
-	scale 90
+	scale 55
 
 \end_inset
 
@@ -746,6 +988,79 @@ name "fig:Time-series-FFDI"
 
 \begin_layout Section
 Discussion
+\end_layout
+
+\begin_layout Standard
+The FFDI is a useful metric of fire danger in the Ecuadorian Andes.
+ First of all, it was calibrated with vegetation that also dominates fire-prone
+ regions in Ecuador and Australia—Eucalyptus—.
+ Additionally, the correlations with observed fire weather variables demonstrate
+d a physically consistent behaviour.
+ For example, temperature and relative humidity proved to be the most sensitive
+ parameters of the index—as it is the case in Australia as well—.
+ Most importantly, the FFDI represented as high fire danger months those
+ considered to be of greater fire activity.
+ 
+\end_layout
+
+\begin_layout Standard
+The FFDI results showed that the Ecuadorian Andes experience higher fire
+ danger from July to December.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Estacio2012"
+
+\end_inset
+
+ reports that JAS is the typical fire occurrence season in the city of Quito.
+ This is the capital of the country and where more information about bushfires
+ is available.
+ Quito is located in the northern Ecuadorian Andes.
+ Therefore, the fire reporting could be biased towards this region.
+ There is scarce information about fire occurrences in other regions of
+ the Ecuadorian Andes which might occur from November to December.
+ On the other hand, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pourrut1995"
+
+\end_inset
+
+ argue that the dry season for most of the Ecuadorian highlands is June-Septembe
+r.
+ Although, the authors also mention that a short dry period 
+\begin_inset Quotes eld
+\end_inset
+
+veranillo
+\begin_inset Quotes erd
+\end_inset
+
+ occurs in December.
+ Thefore, it is likely that fires can also occur in the months after JAS.
+ 
+\end_layout
+
+\begin_layout Standard
+The results using the FFDI do not show that the year 2012 experienced high
+ fire danger in comparison to other years.
+ This constrast with the local reports which claim that 2012 was a severe
+ fire activity year 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ The local appreciation for this year is not supported by long-term fire
+ statistics and could be subjective.
+ On the other hand, more robust tests of the realibility of the FFDI in
+ this region also require fire activity information.
+ Therefore, generating this informtion is of paramount importance to continue
+ investigating this problem.
+ 
 \end_layout
 
 \begin_layout Standard
