@@ -21,6 +21,9 @@
 
 %URL line breaking:
 \usepackage[hyphens]{url}
+
+%Caption font
+\usepackage[font=footnotesize]{caption}
 \end_preamble
 \use_default_options true
 \master ../Master.lyx
@@ -121,9 +124,8 @@ Bushfires occur in environmental conditions that also exist during heatwaves
  bushfires and heatwaves.
  Forecasting efforts can benefit from a deeper understanding of their synoptic
  differences.
- This study analyses bushfire and heatwave weather patterns for the period
- 1961-2011.
- 
+ The investigation computed anomaly composites for the period 1961-2011
+ to compare bushfire and heatwave weather patterns.
 \end_layout
 
 \begin_layout Standard
@@ -395,9 +397,65 @@ th
  over 112 locations.
  These variables are required in several methods to define heatwaves.
  The weather stations selected for the analyses in this study were Melbourne
- Regional Office, Mildura, Nill and Sale.
+ Regional Office, Mildura, Nill and Sale (see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Location-of-WS-HW"
+
+\end_inset
+
+).
  These stations provide the longest set of records.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Location_ws.png
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Location of meterological stations used to compute heatwaves dates in Victoria,
+ Australia.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Location-of-WS-HW"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -737,7 +795,7 @@ On the other hand, DELWP's database registers 31 events that burnt at least
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Time-series-of-BE"
+reference "fig:Time-series-of-BE-HW"
 
 \end_inset
 
@@ -749,7 +807,7 @@ reference "fig:Time-series-of-BE"
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1170,62 +1228,15 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/BE_EVENTS.png
-	lyxscale 10
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Time series of bushfire events in Victoria (December-January-February) for
- the period 1961-2011.
- The red solid and black dashed time series correspond to data from the
- Department of Environment, Land, Water and Planning (DELWP) and Risk Frontiers
- (RF) data respectively (r=0.44,p=0.00).
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Time-series-of-BE"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Time-series-of-HWs"
+reference "fig:Time-series-of-BE-HW"
 
 \end_inset
 
- shows times series of heatwave events in Victoria during the period 1961-2010.
+ also shows times series of heatwave events in Victoria during the period
+ 1961-2010.
  The figure illustrates the frequency of events using 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1278,15 +1289,15 @@ key "Pezza2012"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/HW_EVENTS.png
+	filename Figures/BF_HW_time_series.png
 	lyxscale 10
-	scale 50
+	scale 70
 
 \end_inset
 
@@ -1297,10 +1308,13 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Time series of heatwave events in Victoria (December-January-February) for
- the period 1961-2011.
- The red solid and black dashed time series correspond to heatwaves computed
- with 
+Time series of bushfire (panel a) and heatwave (panel b) events in Victoria
+ (December-January-February) for the period 1961-2011.
+ For bushfire events, the red solid and black dashed time series correspond
+ to data from the Department of Environment, Land, Water and Planning (DELWP)
+ and Risk Frontiers (RF) data respectively (r=0.44,p=0.00).
+ For heatwave events, the red solid and black dashed time series correspond
+ to heatwaves computed with 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Nairn2009"
@@ -1318,7 +1332,7 @@ key "Pezza2012"
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Time-series-of-HWs"
+name "fig:Time_series_BE_HW"
 
 \end_inset
 
@@ -1327,10 +1341,6 @@ name "fig:Time-series-of-HWs"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1399,13 +1409,13 @@ s.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/Figure_2.png
+	filename Figures/BF_HW_frecuencies.png
 	lyxscale 10
 	scale 70
 
@@ -1529,7 +1539,7 @@ C).
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1844,7 +1854,7 @@ El Niño
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1980,7 +1990,7 @@ b).
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2000,8 +2010,8 @@ status collapsed
 
 \begin_layout Plain Layout
 Seasonal composite for air temperature (T) anomalies (1000 hPa level) for
- a) 18 bushfire and b) 12 heatwave seasons occurred in the season December-Janua
-ry-February (DJF) from 1961–2011.
+ a) 18 bushfire and b) 12 heatwave seasons occurred in the season September-Octo
+ber-November (SON) from 1961–2011.
  Bushfire records sourced from Department of Environment, Land, Water and
  Planning (DELWP).
  Heatwaves were computed using the 55
@@ -2050,7 +2060,7 @@ name "fig:Seasonal-composite-for-air-son"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2168,7 +2178,7 @@ b).
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2188,8 +2198,8 @@ status collapsed
 
 \begin_layout Plain Layout
 Seasonal composite for relative humidity (RH) anomalies (1000 hPa level)
- for a) 18 bushfire and b) 12 heatwave seasons occurred in the season December-J
-anuary-February (DJF) from 1961–2011.
+ for a) 18 bushfire and b) 12 heatwave seasons occurred in the season September-
+October-November (SON) from 1961–2011.
  Bushfire records sourced from Department of Environment, Land, Water and
  Planning (DELWP).
  Heatwaves were computed using the 55
@@ -2238,7 +2248,7 @@ name "fig:Seasonal-composite-for-rh-son"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2284,110 +2294,6 @@ key "Nairn2009"
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Seasonal-composite-for-rh-djf"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-uwn-djf"
-
-\end_inset
-
- shows the 300 hPa level zonal wind anomalies for bushfires and heatwaves
- in the season DJF.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-uwn-djf"
-
-\end_inset
-
-a presents a westerly anomaly jet south to Victoria.
- Heatwave seasons display the opposite pattern.
- They show easterly anomalies in the Southern Ocean.
- This occurs both during the preceding (not shown) and concurrent seasons.
- (see figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Seasonal-composite-for-uwn-djf"
-
-\end_inset
-
-b).
- An upper-level jet during bushfire cases reflects the increased meridional
- temperature contrast.
- This points towards the importance of large-scale dynamics.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/UWND_djf.png 
-	lyxscale 10
-	scale 75
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Seasonal composite for zonal wind (Uwnd) anomalies for (300 hPa level) for
- a) 18 bushfire and b) 12 heatwave seasons occurred in the season December-Janua
-ry-February (DJF) from 1961–2011.
- Bushfire records sourced from Department of Environment, Land, Water and
- Planning (DELWP).
- Heatwaves were computed using the 55
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-th
-\end_layout
-
-\end_inset
-
- percentile of values defined with 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Nairn2009"
-
-\end_inset
-
- criteria.
- Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
- Shaded areas show anomalies statistically significant at the 5% level.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Seasonal-composite-for-uwn-djf"
 
 \end_inset
 
@@ -2493,75 +2399,6 @@ Seasonal weather patterns
 \end_layout
 
 \begin_layout Standard
-Bushfires and heatwaves weather significantly differ in the behaviour of
- relative humidity.
- The preconditioning process leading to bushfires is more intense compared
- to its heatwave counterpart.
- Victoria is a dry region from September to February.
- A positive Indian Ocean Dipole mode has been associated with this process
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Cai2009"
-
-\end_inset
-
-.
- A slight area of negative anomalies in Victoria is present in spring during
- heatwaves.
- However, it is important to highlight how the rest of Australia becomes
- more humid from spring to summer.
- 
-\end_layout
-
-\begin_layout Standard
-The seasonal weather differences perhaps are best illustrated comparing
- the upper atmosphere circulation patterns.
- For bushfire seasons, the climate signature at the 300 hPa level presents
- strong westerly anomalies south to Australia.
- These statistically significant anomalies could be linked to high baroclinicity
-, and therefore, vigorous frontal activity.
- This result supports the important role of cold fronts in producing extreme
- bushfires 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Reeder1987,Reeder2015"
-
-\end_inset
-
-.
- Interestingly, heatwaves present an opposite pattern, with easterly anomalies
- especially over Victoria.
- This reversal of the 300 hPa zonal wind pattern requires further analysis.
- 
-\end_layout
-
-\begin_layout Standard
-The anomalous areas found in the composites could be used to design a seasonal
- bushfire index.
- Chapter 5 proposes an index based on these results.
- Such an index could contribute to anticipating extreme bushfire seasons
- in Victoria.
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Harris2013"
-
-\end_inset
-
- have already suggested this possibility using climate variables and ENSO
- indices.
- Additionally, the analysis of weather patterns conducive to lightning ignition
- could demonstrate forecasting skill.
- This gap is an exciting avenue for further research.
- 
-\end_layout
-
-\begin_layout Subsection
-ENSO, bushfires and heatwaves 
-\end_layout
-
-\begin_layout Standard
 On average, ENSO's influence over bushfire events in Victoria is moderate.
  The SST anomalies in the tropical Pacific Ocean reveal warming conditions
  (+ 0.5 
@@ -2575,8 +2412,25 @@ o
 
 C) during these events.
  These results are consistent with the two databases used (see Chapter 6).
- Although, only the NINO1+2 and the NINO3.4 regions showed statistical significan
-ce.
+ Although, only the NINO
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1+2 
+\end_layout
+
+\end_inset
+
+and the NINO
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+3.4
+\end_layout
+
+\end_inset
+
+ regions showed statistical significance.
  Paradoxically, the correlations between the bushfire time series and the
  SOI were weak.
  This result suggests that the oceanic component of ENSO has a greater influence
@@ -2654,7 +2508,51 @@ Black Saturday
 \end_layout
 
 \begin_layout Standard
-The relatively short period of analysis is a limitation in this study.
+On the continent, bushfires and heatwaves weather significantly differ in
+ the behaviour of relative humidity.
+ The preconditioning process leading to bushfires is more intense compared
+ to its heatwave counterpart.
+ Victoria is a dry region from September to February.
+ A positive Indian Ocean Dipole mode has been associated with this process
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cai2009"
+
+\end_inset
+
+.
+ A slight area of negative anomalies in Victoria is present in spring during
+ heatwaves.
+ However, it is important to highlight how the rest of Australia becomes
+ more humid from spring to summer.
+ 
+\end_layout
+
+\begin_layout Standard
+The anomalous areas found in the composites could be used to design a seasonal
+ bushfire index.
+ Chapter 5 proposes an index based on these results.
+ Such an index could contribute to anticipating extreme bushfire seasons
+ in Victoria.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2013"
+
+\end_inset
+
+ have already suggested this possibility using climate variables and ENSO
+ indices.
+ Additionally, the analysis of weather patterns conducive to lightning ignition
+ could demonstrate forecasting skill.
+ This gap is an exciting avenue for further research.
+ 
+\end_layout
+
+\begin_layout Standard
+Finally, it is worth acknowledging that the relatively short period of analysis
+ is a limitation in this study.
  Heatwaves in this region can be computed from the early years of the century.
  However, the development of a robust bushfire database for the first half
  of the 20
@@ -2682,8 +2580,6 @@ Bushfires and heatwaves are dangerous natural hazards in Australia.
  However, they differ in several other climatological aspects.
  This chapter compared the weather patterns associated with these events
  in Victoria, Australia.
- The investigation comprised the computation of daily and seasonal anomaly
- composites for the period 1961-2011.
  The results showed that only 13% of bushfires co-occurred with heatwaves.
  Additionally, a humid Australia characterises heatwaves while bushfires
  exhibit the opposite pattern.
@@ -2699,12 +2595,14 @@ El Niño
  On the other hand, heatwaves usually occur during neutral ENSO conditions.
  These results were obtained using weather station as well as reanalysis
  data.
- 
+ These findings suggest that using remote climate drivers patterns linked
+ to bushfires can increase the skill of fire weather forecasts in Victoria.
 \end_layout
 
 \begin_layout Standard
-The next chapter explores fire weather weather variability in Victoria in
- the 20
+The next chapter uses these patterns to develop a fire weather index.
+ The research also explored fire weather variability in Victoria in the
+ 20
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -2714,13 +2612,11 @@ th
 \end_inset
 
  century.
- The investigation uses seasonal metrics of the Forest Fire Danger Index
- (FFDI).
- It also propopses a seasonal bushfire index based on the results of this
- chapter.
- Finally, the Chapter 5 investigates climate-bushfire relationships.
- The aim is to establish the skill to seasonally forecast extreme fire seasons
- in this region.
+ This long-term variability is investigated using the FFDI as well as the
+ new index.
+ Finally, Chapter 5 investigates climate-bushfire relationships.
+ The aim is to establish the skill to forecast extreme fire seasons in this
+ region.
 \end_layout
 
 \begin_layout Standard
