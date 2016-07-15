@@ -21,6 +21,12 @@
 
 %URL line breaking:
 \usepackage[hyphens]{url}
+
+%Caption font
+\usepackage[font=footnotesize]{caption}
+
+%Caption font
+\usepackage[font=footnotesize]{caption}
 \end_preamble
 \use_default_options true
 \master ../Master.lyx
@@ -289,7 +295,7 @@ th
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -297,7 +303,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Maps/Location_ws.png
 	lyxscale 50
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -692,7 +698,7 @@ status open
 \begin_inset Graphics
 	filename Figures/Maps/VSBI_location_areas.png
 	lyxscale 10
-	scale 50
+	scale 75
 
 \end_inset
 
@@ -805,7 +811,7 @@ VSBI=\frac{T}{\sigma_{T}}-\frac{RH}{\sigma_{RH}}-\frac{P}{\sigma_{P}}+\frac{SST_
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -832,7 +838,7 @@ name "fig:VSBI-calculation-procedure"
 \begin_inset Graphics
 	filename Figures/VSBI/VSBI computation Diagram.png
 	lyxscale 50
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -869,13 +875,13 @@ Results
 \end_layout
 
 \begin_layout Standard
-This section shows the results of the seasonal fire weather variability
- in Victoria represented by the FFDI and the VSBI.
+This section shows the long-term fire weather variability in Victoria represente
+d by the FFDI and the VSBI.
  Additionally, it describes the basic relationships between the data used
  in this investigation during the antecedent (SON) and simultaneous (DJF)
  bushfire seasons.
  This section also presents the fire weather—and activity—seasonal forecasting
- skill of these variables from SON to DJF 
+ skill from SON to DJF 
 \end_layout
 
 \begin_layout Subsection
@@ -894,10 +900,56 @@ reference "fig:Probability-density-functions-FFDI"
 
 \end_inset
 
- shows PDFs of FFDI calculated with weather station and reanalysis data
- (original and bias-corrected).
+ shows FFDI probability density functions calculated with weather station
+ and reanalysis data (original and bias-corrected).
  The plot shows that the FFDI daily mean was accurately adjusted.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI/gray_pdfs/FFDI_pdfs.png
+	lyxscale 10
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Probability density functions of bias-corrected seasonal FFDI in Victoria,
+ Australia for the period 1974-2010.
+ The plot shows the adjustment in the distribution of FFDI data.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Probability-density-functions-FFDI"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -956,64 +1008,7 @@ cum
  However, on an inter-annual basis they differ on magnitude.
  Therefore, a bias-correction of reanalysis data was required.
  Panel b) shows the results with bias-correction (r=0.45, p=0.06, n=37).
- On the other hand, figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Number-of-days-ffdi-1974-2010"
-
-\end_inset
-
- shows the same comparison using time series of FFDI>25.
- The correlation coefficients for these time series are a) r=0.33, p=0.05,
- n=37 and b) r= 0.52, p=0.00, n=37.
- For every FFDI variable bias-corrected, panel a) presents original data
- and panel b) the result with the adjustment.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figures/FFDI/gray_pdfs/FFDI_pdfs.png
-	lyxscale 20
-	scale 80
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Probability density functions of bias-corrected seasonal FFDI in Victoria,
- Australia for the period 1974-2010.
- The plot shows the adjustment in the distribution of FFDI data.
  
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Probability-density-functions-FFDI"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1027,8 +1022,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI/FFDI_cumulative_1974_2010.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 70
 
 \end_inset
 
@@ -1072,6 +1067,21 @@ name "fig:Cumulative-FFDI-(FFDI)-1974-2010"
 \end_layout
 
 \begin_layout Standard
+On the other hand, figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Number-of-days-ffdi-1974-2010"
+
+\end_inset
+
+ shows the same comparison using time series of FFDI>25.
+ The correlation coefficients for these time series are a) r=0.33, p=0.05,
+ n=37 and b) r= 0.52, p=0.00, n=37.
+ For every FFDI variable bias-corrected, panel a) presents original data
+ and panel b) the result with the adjustment.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1082,8 +1092,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI/FFDI_g25_1974_2010.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 70
 
 \end_inset
 
@@ -1162,8 +1172,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/TMAX/gray_pdfs/VIC_TMAX.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1207,8 +1217,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/TMAX/gray_time_series/TMAX_time_series.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 70
 
 \end_inset
 
@@ -1289,8 +1299,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/SHUM/gray_pdfs/SHUM_pdfs.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1335,8 +1345,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/SHUM/gray_time_series/SHUM_time_series.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 70
 
 \end_inset
 
@@ -1406,8 +1416,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/RH/gray_pdfs/VIC_RH_pdfs.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 70
 
 \end_inset
 
@@ -1452,8 +1462,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/RH/gray_time_series/RH_time_series.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 70
 
 \end_inset
 
@@ -1523,8 +1533,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/W/gray_pdfs/W_pdfs.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 70
 
 \end_inset
 
@@ -1568,8 +1578,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/W/gray_time_series/W_time_series.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 75
 
 \end_inset
 
@@ -1631,8 +1641,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/P/gray_pdfs/P_pdf.png
-	lyxscale 20
-	scale 80
+	lyxscale 10
+	scale 85
 
 \end_inset
 
@@ -1676,7 +1686,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI_variables/P/gray_time_series/P_time_series.png
-	lyxscale 20
+	lyxscale 10
 	scale 80
 
 \end_inset
@@ -1742,7 +1752,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/FFDI/FFDI_bc_1920_2010.png
-	lyxscale 20
+	lyxscale 10
 	scale 80
 
 \end_inset
@@ -1754,14 +1764,83 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Seasonal FFDI (with bias-correction) in Victoria, Australia for the period
- 1920-2010.
- The correlation coeficients are a) r=0.47 p=0.00, n=37 and b) r=0.32, p=0.06,
+Seasonal FFDI in Victoria, Australia for the period 1920-2010.
+ Black dashed and red lines show the results using bias-corrected reanalysis
+ (20CR(bc)) and weather station (WS) data.
+ The correlation coeficients between reanalysis and weather stations data
+ for the period 1974-2010 are a) r=0.47 p=0.00, n=37 and b) r=0.32, p=0.06,
  n=37.
  
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Seasonal-Seasonal-FFDI"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FFDI-variables-time-series-1920-2010"
+
+\end_inset
+
+ displays time series of fire weather variables for the period 1920-2010.
+ The graph includes the time series using original and bias-corrected reanalysis
+ data.
+ Panel a) shows a clear increasing trend for temperature.
+ Panels b) and c) depict relative humidity and wind speed (respectively)
+ with no evident trend.
+ Panel d) shows that precipitation in Victoria experienced a decline from
+ 1920 to 1980.
+ However, the subsequent decades display an increasing trend.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/FFDI_variables/1920-2010/FFDI_variables_time_series.png
+	lyxscale 10
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+FFDI variables time series in Victoria during the period 1920-2010 for the
+ season December-January-February (DJF).
+ Data source: Twentieth Century Reanalysis (20CR).
+ 20CR(bc) corresponds to bias-corrected data.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FFDI-variables-time-series-1920-2010"
 
 \end_inset
 
@@ -1787,19 +1866,11 @@ Victorian Seasonal Bushfire Index computation
 \end_layout
 
 \begin_layout Standard
-The bias-corrected renalysis data was also used to compute the VSBI.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Victorian-Seasonal-Bushfire-time-series"
-
-\end_inset
-
- shows a time series during the period 1961-2010.
- This index was used as an alternative metric in the investigation of fire
- weather forecasting skills.
- The VSBI computation is derived from the agregation of normalizaed values
- of its variables (see section 
+The bias-corrected reanalysis data was also used to compute the VSBI.
+ The VSBI is an alternative metric developed to investigate fire forecasting
+ skill in Victoria.
+ The VSBI computation is derived from the aggregation of normalised values
+ of fire weather variables and ENSO indicators (see section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Formulation-VSBI"
@@ -1810,14 +1881,14 @@ reference "sub:Formulation-VSBI"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:VSBI-Time-Series-Variables"
+reference "fig:Victorian-Seasonal-Bushfire-time-series"
 
 \end_inset
 
- presents the time series of the VSBI variables.
- These figures show values for the DJF season.
- Although, SON values were also computed to assess the predictability of
- the index.
+ shows a time series of this index during December-January-February (DJF)
+ for the period 1920-2010.
+ Fire weather—with the VSBI—has a strong agreement between observations
+ and reanalysis (r=0.69,p<0.05).
 \end_layout
 
 \begin_layout Standard
@@ -1830,9 +1901,8 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/VSBI/VSBI_1961_2010.png
-	lyxscale 10
-	scale 40
+	filename Figures/VSBI/VSBI_20CR_1920_2010.png
+	lyxscale 15
 
 \end_inset
 
@@ -1843,8 +1913,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Victorian Seasonal Bushfire Index for the period 1961-2010.
- The computation used bias-corrected 20CR data.
+Victorian Seasonal Bushfire Index during December-January-February (DJF)
+ for the period 1920-2010.
+ The computation used bias-corrected Twentieth Century Reanalysis data (20CR(bc)
+) (black dashed line) and weather station data (red line).
+ The correlation coefficients between reanalysis and weather station data
+ for the period 1974-2010 are r=0.69 and p<0.05.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -1866,18 +1940,38 @@ name "fig:Victorian-Seasonal-Bushfire-time-series"
 \end_layout
 
 \begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSBI-Time-Series-Variables"
+
+\end_inset
+
+ displays a time series of VSBI variables during DJF for the period 1920-2010.
+ The figure shows four panels.
+ Panel a) indicates that temperature over Victoria has increased over the
+ 91 years period.
+ Panel b) does not illustrate long-term trends for relative humidity.
+ Panel c) shows the sea surface temperature variability on the “El Niño
+ 1+2” region.
+ The reanalysis data captures the strong “El Niño” events of 1982 and 1997.
+ In panel d), precipitation in Victoria does not display a trend.
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/VSBI/VSBI_variables.png
+	filename Figures/VSBI/VSBI_variables_1920_2010.png
 	lyxscale 10
-	scale 7
+	scale 70
 
 \end_inset
 
@@ -1888,12 +1982,21 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Victorian Seasonal Bushfire Index variables for the period 1961-2010.
+Victorian Seasonal Bushfire Index variables for the period 1920-2010.
  The time series correspond to normalized spatial averages of temperature
- (T), relative humidity, sea surface temeprature (SST) and precipitation
+ (T), relative humidity, sea surface temperature (SST) and precipitation
  (P) over Victoria, Australia during December-January-February (DJF).
- The atmospheric variables correspond to bias-corrected 20CR data.
- The SST time series use the the HADISST dataset in the 'El Nino1+2' region.
+ The atmospheric variables correspond to bias-corrected Twentieth Century
+ Reanalysis (20CR) data.
+ The SST time series use the the HADISST dataset in the 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño 1+2
+\begin_inset Quotes erd
+\end_inset
+
+ region.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -1964,25 +2067,53 @@ reference "fig:SON-SON-3"
  show the linear correlation coefficients of the analysed variables in spring
  (SON-SON).
  The results indicate that during spring the VSBI and FFDI seasonal metrics
- are correlated.
+ are highly correlated.
  The relationship is more consistent for the first period of analysis (1974-2010
 ).
  In this period, VSBI shows strong and statistically significant relationships
- with FFDI metrics.
- However, only the FFDIcum metric still shows this relationship further
- back in time—using reanalysis data—.
+ with the two FFDI metrics (FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ and FFDI>25).
+ However, only the FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ metric still shows this relationship further back in time—using reanalysis
+ data—.
  Additionally, the correlations between the FFDI metrics also decrease over
  time.
- These correlations start strong, with r=0.9 and r=0.78, with WS and 20CR
- data respectively.
+ These correlations start with strong relationships, with r=0.9 and r=0.78,
+ with WS and 20CR data respectively.
  However, they decrease to r=0.37 and r=0.36 for the second and third period
  respectively.
- Overall, VSBI and FFDIcum have a stronger correlation than VSBI and FFDI>25.
+ Overall, VSBI and FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ have a stronger correlation than VSBI and FFDI>25.
  
 \end_layout
 
 \begin_layout Standard
-The climate variable that most influences fire weather in relative humidity.
+The climate variable that most influences fire weather in relative humidity
+ (RH).
  The correlations between RH and VSBI fluctuate from -0.79 to -0.95 for the
  three periods.
  For FFDI
@@ -2004,14 +2135,31 @@ cum
 
 \begin_layout Standard
 Climate indices show a moderate relationship with fire weather metrics.
- On the other hand, the “El Niño” component of the index (SST1.2) has the
- least influence over the VSBI.
- The correlations between VSBI and SST1.2 are statistically significant for
- the three periods.
+ Additionally, the “El Niño” component of the index (SST
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1.2
+\end_layout
+
+\end_inset
+
+) has the least influence over the VSBI in comparison to local climate variables
+—as expected—.
+ The correlations between VSBI and SST
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1.2
+\end_layout
+
+\end_inset
+
+ are statistically significant for the three periods.
  They fluctuate from 0.51 to 0.62.
  On the other hand, the correlations with climate modes of variability and
  FFDI metrics show similar results for ENSO and IOD indices.
- However, the DMI presents slightly higher correlations.
+ However, the Dipole Mode Index (DMI) presents slightly higher correlations.
  These correlations are moderate for the first period.
  Further back in time, they become weak and statistically not significant.
  
@@ -2021,7 +2169,7 @@ Climate indices show a moderate relationship with fire weather metrics.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
@@ -2030,7 +2178,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Correlations/1974-2010/20CR/SON-SON/SON-SON.png
 	lyxscale 10
-	scale 65
+	scale 75
 
 \end_inset
 
@@ -2074,7 +2222,7 @@ name "fig:SON-SON-1"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2122,7 +2270,7 @@ name "fig:SON-SON-2"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2130,7 +2278,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Correlations/1920-2010/20CR/SON-SON/SON-SON.png
 	lyxscale 10
-	scale 80
+	scale 75
 
 \end_inset
 
@@ -2201,14 +2349,19 @@ reference "fig:DJF-DJF-3"
  in comparison to spring.
  For example, correlations with WS data in SON ranged from 0.78 to 0.92 for
  the first period 1973-2010.
- However, the correlations decrease to 0.65 and 0.69 using the same data during
+ However, the correlations decrease to 0.46 and 0.69 using the same data during
  summer.
- Additionally, reanalysis data show inconsistencies.
- There are periods of weak correlations and not statistically significant
- results (1974-2010); while other periods show moderate and statistically
- significant results (1961-2010).
  However, the results agree with the results in spring showing a strong
- agreement between VSBI and FFDIcum.
+ agreement between VSBI and FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2216,12 +2369,13 @@ There are also disagreements to determine which fire weather metric correlates
  better with fire activity.
  For this season, weather station data show that FFDI metrics have a stronger
  correlation with fire activity than the VSBI.
- The correlations with FFDI metrics and fire activity are higher with Risk
- Frontiers database (r=0.74 and r=0.72 with FFDIcum and FFDI>25 respectively).
- Although, the correlation with Victorian Government's database is also
+ Using observations, the correlations with FFDI metrics and fire activity
+ are higher with Risk Frontiers database (r=0.74 and r=0.72 with FFDIcum and
+ FFDI>25 respectively).
+ Although, the correlation with Victorian Government's database are also
  high (r=0.64 with both metrics).
- In contrast, reanalysis data shows that the VSBI presents better correlations
- with fire activity for the two periods (1974-2010 and 1961-2010).
+ In contrast, reanalysis data suggests that the VSBI presents better correlation
+s with fire activity for the two periods (1974-2010 and 1961-2010).
 \end_layout
 
 \begin_layout Standard
@@ -2230,17 +2384,17 @@ There is no agreement to establish which climate variable has the strongest
  WS data indicates that relative humidity is the main climate driver of
  fire weather and activity.
  The result is consistent in spring a summer.
- In contrast, reanalysis data shows temperature to have a greater influence
+ In contrast, reanalysis data suggests temperature to have a greater influence
  in summer.
 \end_layout
 
 \begin_layout Standard
 Climate modes of variability have less influence over fire weather in summer.
- Additionally, correlations show to be weaker with fire activity than fire
- weather (as expected).
+ Unexpectedly, correlations betwen climate indices show to be stronger with
+ fire activity than fire weather.
  “El Niño” indices are moderately correlated with fire weather.
- On the other hand, there is no correlation between fire weather and activity
- with the DMI.
+ On the other hand, there is no correlation between fire metrics with the
+ DMI.
  This lack of influence is also an expected result as the IOD's influence
  weakens after spring.
  
@@ -2250,7 +2404,7 @@ Climate modes of variability have less influence over fire weather in summer.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2258,7 +2412,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Correlations/1974-2010/20CR/DJF-DJF/DJF-DJF.png
 	lyxscale 10
-	scale 65
+	scale 75
 
 \end_inset
 
@@ -2297,7 +2451,7 @@ name "fig:DJF-DJF-1"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2305,7 +2459,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Correlations/1961-2010/20CR/DJF-DJF/DJF-DJF.png
 	lyxscale 10
-	scale 80
+	scale 75
 
 \end_inset
 
@@ -2344,7 +2498,7 @@ name "fig:DJF-DJF-2"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2425,7 +2579,7 @@ reference "fig:SON-DJF-2"
 , 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:DJF-DJF-3"
+reference "fig:SON-DJF-3"
 
 \end_inset
 
@@ -2451,8 +2605,8 @@ reference "fig:SON-DJF-2"
 
 \end_inset
 
- show two panels presenting correlations using reanalysis (panel a) and
- weather station data (panel b) during the period 1973-2010.
+ show two panels with correlations using reanalysis (panel a) and weather
+ station data (panel b) during the period 1973-2010.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2460,8 +2614,7 @@ reference "fig:SON-DJF-1"
 
 \end_inset
 
- presents the results using climate variables, fire weather and activity
- data.
+ shows the results using climate variables, fire weather and bushfires data.
  On the other hand, figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2469,11 +2622,11 @@ reference "fig:SON-DJF-1"
 
 \end_inset
 
- uses climate indices instead of climate variables.
+ the correlations use climate indices instead of climate variables.
  Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:DJF-DJF-3"
+reference "fig:SON-DJF-3"
 
 \end_inset
 
@@ -2485,14 +2638,14 @@ reference "fig:SON-DJF-4"
 \end_inset
 
  show the results for the other two periods using reanalysis data only.
- Panels a and b in these figures also compare the results using climate
- indices and variables respectively.
+ Panels a) and b) in these figures also compare the results using climate
+ variables and indices respectively.
 \end_layout
 
 \begin_layout Standard
 The VSBI forecasting skill show inconsistencies between weather station
  and reanalysis data.
- Using WS data, the VSBI shows significant skill to forecast fire weather.
+ Using WS data, the VSBI shows a strong skill to forecast fire weather.
  The correlations with FFDI metrics are 0.74 and 0.71 for FFDI
 \begin_inset script subscript
 
@@ -2503,51 +2656,93 @@ cum
 \end_inset
 
  and FFDI>25 respectively.
- As expected, the correlations are weaker for fire activity.
- The results are 0.66 and 0.54 using Risk Frontiers (RF) and Victorian's Governmen
-t (DELWP) databases respectively.
+ Using observations, the correlations are weaker for fire activity which
+ depends on not only weather.
+ Therefore, this result is consistent.
+ The correlations between VSBI anf bushfire events are 0.66 and 0.54 using
+ Risk Frontiers (RF) and Victorian's Government (DELWP) databases respectively.
  On the other hand, with reanalysis data the VSBI has a greater skill to
  forecast fire activity.
  This inversed relationship also occurs for the period 1960-2010.
  For the last period, the VSBI only shows a statistically significant—although
- weak—relationship with FFDIcum.
+ weak—relationship with FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+.
  
 \end_layout
 
 \begin_layout Standard
-Climate variables forecasting skill also demonstrate disagreements between
+The results suggest that relative humidity is the climate variable with
+ the strongest forecasting skill.
+ Using observations, the correlations between this variable and FFDI metrics
+ are -0.71 and -0.68—with FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ and FFDI>25 respetively—.
+ Additionally, relative humidity has a correlation of -0.64 and -0.58 with
+ RF and DELWP databases repectively.
+ On the other hand, using reanalysis data the correlations between this
+ variable and fire metrics deacrease.
+ Although, these data consisntently show that this variable has greater
+ forecasting skill than temperature and precipitation.
+ 
+\end_layout
+
+\begin_layout Standard
+Climate variables also demonstrate predictive skill disagreements between
  observations and reanalysis data.
- The WS data show that climate variables have a higher skill to forecast
- fire weather than activity.
- In contrast, reanalysis data indicate the opposite relationship.
+ The WS data show that climate variables have a comparable skill to forecast
+ fire weather than bushfires.
+ In contrast, reanalysis data indicate a stronger relationship between climate
+ indices and fire activity.
  These inconsistencies occur in two periods (1973-2010 and 1960-2010).
- Although, the disagreements in the correlations are not quantitatively
- large.
- In spite of these disagreements, the results show a a moderate forecasting
- skill using the two types of data.
- The resutls also agree to indicate that relative humidity is the climate
- variable with the strongest forecasting skill.
+ Using observations, the correlations show a a moderate fire (weather and
+ events) forecasting skill.
  
 \end_layout
 
 \begin_layout Standard
 Finally, weather station and reanalysis data agree to show that the VSBI
- has greater forecasting skill than individual climate indices.
- Moreover, the individual forecasting skill of climate indices is moderate
- in the first period, weakens in the second period and disappears for the
- longest period.
- For the first period, “El Niño” indices show greater predictive skill than
- the DMI.
- However, reanalysis data show inconsistencies.
- For example, for the first period, it shows a greater skill to forecast
- fire activity and no skill to forecast fire weather.
+ has greater forecasting skill than individual climate variables and indices.
+ For example, panels b) in figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SON-DJF-1"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SON-DJF-2"
+
+\end_inset
+
+ demonstrate—using observations—how the predictive skill of the index is
+ increased with the combination of local climate variables and the ENSO
+ indicator.
+ The results using reanalysis data also show this effect in the three periods
+ examined.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2555,7 +2750,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Correlations/1974-2010/20CR/SON-DJF/SON-DJF_part_1.png
 	lyxscale 10
-	scale 65
+	scale 75
 
 \end_inset
 
@@ -2598,15 +2793,15 @@ name "fig:SON-DJF-1"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/Correlations/1974-2010/20CR/SON-DJF/SON-DJF_part_2png.png
+	filename Figures/Correlations/1974-2010/20CR/SON-DJF/SON-DJF_part_2.png
 	lyxscale 10
-	scale 65
+	scale 75
 
 \end_inset
 
@@ -2648,7 +2843,7 @@ name "fig:SON-DJF-2"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2656,7 +2851,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Correlations/1961-2010/20CR/SON-DJF/SON-DJF.png
 	lyxscale 10
-	scale 65
+	scale 75
 
 \end_inset
 
@@ -2697,7 +2892,7 @@ name "fig:SON-DJF-3"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2705,7 +2900,7 @@ status collapsed
 \begin_inset Graphics
 	filename Figures/Correlations/1920-2010/20CR/SON-DJF/SON-DJF.png
 	lyxscale 10
-	scale 65
+	scale 75
 
 \end_inset
 
