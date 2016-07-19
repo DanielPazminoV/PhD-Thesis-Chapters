@@ -4,18 +4,53 @@
 \begin_header
 \textclass report
 \begin_preamble
+\thispagestyle{empty} % clear the first page header
+
+% page numbering roman for up to list of tables
+\pagenumbering{roman}
+\let\myLOT\listoftables
+\renewcommand\listoftables{%
+\myLOT
+\cleardoublepage
+\pagenumbering{arabic}
+}
+
+% header and footer
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead[RE]{\bfseries \nouppercase\leftmark}
 \fancyhead[LO]{\bfseries \nouppercase \rightmark}
 
 \renewcommand{\chaptermark}[1]{%
-\markboth{\chaptername 
-\ \thechapter\ }{}}
+\markboth{\thechapter. \ #1 }{}}
+
+%\renewcommand{\chaptermark}[1]{%
+%\markboth{\chaptername 
+%\ \thechapter\ }{}}
 
  
 \fancyhead[LE,RO]{\bfseries\thepage}
 \fancyfoot{}
+
+
+%%% remove header from blank pages in reports.
+\makeatletter
+\renewcommand*{\cleardoublepage}{\clearpage\if@twoside \ifodd\c@page\else
+\hbox{}%
+\thispagestyle{empty}%
+\newpage%
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+% roman listing
+\bgroup
+\renewcommand\theenumi{(\roman{enumi})}
+\renewcommand\labelenumi{\theenumi}
+
+%URL line breaking:
+\usepackage[hyphens]{url}
+
+%Text flow over the page and paragraph indentation
 \raggedbottom
 \setlength{\parindent}{8mm}
 
@@ -26,7 +61,6 @@
 \usepackage[font=footnotesize]{caption}
 \end_preamble
 \use_default_options true
-\master ../Master.lyx
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -88,7 +122,7 @@
 \quotes_language english
 \papercolumns 1
 \papersides 2
-\paperpagestyle fancy
+\paperpagestyle empty
 \tracking_changes false
 \output_changes false
 \html_math_output 0
