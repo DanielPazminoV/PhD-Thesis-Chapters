@@ -128,27 +128,27 @@ October-November—to summer—December-January-February—.
 \begin_layout Standard
 The aim of this chapter is to complement the investigation of average spatial
  patterns.
- Chapter 5 investigates the long-term interannual variability of seasonal
- fire weather in Victoria.
+ Chapter 5 investigates the long-term variability of fire weather in Victoria.
  Fire weather was investigated using seasonal metrics of the McArthur Forest
  Fire Danger Index.
  This index quantifies bushfire danger using meteorological data.
  Additionally, this chapter proposes an alternative bushfire index: “Victorian
  Seasonal Bushfire Index” (VSBI).
- This index is build upon the anomalous areas found in chapter 4.
+ The design of this index used the anomalous regions found in Chapter 4.
 \end_layout
 
 \begin_layout Standard
 Finally, this chapter explores the capability of the VSBI to forecast fire
- weather and activity.
+ weather—and fire activity—.
  The investigation required four groups of data: bushfire activity records,
  climate variables, fire weather metrics and climate indices.
  Each group of data comprises several variables that were linearly correlated
  for spring, summer and from spring to summer.
  Using weather station data, the VSBI shows a strong forecasting skill and
  consistent climate-bushfire relationships.
- In the other hand, results using Twentieth Century reanalysis data for
- the Victorian region show its limitations to capture these relationships.
+ On the other hand, results using the Twentieth Century Reanalysis data
+ for the Victorian region show the limitations of this dataset to capture
+ these relationships.
  
 \end_layout
 
@@ -2546,22 +2546,6 @@ Relationship between variables from spring to summer (SON-DJF)
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-clearpage
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2962,7 +2946,7 @@ The FFDI computed with WS data depict more extreme fire weather for Victoria
  This difference is likely to occur for several reasons.
  FFDI variables from renalysis data do not correspond exactly to surface
  values.
- Near-surface reanalysis data was available at the 1000 h-Pa level.
+ Near-surface reanalysis data was available at the 1000 hPa level.
  Calculations using these data do not exactly represent surface level conditions.
  Additionally, the FFDI computed with weather station data use values at
  3 pm.
@@ -3046,7 +3030,7 @@ The increasing trend in seasonal fire weather computations for Victoria
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Lucas2007,Hennessy2005,Hasson2009"
+key "Lucas2007,Hennessy2005,Hasson2009,Clarke2013"
 
 \end_inset
 
@@ -3127,7 +3111,11 @@ Bias-corrected seasonal FFDI computation (1974-2010)
 \end_layout
 
 \begin_layout Standard
-After the bias-correction, the magnitude of FFDI results is acceptable.
+After the bias-correction, the magnitude of FFDI results using reanalysis
+ data is comparable to the computation with observations for the period
+ 1974-2010.
+ During this period, the two types of data show that Victoria experienced
+ a steep increase in fire danger.
  However, the FFDI computed with reanalysis data slightly over-estimates
  seasonal fire weather.
  However, during most years, this over-estimation is not significant.
@@ -3154,8 +3142,10 @@ Extended seasonal FFDI computation (1920-2010)
 \end_layout
 
 \begin_layout Standard
-There is greater uncertainty in the accuracy of the results for the period
- 1920-2010.
+Fire weather in Victoria also experienced an increaisng trend during the
+ period 1920-2010.
+ However, there is greater uncertainty in the accuracy of the results for
+ this period.
  Certain variables could present even larger biases before the period 1974-2010.
  The difference might be significant for variables like wind speed because
  of the incorporation of new technologies to measure this variable.
@@ -3164,8 +3154,8 @@ There is greater uncertainty in the accuracy of the results for the period
  This FFDI result is not consistent with the overestimation yielded for
  the period 1974-2010.
  There is no weather station data to compare the fields for the period 1920-1973.
- Therefore, an alternative approach could be the validation against an independe
-nt reanalysis product like ERA-20C 
+ Therefore, an alternative approach is to use an independent reanalysis
+ product like ERA-20C 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Stickler2014"
@@ -3181,8 +3171,10 @@ Computation of the Victorian Seasonal Bushfire Index
 \end_layout
 
 \begin_layout Standard
-In comparison to the time series of seasonal FFDI, the VSBI does not present
- any particular trend in the period 1961-2010.
+The VSBI agrees with the FFDI metrics showing an increasing fire weather
+ trend during the period 1920-2010.
+ Additonally, this metric demonstrates the strongest correlation between
+ observations and reanalysis data (r=0.69 and p<0.05).
  However, the VSBI time series shows that this fire weather metric is particular
 ly sensitive to the sea surface temperature parameter.
  Figure 
@@ -3220,12 +3212,11 @@ Seasonal forecasting skill
 \end_layout
 
 \begin_layout Standard
-The results show several inconsistencies between weather station and reanalysis
- data.
- Some of the most consistent results will be discussed in this chapter,
- while further discussion about the inconsistencies takes places in Chapter
- 6.
- In this chapter, the analysis uses an alternative reanalysis dataset (ERA-20C).
+This section discusses the results of the linear correlation analysis.
+ The section focuses on the influence of climate drivers over fire weather
+ and activity.
+ Addionally, it also comments on the seasonal predictability skill.
+ Further discussion about these topics takes palce in Chapter 6.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3278,15 +3269,23 @@ El Niño
 \end_layout
 
 \begin_layout Standard
-Among the ENSO indices, NINO 3.4 showed the strongest relationships with
- climate variables.
+Among the ENSO indices, NINO
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+3.4
+\end_layout
+
+\end_inset
+
+ showed the strongest relationships with climate variables.
  This strong correlation reflects how the oceanic component of ENSO influences
  fire weather.
  In the previous chapter, seasonal anomalies in this region showed statistically
- significant anomalies.
+ significant results.
  These anomalies have a link with bushfire occurrences in Victoria.
- These patterns justified the decision to include the SST of this region
- in the VSBI formulation.
+ These patterns justified the decision to include the SST region in the
+ VSBI formulation.
  In contrast, SAM does not have a significant influence on preconditioning
  bushfire seasons.
  The appendix shows the correlations for this variable.
@@ -3351,20 +3350,24 @@ key "Harris2013"
 \end_layout
 
 \begin_layout Standard
-Finally, the VSBI do not yield consistent results.
- Computations with WS data suggest that it could be useful to forecast fire
- weather and activity in Victoria.
- The results using these data yielded the expected relationships.
- Higher forecasting skill than local climate variables and climate indices
- on their own.
- Additionally, the VSBI presented a higher forecasting skill for fire weather
- than activity.
+Computations with WS data suggest that the VSBI could be useful to forecast
+ fire weather—and even fire activity—in Victoria.
+ The results using these data yielded the expected outcomes.
+ The VSBI computed with observations demonstrated a higher forecasting skill
+ than local climate variables and climate indices on their own.
+ Indeed, the incorporation of the ENSO indicator in the VSBI equation shows
+ how it increases the forecasting skill of the index.
+ On the other hand, the VSBI presented a higher forecasting skill for fire
+ weather than bushfires.
+ This is also an expected outcome since fire activity not only depends on
+ weather (e.g.
+ ignitions sources).
  The index also proved to yield similar results to FFDI seasonal metrics,
  with the advantage to be simple to compute.
  However, the use of the 20CR reanalysis in the computation of the index
  did not confirmed the results.
- It could be the case that this reanalysis data is not suitable for regional
- long-term analysis.
+ It could be the case that the resolution of the reanalysis data is not
+ suitable for regional long-term analysis.
  Therefore, the next chapter uses an alternative reanalysis dataset to perform
  further tests to the index.
  
@@ -3375,44 +3378,52 @@ Summary
 \end_layout
 
 \begin_layout Standard
-This investigation explored fire weather variability in Victoria.
+This investigation explored the fire weather variability in Victoria.
  Seasonal metrics of the McArthur Forest Fire Danger Index quantified bushfire
  danger using meteorological data.
  This chapter also proposed an alternative index: the “Victorian Seasonal
  Bushfire Index” (VSBI).
- The VSBI aggregates normalized seasonal averages of bushfire weather variables.
+ The VSBI represents fire weather associating local climate variables with
+ an El Niño-Southern Oscillation indicator.
  The computation of the two indices used weather station and bias-corrected
  reanalysis data.
  Linear scaling techniques were used to bias-correct these data.
  Additionally, the chapter explores the relationship between bushfire activity,
  fire weather, climate modes of variability and meteorological variables.
- The relationship was analysed computing linear correlations for several
+ The relationships were analysed computing linear correlations for several
  variables in spring, summer and from spring to summer.
- This analysis investigated fire weather and activity prediction skills.
- 
+ These analyses revealed the the most important fire weather drivers for
+ each season and the forecasting skill of the VSBI.
 \end_layout
 
 \begin_layout Standard
-The seasonal fire weather variability shows an increasing trend during the
- period 1961-2010.
- This trend is consistent using weather station and reanalysis data.
- The trend is also consistent using different seasonal metrics of the FFDI.
- The 20CR data also shows an increasing trend in the first half of the 20th
+Computing fire weather using observations demonstrates that Victoria experienced
+ an increasing trend in fire danger during the period 1974-2010.
+ This tendency is consistent using different fire weather metrics.
+ Reanalysis data also shows the increasing trend in fire danger.
+ In fact, the 20CR data shows that the fire danger increase can be traced
+ back to the early years of the 20
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
  century.
- On the other hand, the alternative seasonal index shows to be comparable
- with the FFDI.
- Moreover, using weather station data, the index also shows fire weather
- and activity forecasting skill.
- However, the reanalysis data did not confirm these results.
+ On the other hand, the VSBI demonstrated to be comparable with the FFDI.
+ Moreover, the VSBI also shows that incorporating an ENSO indicador in a
+ fire weather index increases the skill to forecast dangerous fire seasons.
  Observations and model data agree that relative humidity is the climate
- variable that has the greatest influence over fire weather and activity
- in Victoria.
+ variable that has the greatest influence over fire weather—and fire activity—in
+ Victoria.
  Additionally, climate modes of variability play a moderate role in driving
  fire weather in this region.
  ENSO and IOD are the most important drivers, and their influence is greater
  in spring than summer.
- However, these results require further examination using alternative reanalysis
- data.
+ However, these results require further examination a different reanalysis
+ product.
 \end_layout
 
 \begin_layout Standard
@@ -3420,7 +3431,7 @@ The next chapter aims to test the sensitivity of Chapter's 4 and 5 results.
  The bushfire and heatwave weather patterns in Victoria are reproduced using
  an alternative fire activity database and heatwave definition.
  Additionally, the fire weather variability and forecasting skill are analysed
- using alternative reanalysis data.
+ using a second reanalysis dataset.
  
 \end_layout
 
@@ -3428,7 +3439,7 @@ The next chapter aims to test the sensitivity of Chapter's 4 and 5 results.
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "/Users/danielpazmino/Documents/My_research/Thesis/LyX/library"
-options "bibtotoc,/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
+options "/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
 
 \end_inset
 
