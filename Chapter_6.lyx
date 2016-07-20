@@ -2225,10 +2225,10 @@ Seasonal forecasting skill
 \end_layout
 
 \begin_layout Standard
-The seasonal forecasting skill analysis performed in Chapter 5 is reproduced
- in this section.
- However, in this test climate variables as well as fire weather metrics
- use the ERA-20C data.
+This section reproduces the seasonal forecasting skill analysis performed
+ in Chapter 5.
+ However, in this test variables as well as fire weather metrics use the
+ ERA-20C data.
  The results show the strength of the climate-bushfire relationships in
  Victoria.
  The analysis included the antecedent (SON) and concurrent (DJF) bushfire
@@ -2237,15 +2237,15 @@ The seasonal forecasting skill analysis performed in Chapter 5 is reproduced
  summer.
  The figures display the correlations for the periods 1973-2009, 1960-2009,
  and 1919-2009 respectively.
- Figure 
+ Figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pearson-correlation-coeficients-SON-SON-1"
 
 \end_inset
 
- compares the results using weather station and reanlaysis data.
- Coloured circles represnt statistically significant results a the 5% level.
+ compares the results using weather station and reanalysis data.
+ Coloured circles represent statistically significant results a the 5% level.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2277,8 +2277,15 @@ reference "fig:Pearson-correlation-coeficients-SON-SON-3"
  show the linear correlation coefficients for climate-bushfire relationships
  in spring.
  The relationship between VSBI and FFDI metrics in spring is strong.
- Using observations, the correlations between VSBI and FFDI metrics are
- 0.92 and 0.78—with FFDI
+ Using observations (see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pearson-correlation-coeficients-SON-SON-1"
+
+\end_inset
+
+, panel b), the correlations between VSBI and FFDI metrics are 0.92 and 0.78—with
+ FFDI
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -2319,9 +2326,7 @@ cum
 \end_inset
 
 is weaker using reanalysis data.
- These two metrics have a correlation that ranges from 0.52 to 0.39—decreasing
- in every period—.
- 
+ The relationship between these two metrics ranges from 0.52 to 0.39.
 \end_layout
 
 \begin_layout Standard
@@ -2355,7 +2360,7 @@ cum
 
 \end_inset
 
- using reanalysis data is essentially constant during every period (r=-0.92).
+ using reanalysis data is constant during every period.
  On the other hand, the strength of the relationship between RH and FFDI
 \begin_inset script subscript
 
@@ -2365,14 +2370,21 @@ cum
 
 \end_inset
 
-decreases wih reanalysis data ranging from -0.51 to -0.37.
+decreases wih reanalysis data (-0.5<r<-0.37).
  
 \end_layout
 
 \begin_layout Standard
-Climate drivers have a moderate influence over fire weather in spring.
+Climate drivers have a moderate influence on fire weather in spring.
  Observations show that the Indian Ocean Dipole has the strongest influence
- over fire weather in this season.
+ over fire weather in this season (see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pearson-correlation-coeficients-SON-SON-1"
+
+\end_inset
+
+, panel b).
  Correlations between the Dipole Mode Index (DMI) and FFDI metrics are r=0.5
  and r=0.47—with FFDI
 \begin_inset script subscript
@@ -2393,27 +2405,10 @@ cum
 \end_inset
 
  respectively—.
- Among the ENSO indicators, NINO
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-3.4
-\end_layout
-
-\end_inset
-
-shows the strongest correlations with fire weather—.
- The correlations using weather station data show corelations of 0.43 and
- 0.38 between NINO
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-3.4
-\end_layout
-
-\end_inset
-
- with FFDI
+ Among the ENSO indicators, NINO3.4 shows the strongest correlations with
+ fire weather—.
+ The correlations using weather station data show correlations of 0.43 and
+ 0.38 between NINO3.4 with FFDI
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -2432,27 +2427,9 @@ cum
 \end_inset
 
  respectively.
- On the other hand, reanlaysis data shows that NINO
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-3.4
-\end_layout
-
-\end_inset
-
-index has a slightly higher relationship with fire weather metrics than
- the DMI.
- Using reanalysis data, the correlations between NINO
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-3.4
-\end_layout
-
-\end_inset
-
- and FFDI
+ On the other hand, reanalysis data shows that NINO3.4 index has a slightly
+ higher relationship with fire weather metrics than the DMI.
+ Using reanalysis data, the correlations between NINO3.4 and FFDI
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -2461,11 +2438,7 @@ cum
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-range from 0.44 to 0.48; while the strength of the relationhip between DMI
+range from 0.44 to 0.48; while the strength of the relationship between DMI
  and FFDI
 \begin_inset script subscript
 
@@ -2476,8 +2449,8 @@ cum
 \end_inset
 
 ranges from 0.42 to 0.44.
- ERA-20C is not able to capture stsatistically significant relationship
- between climate indciator and FFDI
+ ERA-20C is not able to capture statistically significant relationship between
+ climate indicator and FFDI
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -2682,34 +2655,57 @@ cum
 \begin_inset script subscript
 
 \begin_layout Plain Layout
->25
+>25 
 \end_layout
 
 \end_inset
 
-.
- Although, the correlations are still strong, the strength of the relationships
- decreased from spring to summer.
- On the other hand, the correlations between the VSBI and fire activity
- are r=-0.63 and r=0.5—with RF and DELWP databases respectively—.
- These results are weaker than the correlations with fire weather metrics.
- This is an expected outcome since fire activty no only depends on weather.
- Overall, the results using reanalysis data overestimate the correlation
- between VSBI and FFDI
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-cum
-\end_layout
-
-\end_inset
-
-which ranges from 0.91 to 0.89.
- 
+respectively.
 \end_layout
 
 \begin_layout Standard
+On the other hand, the correlations—using observations—between the VSBI
+ and fire activity are r=0.63 and r=0.5 with RF and DELWP databases respectively
+ (see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pearson-correlation-coeficients-DJF-DJF-1"
 
+\end_inset
+
+, panel b).
+ These results are weaker than the correlations with fire weather metrics.
+ This relationship is an expected outcome since fire activity no only depends
+ on the weather.
+ Overall, using reanalysis data, the correlations overestimate the relationship
+ between VSBI and FFDIcum which (0.89<r<0.91).
+ In contrast, ERA-20C underestimates the association between VSBI and fire
+ activity records ( 0.35<r<0.53).
+\end_layout
+
+\begin_layout Standard
+Observations show that RH is be the main fire driver in this season.
+ Additionally, observations demonstrate that RH has a stronger influence
+ over fire weather bushfires (see figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pearson-correlation-coeficients-DJF-DJF-1"
+
+\end_inset
+
+, panel b).
+ Reanalysis data agree to show this expected pattern.
+ However, ERA-20C data also show that temperature has the strongest influence
+ over fire metrics.
+\end_layout
+
+\begin_layout Standard
+Remote climate drivers show a weak influence over fire metrics in summer.
+ Overall, the relationships are weaker using reanalysis data.
+ Additionally, the correlations decay using periods with more data.
+ During this season the IOD influence disappears—as expected—.
+ Therefore, ENSO becomes the most important remote driver.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2859,107 +2855,136 @@ Spring-Summer bushfire forecasting skill in Victoria (SON-DJF)
 \end_layout
 
 \begin_layout Standard
-Figure 
+Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pearson-correlation-coeficients-SON-DJF-1"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pearson-correlation-coeficients-SON-DJF-2"
+
+\end_inset
+
+, 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pearson-correlation-coeficients-SON-DJF-3"
 
 \end_inset
 
- presents the climate-bushfire relationships for the period 1960-2010.
- Panel a) shows the relationships between climate variables, fire weather
- and activity.
- Panel a) shows that most variables have a weak to moderate forecasting
- skill.
- Most of the correlations are statistically significant.
- Relative humidity is the variable that shows the stronger skill.
- This variable presents correlations of -0.59 and -0.5 with FFDIcum and FFDI>25
- respectively.
- Additionally, the results with fire activity are consistent.
- RH shows a correlation of -0.64 and -0.44 with the RF and DELWP fire activity
- databases respectively.
- The VSBI shows similar results in comparison to RH.
- However, the strength of the correlations is slightly lower.
- The VSBI presents a correlation of 0.56 and 0.45 with FFDIcum and FFDI>25
- respectively.
- The VSBI correlations with fire activity are 0.63 for the RF database and
- 0.42 for the DELWP records.
- 
-\end_layout
-
-\begin_layout Standard
-On the other hand, panel b) shows the correlations using climate indices.
- The results with climate indices show a weak skill to forecast fire weather
- and activity.
- Most of the correlation are weak and are not statistically significant.
- The NINO
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-3.4
-\end_layout
-
-\end_inset
-
- index shows the strongest results.
- Although its correlations are weak (0.3<r<0.39) they all are statistically
- significant.
- The SST
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-1.2
-\end_layout
-
-\end_inset
-
- index shows a similar strength in its correlations in comparison to NINO
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-3.4
-\end_layout
-
-\end_inset
-
-.
- Although, fewer correlations are statistically significant with this index.
-\end_layout
-
-\begin_layout Standard
-Figure 
+ and 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pearson-correlation-coeficients-SON-DJF-4"
 
 \end_inset
 
- shows the forecasting skill from spring to summer for the period 1919-2010.
- As in figure
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Pearson-correlation-coeficients-SON-DJF-3"
-
-\end_inset
-
-, there are two panels.
- Panel a) shows the relationships between climate variables, fire weather
- and activity.
- The figure indicates that all the correlations are statistically significant.
- The strength of these relationships varies from weak to moderate.
- In this case, VSBI shows the strongest correlations.
- The index has a correlation of 0.58 and 0.46 with FFDIcum and FFDI>25 respectivel
-y.
- Relative humidity shows a similar strength with correlations of -0.57 and
- -0.44.
+ show the climate-bushfire relationships from spring to summer.
+ The figures compare two types of correlations.
+ The first group of correlations show the relationships between climate
+ variables, fire weather and—fire—activity.
+ The second group of correlates climate indices, fire weather and bushfires.
+ 
 \end_layout
 
 \begin_layout Standard
-During this period, the correlation with climate indices improve.
- The correlations show statistical significance with every ENSO index.
- However, the correlations are weak (-0.26<r<0.43).
- NINO3.4 show the strongest relationships.
- The index has a correlation of 0.43 and 0.37 with FFDcum and FFDI>25 respectively.
+The results using observations (see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pearson-correlation-coeficients-SON-DJF-1"
+
+\end_inset
+
+, panel b) shows that the VSBI has a strong skill to forecast extreme fire
+ weather—r=0.74 and r=0.71 with FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ and FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+ respectively—.
+ These correlations also display a moderate skill to forecast fire activity–r=0.6
+6 and r=0.54 with RF and DELWP databases respectively—.
+ The VBSI predictive skill is stronger than climate variables and remote
+ climate drivers alone.
+ Moreover, Using ERA-20C data the VSBI skill to forecasting is still considerabl
+e.
+ However, it also shows inconsistencies.
+ In most cases, the skill is higher to forecast fire activity than fire
+ weather.
+\end_layout
+
+\begin_layout Standard
+Correlations using observations and reanalysis data agree to show that relative
+ humidity is climate variable with the strongest prediction skill.
+ The correlation matrix that uses observations (see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pearson-correlation-coeficients-SON-DJF-1"
+
+\end_inset
+
+, panel b) illustrates that this variable has a higher forecasting skill
+ to predict fire weather than bushfires—as expected—.
+ The correlations between relative humidity and FFDI metrics are r=-0.71
+ and -0.69—with FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ and FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+ respectively—.
+ Additionally, the correlations between this variable and fire records are
+ r=-0.64 and r=-0.58—with RF nad DELWP respectively—However, reanalysis data
+ show that the forecasting skill of this variable is higher for fire activity
+ and weather (an inconsistency also showed for the VSBI skill).
+ 
+\end_layout
+
+\begin_layout Standard
+ENSO indicators are better fire predictors than the Dipole Mode Index (DMI).
+ Observation and reanalysis data agree to show this skill.
+ Panel b in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pearson-correlation-coeficients-SON-DJF-2"
+
+\end_inset
+
+ shows the correlation matrix of climate indices, fire weather and bushfires
+ using weather station data.
+ The correlations in this figure are not strong.
+ However, it indicates that ENSO indicators—based on SSTs—show more statisticall
+y significant relationships with fire metrics than the DMI.
+ Among the ENSO indicators, NINO3.4 displays higher correlations.
 \end_layout
 
 \begin_layout Standard
@@ -3200,11 +3225,11 @@ The daily composites show the most consistent results.
 \begin_layout Standard
 On a daily time scale, the results show that the intensity of the frontal
  activity is the most important feature of extreme fire weather in Victoria.
- Therefore, indices aiming to predict fire weather with days in advance
- could focus on metrics to evaluate the strength of cold fronts.
- This contradicts the current state of practise where the FFDI, an index
- whose most sensitive paramater is temperature, is the most commonly used
- tool for fire emergencies.
+ Therefore, evaluating the frontal activity strength should be a priority
+ in daily fire weather forecasts.
+ However, it seems that the current state of practise heavily relies on
+ the the FFDI.
+ This index is most sensitive to temperature.
  Consequently, fire weather danger estimated by the FFDI might be misleading
  during heatwave events.
  
@@ -3276,7 +3301,7 @@ key "Hasson2009"
 On a seasonal time scale, bushfire and heatwave weather patterns also display
  contrasting patterns.
  During extreme fire activity in Victoria the weather patterns consistently
- show warming anomalies in the tropical Pacific.
+ show warming anomalies in the tropical Pacific Ocean.
  On the other hand, hetwaves do not seem to be linked to any activity on
  this region.
  Perhaps, the most interesting pattern for heatwaves was a dipole structure
@@ -3284,11 +3309,114 @@ On a seasonal time scale, bushfire and heatwave weather patterns also display
  Indian Ocean.
  This suggests that different mechanisms drive these two type of events
  on this time scale.
- The next section discusses the influence of remote drivers over fire weather.
+ 
+\end_layout
+
+\begin_layout Standard
+There is a link between “El Niño” events and fire activity in Victoria.
+ The linear correlation analyses in this thesis, as well as in other studies
+ (e.g.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Harris2013"
+
+\end_inset
+
+), agree with this finding.
+ However, this is the first study to use composites to investigate this
+ relationship.
+ This methodology is useful to understand the average condition of the climate
+ system.
+ Nevertheless, it also has limitations.
+ Not every “El Niño” phase brings extreme fires.
+ In fact, ENSO and fire activity in Victoria have a moderate—or even weak—inter-
+annual relationship.
+ Analysing the bushfire weather pattern recurrence in different ENSO phases
+ could provide further insights.
+ For example, using this approach 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Verdon-Kidd2008a"
+
+\end_inset
+
+ investigated synoptic patterns useful to forecast rainfall in this region.
+ 
+\end_layout
+
+\begin_layout Standard
+An additional limitation to investigate bushfire weather patterns is the
+ lack of fire records.
+ The seasonal composites are sensitive to this caveat.
+ For example, scarce areas in the tropical Pacific Ocean show statistical
+ significance.
+ The areas selected to develop the VSBI are an exception.
+ This result contrasts with the strong statistical significance that the
+ daily composites display.
+ This absence of statistical significance occurs with the two bushfire databases
+ used.
+ The “El Niño” signal is clear during fire season.
+ However, the analysis requires more data to have greater confidence in
+ the results.
+ 
+\end_layout
+
+\begin_layout Standard
+In contrast to fire weather, heatwaves do not show a strong association
+ with ENSO.
+ The results are consistent using two different heatwave definitions.
+ This finding agrees with 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Boschat2014"
+
+\end_inset
+
+.
+ The authors showed that most heatwaves in Victoria occur in neutral ENSO
+ conditions—.
+ In contrast, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Parker2014"
+
+\end_inset
+
+ found that Victoria tends to experience heatwaves events during “La Niña”
+ phase.
+ Evidently, these disagreements require further investigation.
+\end_layout
+
+\begin_layout Standard
+Future investigation about seasonal heatwave weather patterns could consider
+ several aspects.
+ First of all, extending the period of analysis is feasible.
+ There is available data from the early years of the 20th century to undertake
+ this analysis.
+ However, this study aimed to compare heatwave and bushfire weather patterns.
+ Therefore the period of analysis comprises the year with consistent fire
+ records (1961-2010).
+ Additionally, future investigations could focus on investigating the intra-seas
+onal relationships that enhance heatwaves.
+ Low-frequency modes of variability do not seem to drive heatwaves.
+ Finally, simple composite analysis limit the ability to discuss the dynamics
+ with climate drivers.
+ Therefore, complementing the composites with numerical experiments could
+ provide further insights (e.g.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Sadler2012"
+
+\end_inset
+
+).
+ 
 \end_layout
 
 \begin_layout Subsection
-Seasonal fire weather variability 
+Fire weather variability 
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Seasonal-fire-weather-variability"
