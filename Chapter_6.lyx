@@ -1425,8 +1425,7 @@ reference "fig:Cumulative-FFDI-(FFDI)-1974-2010"
 \end_inset
 
  shows time series of seasonal fire weather using the cumulative FFDI metric.
- The figure displays the results with original and bias-corrected—precipitation—
-data.
+ The figure displays the results with original and bias-corrected data.
  The comparison with original data demonstrates a moderate correlation with
  observations (r=0.52, p=0.00).
  This figure also shows that the bias-correction has slightly decreaes the
@@ -3424,6 +3423,150 @@ name "sub:Seasonal-fire-weather-variability"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+The use of reanalysis data to explore large-scale fire weather patterns
+ yielded consistent results.
+ However, exploring fire weather changes in Victoria proved to be more challengi
+ng.
+ This investigation reveals substantial differences in the ability of reanalyses
+ to represent fire weather.
+ 
+\end_layout
+
+\begin_layout Standard
+Overall, ERA-20C has a greater skill to capture fire weather variability
+ than 20CR.
+ Indeed, this reanalysis product shows better correlations with observations
+ for two reasons.
+ First of all, it has a higher resolution (ERA-20C: 1.5
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+x1.5
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+, 20CR: 2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+x2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+).
+ Additionally, ERA-20C yields surface (10 m) climate fields.
+ On the other hand, the 20CR (version 2) provides data only at the 1000
+ hPa level.
+ Therefore, most fire weather variables did not require bias-corrections
+ using this dataset.
+\end_layout
+
+\begin_layout Standard
+On the other hand, the 20CR better represents the observed fire danger trend
+ in Victoria.
+ This investigation shows an increasing fire danger trend in the last four
+ decades.
+ This finding is based on observations and agrees with similar studies 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lucas2007,Lucas2010,Clarke2013"
+
+\end_inset
+
+.
+ The 20CR data also shows this trend for the period 1974-2010.
+ In fact, it shows that this trend can be traced back to the early decades
+ of the 20
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ century.
+ Additionally, this tendency is consistent using three fire weather metrics
+ (FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+, FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+ and VSBI).
+ However, the results using ERA-20C do not support this finding.
+\end_layout
+
+\begin_layout Standard
+Understanding these disagreements requires discussing the behaviour of fire
+ weather variables individually.
+ Australia has long-term observations for temperature 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Trewin2013"
+
+\end_inset
+
+ and rainfall 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Laverly1997"
+
+\end_inset
+
+.
+ Using these records, [Ashcroft2014] analysed climate variability in Southeaster
+n Australia for the period 1860-2009.
+ This study also used the 20CR data.
+ Therefore, it is useful for verification.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ashcroft2014"
+
+\end_inset
+
+ how that temperature observations display an increasing trend.
+ On the other hand, observed rainfall displays the opposite pattern.
+ The 20CR agrees with these long-term trends.
+ Although, there is greater uncertainty before 1900.
+ In contrast, ERA-20C is not able to capture the observed trends.
+ 
 \end_layout
 
 \begin_layout Subsection
