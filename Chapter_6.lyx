@@ -1959,7 +1959,7 @@ status open
 \begin_inset Graphics
 	filename Figures/Fire_weather_variability/FFDI/1920-2010/Time_series/FFDI_g25.png
 	lyxscale 10
-	scale 60
+	scale 65
 
 \end_inset
 
@@ -3426,17 +3426,80 @@ name "sub:Seasonal-fire-weather-variability"
 \end_layout
 
 \begin_layout Standard
-The use of reanalysis data to explore large-scale fire weather patterns
- yielded consistent results.
- However, exploring fire weather changes in Victoria proved to be more challengi
-ng.
- This investigation reveals substantial differences in the ability of reanalyses
- to represent fire weather.
+This investigation shows an increasing fire danger trend in Victoria during
+ the period 1974-2010.
+ This finding is based on observations and agrees with similar studies 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lucas2007,Lucas2010,Clarke2013"
+
+\end_inset
+
+.
+ Not surprisingly, FFDI metrics display a greater increase in fire danger
+ than the VSBI.
+ This difference occurs because the FFDI is more sensitive to temperature.
+ This variable display with increasing trends.
+ Additionally, this tendency is stronger considering every day in the fire
+ season.
+ The FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ metric shows a steeper increase in fire danger than FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+.
+ However, FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+ might not accurately identify the extreme fire weather days.
+ As already discussed, cold fronts characterise extreme fire weather days
+ better than extreme temperature.
+ This section also discusses the relationship between ENSO and fire weather.
  
 \end_layout
 
 \begin_layout Standard
-Overall, ERA-20C has a greater skill to capture fire weather variability
+Strong “El Niño” years bring high fire danger to Victoria.
+ The VSBI shows that the years with the highest fire danger are those during
+ a strong “El Niño” phase (e.g.
+ 1982-1983 and 1997-1998).
+ However, the VSBI might overestimate ENSO's influence on fire danger.
+ The FFDI shows that strong “El Niño” years are not the most threatening.
+ Although, the FFDI demonstrates that they can pose a significant risk.
+ FFDI metrics show that the seasons 1982-1983 and 1997-1998 are among the
+ most dangerous during the period 1974-2010.
+ The FFDIcum metric categorise them among the five seasons with the highest
+ fire danger.
+ Using the FFDI>25metric, these seasons comprise the top seven years.
+ The discussion about ENSO a fire weather metrics continues in the next
+ section.
+ This section also aims to discuss the fire weather changes before the observati
+onal period.
+\end_layout
+
+\begin_layout Standard
+Reanalysis data shows substantial differences in their ability to represent
+ long-term fire weather changes.
+ Overall, ERA-20C has a greater skill to capture fire weather variability
  than 20CR.
  Indeed, this reanalysis product shows better correlations with observations
  for two reasons.
@@ -3482,21 +3545,8 @@ o
  hPa level.
  Therefore, most fire weather variables did not require bias-corrections
  using this dataset.
-\end_layout
-
-\begin_layout Standard
-On the other hand, the 20CR better represents the observed fire danger trend
- in Victoria.
- This investigation shows an increasing fire danger trend in the last four
- decades.
- This finding is based on observations and agrees with similar studies 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Lucas2007,Lucas2010,Clarke2013"
-
-\end_inset
-
-.
+ On the other hand, the 20CR better represents the observed fire danger
+ trend in Victoria.
  The 20CR data also shows this trend for the period 1974-2010.
  In fact, it shows that this trend can be traced back to the early decades
  of the 20
@@ -3533,8 +3583,8 @@ cum
 \end_layout
 
 \begin_layout Standard
-Understanding these disagreements requires discussing the behaviour of fire
- weather variables individually.
+Understanding the renalysis disagreements requires discussing the behaviour
+ of fire weather variables individually.
  Australia has long-term observations for temperature 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3550,22 +3600,24 @@ key "Laverly1997"
 \end_inset
 
 .
- Using these records, [Ashcroft2014] analysed climate variability in Southeaster
-n Australia for the period 1860-2009.
- This study also used the 20CR data.
- Therefore, it is useful for verification.
- 
+ Using these records, 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Ashcroft2014"
 
 \end_inset
 
- how that temperature observations display an increasing trend.
+ analysed climate variability in Southeastern Australia for the period 1860-2009.
+ This research also used the 20CR data.
+ Therefore, it is useful for verification.
+ The study shows that temperature observations have a clear increasing trend.
  On the other hand, observed rainfall displays the opposite pattern.
  The 20CR agrees with these long-term trends.
  Although, there is greater uncertainty before 1900.
- In contrast, ERA-20C is not able to capture the observed trends.
+ In contrast, this thesis shows that ERA-20C is not able to capture the
+ observed trends.
+ Therefore, further reasearch could quantify uncertainties in past fire
+ weather changes using different ensembles of the 20CR.
  
 \end_layout
 
@@ -3693,7 +3745,7 @@ The VSBI shows a strong forecasting skill.
 
 \begin_layout Standard
 Reanalysis datasets showed similar limitations to reproduce the results
- observations.
+ using observations.
  Particularly, in the last two chapters.
  In contrast, they showed agreement when used to investigate large-scale
  weather patterns.
@@ -3706,6 +3758,46 @@ Reanalysis datasets showed similar limitations to reproduce the results
 
 \begin_layout Section
 Summary
+\end_layout
+
+\begin_layout Standard
+This chapter aimed to reproduce the results generated for Victoria.
+ The use of alternative data confirmed the differences between bushfire
+ and heatwave weather patterns in this region.
+ A strong temperature gradient in southern Australia—produced by cold fronts—and
+ a dry pattern over the continent characterise extreme fire weather.
+ In contrast, heatwaves show persistent hot anomalies and a contrasting
+ dry-wet pattern in Australia.
+ 
+\end_layout
+
+\begin_layout Standard
+Additionally, the use of an alternative reanalysis dataset shows that the
+ models have different capabilities to represent fire weather.
+ The 20CR dataset captures the observed—increasing—trend in fire weather.
+ On the other hand, ERA-20C showed better skill to represent inter-annual
+ fire weather changes.
+ The ERA-20C data also verified that the VSBI has a similar skill than FFDI
+ metrics to represent fire weather.
+ 
+\end_layout
+
+\begin_layout Standard
+Furthermore, a re-examination of the results using observations confirms
+ that the VSBI has a strong fire weather forecasting skill.
+ The incorporation of an ENSO indicator in this index shows that it increases
+ its predictive capability.
+ 
+\end_layout
+
+\begin_layout Standard
+The next chapter investigates fire weather in Ecuador.
+ The study is probably the first to explore this topic in the tropical Andes.
+ It aims to verify if the FFDI is a useful metric in this region.
+ The chapter also investigates the relationship between ENSO and fire weather.
+ This research provides insights of ENSO's influence in modulating fire
+ weather in the Southern Hemisphere.
+ 
 \end_layout
 
 \begin_layout Standard
