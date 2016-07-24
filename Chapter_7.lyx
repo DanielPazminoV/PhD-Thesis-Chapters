@@ -20,8 +20,11 @@
 \setlength{\parindent}{8mm}
 
 
-\usepackage{lineno}
-\linenumbers
+%\usepackage{lineno}
+%\linenumbers
+
+%Caption font
+\usepackage[font=footnotesize]{caption}
 \end_preamble
 \use_default_options true
 \master ../Master.lyx
@@ -110,10 +113,10 @@ Introduction
 
 \begin_layout Standard
 Chapters 5 and 6 investigated fire weather variability in Victoria, Australia.
- The research used the McArthur Forest Fire Danger Index (FFDI) to explore
- this variability.
- The chapters proposed—and tested—the Victorian Seasonal Bushfire Index
- (VSBI).
+ The research used the McArthur Forest Fire Danger Index (FFDI) to represent
+ fire weather.
+ The chapters also describe the development of the Victorian Seasonal Bushfire
+ Index (VSBI).
  The VSBI is a forecasting tool and alternative fire weather metric.
  The last two chapters also examined the relationship between remote climate
  drivers and bushfires.
@@ -121,12 +124,15 @@ Chapters 5 and 6 investigated fire weather variability in Victoria, Australia.
 
 \begin_layout Standard
 This chapter investigates fire weather in Ecuador.
- The tropical Andes endures severe impacts from bushfire activity.
- However, this is one of the regions with few studies about fire weather.
- Ecuador and Victoria share the Eucalyptus as the dominant species in the
- bushfire-prone areas.
- Therefore, the investigation also uses the FFDI because its calibration
- used this vegetation.
+ The analyses use some of the methods applied for Victoria.
+ The investigation examines if the FFDI can accurately represent fire weather
+ in Ecuador.
+ The decision to use the index considers that the FFDI was designed for
+ an Eucalyptus environment.
+ Victoria and Ecuador share the Eucalyptus as the dominant species in bushfire-p
+rone areas.
+ Additionally, this research explores the relationship between ENSO and
+ fire weather in the Ecuadorian tropical Andes.
  
 \end_layout
 
@@ -145,8 +151,14 @@ Weather station
 \begin_layout Standard
 This study required weather station (WS) data from the Ecuadorian Andean
  region.
- Complete daily records were available only for six stations for the period
- 1997-2012.
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Table-1:-WS stations"
+
+\end_inset
+
+ shows the location and altitude of the selected stations.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -154,18 +166,602 @@ reference "fig:Location-of-WS-EC"
 
 \end_inset
 
- shows the location of the stations (see Appendix for more details).
+ illustrates their spatial distribution in the Andes.
+ Complete daily records were available only for six stations for the period
+ 1997-2012.
  Each of the stations provided data on an eight-hourly basis.
  Therefore, the hour selected for the computations was 1 p.m.
  local time (GMT 18:00).
+ The analysies required the use of the four basic fire weather variables:
+ temeprature, relative humidity, wind speed and precipitation.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Table 1: Selected weather stations in the Ecuadorian Andean region.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Table-1:-WS stations"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+resizebox{
+\backslash
+textwidth}{!}{%
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estation name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estation code
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Province
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Latitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Longitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Elevation (m)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La Tola
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M002
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pichincha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 13' 46'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 22' 0''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2480
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rumipamba-Salcedo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M004
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cotopaxi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 1' 12'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 35' 41''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2685
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cañar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M031
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cañar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 33' 7'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 56' 43''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3083
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La Argelia-Loja
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M033
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Loja
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 2' 1'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+79
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 12' 4''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2160
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Palmas-Azuay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M045
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Azuay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 42' 58'' S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 37' 47''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2400
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+San Gabriel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M103
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carchi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 36' 15'' N
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+77
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ 49' 10''
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2860
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -199,10 +795,6 @@ name "fig:Location-of-WS-EC"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -232,6 +824,44 @@ key "Stickler2014,Stickler2014a"
 \end_inset
 
 .
+ These reanalysis products yield climate fields with a spatial resolution
+ of 2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+x2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+and 1.5
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+x1.5
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+ respectively.
  Chapters 5 and 6 provide further details about these datasets.
  
 \end_layout
@@ -241,90 +871,120 @@ Methodology
 \end_layout
 
 \begin_layout Subsubsection
-Realibility assessment of the FFDI
+Reliability assessment of the FFDI
 \end_layout
 
 \begin_layout Standard
-The aim of this study is to explore long-term trends and variability in
- fire weather.
- First of all, the analysis examines the skill of the FFDI to represent
- fire weather in this region.
+The study examines the skill of the FFDI to represent fire weather in Ecuador.
  This index was selected because its calibration used the Eucalyptus vegetation.
  These species dominate the landscape of bushfire-prone areas in Ecuador
  (see Chapter 2).
- In spirte of this, the index might still not accurately represent fire
- weatehr in the Ecuadorian Andes.
- The lack of fire activity records to directly valdiate the index demanded
- of the index's realiability assessment to use with alternative indicators.
+ The validations comprised the period with available weather station data
+ during (1997-2012).
+ Additionally, the analysis used the cummulative FFDI metric—FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+—.
+ Preliminary analysis showed that including in the analyses all days in
+ the fire season allows to better visualize fire weather changes in this
+ region.
+ Unfortunately, the lack of fire activty records in Ecuador does not allow
+ a direct verification of the FFDI's accuracy.
+ Therefore, the index's reliability assessment used alternative approaches.
 \end_layout
 
 \begin_layout Standard
-Several analysis were conducted to test the realiability of the FFDI.
- First of all, linear correlations were computed between the FFDI and FFDI
- variables.
- The analysis used observations during the period 1997-2012.
- This analysis estableses if there is physical consistency among the relationshi
-ps between fire weather variables and the index.
- Additionally, the investigation explored the monthly variability of the
- FFDI.
- The analysis used the cummulative FFDI metric—sum of daily FFDI values—.
- This analysis verifies if the index agrees with local bushfire reports.
- According to this information, fire activity intensifies during the season
- July-August-September (JAS) (see Chapter 2).
- Therefore it is expected that the FFDI represents this months with higer
- fire danger.
- Finally, the study computed seasonal FFDI time series.
- According to local report, the year 2012 was a particularly severe fire
- season (see Chapter 2).
- The time series should show 2012 with comparatively high fire danger if
- the if the FFDI is an accurate metric of the fire weather in this region.
+Testing the accurary of the FFDI to represent fire weather in the Ecuadorian
+ tropical Andes required several analyses.
+ First of all, the study verified if linear correlations show physical consisten
+cy among the relationships between fire weather variables and the index
+ oucomes.
+ The daily values of each fire weather variable were spatially averaged
+ to perform the FFDI computations and correlations.
+ The subsequent analyses used these averaged data.
  
 \end_layout
 
 \begin_layout Standard
-Even if the FFDI proves to be an accurate fire weather metric for this region,
- the length of the weather station records in Ecuador is short for the intended
- study.
- Therefore, this investigation applies methods described in previous chapters
- to extend the analysis.
+The investigation examined the seasonal variability of fire weather.
+ This analysis required the computation seasonal FFDI time series.
+ This analysis aimed to verify if the index agrees with local reports that
+ suggest higher fire activity during the season July-August-September (see
+ Chapter 2).
+ Therefore, if the index accurately represents fire weather in this region
+ it is expected that this season will exhibit high fire danger.
+ Morevover, the background chapter also described that 2012 was a particularly
+ dangerous season.
+ Thus, the FFDI time series should also show that Ecuador experienced high
+ fire danger during this season.
+ 
+\end_layout
+
+\begin_layout Standard
+This research explored the monthly variability of fire weather.
+ This computation aims to complement the time series analysis.
+ If the FFDI is an accurate metric it should display high fire danger during
+ July, August and September.
+ Additionally, this investigation applies methods described in previous
+ chapters to extend the analysis further back in time.
  
 \end_layout
 
 \begin_layout Subsubsection
-Computation of extended FFDI time series
+Fire weather analisis using reanalysis data
 \end_layout
 
 \begin_layout Standard
-The first step to attemp extending the analysis was to compare the reanalysis
- data against observations.
- Plotting probability density functions (PDFs) and seasonal time series
- facilitated the analysis.
- The PDFs allowed the examination of the distribution of data and detect
- deviations from the mean.
- The time series allowed comparing trends, magnitudes and correlate data.
- The reanalysis variables that showed significant deviations from the observed
- climatology were bias-corrected.
- The bias-correction used linear scaling techniques.
- For relative humidity, the variables were bias-corrected for its recalculation
- (e.g.
+As in previous chapters, the study aims to extend the analysis further back
+ in time.
+ The first step was to compare the reanalysis data against observations.
+ Plotting probability density functions and seasonal time series facilitated
+ the analysis.
+ PDFs Probability density functions allowed the examination of the distribution
+ of data and detect deviations from the mean.
+ On the other hand, time series facilitated comparing trends, magnitudes
+ and correlate data.
+ The variables that showed significant deviations from the observed climatology
+ were bias-corrected.
+ This process used linear scaling techniques.
+ For relative humidity, the variables required for its recalculation were
+ bias-corrected (e.g.
  Specific humidity, see Appendix).
- Relative humidity was recalculated using the methods described in Chapter
+ Relative humidity was re-calculated using the methods described in Chapter
  5.
+ The analyses compared the FFDI computations using observations and bias-correct
+ed reanalysis data.
+ As in the previous step, plotting probability density functions and time
+ series allowed assessment of the FFDI results.
  
 \end_layout
 
+\begin_layout Subsubsection
+Fire weather and the El Niño-Southern Oscillation
+\end_layout
+
 \begin_layout Standard
-The FFDI was computed with bias-corrected reanalysis data.
- These results were compared to FFDI data computed with observations.
- As in the previous step, plotting PDFs and time series allowed assessment
- of the FFDI results.
- The comparison of FFDI time series required defining a seasonal metric
- of the FFDI.
- Previous chapters used two metrics.
- The cumulative sum of daily values (FFDIcum) and the number of days with
- FFDI greater than 25 (FFDI>25).
- This analysis used only the FFDIcum metric because the danger classes in
- the FFDI scale are based on Australian fire cases (see Chapter 2).
+This investigation also aims to explore the relationship between fire weather
+ and the El Niño-Southern Oscillation.
+ On the one hand, the study compares the FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ results (using observations) with annual ENSO categories.
+ This step attempts to answer during which ENSO phase fire danger is higher
+ in this region.
+ 
 \end_layout
 
 \begin_layout Section
@@ -339,16 +999,15 @@ reference "fig:Linear-correlation-coefficients-FFDI"
 
 \end_inset
 
- shows the linear correlation coefficients between the FFDI and its variables.
- The analysis uses averaged observations during the season July-August-September
+ shows linear correlation coefficients between the FFDI and its variables.
+ The analysis used weather station data during the season July-August-September
  (JAS) for the period 1997-2012.
  The graph displays coloured circles for correlations with statistical significa
 nce above the 5% level.
- The physical relationships between the fire weather variables are consistent.
- Althoug some correlations don't show statistical significance (e.g.
- relative humidity and temperature).
- The index shows that temperature and relative humidity are the most sensitive
- parameters in this region.
+ The results demonstrate physical consistency in the relationships between
+ meteorological variables and fire weather represented by the FFDI.
+ Additionally, the index shows that temperature and relative humidity are
+ the most sensitive parameters in this region.
  These variables have correlation coeffcients with the FFDI of 0.87 and -0.83
  repectively.
  On the other hand, precipitation (r=-0.79) and wind speed (r=0.69) are less
@@ -360,15 +1019,15 @@ nce above the 5% level.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Analysis/FFDI_variables/FFDI_variables_correlations.png
-	lyxscale 3
-	scale 25
+	lyxscale 10
+	scale 70
 
 \end_inset
 
@@ -414,25 +1073,113 @@ name "fig:Linear-correlation-coefficients-FFDI"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Monthly-FFDI"
+reference "fig:FFDI-seasons-Ecuador"
 
 \end_inset
 
- monthly FFDI values during the period 1997-2012.
- For each month of the year, the graph shows the variability of fire weather
- represented by cumulative FFDI values.
- The figure shows that fire danger starts increasing in July.
- In the later months, it continues a steep increase reaching a peaks in
- September and October.
- From November to April, fire danger experiences a consistent decrease.
- During May and June it plateaus before the start of the fire season.
+ shows seasonal FFDI time series computed on the Ecuadorian highlands.
+ The calculation uses averaged data from weather stations in this region.
+ The graph shows the FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ results for four seasons: July-August-September (JAS), October-November-Decembe
+r (OND), January-February-March (JFM), and April-May-June (AMJ).
+ As expected, JAS demonstrates greater fire danger than most seasons.
+ Surprisingly, the season OND shows a similar fire danger magnitude than
+ JAS.
+ In fact, the two seasons virtually have equal FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ means (158 and 157 respectively).
+ Additionally, the figure shows that this region experienced the highest
+ fire danger during the years 2000 and 2008.
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/TS/FFDI_obs_seasons_ec.png
+	lyxscale 10
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Time series of cumulative Forest Fire Danger Index values (FFDI) in the
+ Ecuadorian andean region.
+ Colored lines represent the seasonal FFDI evolution for diferent seasons
+ of the year during the period 1997-2012.
+ The lines show the results for July-August-September (JAS), October-November-De
+cember (OND), January-February-March (JFM), and April-May-June (AMJ).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FFDI-seasons-Ecuador"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Monthly-FFDI"
+
+\end_inset
+
+ illustrates the monthly variability of fire weather during the period 1997-2012.
+ The figure shows that fire danger starts increasing in July.
+ In the later months, it continues a steep increase reaching peaks in September
+ and October.
+ From November to April, fire danger experiences a consistent decrease.
+ During May and June it plateaus before the start of the fire season.
+ Unexpectedly, October and November demonstrate to be months with high fire
+ danger outside the—perceived—fire danger season (JAS).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -478,40 +1225,18 @@ name "fig:Monthly-FFDI"
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:FFDI-seasons-Ecuador"
-
-\end_inset
-
- shows seasonal FFDI time series computed on the Ecuadorian highlands.
- The calculation uses averaged data from weather stations in this region.
- The graph shows the results for cummulative FFDI for four seasons.
- The time series display the seasonal FFDI variability for July-August-September
- (JAS), October-November-December (OND), January-February-March (JFM), and
- April-May-June (AMJ).
- The seasons JAS and OND present the highest FFDIcum values.
- The seasons JAS and OND have comparable FFDIcum means (158 and 157 respectively
-).
- On the other hand, the season OND presents the most extreme values (238
- in 2000 and 2008).
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figures/TS/FFDI_obs_seasons_ec.png
-	lyxscale 10
-	scale 40
+	filename Figures/FFDI_ENSO.png
+	lyxscale 5
+	scale 55
 
 \end_inset
 
@@ -522,20 +1247,25 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Time series of cumulative Forest Fire Danger Index values (FFDI) in the
- Ecuadorian andean region.
- Colored lines represent the seasonal FFDI evolution for diferent seasons
- of the year during the period 1997-2012.
- The lines show the results for July-August-September (JAS), October-November-De
-cember (OND), January-February-March (JFM), and April-May-June (AMJ).
+Fire danger and its relationship with El Niño-Southern Oscillation in the
+ Ecuadorian Andean region.
+ Fire danger inthis region is higher during 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ years.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:FFDI-seasons-Ecuador"
+name "fig:FFDI&ENSO"
 
 \end_inset
 
-
+ 
 \end_layout
 
 \end_inset
@@ -560,36 +1290,11 @@ reference "fig:PDFs-variables-original-data"
 
 \end_inset
 
- presents PDFs of fire weather variables.
+ displays probability density functions of fire weather variables.
  The figure compares weather station with original reanalysis data.
  The figure also shows the deviations from the mean for each variable.
- The 20CR data present larger deviations than ERA-20C for maximum temperature
- and relative humidity.
- In comparison to observations, maximum temperature deviates 9.2 
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-o
-\end_layout
-
-\end_inset
-
-C (20CR) and 2.3 
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-o
-\end_layout
-
-\end_inset
-
-C (ERA-20C).
- Relative humidity show biases of 11.4% (20CR) and 2.2% (ERA-20CR).
- On the other hand, the discrepancies are greater for wind speed and precipitati
-on with the ERA-20C data.
- Wind speed shows deviations from the mean of 7.6 Km/h (ERA-20C) and 5.7 Km/h
- (20CR).
- For precipitation, the biases are 13.4 mm (ERA-20C) and 4 mm (20CR).
+ Both reanalysis datasets display large deviations.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -649,13 +1354,13 @@ reference "fig:Time-series-variables-original-data"
 
 \end_inset
 
- displays time series of fire weather variables.
- The plot shows the results using observations and original reanalysis data.
- The plot also shows the correlation coefficients between the observation
- and reanalysis time series.
- These correlations indicate that reanalysis datasets do not represent the
- climate variability of this region.
- Overall, the 20CR data performs better than the ERA-20CR.
+ shows time series of fire weather variables.
+ The plot includes the correlation coefficients between time series that
+ use observations and reanalysis data.
+ These correlations indicate that reanalysis datasets do not capture climate
+ variability in this region.
+ Overall, the 20CR data performs better representing the inter-annual variabilit
+y than the ERA-20C dataset.
  The 20CR and WS time series present positive correlations.
  Although, these correlations are weak and not statistically significant.
  On the other hand, the ERA-20C data shows negative correlations.
@@ -665,7 +1370,7 @@ reference "fig:Time-series-variables-original-data"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -719,20 +1424,20 @@ reference "fig:PDFs-variables-bc-data"
 
 \end_inset
 
- shows PDFs of fire weather variables using bias-corrected reanalysis data.
- The bias correction was applied to those variables that showed the best
- potential to be corrected using linear scaling techniques.
- Figure 
+ and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:PDFs-variables-original-data"
+reference "fig:Time-series-variables-bc-data"
 
 \end_inset
 
- displays the bias-corection results for maximum temperature (20CR and ERA-20C)
- and wind speed (ERA-20C).
- The application of additive linear scaling centred the means of the reanalysis
- data.
+ displays PDFs and time series—respectively—of fire weather variables using
+ bias-corrected reanalysis data.
+ The bias correction was applied to those variables that showed the best
+ potential to be corrected using linear scaling techniques.
+ The figures show the bias-corection results for maximum temperature (20CR
+ and ERA-20C) and wind speed (ERA-20C).
+ The application of additive linear scaling centred the means of these variables.
  For wind speed (ERA-20C), multiplicative linear scaling corrected the data
  distribution.
 \end_layout
@@ -741,7 +1446,7 @@ reference "fig:PDFs-variables-original-data"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -786,27 +1491,10 @@ name "fig:PDFs-variables-bc-data"
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Time-series-variables-bc-data"
-
-\end_inset
-
- presents times series of fire weather variables using weather station and
- bias-corrected reanalysis data.
- The figure shows the seasonal time series for maximum temperature (20CR
- and ERA-20C) and wind speed (ERA-20C).
- The figure indicates that this bias-correction process does not improve
- the results.
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -864,13 +1552,27 @@ reference "fig:PDFs-FFDI"
  The plot compares the results using observations and reanalysis (original
  and bias-corrected) data.
  The bias-correction improves the distribution of the FFDI data.
+ On the other hand, figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Time-series-FFDI"
+
+\end_inset
+
+ displays time series of cumulative FFDI.
+ The plot contrasts FFDI computed with observations and reanalysis (original
+ and bias-corrected) data.
+ The results show that both reanalysis fail to capture the observed fire
+ weather variability.
+ Therefore, the analyses were not extended further back in time.
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -916,31 +1618,10 @@ name "fig:PDFs-FFDI"
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Time-series-FFDI"
-
-\end_inset
-
- displays time series of cumulative FFDI.
- The plot contrasts FFDI computed with observations and reanalysis (original
- and bias-corrected) data.
- Using original 20CR data, the FFDIcum computation shows a weak relationship
- with observations.
- This correlation does not improve with the bias-correction.
- In fact, it decreases the magnitude of the FFDIcum mean that seemed to
- be better represented originally.
- The computation with the ERA-20C shows no correlation with FFDI calculated
- with observations.
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -992,14 +1673,9 @@ Discussion
 
 \begin_layout Standard
 The FFDI is a useful metric of fire danger in the Ecuadorian Andes.
- First of all, it was calibrated with vegetation that also dominates fire-prone
- regions in Ecuador and Australia—Eucalyptus—.
- Additionally, the correlations with observed fire weather variables demonstrate
-d a physically consistent behaviour.
- For example, temperature and relative humidity proved to be the most sensitive
- parameters of the index—as it is the case in Australia as well—.
- Most importantly, the FFDI represented as high fire danger months those
- considered to be of greater fire activity.
+ The index represented as high fire danger months those considered to be
+ of greater fire activity (JAS).
+ However, it also showed that the fire danger season is longer.
  
 \end_layout
 
@@ -1045,8 +1721,8 @@ veranillo
 \begin_layout Standard
 The results using the FFDI do not show that the year 2012 experienced high
  fire danger in comparison to other years.
- This constrast with the local reports which claim that 2012 was a severe
- fire activity year 
+ This constrast with the local reports which claim that this year experienced
+ severe fire activity 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
@@ -1054,30 +1730,19 @@ key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
 \end_inset
 
 .
- The local appreciation for this year is not supported by long-term fire
- statistics and could be subjective.
- On the other hand, more robust tests of the realibility of the FFDI in
- this region also require fire activity information.
+ However, the intense fire activty in 2012 could be better explained by
+ factors beyond extreme weather (e.g.
+ higher number of ignitions).
+ Addtionally, more robust tests of the realibility of the FFDI in this region
+ also require fire activity records.
  Therefore, generating this informtion is of paramount importance to continue
  investigating this problem.
  
 \end_layout
 
 \begin_layout Standard
-The 20CR and ERA20C datasets are not suitable to investigate fire weather
- in the Ecuadorian Andes.
- These climate reconstructions showed weak—o even no correlation—with observatio
-ns.
- The 20CR showed better results than the ERA-20C.
- However, the correlations with these data were not strong.
- Therefore, the analysis was not extended further back in time.
- Additionally, the bias-corrections did not improve the results.
- 
-\end_layout
-
-\begin_layout Standard
-The discussion aims to further understand the limitations of 20CR and ERA-20C
- datasets in this region.
+The discussion also aims to further understand the limitations of 20CR and
+ ERA-20C datasets in this region.
  The caveats of these datasets were acknowledged in previous chapters.
  However, the results showed biases that were unexpectedly large.
  Even more importantly, these datsets did not show to be capable of capturing
@@ -1182,8 +1847,8 @@ C this dataset demonstrated high temporal correlation with observations.
 \end_layout
 
 \begin_layout Standard
-These studies showed that reanalysis can to capture climate variability
- in other high elevation regions.
+These studies showed that reanalysis can capture climate variability in
+ other high elevation regions.
  Thus, it is worth discussing the input data that generated the reanalysis
  datasets used in this research.
  The 20CR assimilates surface pressure and uses sea surface temperature
@@ -1238,7 +1903,7 @@ key "Cram2015"
  provided data to the ISPDv2 belong to the Southern Hemisphere.
  However, this thesis demonstrated that 20CR and ERA-20C can represent climate
  variability in Victoria, Australia.
- In spite of the overall lack of data in the Soutehrn Hemisphere,
+ In spite of the overall lack of data in the Southern Hemisphere,
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Cram2015"
@@ -1247,17 +1912,17 @@ key "Cram2015"
 
  showed that Victoria has a high density of locations for pressure data
  collection.
- In contrast, the Ecuadorian Andean region does not registers stations generatin
-g pressure information in the ISPDv2.
+ In contrast, the Ecuadorian Andean region does not register stations generating
+ pressure information in the ISPDv2.
  This database shows that pressure data from Ecuador is produced only in
  a couple of stations on the coast.
  In fact, most data available from the neighbouring countries comes from
  the coast as well.
- Although, Colombia and Peru does show some stations in their Andean regions.
+ 
 \end_layout
 
 \begin_layout Standard
-On the other hand, data rescue activities of ERA-CLIM do not show progress
+On the other hand, ERA-CLIM's data rescue activities do not show progress
  in the tropical Andean region.
  
 \begin_inset CommandInset citation
@@ -1292,11 +1957,18 @@ rnational Geophysical Year—.
 \end_layout
 
 \begin_layout Standard
-This section also aims to discuss alternative approaches to conduct fire
- research in this region.
+Finally, this section discusses alternative approaches to conduct fire research
+ in this region.
  First of all, a higher resolution reanalysis could be used.
- For example, [Field2015] used the NASA Modern ERA Retrospective-Analysis
- for Research and Applications (MERRA, 
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Field2015"
+
+\end_inset
+
+ used the NASA Modern ERA Retrospective-Analysis for Research and Applications
+ (MERRA, 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Rienecker2011"
@@ -1330,7 +2002,7 @@ o
  Although, daily data was complete only after 1997.
  Compiling additional data from neighbouring stations could be useful to
  attempt completing missing days.
- On the other hand, developing a fire activity database is another interesting
+ Additionally, developing a fire activity database is another interesting
  endeavour for this region.
  This task could be accomplished using satellite data and newspaper reports.
  Finally, investigating the meteorology of specific days of extreme fire
@@ -1345,32 +2017,27 @@ Summary
 \begin_layout Standard
 This chapter presented the investigation of fire weather variability in
  the Ecuadorian Andes.
- This bushfire-prone region (see Chapter 2) has scarce documentation about
- this problem.
  This research probably is the first scientific study about fire weather
- in Ecuador.
+ in this region.
  The study used weather station data to explore seasonal fire weather from
- 1997-2010.
- The investigation used the McArthur Forest Fire Danger Index (FFDI).
- The calibration of this index used the Eucalyptus, which typically fuels
- fires in Australia and Ecuador.
- 
+ 1997-2012.
+ The investigation assesed if the McArthur Forest Fire Danger Index (FFDI)
+ is a valid fire weather metric in Ecuador.
+ Additonally, it examined if the 20CR and ERA-20C have skill to represent
+ fire weather changes in this region.
+ Finally, a premilary assessment of the influence of the El Nino-Southern
+ Oscillation on fire weather was performed.
 \end_layout
 
 \begin_layout Standard
-The study compared fire weather computed with reanalysis data against observatio
-ns.
- It also contrasted the performance of each fire weather variable.
- The investigation used the datasets analysed in previous chapters.
- These datasets were the Twentieth Century Reanalysis Project (20CR) and
- the ERA-20C reanalysis from the European Reanalysis of Global Climate Observati
-ons ERA-Clim project.
- The results showed that these datasets present large biasses.
+
+\series bold
+Observed fire weather variability(FFDI assessment)/ENSO results
+\series default
+.
+ The results showed that renalysis datasets present large biasses.
  Their coarse resolution is not capable of representing climate variability
  in this complex geographical region.
- Additionally, linear scaling techniques could not reconcile the discrepancies.
- Finally, the scarce data assimilated in the northern Andes affects the
- reanalysis outputs.
  The next chapter will present the conclusions from the thesis.
 \end_layout
 
