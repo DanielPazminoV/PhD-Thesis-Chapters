@@ -93,7 +93,7 @@
 \begin_body
 
 \begin_layout Chapter
-Introduction  
+Introduction 
 \begin_inset Newpage newpage
 \end_inset
 
@@ -105,48 +105,27 @@ Context
 \end_layout
 
 \begin_layout Standard
-Bushfires are a natural hazard of great concern for Australia because of
- their destructive power.
- In support of this statement it is worth prioritising the human fatalities
- over the property losses caused by bushfires.
- Taking into consideration the past 100 years, bushfires endangering human
- life have been categorized as the fourth most hazardous natural phenomena
- for people in Australia 
+Bushfires produce massive impacts in Australia.
+ 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Haynes2010"
 
 \end_inset
 
-.
- According to the Bureau of Meteorology (BoM) and the Victorian Bushfires
- Royal Commission (VBRC), catastrophic bushfire events like “Ash Wednesday”
- (16 February 1983) and “Black Saturday” (7 February 2009) had lethal outcomes
- yielding 75 and 173 fatalities respectively 
+ categorised them as the fourth most lethal natural hazard in this country.
+ Several catastrophic events have contributed to this ranking.
+ For example, the “Black Saturday” fires produced 173 fatalities in February
+ of 2009 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Mills2005,VBRC1993"
+key "Teague2010"
 
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Standard
-On the other hand, bushfire events have also had important consequences
- for the Australian economy.
- Considering only building losses, bushfires are the third most destructive
- natural hazard, being responsible for 20% of property losses, and are only
- preceded by cyclones (30%) and floods (approximately 22%) during the period
- 1900 to 2003 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "McAneney2009"
-
-\end_inset
-
-.
+ Additionally, bushfires not only threaten life but also impact the Australian
+ economy.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -154,67 +133,43 @@ key "McAneney2009"
 
 \end_inset
 
- also established that “Ash Wednesday” ranked sixth among a list of the
- “top ten” most costly natural hazard events for insurance companies, adding
- up a sum of $1.63 billion (present value for the year 2006).
- 
+ reports that bushfires are responsible for 20% of property losses in Australia.
+ In fact, only the costs of the "Ash Wednesday" fires of 1983 reached $1.63
+ billion.
 \end_layout
 
 \begin_layout Standard
-This outlook could become even more complicated in the future.
- In a world where the increasing trend in CO2 emissions is contributing
- to global warming 
+Unfortunately, there is evidence sugggesting that future bushfires could
+ become more dangerous in several regions of Australia.
+ The south-east of the continent might experience greater risk.
+ For example, days with “very high” and “extreme” fire danger would become
+ more common 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Stocker2013"
-
-\end_inset
-
-, it has been demonstrated that Australia is sensitive to this change and
- could increase its number of days of very high and extreme fire danger
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Williams2001"
-
-\end_inset
-
-.
- For example, 
-\begin_inset CommandInset citation
-LatexCommand citet
 key "Lucas2007"
 
 \end_inset
 
- estimated that the number of 
-\begin_inset Quotes eld
-\end_inset
-
-extreme
-\begin_inset Quotes erd
-\end_inset
-
- bushfire days in southeast Australia by 2050 would increase from 5-25%
- to 100-300% for low and high CO2 emission scenarios respectively.
- For the same region, not only is a higher bushfire risk potential expected,
- but also there is evidence suggesting that future bushfires seasons could
- start earlier and be more prolonged 
+.
+ On the other hand, 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Clarke2011"
 
 \end_inset
 
-.
+ argues that future fire seasons could start earlier and be more prolonged.
  
 \end_layout
 
 \begin_layout Standard
-Within Australia, the State of Victoria is one the most bushfire prone and
- vulnerable regions.
- Half of the economic impact associated with bushfires over the last 150
- years in Australia has occurred in Victoria 
+In southeastern Australia, the state of Victoria is one the most bushfire
+ prone and vulnerable areas.
+ This region endured the most catastrophic bushfire events in Australian
+ history (e.g.
+ "Black Friday" 1939, "Ash Wednesday" 1983, "Black Saturday" 2009).
+ Additionally, half of the economic impacts in Australia occurred in Victoria
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Luke1978"
@@ -222,11 +177,8 @@ key "Luke1978"
 \end_inset
 
 .
- Additionally, it has endured some of the most catastrophic bushfire events
- in Australian history (e.g.
- “Black Friday” 1939, “Ash Wednesday” 1983, “Black Saturday” 2009).
- Climate projections also suggest that Victoria’s fire danger risk will
- increase, a trend not found for every region in Australia 
+ Furthermore, climate projections also suggest its fire danger risk will
+ increase 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Clarke2011"
@@ -234,65 +186,12 @@ key "Clarke2011"
 \end_inset
 
 .
- Considering these facts, Victoria is a region where preparedness for bushfire
- seasons is of utmost importance.
- 
+ Therefore, Victoria is a region where preparedness for fire seasons is
+ of utmost importance.
 \end_layout
 
 \begin_layout Section
 Motivation
-\end_layout
-
-\begin_layout Standard
-Planning to adequately respond to bushfire seasons requires an anticipated
- estimation of the potential risk.
- To accomplish this aim, a scheme for the calculation of the risk with months
- in advance is necessary, which has not been yet developed in Australia
- or the world.
- 
-\end_layout
-
-\begin_layout Standard
-A quantitative approach to calculate bushfire risk is the use of daily bushfire
- indices.
- This type of indices measure fire potential for the current day usually
- incorporating meteorological data (temperature, wind, relative humidity
- and precipitation) and soil moisture conditions (an indirect measure of
- fuel dryness) in a physical model -represented by mathematical equations-
- to yield a number within a scale that categorizes the risk.
- The effectiveness of bushfire indices to estimate risk in extreme conditions
- has been recently questioned in Australia.
- According to the Victorian Bushfires Royal Commission (VBRC), which was
- established in 2009 to investigate the “Black Saturday” bushfires, the
- McArthur Forest Fire Danger Index (FFDI) -which is the most commonly used
- bushfire index in Australia- failed to represent the specific extreme nature
- of this event 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "VBRC1993"
-
-\end_inset
-
-.
- The VBRC has stated that the FFDI index should be revised in order to have
- numbers and language appropriate for this type of event or perhaps even
- a new index would be required
-\begin_inset CommandInset citation
-LatexCommand citep
-key "VBRC1993"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Considering these facts, Australia would greatly benefit from a quantitative
- forecasting tool to predict bushfire potential on a seasonal basis.
- In fact, to date there is no quantitative seasonal bushfire scheme operationall
-y recognised in the world as an indicator of the overall season’s likelihood
- of significant fire activity.
- 
 \end_layout
 
 \begin_layout Standard
@@ -309,24 +208,7 @@ key "Harris2013"
  soil moisture, vegetation density and the phase of climate modes of varaibility
  such as El Nino Southern Oscillation (ENSO).
  Additionally, the estimation is also complemented with the outlook of climate
- variables such as maximun and minimum temperature as well as precipitation
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Harris2013"
-
-\end_inset
-
-.
- According to 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Harris2013"
-
-\end_inset
-
-, this seasonal forecast could be improved using a more rigourous statistical
- aproach.
+ variables such as maximun and minimum temperature as well as precipitation.
  Worldwide, the application of statistical seasonal forecasting schemes
  to predict similar climate-related natural hazards such as floods and droughts
  has been demonstrated to be viable and in continous improvement 
@@ -342,21 +224,6 @@ key "Murphy2001"
 
 \begin_layout Section
 Aim and Scope
-\end_layout
-
-\begin_layout Standard
-The purpose of this project is to develop a probabilistic forecasting index
- to predict, on a seasonal basis, bushfire potential.
- This index will be based on climate variables associated with bushfire
- weather and its relationship with climate modes of variability such as
- El Nino Southern Oscillation (ENSO).
- Even though bushfire occurence is the result of physical, biological and
- human factors, the scope of this endeavor will only take into account bushfire
- weather.
- Additionally, because of its particular proneness and vulnerability to
- bushfires the project will have as a geographical limit the state of Victoria,
- Australia.
- 
 \end_layout
 
 \begin_layout Section
@@ -386,81 +253,10 @@ Structure of the thesis
 \end_layout
 
 \begin_layout Standard
-The thesis is organized in six chapters and, without considering the introductio
-n which has already been developed, each chapter will be briefly described
- in this section.
-\end_layout
-
-\begin_layout Standard
-Chapert two describes the behaviour of bushfire weather in Victoria and
- the climate modes of variability which have the greatest influence over
- bushfire potential in this region.
- Understanding bushfire weather is the stepping stone of this project.
- Any attempt on developing a forecasting scheme will rely on a deep command
- on how climate variables associated with bushfires behave.
- To achieve this, a critical review of the literature related to the synoptics
- and dynamics of bushfire weather in Victoria will be presented.
- This review also includes an analysis of the Australian climate drivers
- and their contribution to bushfire occurences in Victoria.
- These drivers are, among the most important, El Nino Southern Oscillation
- (ENSO), the Indian Ocean Dipole (IOD), and the Southern Annular Mode (SAM).
- Additionally, I will present my results regarding the relationship between
- bushfire weather and heatwaves in Victoria, which aim contribute to the
- existing literature.
-\end_layout
-
-\begin_layout Standard
-Chapter three examines the most commonly used bushfire indices in Australia
- and explores seasonal forecasting schemes in the world.
- This chapter is important since the construction of this new forecasting
- tool is based on the current state of the art- although not constrained
- to it-.
- Therefore, the logic behind the design of indices such as the McArthur
- Forest Fire Danger index (FFDI) and the Fire Weather Index (FWI) of the
- Canadian Forest Fire Weather Index System will be evaluated.
- Additionally, the calculated bushfire potential for the 20th century in
- Victoria will be examined from the literature; review that will be complemented
- with my results of seasonal bushfire potential history in this region using
- the FFDI, and the Twentieth Century Reanalysis (20CR) as the source of
- climate data.
- Finally, this chapter will include a critical review of the literature
- related to seasonal forecasting with an especial emphasis in the statistical
- methologies traditionally employed.
- 
-\end_layout
-
-\begin_layout Standard
-Chapter four presents the proposal of a seasonal bushfire forecasting tool
- for Victoria: The Victorian Seasonal Bushfire Index (VSBI).
- The sources of data and the metholodology are fully described.
- The results are presented in terms of its forecasting skill, and its relationsh
-ip with adapted seasonal metrics of the FFDI.
- Finally, a discussion of the limitations and implications of the new index
- is also presented.
- 
-\end_layout
-
-\begin_layout Standard
-Chapter five explores bushfire danger projections for Victoria.
- Regional assessments from the current literature regarding bushfire potential
- in Victoria are reviewed in this chapter.
- Subsequently, my results of future seasonal bushfire potential calculated
- through the VSBI using climate outputs from the Climate Model Intercomparison
- Project Phase 5 (CMIP5) are presented.
- 
-\end_layout
-
-\begin_layout Standard
-Finally, chapter six will present the conclusions of this thesis, recommedations
- for future work, and some final remarks.
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "/Users/danielpv/Documents/My research/Papers/library"
-options "/Users/danielpv/Documents/My research/Thesis/LyX/Bibliography/ametsoc"
+bibfiles "/Users/danielpazmino/Documents/My_research/Thesis/LyX/library"
+options "/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
 
 \end_inset
 
