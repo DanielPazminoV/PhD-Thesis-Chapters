@@ -117,7 +117,7 @@ This thesis investigated fire weather in two regions of the Southern Hemisphere.
 The major findings of this investigation are:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 Bushfire and heatwave weather patterns display differences in Victoria.
  Cold fronts define extreme fire weather in this region.
  In contrast, persistent excess heat characterises heatwaves.
@@ -130,7 +130,7 @@ Bushfire and heatwave weather patterns display differences in Victoria.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 Positive Indian Ocean Dipole (IOD) and "El Niño" events precondition fire
  activity in Victoria.
  The main effect of these two drivers is to reduce the relative humidity
@@ -143,7 +143,7 @@ Positive Indian Ocean Dipole (IOD) and "El Niño" events precondition fire
  fire weather.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 Victoria experienced an increase in fire danger during the period 1974-2010.
  Observations confirmed this finding using three seasonal fire weather metrics.
  Moreover, the most robust reanalysis trend traces the increase back to
@@ -152,7 +152,7 @@ Victoria experienced an increase in fire danger during the period 1974-2010.
  this long-term tendency.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 A simple index (VSBI) based on local and remote climate drivers shows skill
  to forecast fire weather in Victoria.
  This metric demonstrates seasonal predictive capability from spring to
@@ -161,7 +161,7 @@ A simple index (VSBI) based on local and remote climate drivers shows skill
  weather than current metrics (FFDI).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 The fire danger season in the Ecuadorian Andes is longer than reported.
  Local information suggests that the months with greater fire activity are
  July, August, September.
@@ -170,7 +170,7 @@ The fire danger season in the Ecuadorian Andes is longer than reported.
  Weather observations confirm this finding for the period 1997-2012.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 There is a link between the "El Niño" phase of ENSO and higher fire danger
  in the Ecuadorian Andes.
  ENSO influences fire weather in this region through its effect on temperature
@@ -185,6 +185,36 @@ There is a link between the "El Niño" phase of ENSO and higher fire danger
 \begin_layout Standard
 In addition, this thesis identified several aspects that deserve further
  investigation:
+\end_layout
+
+\begin_layout Enumerate
+The exploration of fire weather in Victoria used the 20CR ensemble mean.
+ The results depicted an increasing trend in fire danger in Victoria since
+ 1920.
+ However, this reanalysis project has 56 realisations.
+ Each model output represents an equally possible state of the atmosphere.
+ Therefore, additional 20R realisations could be used to quantify uncertainties
+ linked to past fire weather changes.
+\end_layout
+
+\begin_layout Enumerate
+Further research could use CMIP6 models to project the VSBI.
+ This investigation could provide insights of future fire weather changes
+ in Victoria.
+\end_layout
+
+\begin_layout Enumerate
+Developing a fire activity database for Ecuador could open further research
+ opportunities (e.g.
+ land management, environmental impacts, social studies, etc.).
+\end_layout
+
+\begin_layout Enumerate
+The study areas in this investigation included Victoria, Australia and the
+ Ecuadorian Andes.
+ However, it would be interesting to expand the areas of investigation.
+ For example, future investigations could comprise southeast Australia and
+ other tropical Andean regions.
 \end_layout
 
 \end_body
