@@ -101,11 +101,13 @@ Introduction
 \end_layout
 
 \begin_layout Section
-Context
+Motivation
 \end_layout
 
 \begin_layout Standard
-Bushfires produce massive impacts in Australia.
+Bushfires cause great human, environmental and economic impacts in the Southern
+ Hemisphere.
+ This problem is particularly severe in Australia.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -113,10 +115,10 @@ key "Haynes2010"
 
 \end_inset
 
- categorised them as the fourth most lethal natural hazard in this country.
- Several catastrophic events have contributed to this ranking.
- For example, the “Black Saturday” fires produced 173 fatalities in February
- of 2009 
+ categorised bushfires as the fourth most lethal natural hazard in this
+ country.
+ For example, only the “Black Saturday” fires yielded 173 fatalities in
+ February of 2009 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Teague2010"
@@ -124,8 +126,8 @@ key "Teague2010"
 \end_inset
 
 .
- Additionally, bushfires not only threaten life but also impact the Australian
- economy.
+ Additionally, bushfires not only threaten life but also produce great losses
+ for the Australian economy.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -133,24 +135,33 @@ key "McAneney2009"
 
 \end_inset
 
- reports that bushfires are responsible for 20% of property losses in Australia.
- In fact, only the costs of the "Ash Wednesday" fires of 1983 reached $1.63
- billion.
+ reported that bushfires are responsible for 20% of property losses in Australia.
+ Indeed, the costs of a single catastrophic event can reach billions of
+ dollars (e.g the 
+\begin_inset Quotes eld
+\end_inset
+
+Ash Wednesday
+\begin_inset Quotes erd
+\end_inset
+
+ fires of 1983 costed $1.63 billion to insurance companies).
 \end_layout
 
 \begin_layout Standard
-Unfortunately, there is evidence sugggesting that future bushfires could
- become more dangerous in several regions of Australia.
- The south-east of the continent might experience greater risk.
- For example, days with “very high” and “extreme” fire danger would become
- more common 
+Furthermore, there is evidence sugggesting that future bushfires could become
+ more dangerous in several regions of Australia.
+ One of the regions that might experience greater risk is the south-east
+ of the continent.
+ 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Lucas2007"
 
 \end_inset
 
-.
+ argues that days with “very high” and “extreme” fire danger would become
+ more common in this region.
  On the other hand, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -158,7 +169,7 @@ key "Clarke2011"
 
 \end_inset
 
- argues that future fire seasons could start earlier and be more prolonged.
+ demonstrated that future fire seasons could start earlier and be more prolonged.
  
 \end_layout
 
@@ -167,7 +178,31 @@ In southeastern Australia, the state of Victoria is one the most bushfire
  prone and vulnerable areas.
  This region endured the most catastrophic bushfire events in Australian
  history (e.g.
- "Black Friday" 1939, "Ash Wednesday" 1983, "Black Saturday" 2009).
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Black Friday
+\begin_inset Quotes erd
+\end_inset
+
+ (1939), 
+\begin_inset Quotes eld
+\end_inset
+
+Ash Wednesday
+\begin_inset Quotes erd
+\end_inset
+
+ (1983), 
+\begin_inset Quotes eld
+\end_inset
+
+Black Saturday
+\begin_inset Quotes erd
+\end_inset
+
+ (2009)).
  Additionally, half of the economic impacts in Australia occurred in Victoria
  
 \begin_inset CommandInset citation
@@ -177,8 +212,8 @@ key "Luke1978"
 \end_inset
 
 .
- Furthermore, climate projections also suggest its fire danger risk will
- increase 
+ Moreover, climate projections also suggest its fire danger risk will increase
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Clarke2011"
@@ -190,66 +225,121 @@ key "Clarke2011"
  of utmost importance.
 \end_layout
 
-\begin_layout Section
-Motivation
-\end_layout
-
 \begin_layout Standard
-Currently, the state of Victoria in Australia uses a qualitative approach
- to make seasonal bushfire forecasts 
+The planification for fire emergencies in Victoria includes the elaboration
+ of bushfire danger forecasts.
+ These predictions use climate data and information on the state of the
+ El Niño-Southern Oscillation (ENSO).
+ Using this information the Australian Bureau of Meteorology generates seasonal
+ fire weather outlooks.
+ These reports are qualitative.
+ In contrast, 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Harris2013"
 
 \end_inset
 
-.
- These forecasts are based on antecedent conditions of maximum temperature,
- soil moisture, vegetation density and the phase of climate modes of varaibility
- such as El Nino Southern Oscillation (ENSO).
- Additionally, the estimation is also complemented with the outlook of climate
- variables such as maximun and minimum temperature as well as precipitation.
- Worldwide, the application of statistical seasonal forecasting schemes
- to predict similar climate-related natural hazards such as floods and droughts
- has been demonstrated to be viable and in continous improvement 
+ showed that there is potential to forecast fire activity quantitatively
+ in Victoria.
+ Nevertheless, further research is necessary to develop a quantitative forecasti
+ng tool for this region.
+ 
+\end_layout
+
+\begin_layout Standard
+Several aspects deserve further investigation to better predict fire weather
+ in Victoria.
+ For example, understanding the effect of extreme events co-occurrence (e.g.
+ fire weather and heatwaves).
+ Additionally, exploring the long-term variability in fire weather could
+ provide insights on the causes of dangerous fire seasons.
+ It is also unknown which are the most important climate modes of variability
+ that influence fire weather in this region and how they exert their control.
+\end_layout
+
+\begin_layout Standard
+Extreme bushfire seasons also occur in this hemisphere in several regions
+ in South America.
+ However, there are areas of scarce information (e.g.
+ tropical Andes).
+ South America and Australia share common aspects linked to fire activity.
+ For example, climate modes of variability such as El Niño-Southern Oscillation
+ (ENSO) influence fire weather in both continents 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Murphy2001"
+key "Williams1999,Chen2011"
 
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Section
-Aim and Scope
-\end_layout
-
-\begin_layout Section
-Significance
+ This research further examines this relationship on a regional scale.
+ The investigation focus on two study areas: Victoria, Australia and the
+ Ecuadorian Andes.
+ These two regions also share the Eucalyptus as the characteristic fire-prone
+ vegetation.
 \end_layout
 
 \begin_layout Standard
-This research is important becuase it will empower the public, emergency
- response institutions, and policy makers.
- A forecasting scheme able to predict, even with a moderate skill, dangerous
- bushfire seasons will give the opotunity for people to decide for themselves
- with months in advance if the risk is acceptable and to take actions accordingl
-y.
- Emergency response institutions, especially those associated with fire
- fighting, will have the knowledge to enhance the efficiency of resource
- allocation.
- This translates directly in economic value, and most importantly, it could
- potentially save lives.
- The forecasting index proposed also aims to support long term policy decisions,
- specifically those regarding the reduction of vulnerability to bushfire
- impacts.
+Bushfires produce severe impacts to the Ecuadorian Andes ecosystems.
+ For example, 2012 was the most extreme fire season in the recent history
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
+
+\end_inset
+
+.
+ During this season bushfires destroyed more than 21,570 Ha 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MinisteriodelAmbiente2013"
+
+\end_inset
+
+.
+ These fires affected national parks in one of the most biodiverse countries
+ in the world.
+ Despite these losses, there is a lack of understanding of how weather drives
+ fire events.
+ This study is perhaps the first investigation about fire weather in this
+ region.
  
 \end_layout
 
 \begin_layout Section
-Structure of the thesis
+Aim 
+\end_layout
+
+\begin_layout Section
+Thesis outline
+\end_layout
+
+\begin_layout Standard
+Following this introduction, chaper 2 provides background information to
+ understand the thesis.
+ This chapter defines concepts as well as characterizes the study areas.
+ Chapter 3 comprises a review of the scientific literature linked to this
+ project.
+ This part of the thesis also identifies the research gaps addressed in
+ the investigation.
+ The next chapter aims to answer the first research question Chapter 4 investiga
+tes the relationship between bushfire and heatwave weather patterns in Victoria,
+ Australia.
+ Subsequently, Chapter 5 builds on this work to develop a new fire weather
+ index for Victoria.
+ This chapter also investigates the long-term variability of fire weather
+ in Victoria.
+ Chapter 5 also investigates climate-bushfire relationships for seasonal
+ forecasting purposes.
+ Chapter 6 reproduces the results for Victoria using alterntative data sources
+ and definitions.
+ Chapter 7 uses the methods applied in previous chapters to investigate
+ fire weather in Ecuador.
+ Chapter 8 highlights the conclusions of the thesis.
+ Finally, this chapter also recommends future research derived from this
+ work.
 \end_layout
 
 \begin_layout Standard
