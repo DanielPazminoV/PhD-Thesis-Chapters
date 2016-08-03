@@ -127,12 +127,11 @@ This chapter investigates fire weather in Ecuador.
  The analyses use some of the methods applied for Victoria.
  The investigation examines if the FFDI can accurately represent fire weather
  in Ecuador.
- The decision to use the index considers that the FFDI was designed for
- an Eucalyptus environment.
- Victoria and Ecuador share the Eucalyptus as the dominant species in bushfire-p
-rone areas.
+ The study of fire weather changes in this region uses this index.
  Additionally, this research explores the relationship between ENSO and
- fire weather in the Ecuadorian tropical Andes.
+ fire weather.
+ Finally, it assessed if the 20CR and ERA-20C reanalyses capture the observed
+ fire weather variability.
  
 \end_layout
 
@@ -1215,13 +1214,40 @@ name "fig:Monthly-FFDI"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FFDI&ENSO"
+
+\end_inset
+
+ shows cumulative FFDI values during the extended season July-August-September-O
+ctober-November-December (JASON).
+ Considering the result displayed in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Monthly-FFDI"
+
+\end_inset
+
+, the analysis included October and November.
+ These two months also exhibit high FFDI values.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FFDI&ENSO"
+
+\end_inset
+
+ displays the results for “El Niño” and “La Niña” years during the period
+ 1997-2010.
+ The graph shows that fire danger is higher during “El Niño” years.
 \end_layout
 
 \begin_layout Standard
@@ -1301,14 +1327,14 @@ reference "fig:PDFs-variables-original-data"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Figures/PDFs/PDFs_variables_original.png
-	lyxscale 10
+	lyxscale 60
 	scale 55
 
 \end_inset
@@ -1676,7 +1702,15 @@ The FFDI is a useful metric of fire danger in the Ecuadorian Andes.
  The index represented as high fire danger months those considered to be
  of greater fire activity (JAS).
  However, it also showed that the fire danger season is longer.
- 
+ Additionally, the FFDI shows that 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ events are linked to higher fire danger in this region.
 \end_layout
 
 \begin_layout Standard
@@ -1714,15 +1748,15 @@ veranillo
 \end_inset
 
  occurs in December.
- Thefore, it is likely that fires can also occur in the months after JAS.
+ Thus, it is likely that fires can also occur in the months after JAS.
  
 \end_layout
 
 \begin_layout Standard
 The results using the FFDI do not show that the year 2012 experienced high
  fire danger in comparison to other years.
- This constrast with the local reports which claim that this year experienced
- severe fire activity 
+ This result contrasts with the local reports which claim that this year
+ experienced severe fire activity 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
@@ -1741,8 +1775,69 @@ key "MinisteriodelAmbiente2013,SecretariadeAmbiente2013"
 \end_layout
 
 \begin_layout Standard
+On the other hand, “El Niño” events bring higher fire danger to the Ecuadorian
+ Andes.
+ This result is consistent with the evidence discussed in the literature
+ review.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Garreaud2009"
+
+\end_inset
+
+ argues that this region experiences less than average precipitations during
+ “El Niño”.
+ In contrast, temperature is higher than average during these events.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Vuille2000"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Francou2004"
+
+\end_inset
+
+ results agree with this pattern.
+ Additionally, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Francou2004"
+
+\end_inset
+
+ showed that “El Niño” produce negative mass balances on the tropical Andean
+ mountain glaciers.
+ 
+\end_layout
+
+\begin_layout Standard
+The hot and dry conditions that “El Niño” events produce in the Ecuadorian
+ Andes contrast with its effect on the coast.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Garreaud2009"
+
+\end_inset
+
+ argues that a distortion of the Hadley cell circulation produces this phenomeno
+n.
+ Although, it is intriguing that the strong “El Niño” of 1997-1998 is not
+ the highest fire danger year.
+ Extending the analysis period could provide further insights into this
+ relationship.
+ 
+\end_layout
+
+\begin_layout Standard
 The discussion also aims to further understand the limitations of 20CR and
- ERA-20C datasets in this region.
+ ERA-20C datasets to extend the fire weather analyses.
  The caveats of these datasets were acknowledged in previous chapters.
  However, the results showed biases that were unexpectedly large.
  Even more importantly, these datsets did not show to be capable of capturing
@@ -2021,23 +2116,41 @@ This chapter presented the investigation of fire weather variability in
  in this region.
  The study used weather station data to explore seasonal fire weather from
  1997-2012.
- The investigation assesed if the McArthur Forest Fire Danger Index (FFDI)
+ The investigation assessed if the McArthur Forest Fire Danger Index (FFDI)
  is a valid fire weather metric in Ecuador.
- Additonally, it examined if the 20CR and ERA-20C have skill to represent
- fire weather changes in this region.
- Finally, a premilary assessment of the influence of the El Nino-Southern
- Oscillation on fire weather was performed.
+ Additionally, it examined the observed fire weather changes in this region.
+ The influence of the El Niño-Southern Oscillation on fire weather was also
+ explored.
+ Finally, the study tested if the 20CR and ERA-20C reanalyses can represent
+ fire weather variability in the Ecuadorian Andes.
+ 
 \end_layout
 
 \begin_layout Standard
+The results show that the FFDI can represent fire weather in the Ecuadorian
+ Andes.
+ The index yields 
+\begin_inset Quotes eld
+\end_inset
 
-\series bold
-Observed fire weather variability(FFDI assessment)/ENSO results
-\series default
-.
- The results showed that renalysis datasets present large biasses.
- Their coarse resolution is not capable of representing climate variability
- in this complex geographical region.
+high
+\begin_inset Quotes erd
+\end_inset
+
+ fire danger during July-August-September.
+ According to local reports, during these months fire activity increases.
+ Surprisingly, October and November also show 
+\begin_inset Quotes eld
+\end_inset
+
+high
+\begin_inset Quotes erd
+\end_inset
+
+ FFDI values during the period 1997-2012.
+ Additionally, “El Niño” events increase fire danger in the Ecuadorian Andes.
+ Finally, 20CR and ERA-20C do not show skill to capture the fire weather
+ variability of this region.
  The next chapter will present the conclusions from the thesis.
 \end_layout
 
