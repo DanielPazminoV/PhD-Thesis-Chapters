@@ -309,37 +309,98 @@ key "MinisteriodelAmbiente2013"
 \end_layout
 
 \begin_layout Section
-Aim 
+Aim and scope
 \end_layout
 
+\begin_layout Standard
+The aim of this thesis is to better understand the drivers and evolution
+ of fire weather in two regions of the Southern Hemisphere.
+ Specifically, this study will answer the folowing research questions:
+\end_layout
+
+\begin_layout Enumerate
+Co-occurrence of extreme events in Victoria: Fire weather spatial patterns
+ and its relationship with heatwaves.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+• Some heatwave events cause bushfires while others do not.
+ Can synoptic weather patterns explain the difference between these two
+ types of events? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Long-term fire weather changes in Victoria and the Ecuadorian Andes.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+•Can fire weather spatial patterns be used to develop a fire danger index
+ for Victoria?
+\end_layout
+
+\begin_layout Standard
+•How did the variability of fire weather in Victoria behave over the last
+ century?
+\end_layout
+
+\begin_layout Standard
+• What was the observed fire weather variability in the Ecuadorian Andes?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Influence of ENSO and other climate drivers over fire weather in Victoria
+ and the Ecuadorian Andes.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+• Which are the most important modes of climate variability that drive fire
+ weather in Victoria and how do they exert their control?
+\end_layout
+
+\begin_layout Standard
+• Can remote climate drivers increase the skill of forecasts of extreme
+ fire weather in Victoria? 
+\end_layout
+
+\begin_layout Standard
+• What is the relationship between El Niño-Southern Oscillation and fire
+ weather in the Ecuadorian Andes?
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Thesis outline
 \end_layout
 
 \begin_layout Standard
-Following this introduction, chaper 2 provides background information to
+Following this introduction, Chapter 2 provides background information to
  understand the thesis.
- This chapter defines concepts as well as characterizes the study areas.
+ It defines concepts as well as characterises the study areas.
  Chapter 3 comprises a review of the scientific literature linked to this
  project.
  This part of the thesis also identifies the research gaps addressed in
  the investigation.
- The next chapter aims to answer the first research question Chapter 4 investiga
-tes the relationship between bushfire and heatwave weather patterns in Victoria,
- Australia.
+ Chapter 4 aims to answer the first research question.
+ This chapter investigates the relationship between bushfire and heatwave
+ weather patterns in Victoria, Australia.
  Subsequently, Chapter 5 builds on this work to develop a new fire weather
  index for Victoria.
- This chapter also investigates the long-term variability of fire weather
- in Victoria.
- Chapter 5 also investigates climate-bushfire relationships for seasonal
- forecasting purposes.
- Chapter 6 reproduces the results for Victoria using alterntative data sources
+ Additionally, this chapter investigates the long-term variability of fire
+ weather in Victoria.
+ Chapter 5 also examines climate-bushfire relationships for seasonal forecasting
+ purposes.
+ Chapter 6 reproduces the results for Victoria using alternative data sources
  and definitions.
  Chapter 7 uses the methods applied in previous chapters to investigate
  fire weather in Ecuador.
  Chapter 8 highlights the conclusions of the thesis.
- Finally, this chapter also recommends future research derived from this
- work.
+ Finally, it also recommends future research derived from this work.
 \end_layout
 
 \begin_layout Standard
