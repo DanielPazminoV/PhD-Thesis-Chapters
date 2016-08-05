@@ -261,7 +261,7 @@ key "Lucas2010"
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Location-of-weather-stations"
+reference "fig:Location of meteorological stations used to compute fire weather in Victoria"
 
 \end_inset
 
@@ -318,7 +318,7 @@ Location of meteorological stations used to compute fire weather in Victoria
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Location-of-weather-stations"
+name "fig:Location of meteorological stations used to compute fire weather in Victoria"
 
 \end_inset
 
@@ -665,7 +665,7 @@ The composites presented in Chapter 4 revealed the seasonal patterns of
  figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:VSBI-regions"
+reference "fig: Victorian Seasonal Bushfire Index (VSBI) regions"
 
 \end_inset
 
@@ -712,12 +712,12 @@ status open
 Victorian Seasonal Bushfire Index (VSBI) regions.
  The plot shows these areas over the seasonal composites of surface temperature
  (T) and sea surface temperature (SST) anomalies during bushfires in Victoria.
- The composites show anomalies for the season December-January-February
+ The composites display anomalies for the season December-January-February
  during the period 1961-2010.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:VSBI-regions"
+name "fig: Victorian Seasonal Bushfire Index (VSBI) regions"
 
 \end_inset
 
@@ -787,7 +787,7 @@ reference "eq:VSBI"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:VSBI-calculation-procedure"
+reference "fig:VSBI calculation procedure"
 
 \end_inset
 
@@ -820,7 +820,7 @@ status open
 VSBI calculation procedure 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:VSBI-calculation-procedure"
+name "fig:VSBI calculation procedure"
 
 \end_inset
 
@@ -896,7 +896,7 @@ McArthur Forest Fire Danger computation
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Probability-density-functions-FFDI"
+reference "fig:Probability density functions of orginal and bias-corrected Forest Fire Danger Index results for Victoria, Australia during the period 1974-2010"
 
 \end_inset
 
@@ -929,13 +929,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Probability density functions of bias-corrected seasonal FFDI in Victoria,
- Australia for the period 1974-2010.
- The plot shows the adjustment in the distribution of FFDI data.
+Probability density functions of orginal and bias-corrected Forest Fire
+ Danger Index (FFDI) results for Victoria, Australia during the period 1974-2010.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Probability-density-functions-FFDI"
+name "fig:Probability density functions of orginal and bias-corrected Forest Fire Danger Index results for Victoria, Australia during the period 1974-2010"
 
 \end_inset
 
@@ -956,7 +958,7 @@ name "fig:Probability-density-functions-FFDI"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Cumulative-FFDI-(FFDI)-1974-2010"
+reference "fig: Cumulative Forest Fire Danger Index time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1034,7 +1036,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Cumulative FFDI (FFDI
+Cumulative Forest Fire Danger Index (FFDI
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -1043,13 +1045,17 @@ cum
 
 \end_inset
 
-) in Victoria, Australia for the period 1974-2010.
- The correlation coeficients are a) r=0.47, p=0.00, n=37, and b) r=0.45, p=0.06,
- n=37.
+) time series during December-January-February (DJF) in Victoria, Australia
+ for the period 1974-2010.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
+ The correlation coefficients between weather station and reanalysis data
+ are a) r=0.47, p=0.00, n=37, and b) r=0.45, p=0.06, n=37.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Cumulative-FFDI-(FFDI)-1974-2010"
+name "fig: Cumulative Forest Fire Danger Index time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1070,7 +1076,7 @@ name "fig:Cumulative-FFDI-(FFDI)-1974-2010"
 On the other hand, figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Number-of-days-ffdi-1974-2010"
+reference "fig: Number of days with Forest Fire Danger Index greater than 25 time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1106,13 +1112,18 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Number of days with greater than 25 FFDI (FFD>25) in Victoria, Australia
- for the period 1974-2010.
- The correlation coeficients are a) r=0.33, p=0.05, n=37, and b) r= 0.52, p=0.00,
- n=37 
+Number of days with Forest Fire Danger Index greater than 25 (FFDI>25) time
+ series during December-January-February (DJF) in Victoria, Australia for
+ the period 1974-2010.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
+ The correlation coeficients between weather station and reanalysis data
+ are a) r=0.33, p=0.05, n=37, and b) r= 0.52, p=0.00, n=37.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Number-of-days-ffdi-1974-2010"
+name "fig: Number of days with Forest Fire Danger Index greater than 25 time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1133,14 +1144,14 @@ name "fig:Number-of-days-ffdi-1974-2010"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Maximum-temperature-PDFs"
+reference "fig:Maximum temperature probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
  and figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Maximun-temperature-time-series"
+reference "fig:Temperature time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1184,12 +1195,25 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Maximum temperature probability density functions.
- The plot shows the adjustment in the distribution of temperature data.
+Maximum temperature probability density functions for Victoria, Australia
+ for the period 1974-2010.
+ Maximum temperature shows a deviation from the mean of 2.36 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+
+C.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Maximum-temperature-PDFs"
+name "fig:Maximum temperature probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1229,13 +1253,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Temperature time series.
- The corelation coeficientas are a) r=0.88, p=0.00, n=37 and b) r= 0.88, p=0.00,
- n=37.
+Temperature time series during December-January-February (DJF) in Victoria,
+ Australia for the period 1974-2010.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
+ The pearson correlation coeficients between weather station and reanalysis
+ data are a) r=0.88, p=0.00, n=37 and b) r= 0.88, p=0.00, n=37.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Maximun-temperature-time-series"
+name "fig:Temperature time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1260,14 +1288,14 @@ name "fig:Maximun-temperature-time-series"
 Figure
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Specific-Humidity-PDFs"
+reference "fig:Specific humidity probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
  and figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Specific-humidity-time-series"
+reference "fig:Specific humidity time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1311,13 +1339,25 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Specific humidity probability density functions.
- The plot shows the adjustment in the distribution of specific humidity
- data.
+Specific humidity probability density functions for Victoria, Australia
+ for the period 1974-2010.
+ Specific humidity shows a deviation of the mean of 8.63x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-4
+\end_layout
+
+\end_inset
+
+ Kg/Kg.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Specific-Humidity-PDFs"
+name "fig:Specific humidity probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1357,13 +1397,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Specific humidity seasonal time series.
- The correlation coeficients are a) r =0.33, p=0.05, n=37 and b) r=0.85, p=0.00,
- n=37.
+Specific humidity time series during December-January-February (DJF) in
+ Victoria, Australia for the period 1974-2010.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
+ The pearson correlation coeficients between weather station and reanalysis
+ data are a) r =0.33, p=0.05, n=37 and b) r=0.85, p=0.00, n=37.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Specific-humidity-time-series"
+name "fig:Specific humidity time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1388,14 +1432,14 @@ name "fig:Specific-humidity-time-series"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Relative-Humidity-PDFs"
+reference "fig:Relative humidity probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
  and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Relative-humidity-time-series"
+reference "fig:Relative humidity time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1428,13 +1472,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Relative humidity probability density functions.
- The plot shows the adjustment in the distribution of relative humidity
- data.
+Relative humidity probability density functions for Victoria, Australia
+ for the period 1974-2010.
+ Relative humidity shows a deviation from the mean of 4.05%.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Relative-Humidity-PDFs"
+name "fig:Relative humidity probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1474,12 +1521,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Relative humidity time series.The correlation coeficients are a) r=0.78, p
- = 0.00, n= 37 and b) r=0.80, p=0.00, n=37.
+Relative humidity time series during December-January-February (DJF) in
+ Victoria, Australia for the period 1974-2010.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
+ The pearson correlation coeficients between weather station and reanalysis
+ data are a) r=0.78, p = 0.00, n= 37 and b) r=0.80, p=0.00, n=37.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Relative-humidity-time-series"
+name "fig:Relative humidity time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1504,14 +1556,14 @@ name "fig:Relative-humidity-time-series"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Wind-speed-PDFs"
+reference "fig:Wind speed probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
  and figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Wind-speed-time-series"
+reference "fig:Wind speed time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1545,12 +1597,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Wind speed probability density functions.
- The plot shows the adjustment in the distribution of wid speed data.
+Wind speed probability density functions for Victoria, Australia for the
+ period 1974-2010.
+ Wind speed shows a deviation from the mean of 1.37 Km/h .
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Wind-speed-PDFs"
+name "fig:Wind speed probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1590,13 +1646,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Wind speed seasonal time series.
- The correlation coeficients are a) r=0.31, p=0.06, n=37 and b) r=0.31 p=0.06,
- n=37.
+Wind speed time series during December-January-February (DJF) in Victoria,
+ Australia for the period 1974-2010.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
+ The pearson correlation coeficients between weather station and reanalysis
+ data are a) r=0.31, p=0.06, n=37 and b) r=0.31 p=0.06, n=37.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Wind-speed-time-series"
+name "fig:Wind speed time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1621,7 +1681,7 @@ name "fig:Wind-speed-time-series"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Precipitation-PDF"
+reference "fig:Precipitation probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1653,12 +1713,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Precipitation probability density functions.
+Precipitation probability density functions for Victoria, Australia for
+ the period 1974-2010.
  This variable was not bias-corrected.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Precipitation-PDF"
+name "fig:Precipitation probability density functions for Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1698,12 +1761,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Precipitation seasonal time series.
- The correlation coefficients are r=-0.12 and p=0.49.
+Precipitation time series during December-January-February (DJF) in Victoria,
+ Australia for the period 1974-2010.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ The pearson correlation coeficients between weather station and reanalysis
+ data are r=-0.12 and p=0.49.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Precipitation-time-series"
+name "fig:Precipitation time series during December-January-February in Victoria, Australia for the period 1974-2010"
 
 \end_inset
 
@@ -1731,7 +1798,7 @@ A final step of the FFDI calculation process was to extend the results using
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-Seasonal-FFDI"
+reference "fig:Bias-corrected Forest Fire Danger Index (FFDI) time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
@@ -1764,16 +1831,24 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Seasonal FFDI in Victoria, Australia for the period 1920-2010.
+Bias-corrected Forest Fire Danger Index (FFDI) time series during December-Janua
+ry-February (DJF) in Victoria, Australia for the period 1920-2010.
+ Panel a) shows cummulative FFDI and panel b) the number of days with FFDI
+ greater than 25.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR)
+ and weather stations in Victoria (WS).
+ 20CR(bc) refers to bias-corrected reanalysis data.
  Black dashed and red lines show the results using bias-corrected reanalysis
- (20CR(bc)) and weather station (WS) data.
+ (20CR(bc)) and weather station (WS) data respectively.
  The correlation coeficients between reanalysis and weather stations data
  for the period 1974-2010 are a) r=0.47 p=0.00, n=37 and b) r=0.32, p=0.06,
  n=37.
+ Observations and reanalysis data show an increasing fire danger trend in
+ Victoria.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Seasonal-Seasonal-FFDI"
+name "fig:Bias-corrected Forest Fire Danger Index (FFDI) time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
@@ -1794,7 +1869,7 @@ name "fig:Seasonal-Seasonal-FFDI"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:FFDI-variables-time-series-1920-2010"
+reference "fig:Forest Fire Danger Index (FFDI) variables time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
@@ -1833,14 +1908,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-FFDI variables time series in Victoria during the period 1920-2010 for the
- season December-January-February (DJF).
- Data source: Twentieth Century Reanalysis (20CR).
- 20CR(bc) corresponds to bias-corrected data.
+Forest Fire Danger Index (FFDI) variables time series during December-January-Fe
+bruary (DJF) in Victoria, Australia for the period 1920-2010.
+ Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
+ 20CR(bc) refers to bias-corrected reanalysis data.
+ Temperature and precipitation show an increasing and decreasing trend respectiv
+ely.
+ Relative humidity and wind speed do not display any trend.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:FFDI-variables-time-series-1920-2010"
+name "fig:Forest Fire Danger Index (FFDI) variables time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
@@ -1881,7 +1959,7 @@ reference "sub:Formulation-VSBI"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Victorian-Seasonal-Bushfire-time-series"
+reference "fig:Victorian Seasonal Bushfire Index time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
@@ -1913,16 +1991,18 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Victorian Seasonal Bushfire Index during December-January-February (DJF)
- for the period 1920-2010.
+Victorian Seasonal Bushfire Index (VSBI) time series during December-January-Feb
+ruary (DJF) in Victoria, Australia for the period 1920-2010.
  The computation used bias-corrected Twentieth Century Reanalysis data (20CR(bc)
 ) (black dashed line) and weather station data (red line).
  The correlation coefficients between reanalysis and weather station data
  for the period 1974-2010 are r=0.69 and p<0.05.
+ Observations and reanalysis data display an incresing fire danger trend
+ in Victoria.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Victorian-Seasonal-Bushfire-time-series"
+name "fig:Victorian Seasonal Bushfire Index time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
@@ -1943,7 +2023,7 @@ name "fig:Victorian-Seasonal-Bushfire-time-series"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:VSBI-Time-Series-Variables"
+reference "fig:Victorian Seasonal Bushfire Index variables time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
@@ -1982,25 +2062,19 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Victorian Seasonal Bushfire Index variables for the period 1920-2010.
+Victorian Seasonal Bushfire Index (VSBI) variables time series during December-J
+anuary-February (DJF) in Victoria, Australia for the period 1920-2010.
  The time series correspond to normalized spatial averages of temperature
  (T), relative humidity, sea surface temperature (SST) and precipitation
  (P) over Victoria, Australia during December-January-February (DJF).
  The atmospheric variables correspond to bias-corrected Twentieth Century
  Reanalysis (20CR) data.
- The SST time series use the the HADISST dataset in the 
-\begin_inset Quotes eld
-\end_inset
-
-El Niño 1+2
-\begin_inset Quotes erd
-\end_inset
-
- region.
+ The SST time series use the the HADISST dataset in the NINO1+2 region.
+ Only temperature shows a clear increasing trend.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:VSBI-Time-Series-Variables"
+name "fig:Victorian Seasonal Bushfire Index variables time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
@@ -2046,21 +2120,21 @@ Relationship between variables in spring (SON-SON)
 Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-SON-1"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships for September-October-November in Victoria during the period 1973-2009"
 
 \end_inset
 
 , 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-SON-2"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships for September-October-November in Victoria during the period 1960-2009"
 
 \end_inset
 
  and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-SON-3"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships for September-October-November in Victoria during the period 1919-2009"
 
 \end_inset
 
@@ -2135,27 +2209,10 @@ cum
 
 \begin_layout Standard
 Climate indices show a moderate relationship with fire weather metrics.
- Additionally, the “El Niño” component of the index (SST
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-1.2
-\end_layout
-
-\end_inset
-
-) has the least influence over the VSBI in comparison to local climate variables
-—as expected—.
- The correlations between VSBI and SST
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-1.2
-\end_layout
-
-\end_inset
-
- are statistically significant for the three periods.
+ Additionally, the “El Niño” component of the index (SST1.2) has the least
+ influence over the VSBI in comparison to local climate variables—as expected—.
+ The correlations between VSBI and SST1.2 are statistically significant for
+ the three periods.
  They fluctuate from 0.51 to 0.62.
  On the other hand, the correlations with climate modes of variability and
  FFDI metrics show similar results for ENSO and IOD indices.
@@ -2197,7 +2254,7 @@ Pearson correlation coeficients for climate-bushfire relationships for September
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:SON-SON-1"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships for September-October-November in Victoria during the period 1973-2009"
 
 \end_inset
 
@@ -2249,7 +2306,7 @@ Pearson correlation coeficients for climate-bushfire relationships for September
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:SON-SON-2"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships for September-October-November in Victoria during the period 1960-2009"
 
 \end_inset
 
@@ -2297,7 +2354,7 @@ Pearson correlation coeficients for climate-bushfire relationships for September
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:SON-SON-3"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships for September-October-November in Victoria during the period 1919-2009"
 
 \end_inset
 
@@ -2326,21 +2383,21 @@ Relationship between variables in summer (DJF-DJF)
 Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:DJF-DJF-1"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships for December-January-February in Victoria during the period 1974-2010"
 
 \end_inset
 
 , 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:DJF-DJF-2"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships for December-January-February in Victoria during the period 1961-2010"
 
 \end_inset
 
  and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:DJF-DJF-3"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships for December-January-February in Victoria during the period 1920-2010"
 
 \end_inset
 
@@ -2430,7 +2487,7 @@ January-February (DJF) in Victoria during the period 1974-2010.
  in Victoria.
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:DJF-DJF-1"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships for December-January-February in Victoria during the period 1974-2010"
 
 \end_inset
 
@@ -2477,7 +2534,7 @@ January-February (DJF) in Victoria during the period 1961-2010.
  in Victoria.
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:DJF-DJF-2"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships for December-January-February in Victoria during the period 1961-2010"
 
 \end_inset
 
@@ -2524,7 +2581,7 @@ January-February (DJF) in Victoria during the period 1920-2010.
  in Victoria.
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:DJF-DJF-3"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships for December-January-February in Victoria during the period 1920-2010"
 
 \end_inset
 
@@ -2549,28 +2606,28 @@ Relationship between variables from spring to summer (SON-DJF)
 Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-1"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 1)"
 
 \end_inset
 
 , 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-2"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 2)"
 
 \end_inset
 
 , 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-3"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
  and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-4"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1919-2010"
 
 \end_inset
 
@@ -2578,14 +2635,14 @@ reference "fig:SON-DJF-4"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-1"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 1)"
 
 \end_inset
 
  and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-2"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 2)"
 
 \end_inset
 
@@ -2594,7 +2651,7 @@ reference "fig:SON-DJF-2"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-1"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 1)"
 
 \end_inset
 
@@ -2602,7 +2659,7 @@ reference "fig:SON-DJF-1"
  On the other hand, figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-1"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 1)"
 
 \end_inset
 
@@ -2610,14 +2667,14 @@ reference "fig:SON-DJF-1"
  Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-3"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
  and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-4"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1919-2010"
 
 \end_inset
 
@@ -2704,14 +2761,14 @@ Finally, weather station and reanalysis data agree to show that the VSBI
  For example, panels b) in figures 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-1"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 1)"
 
 \end_inset
 
  and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:SON-DJF-2"
+reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 2)"
 
 \end_inset
 
@@ -2747,7 +2804,7 @@ status open
 \begin_layout Plain Layout
 Pearson correlation coeficients for climate-bushfire relationships from
  September-October-November (SON) to December-January-February (DJF) in
- Victoria during the period 1973-2010.
+ Victoria, Australia during the period 1973-2010.
  Panel a) and b) show the results for climate variables, fire weather and
  activity using reanalysis and weather station data respectively.
  Data source: Twentieth Century Reanalysis (20CR), Hadley Centre Sea Ice
@@ -2756,7 +2813,7 @@ Pearson correlation coeficients for climate-bushfire relationships from
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:SON-DJF-1"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 1)"
 
 \end_inset
 
@@ -2798,7 +2855,7 @@ status open
 \begin_layout Plain Layout
 Pearson correlation coeficients for climate-bushfire relationships from
  September-October-November (SON) to December-January-February (DJF) in
- Victoria during the period 1973-2010.
+ Victoria, Australia during the period 1973-2010.
  Panel a) and b) show the results for climate indices, fire weather and
  activity using reanalysis and weather station data respectively.
  Data source: Twentieth Century Reanalysis (20CR), Hadley Centre Sea Ice
@@ -2806,7 +2863,7 @@ Pearson correlation coeficients for climate-bushfire relationships from
  (WS).
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:SON-DJF-2"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 2)"
 
 \end_inset
 
@@ -2848,14 +2905,14 @@ status open
 \begin_layout Plain Layout
 Pearson correlation coeficients for climate-bushfire relationships from
  September-October-November (SON) to December-January-February (DJF) in
- Victoria during the period 1961-2010.
+ Victoria, Australia during the period 1961-2010.
  Panel a) and b) show the results for climate variables and climate indices
  respectively.
  Data source: Twentieth Century Reanalysis (20CR) and Hadley Centre Sea
  Ice and Sea Surface Temperature data set (HadISST).
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:SON-DJF-3"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
@@ -2897,14 +2954,14 @@ status open
 \begin_layout Plain Layout
 Pearson correlation coeficients for climate-bushfire relationships from
  September-October-November (SON) to December-January-February (DJF) in
- Victoria during the period 1919-2010.
+ Victoria, Australia during the period 1919-2010.
  Panel a) and b) show the results for climate variables and climate indices
  respectively.
  Data source: Twentieth Century Reanalysis (20CR) and Hadley Centre Sea
  Ice and Sea Surface Temperature data set (HadISST).
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:SON-DJF-4"
+name "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1919-2010"
 
 \end_inset
 
@@ -3180,7 +3237,7 @@ ly sensitive to the sea surface temperature parameter.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Victorian-Seasonal-Bushfire-time-series"
+reference "fig:Victorian Seasonal Bushfire Index time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
@@ -3196,7 +3253,7 @@ El Niño
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:VSBI-Time-Series-Variables"
+reference "fig:Victorian Seasonal Bushfire Index variables time series during December-January-February in Victoria, Australia for the period 1920-2010"
 
 \end_inset
 
