@@ -153,7 +153,7 @@ This study required weather station (WS) data from the Ecuadorian Andean
  Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:Table-1:-WS stations"
+reference "tab:Table-1:Selected weather stations in the Ecuadorian Andean region"
 
 \end_inset
 
@@ -161,7 +161,7 @@ reference "tab:Table-1:-WS stations"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Location-of-WS-EC"
+reference "fig:Location of weather stations in the Ecuadorian andean region"
 
 \end_inset
 
@@ -192,7 +192,7 @@ Table 1: Selected weather stations in the Ecuadorian Andean region.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:Table-1:-WS stations"
+name "tab:Table-1:Selected weather stations in the Ecuadorian Andean region"
 
 \end_inset
 
@@ -782,7 +782,7 @@ status open
 Location of weather stations in the Ecuadorian andean region 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Location-of-WS-EC"
+name "fig:Location of weather stations in the Ecuadorian andean region"
 
 \end_inset
 
@@ -994,7 +994,7 @@ Results
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Linear-correlation-coefficients-FFDI"
+reference "fig:Pearson correlation coefficients between the Forest Fire Danger Index and its variables for July-August-September in the Ecuadorian andean region during the period 1997-2012."
 
 \end_inset
 
@@ -1037,17 +1037,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Linear correlation coefficients that display the relationships between the
- McArthur Frest Fire Danger Index and its variables in the Ecuadorian andean
- region.
- The computation used weather station data during the season July-August-Septemb
-er for the period 1997-2012.
+Pearson correlation coefficients between the Forest Fire Danger Index and
+ its variables for July-August-September in the Ecuadorian andean region
+ during the period 1997-2012.
  Coloured circles represent values with statistical significance at the
  5% level.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Linear-correlation-coefficients-FFDI"
+name "fig:Pearson correlation coefficients between the Forest Fire Danger Index and its variables for July-August-September in the Ecuadorian andean region during the period 1997-2012."
 
 \end_inset
 
@@ -1072,7 +1070,7 @@ name "fig:Linear-correlation-coefficients-FFDI"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:FFDI-seasons-Ecuador"
+reference "fig:Cumulative Forest Fire Danger Index values (FFDI) time series in the Ecuadorian andean region for the period 1997-2012"
 
 \end_inset
 
@@ -1130,16 +1128,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Time series of cumulative Forest Fire Danger Index values (FFDI) in the
- Ecuadorian andean region.
- Colored lines represent the seasonal FFDI evolution for diferent seasons
- of the year during the period 1997-2012.
+Cumulative Forest Fire Danger Index values (FFDI) time series in the Ecuadorian
+ andean region for the period 1997-2012.
  The lines show the results for July-August-September (JAS), October-November-De
 cember (OND), January-February-March (JFM), and April-May-June (AMJ).
+ Red lines represent the periods with the highest fire danger.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:FFDI-seasons-Ecuador"
+name "fig:Cumulative Forest Fire Danger Index values (FFDI) time series in the Ecuadorian andean region for the period 1997-2012"
 
 \end_inset
 
@@ -1160,7 +1157,7 @@ name "fig:FFDI-seasons-Ecuador"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Monthly-FFDI"
+reference "fig:Monthly variability of cumulative Forest Fire Danger Index (FFDI) values in the Ecuadorian andean region during the period 1997-2012"
 
 \end_inset
 
@@ -1197,12 +1194,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Monthly Forest Fire Danger Index values in the Ecuadorian andean region.
- The computation used observations during the period 1997-2012.
- 
+Monthly variability of cumulative Forest Fire Danger Index (FFDI) values
+ in the Ecuadorian andean region during the period 1997-2012.
+ The graph shows that the highest fire danger months comprises the period
+ July-November 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Monthly-FFDI"
+name "fig:Monthly variability of cumulative Forest Fire Danger Index (FFDI) values in the Ecuadorian andean region during the period 1997-2012"
 
 \end_inset
 
@@ -1223,7 +1221,7 @@ name "fig:Monthly-FFDI"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:FFDI&ENSO"
+reference "fig:Cumulative Forest Fire Danger Index (FFDI) during the season July-August-September-October-Novermber (JASON) and its relationship with El Niño-Southern Oscillation in the Ecuadorian Andean region"
 
 \end_inset
 
@@ -1232,7 +1230,7 @@ ctober-November-December (JASON).
  Considering the result displayed in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Monthly-FFDI"
+reference "fig:Monthly variability of cumulative Forest Fire Danger Index (FFDI) values in the Ecuadorian andean region during the period 1997-2012"
 
 \end_inset
 
@@ -1241,7 +1239,7 @@ reference "fig:Monthly-FFDI"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:FFDI&ENSO"
+reference "fig:Cumulative Forest Fire Danger Index (FFDI) during the season July-August-September-October-Novermber (JASON) and its relationship with El Niño-Southern Oscillation in the Ecuadorian Andean region"
 
 \end_inset
 
@@ -1273,9 +1271,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Fire danger and its relationship with El Niño-Southern Oscillation in the
- Ecuadorian Andean region.
- Fire danger inthis region is higher during 
+Cumulative Forest Fire Danger Index (FFDI) during the season July-August-Septemb
+er-October-Novermber (JASON) and its relationship with El Niño-Southern
+ Oscillation in the Ecuadorian Andean region.
+ Fire danger in this region is higher during 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1287,7 +1286,7 @@ El Niño
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:FFDI&ENSO"
+name "fig:Cumulative Forest Fire Danger Index (FFDI) during the season July-August-September-October-Novermber (JASON) and its relationship with El Niño-Southern Oscillation in the Ecuadorian Andean region"
 
 \end_inset
 
@@ -1312,7 +1311,7 @@ name "fig:FFDI&ENSO"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:PDFs-variables-original-data"
+reference "fig:Probability density functions of fire weather variables in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
@@ -1355,7 +1354,7 @@ Probability density functions of fire weather variables in the Ecuadorian
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:PDFs-variables-original-data"
+name "fig:Probability density functions of fire weather variables in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
@@ -1376,7 +1375,7 @@ name "fig:PDFs-variables-original-data"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Time-series-variables-original-data"
+reference "fig:Time series of fire weather variables during the season July-August-September in the Ecuadorian andean region for the period 1997-2010"
 
 \end_inset
 
@@ -1415,17 +1414,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Time series of fire weather variables in the Ecuadorian andean region during
- the period 1997-2010.
- The plots use original reanalysis data during the season July-August-September
- (JAS).
+Time series of fire weather variables during the season July-August-September
+ (JAS) in the Ecuadorian andean region for the period 1997-2010.
+ The plots use original reanalysis data.
  Data source: Twentieth Century Reanalysis (20CR), European Reanalysis of
  Global Climate Observations (ERA-20C) and weather stations in the Ecuadorian
  andean region (WS).
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Time-series-variables-original-data"
+name "fig:Time series of fire weather variables during the season July-August-September in the Ecuadorian andean region for the period 1997-2010"
 
 \end_inset
 
@@ -1446,14 +1444,14 @@ name "fig:Time-series-variables-original-data"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:PDFs-variables-bc-data"
+reference "fig:Bias-corrected probability density functions of fire weather variables in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
  and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Time-series-variables-bc-data"
+reference "fig:Bias-corrected time series of fire weather variables in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
@@ -1491,15 +1489,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Probability density functions of fire weather variables in the Ecuadorian
- andean region during the period 1997-2010.
+Bias-corrected probability density functions of fire weather variables in
+ the Ecuadorian andean region during the period 1997-2010.
  The plots use bias-corrected (bc) reanalysis data.
  Data source: Twentieth Century Reanalysis (20CR), European Reanalysis of
  Global Climate Observations (ERA-20C) and weather stations in the Ecuadorian
  andean region (WS).
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:PDFs-variables-bc-data"
+name "fig:Bias-corrected probability density functions of fire weather variables in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
@@ -1539,8 +1537,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Time series of fire weather variables in the Ecuadorian andean region during
- the period 1997-2010.
+Bias-corrected time series of fire weather variables in the Ecuadorian andean
+ region during the period 1997-2010.
  The plots use bias-corrected (bc) reanalysis data during the season July-August
 -September (JAS).
  Data source: Twentieth Century Reanalysis (20CR), European Reanalysis of
@@ -1549,7 +1547,7 @@ Time series of fire weather variables in the Ecuadorian andean region during
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Time-series-variables-bc-data"
+name "fig:Bias-corrected time series of fire weather variables in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
@@ -1570,7 +1568,7 @@ name "fig:Time-series-variables-bc-data"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:PDFs-FFDI"
+reference "fig:Probability density functions of Forest Fire Danger Index values in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
@@ -1581,7 +1579,7 @@ reference "fig:PDFs-FFDI"
  On the other hand, figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Time-series-FFDI"
+reference "fig:Time series of cumulative Forest Fire Danger Index values in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
@@ -1626,7 +1624,7 @@ Probability density functions of Forest Fire Danger Index values (FFDI)
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:PDFs-FFDI"
+name "fig:Probability density functions of Forest Fire Danger Index values in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
@@ -1676,7 +1674,7 @@ Time series of cumulative Forest Fire Danger Index values (FFDI) in the
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Time-series-FFDI"
+name "fig:Time series of cumulative Forest Fire Danger Index values in the Ecuadorian andean region during the period 1997-2010"
 
 \end_inset
 
