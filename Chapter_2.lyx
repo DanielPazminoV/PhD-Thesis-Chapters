@@ -21,6 +21,9 @@
 
 %URL line breaking:
 \usepackage[hyphens]{url}
+
+%Caption font
+\usepackage[font=footnotesize]{caption}
 \end_preamble
 \use_default_options true
 \master ../Master.lyx
@@ -772,7 +775,7 @@ key "Lucas2010"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Danger-classes-for-FFDI"
+reference "fig:Forest Fire Danger Index danger classes"
 
 \end_inset
 
@@ -783,7 +786,7 @@ reference "fig:Danger-classes-for-FFDI"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -801,13 +804,13 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Danger classes for the FFDI.
+Forest Fire Danger Index danger classes.
  Source: Deparment of Land Resource Management of the Australian Nothern
  Territory Government.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Danger-classes-for-FFDI"
+name "fig:Forest Fire Danger Index danger classes"
 
 \end_inset
 
@@ -837,7 +840,7 @@ key "Nairn2013,Perkins2012"
 \end_inset
 
 .
- Most definitions characterize them as consecutive days with abnormally
+ However, most definitions characterize them as consecutive days with abnormally
  high temperatures 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -846,7 +849,15 @@ key "Nairn2013"
 \end_inset
 
 .
- More technical definitions adopt thresholds or percentiles 
+ Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+hot
+\begin_inset Quotes erd
+\end_inset
+
+ days usually requires the adoption of thresholds or percentiles 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Perkins2012"
@@ -854,8 +865,8 @@ key "Perkins2012"
 \end_inset
 
 .
- For example, the use an arbitrary number consecutive days that a fixed
- temperature value—also arbitrary—is exceeded 
+ Using an arbitrary number of consecutive days that a fixed temperature
+ value—also arbitrary—is exceeded is common 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Nairn2013,Perkins2012"
@@ -863,8 +874,8 @@ key "Nairn2013,Perkins2012"
 \end_inset
 
 .
- However, is difficult to make comparisons among the proposed definitions
- 
+ These subjective decisions make comparisons among heatwave definitions
+ difficult 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Perkins2012"
@@ -872,12 +883,8 @@ key "Perkins2012"
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Standard
-For example, in Adelaide, the declaration of a heatwave requires five consecutiv
-e days with maximum temperature exceeding 35 
+ For example, in Adelaide, the declaration of a heatwave requires five consecuti
+ve days with maximum temperature exceeding 35 
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -905,18 +912,23 @@ o
 \end_inset
 
 C.
- Although, maximum temperature is not the only temperature variable used.
- Setting thresholds that include minimum temperature is also common 
+ On the other hand, setting thresholds that include minimum temperature
+ is also common 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Perkins2012,Pezza2011"
+key "Perkins2012,Pezza2012"
 
 \end_inset
 
 .
  This variable accounts for the dissipation of heat at night after a hot
  day.
- Temperature is an important variable of heatwaves as well as of fire weather.
+ 
+\end_layout
+
+\begin_layout Standard
+Temperature is an important variable to define heatwaves as well as fire
+ weather.
  For this reason, heatwaves are usually linked with increased bushfire risk
  
 \begin_inset CommandInset citation
@@ -926,12 +938,9 @@ key "Nairn2013,Perkins2012,Pezza2011"
 \end_inset
 
 .
- Therefore, is important to understand heatwaves behaviour and its relationship
- with fire weather.
-\end_layout
-
-\begin_layout Standard
-In Australia, heatwaves occur because of three processes 
+ Therefore, it is important to understand the processes that link—or differentia
+te—these two types of events.
+ In Australia, heatwaves occur because of three mechanisms 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "McBride2009"
@@ -1314,19 +1323,12 @@ La Niña
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:El-Nino-Regions."
+reference "fig:El Niño-Southern Oscillation regions"
 
 \end_inset
 
- shows the 
-\begin_inset Quotes eld
-\end_inset
-
-El Niño
-\begin_inset Quotes erd
-\end_inset
-
- regions in the Tropical Pacific Ocean.
+ shows the El Niño-Southern Oscillation regions in the tropical Pacific
+ Ocean.
 \end_layout
 
 \begin_layout Standard
@@ -1351,19 +1353,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Quotes eld
-\end_inset
-
-El Niño
-\begin_inset Quotes erd
-\end_inset
-
- regions.
+El Niño-Southern Oscillation regions.
  Source: United States National Oceanic and Atmospheric Administration (NOAA)
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:El-Nino-Regions."
+name "fig:El Niño-Southern Oscillation regions"
 
 \end_inset
 
@@ -1399,7 +1394,7 @@ key "Saji1999"
  IOD—(see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Positive-phase-of-Indian-Ocean-Dipole"
+reference "fig:Positive phase of the Indian Ocean Dipole"
 
 \end_inset
 
@@ -1454,7 +1449,7 @@ Positive phase of the Indian Ocean Dipole.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Positive-phase-of-Indian-Ocean-Dipole"
+name "fig:Positive phase of the Indian Ocean Dipole"
 
 \end_inset
 
@@ -1604,7 +1599,7 @@ key "ThompsonandSolomon2002"
  This refers to the zonally symetric circulation around Antartica.
  The SAM produces an alternating pattern of strong and weak westerly winds
  in this region.
- This winds are cold and wet and surround Antartica as a belt.
+ These winds are cold and wet and surround Antartica as a belt.
  The SAM drives the expansion and contraction of the circulation.
  
 \end_layout
@@ -1637,7 +1632,7 @@ key "Ho2011"
  This process refers to a positive SAM event (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Positive-phase-of-Southern-Annular-Mode"
+reference "fig:Positive phase of the Southern Annular Mode"
 
 \end_inset
 
@@ -1684,7 +1679,7 @@ key "Jones2012"
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Positive-phase-of-Southern-Annular-Mode"
+name "fig:Positive phase of the Southern Annular Mode"
 
 \end_inset
 
@@ -1817,7 +1812,7 @@ key "Troccoli2005"
 \end_layout
 
 \begin_layout Standard
-On the other hand, dynamical forecasts rely on the physical modelation of
+On the other hand, dynamical forecasts rely on the physical modelling of
  the climate system.
  A simple model describes the interactions of the atmosphere only.
  In complex models, all the components of the system and their interactions
@@ -1880,7 +1875,7 @@ Fire weather forecasting
 \begin_layout Standard
 Seasonal weather forecasting usually predicts variables such as temperature
  and precipitation.
- Their forecast is better mean values than the extremes 
+ Their forecast is better for mean values than for extremes 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Doblas-Reyes2013,Pepler2015"
@@ -1958,8 +1953,8 @@ key "Nicholls2007"
 
 \end_inset
 
- acknowledged that ENSO and fire activity could not have a link in other
- regions of the country.
+ acknowledged that a link between ENSO and fire activity may not exist in
+ other regions of the country.
 \end_layout
 
 \begin_layout Section
@@ -2018,7 +2013,7 @@ o
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Localization-of-Victoria-1"
+reference "fig:Localization of the state of Victoria, Australia"
 
 \end_inset
 
@@ -2039,7 +2034,7 @@ key "Sherbon1975"
 
 \end_inset
 
- and has a population of 5,9 million people 
+ and has a population of 5.9 million people 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ABS"
@@ -2069,7 +2064,7 @@ Mallee
 \begin_inset Quotes erd
 \end_inset
 
- region is a flat and dessert area.
+ region is a flat and desert area.
  Victoria's southern limit is the Bass Strait.
  The southern lowlands of Victoria encompasses Melbourne, its capital city
  and major urban centre with a population of 4,4 million people 
@@ -2157,10 +2152,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Localization of the state of Victoria, Australia.
+Location of the state of Victoria, Australia.
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Localization-of-Victoria-1"
+name "fig:Localization of the state of Victoria, Australia"
 
 \end_inset
 
@@ -2185,7 +2180,7 @@ Ecuador
 Ecuador is located in the north-west side of South-America (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Location-of-Ecuador."
+reference "fig:Location of Ecuador"
 
 \end_inset
 
@@ -2281,7 +2276,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename ../Chapter_6/Figures/Ecuador_location.png
+	filename Figures/Ecuador_location.png
 	lyxscale 3
 	scale 25
 
@@ -2298,7 +2293,7 @@ Location of Ecuador.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Location-of-Ecuador."
+name "fig:Location of Ecuador"
 
 \end_inset
 
@@ -2316,7 +2311,7 @@ name "fig:Location-of-Ecuador."
 \end_layout
 
 \begin_layout Standard
-Thie Andes range crosses Ecuador from North to South.
+The Andes range crosses Ecuador from North to South.
  The Ecuadorian Andes comprises two flanks of mountains: the eastern and
  western 
 \begin_inset Quotes eld
@@ -2483,7 +2478,7 @@ key "Risbey2009b"
 
 \end_inset
 
- argue that they all dependent on the others, especially ENSO and the IOD.
+ argue that they all dependent on each other, especially ENSO and the IOD.
  In spite of these complex interactions, it is possible to regionalise Victoria'
 s climate.
  
@@ -2516,7 +2511,7 @@ th
  century describes Victoria as a temperate region (see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Climate-classification-of-Australia"
+reference "fig:Climate classification of Australia"
 
 \end_inset
 
@@ -2558,23 +2553,12 @@ status open
 \begin_layout Plain Layout
 Climate classification of Australia based on a modified Köppen classification
  system.
- Classification derived from 0.025 x 0.025
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-o
-\end_layout
-
-\end_inset
-
- resolution mean rainfall, mean maximum temperature and mean minimum temperature
- gridded data.
- All means are based on a standard 30-year climatology (1961 to 1990).
+ Victoria is a temperate region.
  Source: Australian Bureau of Meteorology.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Climate-classification-of-Australia"
+name "fig:Climate classification of Australia"
 
 \end_inset
 
@@ -2605,7 +2589,7 @@ key "Luke1978"
  masses.
  The north-west region of this climatic zone receives an annual average
  of 250 to 300 mm of precipitation and endures intense heatwaves; whereas,
- in the north-east the precense of mountains raises the precipitation range
+ in the north-east the presence of mountains raises the precipitation range
  to 800-1000 mm in a year.
  Precipitation in southern Victoria also increases with altitude; however,
  westerly winds drive its formation.
@@ -2662,7 +2646,7 @@ key "Martinez2011"
  The inter-annual variability on this region depends on ENSO 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Vuille1999,Villacis2003,Martinez2011"
+key "Vuille2000,Villacis2003,Martinez2011"
 
 \end_inset
 
@@ -2672,7 +2656,7 @@ key "Vuille1999,Villacis2003,Martinez2011"
 \end_layout
 
 \begin_layout Standard
-Most of the Ecuadorian Andes—between 1500 to 3000 m—have a “Semi-humid mesotherm
+Most of the Ecuadorian Andes—between 1500 to 3000 m—have a “semi-humid mesotherm
 al” climate 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2777,6 +2761,7 @@ status open
 
 \begin_layout Plain Layout
 Climate classification of Ecuador.
+ A “semi-humid mesothermal” climate characterises the Ecuadorian Andes.
  Adapted from 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2788,7 +2773,7 @@ key "Pourrut1995"
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Climate-classification-of-Ecuador"
+name "fig:Climate classification of Ecuador"
 
 \end_inset
 
@@ -2874,7 +2859,7 @@ key "Luke1978,BoM2009"
  (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Fire-seasons-in-Australia"
+reference "fig:Fire seasons in Australia"
 
 \end_inset
 
@@ -2906,11 +2891,13 @@ status open
 
 \begin_layout Plain Layout
 Fire seasons in Australia.
+ Fire seasons in Victoria occur in the austral summer (December-January-February
+).
  Source: Australian Bureau of Meteorology.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Fire-seasons-in-Australia"
+name "fig:Fire seasons in Australia"
 
 \end_inset
 
@@ -3107,7 +3094,16 @@ key "DEPIa"
 
 \begin_layout Standard
 The last catastrophic event was the worst in Australian history.
- “Black Saturday” occurred on February 7th, 2009 
+ “Black Saturday” occurred on February 7
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+, 2009 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "VBRC_2009_final_report"
@@ -3175,7 +3171,7 @@ key "VBRC_2009_final_report"
 \end_inset
 
 .
- These fires motivated the conformation of another commission—2009 Victorian
+ These fires motivated the establishment of another commission—2009 Victorian
  Bushfires Royal Comission—.
  The commission clearly identified the characteristics of the fires.
  The main features included: rapid spread, fires crowned in forested areas,
@@ -3191,7 +3187,7 @@ key "VBRC_2009_final_report"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Fire-columns-during-Black-Saturday"
+reference "fig: “Black Saturday” fires"
 
 \end_inset
 
@@ -3230,7 +3226,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Fire columns during 
+\begin_inset Quotes eld
+\end_inset
+
+Black Saturday
+\begin_inset Quotes erd
+\end_inset
+
+ fires.
+ Fire columns during 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3243,7 +3247,7 @@ Black Saturday
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Fire-columns-during-Black-Saturday"
+name "fig: “Black Saturday” fires"
 
 \end_inset
 
@@ -3356,7 +3360,7 @@ l).
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Bushfire-in-the-urban-rural-interface-of-Quito"
+reference "Bushfires in Ecuador"
 
 \end_inset
 
@@ -3386,12 +3390,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Bushfire in the urban-rural interface of Quito—capital of Ecuador— during
- the 2015 season.
+Extreme bushfire in the urban-rural interface of Quito—capital of Ecuador—
+ during the 2012 season.
  Source: http://www.panorama.com.ve 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Bushfire-in-the-urban-rural-interface-of-Quito"
+name "Bushfires in Ecuador"
 
 \end_inset
 
