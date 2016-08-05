@@ -434,7 +434,7 @@ th
  Regional Office, Mildura, Nill and Sale (see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Location-of-WS-HW"
+reference "fig:Location of meterological stations used to compute heatwaves dates in Victoria, Australia"
 
 \end_inset
 
@@ -471,7 +471,7 @@ Location of meterological stations used to compute heatwaves dates in Victoria,
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Location-of-WS-HW"
+name "fig:Location of meterological stations used to compute heatwaves dates in Victoria, Australia"
 
 \end_inset
 
@@ -808,7 +808,7 @@ Bushfire and heatwaves frequency in Victoria
 Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:Bushfire-events-per"
+reference "tab:Bushfire events per area burnt in Victoria"
 
 \end_inset
 
@@ -829,7 +829,7 @@ On the other hand, DELWP's database registers 31 events that burnt at least
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Time-series-of-BE-HW"
+reference "fig:Time series of bushfires, heatwaves and Southern Oscillation Index (SOI) in Victoria, Australia during the period 1961-2011"
 
 \end_inset
 
@@ -854,7 +854,7 @@ bruary (DJF).
  
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:Bushfire-events-per"
+name "tab:Bushfire events per area burnt in Victoria"
 
 \end_inset
 
@@ -1265,7 +1265,7 @@ status open
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Time-series-of-BE-HW"
+reference "tab:Bushfire events per area burnt in Victoria"
 
 \end_inset
 
@@ -1342,13 +1342,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Time series of bushfire (panel a) and heatwave (panel b) events in Victoria
- (December-January-February) for the period 1961-2011.
- For bushfire events, the red solid and black dashed time series correspond
- to data from the Department of Environment, Land, Water and Planning (DELWP)
- and Risk Frontiers (RF) data respectively (r=0.44,p=0.00).
- For heatwave events, the red solid and black dashed time series correspond
- to heatwaves computed with 
+Time series of bushfire and heatwave events in Victoria for the period 1961-2011.
+ Panels a) and b) show the bushfire and heatwave events evolution respectively.
+ For bushfire events, panel a) shows data from the Department of Environment,
+ Land, Water and Planning (DELWP) (red solid line) and from Risk Frontiers
+ (RF) (black dashed line).
+ For heatwave events, panel b) displays red solid and black dashed lines
+ that correspond to heatwaves computed with 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Nairn2009"
@@ -1362,11 +1362,13 @@ key "Pezza2012"
 
 \end_inset
 
- definitions respectively (r=0.06,p=0.68).
+ definitions respectively.
+ The bushfire time series have a higher correlation than the heatwaves counterpa
+rt (Bushfires: r=0.44, p=0.00; Heatwaves: r=0.06, p=0.68).
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Time_series_BE_HW"
+name "fig:Time series of bushfire and heatwave events in Victoria for the period 1961-2011"
 
 \end_inset
 
@@ -1422,7 +1424,7 @@ pure
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Time-series-of-BE-HW"
+reference "fig:Time series of bushfires, heatwaves and Southern Oscillation Index (SOI) in Victoria, Australia during the period 1961-2011"
 
 \end_inset
 
@@ -1462,11 +1464,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Time series of a) 27 bushfire events and b) 13 heatwave events in the period
- 1961-2011 in Victoria, Australia (red bars representing events for the
- season December-January-February).
- Southern Oscillation Index (SOI) time series are presented as the average
- for the season December-January-February (blue lines).
+Time series of bushfires, heatwaves and Southern Oscillation Index (SOI)
+ in Victoria, Australia during the period 1961-2011.
+ Panel a) shows 27 bushfire events and b) 13 heatwaves (red bars representing
+ events for the season December-January-February).
+ SOI time series are presented as the average for the season December-January-Fe
+bruary (blue lines).
  Monthly SOI values were taken from the Bureau of Meteorology web page.
  The bushfire, heatwave and SOI time series were fitted to a 6
 \begin_inset script superscript
@@ -1502,7 +1505,7 @@ key "Nairn2009"
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Time-series-of-BE-HW"
+name "fig:Time series of bushfires, heatwaves and Southern Oscillation Index (SOI) in Victoria, Australia during the period 1961-2011"
 
 \end_inset
 
@@ -1532,7 +1535,7 @@ The air temperature (1000 hPa level) anomalies show differences between
  bushfires and heatwaves events (see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:a),-b)-and-daily-temperature-anomalies"
+reference "fig: Air temperature daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
@@ -1592,10 +1595,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Panels a), b) and c) show air temperature anomalies at 1000 hPa level for
- day -1 to day +1 respectively of 27 bushfire events (period 1961–2011).
- Panels d), e) and f) show air temperature anomalies at 1000 hPa level for
- day -1 to day +1 respectively of 13 heatwave events (period 1961-2011).
+Air temperature daily anomalies at 1000 hPa level during extreme bushfire
+ and heatwave events in Victoria, Australia during the period 1961-2010.
+ Panels a), b), c), d), e) and f) show anomalies for day -1 to day +1 of
+ 27 bushfire and 13 heatwave events respectively.
  Bushfire records sourced from Department of Environment, Land, Water and
  Planning (DELWP).
  Heatwaves were computed using the 55
@@ -1618,9 +1621,12 @@ key "Nairn2009"
  Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
  Areas marked with ‘+’ show anomalies statistically significant at the 5%
  level.
+ Cold fronts and persistent excess heat characterise extreme fire weather
+ and heatwaves weather respectively.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:a),-b)-and-daily-temperature-anomalies"
+name "fig: Air temperature daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
@@ -1647,7 +1653,7 @@ The differences in relative humidity (1000 hPa level) are more revealing.
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "daily-relative-humidity-anomalies"
+reference "Relative humidity daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
@@ -1663,14 +1669,14 @@ y in Queensland.
  This can be seen in figures 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:a),-b)-and-daily-temperature-anomalies"
+reference "fig: Air temperature daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
 c and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "daily-relative-humidity-anomalies"
+reference "Relative humidity daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
@@ -1682,7 +1688,7 @@ c.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1701,10 +1707,10 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Panels a), b) and c) show relative humidity anomalies at 1000 hPa level
- for day -1 to day +1 respectively of 27 bushfire events (period 1961–2011).
- Panels d), e) and f) show relative humidity anomalies at 1000 hPa level
- for day -1 to day +1 respectively of 13 heatwave events (period 1961-2011).
+Relative humidity daily anomalies at 1000 hPa level during extreme bushfire
+ and heatwave events in Victoria, Australia during the period 1961-2010.
+ Panels a), b), c), d), e) and f) show anomalies for day -1 to day +1 of
+ 27 bushfire and 13 heatwave events respectively.
  Bushfire records sourced from Department of Environment, Land, Water and
  Planning (DELWP).
  Heatwaves were computed using the 55
@@ -1727,9 +1733,12 @@ key "Nairn2009"
  Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
  Areas marked with ‘+’ show anomalies statistically significant at the 5%
  level.
+ Southern Australia is dry during bushfires in Victoria while the continent
+ displays intense dry-wet contrasts linked to heatwaves in this region.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "daily-relative-humidity-anomalies"
+name "Relative humidity daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
@@ -1738,10 +1747,6 @@ name "daily-relative-humidity-anomalies"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1755,7 +1760,7 @@ Geopotential height (500-hPa level) presents the most notable differences
  (see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:a),-b)-and-gz-daily-anomalies"
+reference "fig: Geopotential height daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
@@ -1779,7 +1784,7 @@ key "Pezza2012"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1798,10 +1803,10 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Panels a), b) and c) show geopotential height anomalies at 500 hPa level
- for day -1 to day +1 respectively of 27 bushfire events (period 1961–2011).
- Panels d), e) and f) show geopotential height anomalies at 500 hPa level
- for day -1 to day +1 respectively of 13 heatwave events (period 1961-2011).
+Geopotential height daily anomalies at 1000 hPa level during extreme bushfire
+ and heatwave events in Victoria, Australia during the period 1961-2010.
+ Panels a), b), c), d), e) and f) show anomalies for day -1 to day +1 of
+ 27 bushfire and 13 heatwave events respectively..
  Bushfire records sourced from Department of Environment, Land, Water and
  Planning (DELWP).
  Heatwaves were computed using the 55
@@ -1824,9 +1829,12 @@ key "Nairn2009"
  Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
  Areas marked with ‘+’ show anomalies statistically significant at the 5%
  level.
+ Bushfires display intense frontal activity while heatwaves show persistent
+ anomalies.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:a),-b)-and-gz-daily-anomalies"
+name "fig: Geopotential height daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
 
 \end_inset
 
@@ -1857,7 +1865,7 @@ Bushfire events are associated with warm sea surface temperature (SST) anomalies
  These anomalies are also present in the Indian Ocean (see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Sea-surface-temperature-djf"
+reference "fig:Sea surface temperature anomalies of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
@@ -1866,7 +1874,7 @@ a).
  (see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Sea-surface-temperature-djf"
+reference "fig:Sea surface temperature anomalies of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
@@ -1909,7 +1917,7 @@ status open
 \begin_layout Plain Layout
 Sea surface temperature (SST) anomalies composite of a) 18 bushfire and
  b) 12 heatwave seasons occurred in the season December-January-February
- (DJF) from 1961–2011.
+ (DJF) for the period 1961–2011.
  Bushfire records sourced from Department of Environment, Land, Water and
  Planning (DELWP).
  Heatwaves were computed using the 55
@@ -1932,9 +1940,19 @@ key "Nairn2009"
  Climate data obtained from the Met Office Hadley Centre’s sea ice and sea
  surface temperature dataset (HadISST1) dataset.
  Shaded areas show anomalies statistically significant at the 5% level.
+ Extreme fire seasons in Victoria show a clear 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño
+\begin_inset Quotes erd
+\end_inset
+
+ pattern while heatwaves display a neutral condition.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Sea-surface-temperature-djf"
+name "fig:Sea surface temperature anomalies of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
@@ -1972,14 +1990,14 @@ A final approach in this investigation was to explore the seasonal circulation
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-air-son"
+reference "fig: Temperature anomalies (1000 hPa level) of bushfire and heatwave seasons in September-October-November for the period 1961–2011"
 
 \end_inset
 
  and figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-air-djf"
+reference "fig:Temperature anomalies (1000 hPa level) of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
@@ -1988,7 +2006,7 @@ reference "fig:Seasonal-composite-for-air-djf"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-air-son"
+reference "fig: Temperature anomalies (1000 hPa level) of bushfire and heatwave seasons in September-October-November for the period 1961–2011"
 
 \end_inset
 
@@ -1996,7 +2014,7 @@ a shows an ‘El Niño’ like pattern that persists into the DJF season associa
  with bushfires (see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-air-djf"
+reference "fig:Temperature anomalies (1000 hPa level) of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
@@ -2005,14 +2023,14 @@ a).
  This pattern persists in the concurrent season (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-air-son"
+reference "fig: Temperature anomalies (1000 hPa level) of bushfire and heatwave seasons in September-October-November for the period 1961–2011"
 
 \end_inset
 
 b and Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-air-djf"
+reference "fig:Temperature anomalies (1000 hPa level) of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
@@ -2045,7 +2063,7 @@ status open
 \begin_layout Plain Layout
 Seasonal composite for air temperature (T) anomalies (1000 hPa level) for
  a) 18 bushfire and b) 12 heatwave seasons occurred in the season September-Octo
-ber-November (SON) from 1961–2011.
+ber-November (SON) for the period 1961–2011.
  Bushfire records sourced from Department of Environment, Land, Water and
  Planning (DELWP).
  Heatwaves were computed using the 55
@@ -2067,9 +2085,19 @@ key "Nairn2009"
  criteria.
  Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
  Shaded areas show anomalies statistically significant at the 5% level.
+ Extreme fire seasons in Victoria show an 
+\begin_inset Quotes eld
+\end_inset
+
+El Niño-like
+\begin_inset Quotes erd
+\end_inset
+
+ pattern while heatwaves display a neutral condition.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Seasonal-composite-for-air-son"
+name "fig: Temperature anomalies (1000 hPa level) of bushfire and heatwave seasons in September-October-November for the period 1961–2011"
 
 \end_inset
 
@@ -2137,9 +2165,20 @@ key "Nairn2009"
  criteria.
  Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
  Shaded areas show anomalies statistically significant at the 5% level.
+ Australia is a 
+\begin_inset Quotes eld
+\end_inset
+
+hot
+\begin_inset Quotes erd
+\end_inset
+
+ continent during extreme fire seasons in Victoria while heatwaves display
+ hot-cool contrasts.
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Seasonal-composite-for-air-djf"
+name "fig:Temperature anomalies (1000 hPa level) of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
@@ -2160,14 +2199,14 @@ name "fig:Seasonal-composite-for-air-djf"
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-son"
+reference "fig: Relative humidity anomalies (1000 hPa level) of bushfire and heatwave seasons in September-October-November for the period 1961–2011"
 
 \end_inset
 
  and figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-djf"
+reference "fig: Relative humidity anomalies (1000 hPa level) of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
@@ -2175,7 +2214,7 @@ reference "fig:Seasonal-composite-for-rh-djf"
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-son"
+reference "fig: Relative humidity anomalies (1000 hPa level) of bushfire and heatwave seasons in September-October-November for the period 1961–2011"
 
 \end_inset
 
@@ -2188,14 +2227,14 @@ a depicts a dry Australia.
  heatwaves (see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-son"
+reference "fig: Relative humidity anomalies (1000 hPa level) of bushfire and heatwave seasons in September-October-November for the period 1961–2011"
 
 \end_inset
 
 b and Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Seasonal-composite-for-rh-djf"
+reference "fig: Relative humidity anomalies (1000 hPa level) of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
@@ -2255,9 +2294,11 @@ key "Nairn2009"
  criteria.
  Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
  Shaded areas show anomalies statistically significant at the 5% level.
+ Australia is dry during the antecedent fire season in Victoria while wet
+ conditions prevail in the continent linked to heatwaves in this region.
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Seasonal-composite-for-rh-son"
+name "fig: Relative humidity anomalies (1000 hPa level) of bushfire and heatwave seasons in September-October-November for the period 1961–2011"
 
 \end_inset
 
@@ -2325,9 +2366,12 @@ key "Nairn2009"
  criteria.
  Climate data obtained from the Tweentieth Century Reanalysis Project (20CR).
  Shaded areas show anomalies statistically significant at the 5% level.
+ In the concurrent fire season in Victoria Australia is dry during while
+ during heatwaves most of the continent is wet (except Southern Australia).
+ 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Seasonal-composite-for-rh-djf"
+name "fig: Relative humidity anomalies (1000 hPa level) of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
 
 \end_inset
 
