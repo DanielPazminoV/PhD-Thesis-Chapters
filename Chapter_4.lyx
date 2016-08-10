@@ -431,14 +431,14 @@ th
  over 112 locations.
  These variables are required in several methods to define heatwaves.
  The weather stations selected for the analyses in this study were Melbourne
- Regional Office, Mildura, Nill and Sale (see figure 
+ Regional Office, Mildura, Nill and Sale (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Location of meterological stations used to compute heatwaves dates in Victoria, Australia"
 
 \end_inset
 
-).
+ and Appendix B).
  These stations provide the longest set of records.
  
 \end_layout
@@ -1406,7 +1406,7 @@ Black Saturday
 \begin_inset Quotes erd
 \end_inset
 
- (see appendix for dates).
+ (see Appendix A for dates).
  These common days, have been excluded from the composites.
  The exclusion yields a 
 \begin_inset Quotes eld
@@ -1532,7 +1532,7 @@ Weather patterns for daily climatology
 
 \begin_layout Standard
 The air temperature (1000 hPa level) anomalies show differences between
- bushfires and heatwaves events (see figure 
+ bushfires and heatwaves events (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig: Air temperature daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
@@ -1649,7 +1649,7 @@ name "fig: Air temperature daily anomalies at 1000 hPa level during extreme bush
 
 \begin_layout Standard
 The differences in relative humidity (1000 hPa level) are more revealing.
- Southeastern Australia presents drier anomalies during heatwaves (see figure
+ Southeastern Australia presents drier anomalies during heatwaves (see Figure
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1757,7 +1757,7 @@ name "Relative humidity daily anomalies at 1000 hPa level during extreme bushfir
 
 \begin_layout Standard
 Geopotential height (500-hPa level) presents the most notable differences
- (see figure 
+ (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig: Geopotential height daily anomalies at 1000 hPa level during extreme bushfire and heatwave events in Victoria, Australia during the period 1961-2010"
@@ -1862,7 +1862,7 @@ Sea surface temperature anomalies
 \begin_layout Standard
 Bushfire events are associated with warm sea surface temperature (SST) anomalies
  over the tropical Pacific Ocean during December-January-February.
- These anomalies are also present in the Indian Ocean (see figure 
+ These anomalies are also present in the Indian Ocean (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Sea surface temperature anomalies of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
@@ -1871,7 +1871,7 @@ reference "fig:Sea surface temperature anomalies of bushfire and heatwave season
 
 a).
  In contrast, these warming anomalies are not present for heatwave events
- (see figure 
+ (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Sea surface temperature anomalies of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
@@ -2011,7 +2011,7 @@ reference "fig: Temperature anomalies (1000 hPa level) of bushfire and heatwave 
 \end_inset
 
 a shows an ‘El Niño’ like pattern that persists into the DJF season associated
- with bushfires (see figure 
+ with bushfires (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Temperature anomalies (1000 hPa level) of bushfire and heatwave seasons in December-January-February for the period 1961–2011"
@@ -2224,7 +2224,7 @@ a depicts a dry Australia.
  They present positive anomalies in this region.
  Wet conditions become dominant in a large are of the Australian continent.
  However, dry conditions prevail in South Australia and Victoria during
- heatwaves (see figure 
+ heatwaves (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig: Relative humidity anomalies (1000 hPa level) of bushfire and heatwave seasons in September-October-November for the period 1961–2011"
