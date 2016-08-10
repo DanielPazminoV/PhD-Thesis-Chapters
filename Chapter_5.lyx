@@ -257,7 +257,7 @@ key "Lucas2010"
 \end_inset
 
 .
- Six Victorian weather stations were selected for this analysis (see figure
+ Six Victorian weather stations were selected for this analysis (see Figure
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -265,7 +265,7 @@ reference "fig:Location of meteorological stations used to compute fire weather 
 
 \end_inset
 
-).
+ and Appendix B).
  These stations provide the best available information for the computation
  of this index 
 \begin_inset CommandInset citation
@@ -662,7 +662,7 @@ The composites presented in Chapter 4 revealed the seasonal patterns of
  over Victoria (33S-36S; 145E-150E).
  Additionally, the NINO1+2 (0-10S, 90W-80W) and NINO3.4 (5N-5S; 170W-120W)
  regions presented strong and also statistical significant anomalies (see
- figure 
+ Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig: Victorian Seasonal Bushfire Index (VSBI) regions"
@@ -866,7 +866,7 @@ The investigation used linear correlations to analyse the relationship between
  activity and FFDI data—computed with reanalysis data—respectively.
  The SAM index—AAO— was excluded from the analysis.
  The AAO did not show a significant correlation with most variables in a
- first analysis undertaken for the period 1980-2010 (see appendix).
+ first analysis undertaken for the period 1980-2010 (see Appendix C).
  The figures highlight the statistically significant results at the 5% level.
 \end_layout
 
@@ -1416,10 +1416,6 @@ name "fig:Specific humidity time series during December-January-February in Vict
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3345,7 +3341,7 @@ Among the ENSO indices, NINO
  VSBI formulation.
  In contrast, SAM does not have a significant influence on preconditioning
  bushfire seasons.
- The appendix shows the correlations for this variable.
+ Appendix C shows the correlations for this variable.
 \end_layout
 
 \begin_layout Standard
@@ -3360,7 +3356,7 @@ key "Risbey2009b,Ho2011"
  Therefore, the lack of influence of SAM over fire weather is an unexpected
  result.
  The use of different climatologies could explain the weak influence of
- SAM (see appendix).
+ SAM (see Appendix C).
  The climatology used for bushfire variables was 1961-2011.
  On the other hand, the climatology for SAM was 1979-2000.
  Although the correlation results for climate indices vary from spring to
