@@ -2115,7 +2115,7 @@ Victorian Seasonal Bushfire Index computation
 \begin_layout Standard
 The analysis also included the computation of the VSBI using ERA-20C data.
  The result using this data show no significant trend for the period 1920-2010
- (see figure 
+ (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Victorian Seasonal Bushfire Index time series during December-January-February in Victoria, Australia for the period 1920-2010 (VSBI)"
@@ -2322,7 +2322,7 @@ reference "fig:Pearson correlation coeficients for climate-bushfire relationship
  show the linear correlation coefficients for climate-bushfire relationships
  in spring.
  The relationship between VSBI and FFDI metrics in spring is strong.
- Using observations (see figure 
+ Using observations (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pearson correlation coeficients for climate-bushfire relationships for September-October-November in Victoria, Australia during the period 1973-2009 (r)"
@@ -2422,7 +2422,7 @@ decreases wih reanalysis data (-0.5<r<-0.37).
 \begin_layout Standard
 Climate drivers have a moderate influence on fire weather in spring.
  Observations show that the Indian Ocean Dipole has the strongest influence
- over fire weather in this season (see figure 
+ over fire weather in this season (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pearson correlation coeficients for climate-bushfire relationships for September-October-November in Victoria, Australia during the period 1973-2009 (r)"
@@ -2711,7 +2711,7 @@ respectively.
 \begin_layout Standard
 On the other hand, the correlations—using observations—between the VSBI
  and fire activity are r=0.63 and r=0.5 with RF and DELWP databases respectively
- (see figure 
+ (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pearson correlation coeficients for climate-bushfire relationships for December-January-February in Victoria, Australia during the period 1974-2010 (r)"
@@ -2731,7 +2731,7 @@ reference "fig:Pearson correlation coeficients for climate-bushfire relationship
 \begin_layout Standard
 Observations show that RH is be the main fire driver in this season.
  Additionally, observations demonstrate that RH has a stronger influence
- over fire weather bushfires (see figure
+ over fire weather bushfires (see Figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pearson correlation coeficients for climate-bushfire relationships for December-January-February in Victoria, Australia during the period 1974-2010 (r)"
@@ -2937,7 +2937,7 @@ reference "fig:Pearson correlation coeficients for climate-bushfire relationship
 \end_layout
 
 \begin_layout Standard
-The results using observations (see figure 
+The results using observations (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 1) (r)"
@@ -2978,7 +2978,7 @@ e.
 \begin_layout Standard
 Correlations using observations and reanalysis data agree to show that relative
  humidity is climate variable with the strongest prediction skill.
- The correlation matrix that uses observations (see figure 
+ The correlation matrix that uses observations (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pearson correlation coeficients for climate-bushfire relationships from September-October-November to December-January-February in Victoria, Australia during the period 1973-2010 (part 1) (r)"
