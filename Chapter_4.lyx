@@ -22,11 +22,8 @@
 \fancyhead[LO]{\bfseries \nouppercase \rightmark}
 
 \renewcommand{\chaptermark}[1]{%
-\markboth{\thechapter. \ #1 }{}}
-
-%\renewcommand{\chaptermark}[1]{%
-%\markboth{\chaptername 
-%\ \thechapter\ }{}}
+\markboth{\chaptername 
+\ \thechapter\ }{}}
 
  
 \fancyhead[LE,RO]{\bfseries\thepage}
