@@ -136,8 +136,8 @@ key "McAneney2009"
 \end_inset
 
  reported that bushfires are responsible for 20% of property losses in Australia.
- Indeed, the costs of a single catastrophic event can reach billions of
- dollars (e.g the 
+ Indeed, the costs of a single catastrophic bushfire event can reach billions
+ of dollars (e.g the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -149,8 +149,8 @@ Ash Wednesday
 \end_layout
 
 \begin_layout Standard
-Furthermore, there is evidence sugggesting that future bushfires could become
- more dangerous in several regions of Australia.
+Furthermore, there is evidence that future bushfires could become more dangerous
+ in several regions of Australia.
  One of the regions that might experience greater risk is the south-east
  of the continent.
  
@@ -174,8 +174,8 @@ key "Clarke2011"
 \end_layout
 
 \begin_layout Standard
-In southeastern Australia, the state of Victoria is one the most bushfire
- prone and vulnerable areas.
+The state of Victoria is one the most bushfire prone and vulnerable areas
+ in southeastern Australia.
  This region endured the most catastrophic bushfire events in Australian
  history (e.g.
  
@@ -233,7 +233,7 @@ The planification for fire emergencies in Victoria includes the elaboration
  Using this information the Australian Bureau of Meteorology generates seasonal
  fire weather outlooks.
  These reports are qualitative.
- In contrast, 
+ However, 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Harris2013"
@@ -242,8 +242,8 @@ key "Harris2013"
 
  showed that there is potential to forecast fire activity quantitatively
  in Victoria.
- Nevertheless, further research is necessary to develop a quantitative forecasti
-ng tool for this region.
+ Thus, further research is necessary to develop a quantitative forecasting
+ tool for this region.
  
 \end_layout
 
@@ -252,37 +252,18 @@ Several aspects deserve further investigation to better predict fire weather
  in Victoria.
  For example, understanding the effect of extreme events co-occurrence (e.g.
  fire weather and heatwaves).
- Additionally, exploring the long-term variability in fire weather could
+ Additionally, exploring the long-term variability of fire weather could
  provide insights on the causes of dangerous fire seasons.
- It is also unknown which are the most important climate modes of variability
- that influence fire weather in this region and how they exert their control.
+ It is also important to better understand the influence of global and regional
+ climate modes of variability ver fire weather.
 \end_layout
 
 \begin_layout Standard
 Extreme bushfire seasons also occur in this hemisphere in several regions
  in South America.
- However, there are areas of scarce information (e.g.
- tropical Andes).
- South America and Australia share common aspects linked to fire activity.
- For example, climate modes of variability such as El Niño-Southern Oscillation
- (ENSO) influence fire weather in both continents 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Williams1999,Chen2011"
-
-\end_inset
-
-.
- This research further examines this relationship on a regional scale.
- The investigation focus on two study areas: Victoria, Australia and the
- Ecuadorian Andes.
- These two regions also share the Eucalyptus as the characteristic fire-prone
- vegetation.
-\end_layout
-
-\begin_layout Standard
-Bushfires produce severe impacts to the Ecuadorian Andes ecosystems.
- For example, 2012 was the most extreme fire season in the recent history
+ For example, bushfires produce severe impacts to the Ecuadorian Andes ecosystem
+s.
+ In fact, the year 2012 was the most extreme fire season in the recent history
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -308,13 +289,32 @@ key "MinisteriodelAmbiente2013"
  
 \end_layout
 
+\begin_layout Standard
+South America and Australia share common aspects linked to fire activity.
+ For example, climate modes of variability such as El Niño-Southern Oscillation
+ (ENSO) influence fire weather in both continents 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams1999,Chen2011"
+
+\end_inset
+
+.
+ This research further examines this relationship on a regional scale.
+ The investigation focus on two study areas: Victoria, Australia and the
+ Ecuadorian Andes.
+ These two regions also share the Eucalyptus as the characteristic fire-prone
+ vegetation.
+\end_layout
+
 \begin_layout Section
 Aim and scope
 \end_layout
 
 \begin_layout Standard
 The aim of this thesis is to better understand the drivers and evolution
- of fire weather in two regions of the Southern Hemisphere.
+ of fire weather in two regions of the Southern Hemisphere: Victoria, Australia
+ and the Ecuadorian Andes.
  Specifically, this study will answer the folowing research questions:
 \end_layout
 
@@ -331,17 +331,17 @@ Co-occurrence of extreme events in Victoria: Fire weather spatial patterns
  types of events? 
 \end_layout
 
+\begin_layout Standard
+•Can fire weather spatial patterns be used to develop a fire danger index
+ for Victoria?
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 Long-term fire weather changes in Victoria and the Ecuadorian Andes.
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-•Can fire weather spatial patterns be used to develop a fire danger index
- for Victoria?
-\end_layout
-
 \begin_layout Standard
 •How did the variability of fire weather in Victoria behave over the last
  century?
@@ -359,8 +359,8 @@ Influence of ENSO and other climate drivers over fire weather in Victoria
 
 \begin_deeper
 \begin_layout Standard
-• Which are the most important modes of climate variability that drive fire
- weather in Victoria and how do they exert their control?
+• How do the most important climate modes of variability exert their control
+ over fire weather in Victoria?
 \end_layout
 
 \begin_layout Standard
@@ -401,17 +401,6 @@ Following this introduction, Chapter 2 provides background information to
  fire weather in Ecuador.
  Chapter 8 highlights the conclusions of the thesis.
  Finally, it also recommends future research derived from this work.
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "/Users/danielpazmino/Documents/My_research/Thesis/LyX/library"
-options "/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
-
-\end_inset
-
-
 \end_layout
 
 \end_body
