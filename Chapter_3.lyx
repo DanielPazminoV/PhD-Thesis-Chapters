@@ -206,7 +206,15 @@ key "Mills2005"
 
 \end_inset
 
- performed an evaluation of the meteorological conditions of "Ash Wednesday".
+ performed an evaluation of the meteorological conditions of 
+\begin_inset Quotes eld
+\end_inset
+
+Ash Wednesday
+\begin_inset Quotes erd
+\end_inset
+
+.
  The author proposed the 850 hPa level horizontal temperature gradient south
  to Australia as a parameter to assess fire weather.
  Extreme fires are more likely to occur when there are greater temperature
@@ -307,8 +315,16 @@ key "Mills2005,Mills2005a,Cruz2012,Engel2013"
 \end_inset
 
 .
- “Ash Wednesday” and "Black Saturday" are the most relevant cases regarding
- human fatalities and economic impact 
+ “Ash Wednesday” and 
+\begin_inset Quotes eld
+\end_inset
+
+Black Saturday
+\begin_inset Quotes erd
+\end_inset
+
+ are the most relevant cases regarding human fatalities and economic impact
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Blanchi2010,Blanchi2012"
@@ -334,7 +350,7 @@ key "Reeder2015"
  perspective.
  They investigated the role of Rossby waves and extreme fronts on fire weather.
  The analysis covered the period 1979-2010 and focused on southeastern Australia.
- The study used days with extreme cold fonts days to define extreme fire
+ The study used days with intense frontal activity to define extreme fire
  weather events.
  A surface temperature drop of a least of 17 
 \begin_inset script superscript
@@ -345,7 +361,7 @@ o
 
 \end_inset
 
-C ( ▵T > 17 
+C ( ΔT > 17 
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -583,8 +599,8 @@ key "Reeder2015"
  In both cases, they validated they approaches with fire activity dates
  published in the scientific literature.
  These dates are scarce.
- Therefore, the logical behind their approaches is sound.
- Eventhough the oficial bushfire database of the Victorian Government has
+ Therefore, the logic behind their approaches is sound.
+ Eventhough the official bushfire database of the Victorian Government has
  not been peer-reviewed, it has been used in other fire investigations 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -647,7 +663,7 @@ key "Pezza2012,Parker2013,Boschat2014,Parker2014a"
 \end_inset
 
 .
- This hampers the ability to reach conclusions about trends.
+ This time scope hampers the ability to reach conclusions about trends.
  
 \end_layout
 
@@ -739,6 +755,7 @@ Black Saturday
 \end_inset
 
 .
+ These studies used the FFDI to represent fire weather in Australia.
  To my knowledge, the FFDI has not been used internationally.
  However, 
 \begin_inset CommandInset citation
@@ -795,9 +812,9 @@ key "Clarke2013"
 
 \end_inset
 
- analyzed trends with FFDI metrics and found that there are significant
- increases in fire danger in Australia-especially in the southeast of the
- continent-.
+ analysed trends with FFDI metrics and found that there are significant
+ increases in fire danger in Australia—especially in the southeast of the
+ continent—.
  These studies describe fire weather variability after the nineteen-seventies.
  However, extending the FFDI record would provide valuable information about
  past fire weather changes.
@@ -931,7 +948,7 @@ Fire weather forecasting
 
 \begin_layout Standard
 The FFDI and other fire weather indices estimate bushfire risk based on
- current-daily-weather conditions.
+ current—daily—weather conditions.
  However, using these indices to forecast seasonal fire weather is a more
  complex task.
  For example, using dynamical models requires extensive computing resources
@@ -953,10 +970,11 @@ key "Kitzberger2002,Nicholls2007,Harris2013"
 
 .
  This review focuses on this approach.
- This section reports on the influence of ENSO on fire weather and activity.
+ This section reports on the influence of ENSO on fire weather and bushfire
+ events.
  It also discusses the use of other climate modes of variability in fire
  forecasting.
- Finally, the review also analyzes some specific climate influences that
+ Finally, the review also analyses some specific climate influences that
  foster fire activity in South America.
  
 \end_layout
@@ -980,15 +998,15 @@ key "Swetnam1990,Beckage2003"
 \end_inset
 
 .
- The effect of late stages of "La Niña" is the same in northern Argentina
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "KitzbergerT.&Veblen2003"
-
+ The effect of late stages of 
+\begin_inset Quotes eld
 \end_inset
 
-.
+La Niña
+\begin_inset Quotes erd
+\end_inset
+
+ is the same in northern Argentina.
  In fact, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1028,7 +1046,7 @@ key "Barlow2004"
 \end_layout
 
 \begin_layout Standard
-In Australia, most studies about inter-anual climate variability and bushfires
+In Australia, most studies about inter-annual climate variability and bushfires
  have focused on ENSO.
  
 \begin_inset CommandInset citation
@@ -1235,13 +1253,13 @@ key "Harris2013"
  sources of fire data.
  In fact, fire management decisions influence area burnt (e.g.
  fire suppression, planned burns).
- Therefore, it would be desirable also to use fire weather indices in the
- analyzes.
+ Therefore, it would also be desirable to use fire weather indices in the
+ analyses.
  Using fire weather indices could also be useful to extend the period of
  the correlations.
- Extending these analyzes would require computing fire weather indices with
+ Extending these analyses would require computing fire weather indices with
  reanalysis data (e.g.
- 20CR or ERA-CLIM).
+ 20CR or ERA-20C).
  Finally, as acknowledged by 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1303,8 +1321,7 @@ key "Justice2002"
  However, the study did not quantify the fire activity variability explained
  by precipitation.
  The short period of analysis hampers the ability to assess this relationship.
- Other forecasting schemes proposed in South America have had a rather local
- focus.
+ Other forecasting schemes proposed in South America have had a local focus.
 \end_layout
 
 \begin_layout Standard
@@ -1391,7 +1408,7 @@ key "Garreaud2009"
 
 \end_inset
 
- reviewed the scientific literature on the Andean climate.
+ reviewed the climate scientific literature of the Andean region.
  In this review, the author generalizes about ENSO's influence over the
  Andes.
  “El Niño” events bring less than normal precipitation on the tropical Andes.
@@ -1473,13 +1490,13 @@ The three research areas discussed in this review lack extended periods
  These gaps occur due to the unavailability of fire activity records and
  weather station data.
  However, the compilation and comparison of existing fire records could
- be useful in extending these analyzes.
+ be useful in extending these analyses.
  Additionally, the use of reanalysis products might also be an alternative
  to address this gap.
 \end_layout
 
 \begin_layout Standard
-In addition to extending the period of analyzes, the investigation of the
+In addition to extending the period of analyses, the investigation of the
  differences between bushfire and heatwave weather patterns is an interesting
  research endeavour.
  The literature considers them related events, although 
@@ -1508,8 +1525,12 @@ key "Teague2010"
 \end_inset
 
 , perhaps a new index would be required.
- On the other hand, several studies have evaluated seasonal forecasting
- potential using ENSO indices 
+ 
+\end_layout
+
+\begin_layout Standard
+On the other hand, several studies have evaluated seasonal forecasting potential
+ using ENSO indices 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Nicholls2007,Harris2013"
@@ -1518,7 +1539,6 @@ key "Nicholls2007,Harris2013"
 
 .
  However, these studies did not propose a model or simple index.
- The potential of other indices has not been invstigated either.
  Therefore, it would be interesting to test a new fire weather index that
  offers seasonal predictability skill in Australia.
  
@@ -1536,7 +1556,7 @@ The literature review has discussed four main areas.
  Fire Danger Index.
  The review also examined studies that aim to forecast seasonal fire danger
  using ENSO indicators.
- Finally, the research gaps have been synthesized.
+ Finally, the research gaps have been synthesised.
 \end_layout
 
 \begin_layout Standard
@@ -1545,17 +1565,6 @@ The next chapter addresses two of the identified gaps.
  patterns.
  It also extends the period of analysis of these two types of events.
  This investigation was conducted for Victoria, Australia.
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "/Users/danielpazmino/Documents/My_research/Thesis/LyX/library"
-options "/Users/danielpazmino/Documents/My_research/Thesis/LyX/Bibliography/ametsoc"
-
-\end_inset
-
-
 \end_layout
 
 \end_body
