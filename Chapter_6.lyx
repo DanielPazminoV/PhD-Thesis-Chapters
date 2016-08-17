@@ -169,8 +169,8 @@ Heatwave dates
 \begin_layout Standard
 The replication of the experiment conducted in Chapter 4 uses an alternative
  heatwave definition.
- This experiment presents the results using the heatwaves dates computed
- using 
+ This chapter discusses the results using the heatwaves dates computed using
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Pezza2012"
@@ -274,8 +274,8 @@ key "Stickler2014,Stickler2014a"
  This investigation used one of its products: the ERA-20C twentieth-century
  reanalysis.
  ERA-20C, assimilated surface pressure data—as well as marine wind observations—
-and used sea surace temperatues and sea ice concentrations as boundary condition
-s.
+and used sea surface temperatures and sea ice concentrations as boundary
+ conditions.
  It comprises a dataset that provides 3-hourly data, with 125 Km spatial
  resolution and 92 vertical levels.
  
@@ -457,8 +457,7 @@ Bushfire and heatwave weather patterns
 \begin_layout Standard
 This sub-section aims to reproduce the results of bushfire and heatwave
  weather patterns.
- It presents daily and seasonal composites using an alternative bushfire
- database.
+ It shows daily and seasonal composites using an alternative bushfire database.
  For this experiment, Risk Frontiers provided the bushfire records (RF).
  Additionally, the investigation used a second heatwave definition.
  
@@ -469,7 +468,7 @@ key "Pezza2012"
 \end_inset
 
  provide a detailed explanation of the heatwave definition adopted.
- This sub-section starts presenting time series of fire activity and heatwaves.
+ This sub-section starts displaying time series of fire activity and heatwaves.
  These time series are useful to understand the evolution of these two types
  of events.
  
@@ -634,12 +633,12 @@ C) during day -1.
  It directly affects Victoria and Southern Australia; as well as sectors
  of West Australia, New South Wales, the Northern Territory and the Bass
  Strait.
- During this day, Queensland and the coastal West Australia present cold
+ During this day, Queensland and the coastal West Australia display cold
  anomalies.
  Extreme bushfires start (day 0) when a cold front reduces the hot anomalous
  region.
- A day after the cold front passage, warm anomalies are still present in
- Victoria, New South Wales and the Northen Territory.
+ A day after the cold front passage, warm anomalies persist in Victoria,
+ New South Wales and the Northen Territory.
 \end_layout
 
 \begin_layout Standard
@@ -661,8 +660,8 @@ C) during the three days.
  When heatwaves start (day 0), the hot anomalies remain without substantial
  change.
  In contrast, the cold anomalies in Queensland become slightly stronger.
- Addtionally, the coastal region of Western Australia starts presenting
- cold anomalies as well.
+ Additionally, the coastal region of Western Australia starts showing cold
+ anomalies as well.
  During the second day of heatwaves (day +1), the hot anomalies persist.
  However, there is a slight increase of cold anomalies in Western Australia.
 \end_layout
@@ -745,7 +744,7 @@ reference "fig:Relative humidity anomalies at 1000 hPa level for day -1 to day +
  depict daily composites for relative humidity at the 1000 hPa level.
  One day before bushfires start, Victoria shows strong negative anomalies
  (-15%).
- In contrast, the coastal region of Western Australia presents wet anomalies.
+ In contrast, the coastal region of Western Australia displays wet anomalies.
  A strong cold front characterises the start of bushfires (day 0) reducing
  the area affected by dry anomalies.
  Although, Victoria remains extremely dry.
@@ -1171,7 +1170,7 @@ Niño-like
 
  pattern is clearly defined in the NINO3.4 region.
  Although, it is not intense in the long-term average.
- In contrast, seasons with extreme heatwave events present hot anomalies
+ In contrast, seasons with extreme heatwave events display hot anomalies
  only in Victoria and Western Australia.
  In fact, most of the Australian continent displays cold anomalies.
  The Tasman Sea region also shows near-surface negative anomalies.
@@ -1333,8 +1332,8 @@ reference "fig:Relative humidity anomalies (1000 hPa level) of bushfire and heat
  in DJF.
  During extreme bushfire seasons, almost every region in Australia is dry
  (from -0.5% to 1.5%).
- Interestingly, during seasons with extreme heatwaves less areas present
- dry anomalies (e.g.
+ Interestingly, during seasons that experience extreme heatwaves, less areas
+ display dry anomalies (e.g.
  Victoria and Western Australia).
  Surprisingly, most of the continent shows wet conditions (+ 1.5%).
  
@@ -1432,7 +1431,7 @@ reference "fig:Time series of fire weather variables for the season December-Jan
 
 \end_inset
 
- displays the comparisons using orignal and bias-corrected data to plot
+ displays the comparisons using original and bias-corrected data to plot
  seasonal time series.
  These steps revealed that precipitation could be bias-corected using linear
  scaling techniques.
@@ -1657,7 +1656,7 @@ reference "fig:Time series of fire weather variables for the season December-Jan
 
 \end_inset
 
- dispays fire weather variables PDFs and time series respectively.
+ displays fire weather variables PDFs and time series respectively.
  These figures compare WS and original reanalysis data (ERA-20C).
  Each figure shows four panles.
  The panels show graphs for maximum temperature (panel a), relative humidity
@@ -1807,7 +1806,7 @@ reference "fig:Precipitation time series for the season December-January-Februar
  However, ERA-20C moderately captures variability of precipitation (r=0.49,p=0.00).
  Therefore, the precipitation values were bias-corrected using multiplicative
  linear scaling (factor of 3.08).
- As shown in figure 
+ As shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Precipitation time series for the season December-January-February in Victoria during the period 1974-2010"
@@ -1951,7 +1950,7 @@ reference "fig:Cumulative Forest Fire Danger Index time series for the season De
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2037,7 +2036,7 @@ reference "fig:Number of days with Forest Fire Danger Index greater than 25 time
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2273,16 +2272,15 @@ Victorian Seasonal Bushfire Index variables for the period 1920-2010.
  These variables correspond to the European Reanalysis of Global Climate
  Observations (ERA-20C) data.
  Panel d) shows sea surface temperature (SST).
- This time series uses data in the 'El Nino
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-1+2
-\end_layout
-
+ This time series uses data in the 
+\begin_inset Quotes eld
 \end_inset
 
-' region from the HADISST dataset.
+NINO1+2
+\begin_inset Quotes erd
+\end_inset
+
+ region from the HadISST dataset.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -2410,7 +2408,7 @@ cum
 
 \end_inset
 
-is weaker using reanalysis data.
+ is weaker using reanalysis data.
  The relationship between these two metrics ranges from 0.52 to 0.39.
 \end_layout
 
@@ -2780,7 +2778,7 @@ cum
 \end_layout
 
 \begin_layout Standard
-Observations show that relative humidity is be the main fire driver in this
+Observations show that relative humidity is the main fire driver in this
  season.
  Additionally, observations demonstrate that relative humidity has a stronger
  influence over fire weather than bushfire events (see Figure
