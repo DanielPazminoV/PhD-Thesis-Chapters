@@ -1621,7 +1621,7 @@ Number of days with Forest Fire Danger Index greater than 25 (FFDI
 ns (ERA-20C, ERA-20C(bc) respectively) and weather stations in Victoria
  (WS).
  The correlation coeficients between weather station and reanalysis data
- are a) r=0.37, p=0.03, n=37, and b) r= 0.52, p=0.00, n=37.
+ are a) r=0.37, p=0.03, n=37, and b) r=0.52, p=0.00, n=37.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -1893,7 +1893,7 @@ status collapsed
 Precipitation time series for the season December-January-February (DJF)
  in Victoria during the period 1974-2010.
  The correlation coefficients between weather station and reanalysis data
- are a) r=0.49, p=0.00, n=37, and b) r=0.49, p=0.00,n=37.
+ are r=0.49, p=0.00, n=37.
  Data source: Original and bias-corrected European Reanalysis of Global
  Climate Observations (ERA-20C, ERA-20C(bc) respectively) and weather stations
  in Victoria (WS).
@@ -1951,7 +1951,7 @@ reference "fig:Cumulative Forest Fire Danger Index time series for the season De
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1973,7 +1973,8 @@ status collapsed
 Cumulative Forest Fire Danger Index (FFDI) time series for the season December-J
 anuary-February (DJF) in Victoria, Australia during the period 1920-2010.
  The correlation coeficients between weather station and reanalysis data
- for the period 1974-2010 are r=0.53, p=0.00, n=91.
+ for the period 1974-2010 are a) r=0.51, p=0.00, n=91 and b) r=0.53, p=0.00,
+ n=91.
  Data source: Original and bias-corrected European Reanalysis of Global
  Climate Observations (ERA-20C, ERA-20C(bc) respectively) and weather stations
  in Victoria (WS).
@@ -2036,7 +2037,7 @@ reference "fig:Number of days with Forest Fire Danger Index greater than 25 time
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2059,7 +2060,7 @@ Number of days with Forest Fire Danger Index (FFDI) greater than 25 (FFDI>25)
  time series for the season December-January-February (DJF) in Victoria,
  Australia during the period 1920-2010.
  The correlation coeficients between weather station and reanalysis data
- for the period 1974-2010 are r=0.53 p=0.00, n=91.
+ for the period 1974-2010 are a) r=0.53 p=0.00, n=91 and b) r=0.53 p=0.00, n=91.
  Data source: Original and bias-corrected European Reanalysis of Global
  Climate Observations (ERA-20C, ERA-20C(bc) respectively) and weather stations
  in Victoria (WS).
@@ -3086,7 +3087,7 @@ ly significant relationships with fire metrics than the DMI.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -3137,7 +3138,7 @@ name "fig:Pearson correlation coeficients for climate-bushfire relationships fro
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -3188,7 +3189,7 @@ name "fig:Pearson correlation coeficients for climate-bushfire relationships fro
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -3238,7 +3239,7 @@ name "fig:Pearson correlation coeficients for climate-bushfire relationships fro
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -3303,9 +3304,9 @@ The replication of the analysis comparing bushfire and heatwave weather
 \begin_layout Standard
 The daily composites show the most consistent results.
  For air temperature, using alternative bushfire and heatwave data reveals
- that the differences in their weather patterns remain.
+ that the differences in their weather patterns are consistent.
  Cold fronts remain the most important fire weather feature.
- On the other hand, persistent heat anomalies characterize heatwaves events.
+ On the other hand, persistent heat anomalies characterize heatwave events.
  Relative humidity patterns confirm that heatwaves in Victoria present dry
  anomalies in this region with wet anomlies in several other areas of the
  continent.
@@ -3323,7 +3324,7 @@ On a daily time scale, the results show that the intensity of the frontal
  Therefore, evaluating the frontal activity strength should be a priority
  in daily fire weather forecasts.
  However, it seems that the current state of practise heavily relies on
- the the FFDI.
+ the FFDI.
  This index is most sensitive to temperature.
  Consequently, fire weather danger estimated by the FFDI might be misleading
  during heatwave events.
@@ -3394,7 +3395,7 @@ key "Hasson2009"
 
 \begin_layout Standard
 On a seasonal time scale, bushfire and heatwave weather patterns also display
- contrasting patterns.
+ contrasts.
  During extreme fire activity in Victoria the weather patterns consistently
  show warming anomalies in the tropical Pacific Ocean.
  On the other hand, hetwaves do not seem to be linked to any activity on
@@ -3427,8 +3428,8 @@ key "Harris2013"
  Not every “El Niño” phase brings extreme fires.
  In fact, ENSO and fire activity in Victoria have a moderate—or even weak—inter-
 annual relationship.
- Analysing the bushfire weather pattern recurrence in different ENSO phases
- could provide further insights.
+ Analysing the weather pattern recurrence in different ENSO phases could
+ provide further insights.
  For example, using this approach 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -3441,8 +3442,8 @@ key "Verdon-Kidd2008a"
 \end_layout
 
 \begin_layout Standard
-An additional limitation to investigate bushfire weather patterns is the
- lack of fire records.
+An additional limitation to investigate weather patterns is the lack of
+ long-term fire records.
  The seasonal composites are sensitive to this caveat.
  For example, scarce areas in the tropical Pacific Ocean show statistical
  significance.
@@ -3487,8 +3488,16 @@ key "Parker2014"
 Future investigation about seasonal heatwave weather patterns could consider
  several aspects.
  First of all, extending the period of analysis is feasible.
- There is available data from the early years of the 20th century to undertake
- this analysis.
+ There is available data from the early years of the 20
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ century to undertake this analysis.
  However, this study aimed to compare heatwave and bushfire weather patterns.
  Therefore the period of analysis comprises the year with consistent fire
  records (1961-2010).
@@ -3535,7 +3544,7 @@ key "Lucas2007,Lucas2010,Clarke2013"
  Not surprisingly, FFDI metrics display a greater increase in fire danger
  than the VSBI.
  This difference occurs because the FFDI is more sensitive to temperature.
- This variable display with increasing trends.
+ This variable displays clear increasing trends.
  Additionally, this tendency is stronger considering every day in the fire
  season.
  The FFDI
@@ -3569,7 +3578,8 @@ cum
  might not accurately identify the extreme fire weather days.
  As already discussed, cold fronts characterise extreme fire weather days
  better than extreme temperature.
- This section also discusses the relationship between ENSO and fire weather.
+ This section also discusses the relationship between ENSO and fire weather
+ variability.
  
 \end_layout
 
@@ -3580,13 +3590,30 @@ Strong “El Niño” years bring high fire danger to Victoria.
  1982-1983 and 1997-1998).
  However, the VSBI might overestimate ENSO's influence on fire danger.
  The FFDI shows that strong “El Niño” years are not the most threatening.
- Although, the FFDI demonstrates that they can pose a significant risk.
+ Although, this index demonstrates that they can pose a significant risk.
  FFDI metrics show that the seasons 1982-1983 and 1997-1998 are among the
  most dangerous during the period 1974-2010.
- The FFDIcum metric categorise them among the five seasons with the highest
- fire danger.
- Using the FFDI>25metric, these seasons comprise the top seven years.
- The discussion about ENSO a fire weather metrics continues in the next
+ The FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ metric categorise them among the five seasons with the highest fire danger.
+ Using FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+, these seasons are in the top seven years.
+ The discussion about ENSO and fire weather metrics continues in the next
  section.
  This section also aims to discuss the fire weather changes before the observati
 onal period.
@@ -3640,11 +3667,11 @@ o
  On the other hand, the 20CR (version 2) provides data only at the 1000
  hPa level.
  Therefore, most fire weather variables did not require bias-corrections
- using this dataset.
+ using ERA-20C.
  On the other hand, the 20CR better represents the observed fire danger
  trend in Victoria.
  The 20CR data also shows this trend for the period 1974-2010.
- In fact, it shows that this trend can be traced back to the early decades
+ In fact, it shows that this tendecy can be traced back to the early decades
  of the 20
 \begin_inset script superscript
 
@@ -3655,7 +3682,7 @@ th
 \end_inset
 
  century.
- Additionally, this tendency is consistent using three fire weather metrics
+ Additionally, this trend is consistent using three fire weather metrics
  (FFDI
 \begin_inset script subscript
 
@@ -3703,7 +3730,7 @@ key "Ashcroft2014"
 
 \end_inset
 
- analysed climate variability in Southeastern Australia for the period 1860-2009.
+ analysed climate variability in southeastern Australia for the period 1860-2009.
  This research also used the 20CR data.
  Therefore, it is useful for verification.
  The study shows that temperature observations have a clear increasing trend.
@@ -3712,8 +3739,8 @@ key "Ashcroft2014"
  Although, there is greater uncertainty before 1900.
  In contrast, this thesis shows that ERA-20C is not able to capture the
  observed trends.
- Therefore, further reasearch could quantify uncertainties in past fire
- weather changes using different ensembles of the 20CR.
+ Further reasearch could quantify uncertainties in past fire weather changes
+ using different ensembles of the 20CR.
  
 \end_layout
 
@@ -3737,8 +3764,7 @@ The VSBI shows that it can represent fire weather and its relationship with
  For example, the index demonstrated to be an equivalent metric in comparison
  to the FFDI.
  The results show that they are highly correlated during spring and summer.
- Moreover, VSBI and FFDI show similar correlations with fire activity in
- summer.
+ Moreover, VSBI and FFDI display similar correlations with fire activity.
  The index also showed to be a useful forecasting tool (as discussed later
  in this section).
  
@@ -3757,23 +3783,31 @@ In addition to its accuracy, the VSBI has the advantage to be simpler to
 
 \begin_layout Standard
 On the other hand, the VSBI also has caveats.
- First of all, it does not represent the "true" physical relationship between
- its variables.
+ First of all, it does not represent the 
+\begin_inset Quotes eld
+\end_inset
+
+true
+\begin_inset Quotes erd
+\end_inset
+
+ physical relationship between its variables.
  In fact, the VSBI linear formulation masks their real contribution to fire
  danger.
- For example, the SSTs influence is lower in comparison to local climate
+ For example, the SST influence is lower in comparison to local climate
  variables.
- Therefore, the VSBI equation might overestimate its effect on fire weather.
+ Therefore, the VSBI equation might overestimate the SST effect on fire
+ weather.
  The linear formulation of the VSBI also fails to reflect the actual non-linear
  nature of ENSO.
- Additionally, some of the VSBI variables are directly correlated (e.g., temperatu
-re and relative humidity).
+ Additionally, some of the VSBI variables are directly correlated (e.g.
+ temperature and relative humidity).
  
 \end_layout
 
 \begin_layout Standard
-Despite its limitations, the VSBI was useful to understand fundamental relations
-hips.
+Despite its limitations, the VSBI was useful to understand fundamental climate-b
+ushfire relationships.
  The correlations showed that regional climate conditions drive fire weather
  in Victoria.
  In contrast, remote drivers have less influence than climate variables
@@ -3788,7 +3822,7 @@ key "Harris2013"
 .
  However, climate modes of variability do play a role in driving fire weather.
  For example, ENSO and IOD moderately influence relative humidity.
- This variable showed to be the principal component of fire weather metrics.
+ This variable showed to be the principal component driving fire weather.
  Additionally, these remote drivers also demonstrated to have a moderate
  influence on fire activity.
  However, ENSO and IOD's influence is not constant.
@@ -3811,7 +3845,7 @@ key "Cai2009"
 
 \end_inset
 
- who argue that the IOD be the leading driver that preconditions fuel loads
+ who argue that the IOD is the leading driver that preconditions fuel loads
  to fires.
  On the other hand, during summer, the IOD does not exert influence over
  fire weather.
@@ -3889,7 +3923,8 @@ Furthermore, a re-examination of the results using observations confirms
 \begin_layout Standard
 The next chapter investigates fire weather in Ecuador.
  The study is probably the first to explore this topic in the tropical Andes.
- It aims to verify if the FFDI is a useful metric in this region.
+ It aims to verify if the McArthur Forest Fire Danger Index is a useful
+ metric in this region.
  The chapter also investigates the relationship between ENSO and fire weather.
  This research provides insights of ENSO's influence in modulating fire
  weather in the Southern Hemisphere.
