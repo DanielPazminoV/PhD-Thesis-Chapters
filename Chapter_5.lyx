@@ -178,7 +178,7 @@ This experiment analysed the same bushfire activity datasets used in the
  The period of validated bushfire records data is 1961-2010.
  December-January-February (DJF) is the selected bushfire season in this
  investigation, since extreme bushfire occurrences are scarce in other months.
- For example, the DELWP database regitered 31 events during the DJF season
+ For example, the DELWP database registered 31 events during the DJF season
  over the period 1961-2011.
  The other three seasons of the year registered only 11 events during the
  same period.
@@ -201,7 +201,7 @@ Victorian Seasonal Bushfire Index
 \begin_inset Quotes erd
 \end_inset
 
- (VSBI) in Victoria (section 
+ (VSBI) in Victoria (Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Formulation-VSBI"
@@ -227,7 +227,16 @@ cum
 ).
  The second metric is the number of days with FFDI values greater than an
  arbitrary threshold.
- For this investigation the chosen threshold was 25 (FFDI>25).
+ For this investigation the chosen threshold was 25 (FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+).
  Values above this threshold reflect days with very high to catastrophic
  bushfire danger.
  The data used for the analyses were seasonal values during spring (September-Oc
@@ -240,7 +249,16 @@ cum
 
 \end_inset
 
- and FFDI>25 in Victoria.
+ and FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+ in Victoria.
  The FFDI computation comprised the period 1920-2010.
  This calculation required finding the date with the highest precipitation
  to set the soil moisture deficit to zero.
@@ -257,8 +275,8 @@ key "KeetchJJ"
 \end_layout
 
 \begin_layout Standard
-On the other hand, the VSBI requires normalized climate data averaged—summed
- in the case of precipitation—for each variable.
+On the other hand, the VSBI requires normalized climate data averaged for
+ each variable (summed for precipitation).
  A time series of VSBI values was a third input of fire weather in the analyses.
  Section 
 \begin_inset CommandInset ref
@@ -300,7 +318,7 @@ reference "fig:Location of meteorological stations used to compute fire weather 
  These stations provide the best available information for the computation
  of the indices.
  Seasonal fire weather in Victoria was also estimated using reanalysis data.
- Using the 20CR and HADISST data allowed to extend the calculations to the
+ Using the 20CR and HadISST data allowed to extend the calculations to the
  first half of the 20
 \begin_inset script superscript
 
@@ -398,7 +416,7 @@ The analysis used three ENSO indices, and one index for the IOD and SAM
  (NINO3.4, AAO), Japan Agency for Marine-Earth Science and Technology (DMI).
  The climatologies used in the calculation of these indices were were 1951-2000
  (NINO3.4.), 1958-2010 (DMI), and 1979-2000 (AAO).
- The NINO1+2 index was computed using the HADISST data.
+ The NINO1+2 index was computed using the HadISST data.
  The climatology for this index was 1911-2011 
 \end_layout
 
@@ -705,8 +723,8 @@ The composites presented in Chapter 4 revealed the seasonal patterns of
  Temperature and relative humidity displayed intense anomalies over Victoria
  (33S-36S; 145E-150E).
  Additionally, the NINO1+2 (0-10S, 90W-80W) and NINO3.4 (5N-5S; 170W-120W)
- regions presented strong and also statistical significant anomalies (see
- Figure 
+ regions showed strong and also statistical significant anomalies (see Figure
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig: Victorian Seasonal Bushfire Index (VSBI) regions"
@@ -797,9 +815,9 @@ key "BoM2009"
 \end_inset
 
 .
- This was the main criteria for their selection The index also incorporates
- SST in the NINO1+2 region as another variable.
- The seasonal patterns showed in Chapter 4 reveled that this variable is
+ This was the main criteria for their selection.
+ The index also incorporates SST in the NINO1+2 region as another variable.
+ The seasonal patterns showed in Chapter 4 revealed that this variable is
  an important predictor of bushfire activity in Victoria.
  The formulation of the VSBI comprises the aggregation of sub-indices based
  on these variables.
@@ -811,7 +829,7 @@ The first step in computing the VSBI was to use the anomalies from the selected
  regions to calculate spatial averages.
  Subsequently, these daily means were averaged for the seasons SON and DJF
  respectively.
- The climatologies used were 1900-2010 for the 20CR and 1911-2011 for HADISST
+ The climatologies used were 1900-2010 for the 20CR and 1911-2011 for HadISST
  data.
  The computation comprised the period 1920-2010.
  On the other hand, the daily values of the six weather stations were averaged
@@ -823,7 +841,7 @@ The first step in computing the VSBI was to use the anomalies from the selected
  the analysis using this model.
  The time series generated were divided by their standard deviation to normalize
  them.
- Finally, the VSBI is represented in the following in equation 
+ Finally, the VSBI is represented in the following in Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:VSBI"
@@ -1087,7 +1105,7 @@ reference "fig: Number of days with Forest Fire Danger Index greater than 25 tim
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1148,7 +1166,7 @@ name "fig: Cumulative Forest Fire Danger Index time series during December-Janua
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1712,7 +1730,7 @@ anuary-February (DJF) in Victoria, Australia for the period 1920-2010.
  (P) over Victoria, Australia during December-January-February (DJF).
  The atmospheric variables correspond to bias-corrected Twentieth Century
  Reanalysis (20CR) data.
- The SST time series use the the HADISST dataset in the NINO1+2 region.
+ The SST time series use the the HadISST dataset in the NINO1+2 region.
  Only temperature shows a clear increasing trend.
  
 \begin_inset CommandInset label
@@ -1798,7 +1816,16 @@ cum
 
 \end_inset
 
- and FFDI>25).
+ and FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+).
  However, only the FFDI
 \begin_inset script subscript
 
@@ -1825,7 +1852,16 @@ cum
 
 \end_inset
 
- have a stronger correlation than VSBI and FFDI>25.
+ have a stronger correlation than VSBI and FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -1855,8 +1891,8 @@ cum
 
  metric shows, for the first period, correlations coeffcients of -0.81 and
  -0.73 with WS and 20CR data respectively.
- However, this metric shows no statistically significant results using renalysis
- data for the last two periods.
+ However, this metric shows no statistically significant results using reanalysi
+s data for the last two periods.
  
 \end_layout
 
@@ -2080,8 +2116,25 @@ There are disagreements to determine which fire weather metric correlates
  For this season, WS data show that FFDI metrics have a stronger correlation
  with fire activity than the VSBI.
  Using observations, the correlations with FFDI metrics and fire activity
- are higher with Risk Frontiers database (r=0.74 and r=0.72 with FFDIcum and
- FFDI>25 respectively).
+ are higher with Risk Frontiers database (r=0.74 and r=0.72 with FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+cum
+\end_layout
+
+\end_inset
+
+ and FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+ respectively).
  Although, the correlation with Victorian Government's database are also
  high (r=0.64 with both metrics).
  In contrast, reanalysis data suggests that the VSBI presents better correlation
@@ -2089,8 +2142,9 @@ s with fire activity for the two periods (1974-2010 and 1961-2010).
 \end_layout
 
 \begin_layout Standard
-There is disagreements between the anslysis using WS and 20CR data to establish
- which climate variable has the strongest influence during this season.
+There are also disagreements between the analysis using WS and 20CR data
+ to establish which climate variable has the strongest influence during
+ this season.
  WS data indicates that relative humidity is the main climate driver of
  fire weather and activity.
  The result is consistent in spring and summer.
@@ -2350,7 +2404,16 @@ cum
 
 \end_inset
 
- and FFDI>25 respectively.
+ and FFDI
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+>25
+\end_layout
+
+\end_inset
+
+ respectively.
  Using observations, the correlations are weaker for fire activity which
  depends on not only weather.
  Therefore, this result is consistent.
@@ -2665,7 +2728,7 @@ Original seasonal FFDI computation (1974-2010)
 The FFDI computed with WS data depict more extreme fire weather for Victoria
  than the calculation using the 20CR.
  This difference is likely to occur for several reasons.
- FFDI variables from renalysis data do not correspond exactly to surface
+ FFDI variables from reanalysis data do not correspond exactly to surface
  values.
  Near-surface reanalysis data was available at the 1000 hPa level.
  Calculations using these data do not exactly represent surface level conditions.
@@ -2763,7 +2826,7 @@ key "Clarke2011"
 \end_inset
 
 .
- However, the available data bases showed that most bushfires occur during
+ However, the available databases showed that most bushfires occur during
  DJF.
  Therefore, in this investigation the fire season was defined as the season
  December-January-February.
@@ -2778,7 +2841,7 @@ Bias-correction of fire weather variables (1974-2010)
 \end_layout
 
 \begin_layout Standard
-Every fire weather variable showed deaviations from observations.
+Every fire weather variable showed deviations from observations.
  These biases occurred due to three reasons.
  First of all, reanalysis data does not represents surface values.
  The available 20CR data comprises climate fields at the 1000 hPa level.
@@ -3095,8 +3158,8 @@ Computations with WS data suggest that the VSBI could be useful to forecast
  than local climate variables and climate indices on their own.
  Indeed, the incorporation of the ENSO indicator in the VSBI equation shows
  how it increases the forecasting skill of the index.
- On the other hand, the VSBI presented a higher forecasting skill for fire
- weather than bushfires.
+ On the other hand, the VSBI demonstrated a higher forecasting skill for
+ fire weather than bushfires.
  This is also an expected outcome since fire activity not only depends on
  weather (e.g.
  ignitions sources).
