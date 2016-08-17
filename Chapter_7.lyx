@@ -167,7 +167,7 @@ reference "fig:Location of weather stations in the Ecuadorian andean region"
  Therefore, the hour selected for the computations was 1 p.m.
  local time (GMT 18:00).
  The analysies required the use of the four basic fire weather variables:
- temeprature, relative humidity, wind speed and precipitation.
+ temperature, relative humidity, wind speed and precipitation.
  
 \end_layout
 
@@ -290,7 +290,11 @@ Reliability assessment of the FFDI
 
 \begin_layout Standard
 The study examines the skill of the FFDI to represent fire weather in Ecuador.
- This index was selected because its calibration used the Eucalyptus vegetation.
+ This index was selected because its calibration used the 
+\shape italic
+Eucalyptus
+\shape default
+ vegetation.
  These species dominate the landscape of bushfire-prone areas in Ecuador
  (see Chapter 2).
  The validations comprised the period with available weather station data
@@ -647,7 +651,7 @@ reference "fig:Cumulative Forest Fire Danger Index (FFDI) during the season July
 
  shows cumulative FFDI values during the extended season July-August-September-O
 ctober-November-December (JASON).
- Considering the result displayed in figure 
+ Considering the result displayed in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Monthly variability of cumulative Forest Fire Danger Index (FFDI) values in the Ecuadorian andean region during the period 1997-2012"
@@ -862,7 +866,7 @@ name "fig:Time series of fire weather variables during the season July-August-Se
 \end_layout
 
 \begin_layout Standard
-Figure 
+Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Bias-corrected probability density functions of fire weather variables in the Ecuadorian andean region during the period 1997-2010"
@@ -876,7 +880,7 @@ reference "fig:Bias-corrected time series of fire weather variables in the Ecuad
 
 \end_inset
 
- displays PDFs and time series—respectively—of fire weather variables using
+ display PDFs and time series—respectively—of fire weather variables using
  bias-corrected reanalysis data.
  The bias correction was applied to those variables that showed the best
  potential to be corrected using linear scaling techniques.
@@ -998,7 +1002,7 @@ reference "fig:Probability density functions of Forest Fire Danger Index values 
  and bias-corrected) data.
  The bias-correction improves the distribution of the FFDI computed with
  reanalysis datasets.
- On the other hand, figure 
+ On the other hand, Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Time series of cumulative Forest Fire Danger Index values in the Ecuadorian andean region during the period 1997-2010"
