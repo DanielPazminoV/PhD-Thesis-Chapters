@@ -43,7 +43,7 @@ these regions.
 The primary focus of this investigation is fire weather. Therefore,
 this section will introduce some important ideas to understand this
 topic. The fire weather background comprises three aspects. First,
-it explains which meteorological variables contribute to fire conditions.
+it explains which meteorological variables contribute to severe fire conditions.
 Additionally, it explains how they exert their influence. This section
 also describes how mathematical models represent the effect of fire
 weather variables on bushfires. It includes a description of the McArthur
@@ -57,9 +57,10 @@ and heatwaves is also described.
 Fire weather is analysed through variables such as air temperature,
 relative humidity, wind, and precipitation. The behaviour of these
 meteorological variables influences every aspect of bushfires, including
-their ignition, spread and intensity. Bushfires start if high temperatures,
+their ignition, rate of spread and intensity. Bushfires start if high temperatures,
 low levels of relative humidity and precipitation have dried vegetation
-to a flammable point. Winds also contribute in the ignition of bushfires
+to a flammable point. They also require an ignition source, natural or human-related.
+Winds also contribute in the severity of bushfires
 by taking moisture content out of the vegetation and providing oxygen
 for combustion \citep{Bradstock2012}. The spread of bushfires is
 also controlled by winds, which propagate them and also can change
@@ -72,14 +73,15 @@ in several mathematical models. These models represent the ignition,
 spread or intensity of bushfires. Modelling efforts focus on one of
 these aspects or a combination of them. For example, the Forest Fire
 Danger Index (FFDI) \citep{McArthur1966,McArthur1967} quantifies
-danger focusing on the effect of weather on vegetation. Therefore,
-this index targets ignition. On the other hand, the Haines Index basis
+fire danger focusing on the effect of weather on vegetation. 
+Therefore,this index targets ignition and rate of spread, as well as ease of control. 
+On the other hand, the Haines Index basis
 is the effect of atmospheric instability in producing spotting \citep{Haines}.
 This index focuses on spread and intensity. The Canadian Forest Fire
 Weather System \citep{VanWagner1974} models the three aspects. In
 most cases, fire weather modelling efforts require a calibration process.
 The calibrations account for local conditions such as the type of
-vegetation and topography. This investigation uses the FFDI to explore
+vegetation and local climate and weather. This investigation uses the FFDI to explore
 fire weather in Victoria and Ecuador because of its calibration criteria. 
 
 
@@ -109,24 +111,24 @@ $RH$: Relative humidity (\%).
 
 $DF$: Drought factor.
 
-The computation of the index requires using maximum temperature values.
-This variable usually peaks in the afternoon being 3 pm a standard
+The computation of the index requires using values at a specific time of day when the maximum FFDI is likely to occur.
+The index values usually peak in the afternoon at 3 pm. This is the standard
 time to compute the FFDI in Australia \citep{Lucas2010}. The index
 also requires the computation of a drought factor. 
 
 
 \paragraph{Drought factor:}
 
-This factor represents the effect of precipitation on fuel loads drying.
+This factor represents the effect of cumulative precipitation on the dryness of fuel loads.
 \citet{Griffiths1999} developed the Drought Factor (DF) equation
 and calculation procedures. This contribution corresponds to an improved
 formula originally proposed by \citet{Noble1980}. The DF ranges from
-1 to 10. These values depend on the number of days of the last ``significant''
+1 to 10. These values depend on the number of days since the last ``significant''
 rain day. The identification of this day requires the analysis of
 the last 20 consecutive days. The sum of the whole range is assigned
 to the day of the highest rain. This value accounts for the ``long-term''
 effect of precipitation. Appendix A includes further details regarding
-the computation fo the drought factor.
+the computation of the drought factor.
 
 The DF formula, originally expressed as \textquotedblleft D\textquotedblright{}
 by \citet{Griffiths1999} is:
@@ -181,7 +183,7 @@ The computation of the $DF$ in Australia commonly uses the \citet{KeetchJJ}
 method.
 
 
-\paragraph{Keet-Byram Drought Index (KBDI):}
+\paragraph{Keetch-Byram Drought Index (KBDI):}
 
 \citet{KeetchJJ} developed the index for the United States Department
 of Agriculture-Forest Service. The index used an eight inches layer
@@ -195,8 +197,8 @@ is known.
 \paragraph{Danger classes:}
 
 The FFDI has six danger classes. Originally, the index was calibrated
-for a maximum value of 100. Over the last years, weather conditions
-in catastrophic bushfire events have yileded values above this limit
+for a maximum value of 100, with FFDI of 100 occurring in an extreme fire event occurred in 1939. Over the last years, weather conditions
+in catastrophic bushfire events have yielded values above this limit
 \citep{Lucas2010}. Figure \ref{fig:Forest Fire Danger Index danger classes}
 presents the danger classes used in fire management operations:
 
@@ -217,9 +219,9 @@ Resource Management of the Australian Nothern Territory Government.
 There is no universal definition for heatwaves \citep{Nairn2013,Perkins2012}.
 However, most definitions characterize them as consecutive days with
 abnormally high temperatures \citep{Nairn2013}. Selecting ``hot''
-days usually requires the adoption of thresholds or percentiles \citep{Perkins2012}.
-Using an arbitrary number of consecutive days that a fixed temperature
-value\textemdash also arbitrary\textemdash is exceeded is common \citep{Nairn2013,Perkins2012}.
+days usually requires the adoption of absolute thresholds or percentiles thresholds.  \citep{Perkins2012}.
+Using an arbitrary number of consecutive days above a fixed temperature
+value\textemdash also arbitrary\textemdash is common \citep{Nairn2013,Perkins2012}.
 These subjective decisions make comparisons among heatwave definitions
 difficult \citep{Perkins2012}. For example, in Adelaide, the declaration
 of a heatwave requires five consecutive days with maximum temperature
@@ -234,29 +236,28 @@ Temperature is an important variable to define heatwaves as well as
 fire weather. For this reason, heatwaves are usually linked with increased
 bushfire risk \citep{Nairn2013,Perkins2012,Pezza2012}. Therefore,
 it is important to understand the processes that link\textemdash or
-differentiate\textemdash these two types of events. 
+distinguish\textemdash these two types of events. 
 
-In Australia, heatwaves occur because of three mechanisms \citep{McBride2009}.
+Heatwaves in southeast Australia occur because of three mechanisms \citep{McBride2009}.
 First, the advection of hot and dry air. An anticyclone advects air
 from the north desserts to the forested areas in southern Australia.
-Secondly, the subsidence of air that brings atmospheric stability.
+Secondly, the subsidence of air in an anticyclone brings atmospheric stability.
 This process produces clear skies that increase solar radiation. Finally,
-the increased insolation generates surface heat fluxes. These fluxes
-heat the air in the mixing layer. Fire weather comprises these processes
-as well. Although, its analysis involves more variables and interactions
+the increased insolation generates increased surface heat fluxes. These fluxes
+heat the air in the mixed layer. Fire weather is associated with these processes
+as well, although, its analysis involves more variables and interactions
 (see subsection \ref{sub:Victoria-fire}). 
 
 
 \subsection{Climate modes of variability}
 
 Large-scale meteorological and oceanographic phenomena drive natural
-climate variability. These drivers are known as climate modes of variability.
+climate variability. These drivers are known as modes of climate variability.
 For example, El Ni\~no-Southern Oscillation (ENSO), Indian Ocean Dipole
-(IOD), and Southern Annular Mode (SAM) are important climate modes
-of variability in the Southern Hemisphere \citep{Bjerknes1966,Bjerknes1969,Aceituno1988,Saji1999,ThompsonandSolomon2002}.
+(IOD), and Southern Annular Mode (SAM) are important modes of climate variability in the Southern Hemisphere \citep{Bjerknes1966,Bjerknes1969,Aceituno1988,Saji1999,ThompsonandSolomon2002}.
 This section describes ENSO and IOD since they can exert significant
 influence on fire weather \citep{Williams1999,Cai2009}. Despite its
-importance driving precipitation in Victoria, the influence of SAM
+importance driving precipitation variations in Victoria, the influence of SAM
 over fire weather has not been investigated. 
 
 
@@ -273,32 +274,32 @@ Ecuador and Peru \citep{Aceituno1988}, while bringing hot and dry
 conditions in Indonesia and Australia \citep{Williams1999,Wooster2012}.
 On the other hand, cool anomalies in the same region represent ``La
 Ni\~na'' conditions. The ENSO phenomena is referred as oscillation
-since these two phases\textemdash warm and cool\textemdash alternate
-in periods of approximately four years \citep{NOAA}. 
+since these two phases\textemdash warm and cool\textemdash have periods of approximately three to seven 
+years \citep{NOAA}. 
 
 The normal state of the tropical Pacific Ocean is relatively cool
 waters in the east and warm conditions to the west. Convection usually
 takes place in the west, which generates easterly winds near to the
 surface of the ocean. The hot and moist air mass originated in the
-west travel with a westely direction in the upper troposphere. Along
+west travel with a westerly direction in the upper troposphere. Along
 the way it loses heat and moisture. Cool and dry air sinks in the
 east side of the ocean reinforcing the circulation pattern. This circulation
-parttern is known as ``Walker'' circulation, name coined by \citet{Bjerknes1969}
+pattern is known as ``Walker'' circulation, a name coined by \citet{Bjerknes1969}
 in honour to Sir Gilbert Thomas Walker. 
 
-A weekening of the easterlies reduces the upwelling in the eastern
+A weakening of the easterlies reduces the upwelling in the eastern
 part of the tropical Pacific Ocean. This produces an increase in the
-sea surface temperature, which transfers heat to the atmosphere weakinning
+sea surface temperature, which transfers heat to the atmosphere weakening
 the Walker circulation and in extreme cases reversing it. These changes
 in sea surface temperature produced by the changes in wind stress
 over the ocean produce ``El Ni\~no'' events. This change in the atmospheric
-circulation pattern can have effects in places distant where it started
-(e.g. floods and droughts). This type of response is referred as ``teleconnection''. 
+circulation pattern can have effects in places distant from where it started
+(e.g. floods and droughts). This type of response is referred to as a ``teleconnection''. 
 
 At the same time, the changes in the circulation of air masses produced
 by the heat flux\textemdash changes in sea surface temperatures\textemdash produce
-variations in surface pressures along the tropcial Pacific. This is
-the main manifestation of a larger phenomena called the ``Southern
+variations in surface pressures along the tropical Pacific. This is
+the main manifestation of a larger scale phenomena called the ``Southern
 Oscillation'' \citep{Bjerknes1969}. For this reason this phenomena
 is regarded as coupled ocean-atmophere process. The name ``El Ni\~no-Southern
 Oscillation'' aims to reflect this complexity. 
@@ -308,7 +309,7 @@ SOI represents the difference in normalized surface pressure between
 Taihiti and Darwin, Australia \citep{NOAA}. This research adopted
 the SOI\textquoteright s calculation method proposed by the United
 States National Oceanic and Atmospheric Administration \citep{NOAA}.
-The index reflects the changes in air-mass fluxes in the tropical
+The index reflects the changes in air-mass in the tropical
 Pacific Ocean. These fluxes, are a manifestation of changes in SST.
 The SOI has an open ended scale with positive and negative values.
 A negative SOI value represents above-average warm SST conditions
@@ -324,8 +325,8 @@ to 170 \textsuperscript{o}W longitude. This is the NINO3.4 (a.k.a
 ``Ni\~no 3.4'') region. The index requires the calculation of 3-month
 running means and its climatology. The ONI is the difference between
 these two values. An ``El Ni\~no'' condition exits if there is at
-least an anomaly of + 0.5 \textsuperscript{o}C in this computation.
-An anomaly of - 0.5 \textsuperscript{o}C indicates a ``La Ni\~na''
+least an anomaly of +0.5 \textsuperscript{o}C in this computation.
+An anomaly of -0.5 \textsuperscript{o}C indicates a ``La Ni\~na''
 phase. Figure \ref{fig:El Ni=0000F1o-Southern Oscillation regions}
 shows the El Ni\~no-Southern Oscillation regions in the tropical Pacific
 Ocean.
@@ -353,6 +354,8 @@ a negative IOD process the dipole structure is the opposite. The IOD
 explains 12\% of the variance in sea suface temperature in this region
 \citep{Saji1999}. \citet{Saji1999} argues that this is a process
 independent of ENSO, although this is a matter of ongoing debate \citep{Dommenget2002}. 
+In fact, most positive IOD events in September-November are associated with "El Ni\~no" events.
+ 
 
 \begin{figure}[h]
 \noindent \begin{centering}
@@ -383,26 +386,23 @@ the ``Dipole Mode Index'' (DMI) \citep{Saji1999}. The DMI is the
 difference of averaged SST anomalies in the west (50 \textsuperscript{o}E-70
 \textsuperscript{o}E, 10 \textsuperscript{o}S-10 \textsuperscript{o}N)
 and east (90 \textsuperscript{o}E-110 \textsuperscript{o}E, 10 \textsuperscript{o}S-Equator)
-Indian Ocean \citep{Saji1999}. This simple index demonstrated to
-be useful in representing the variance of SST in this region. 
+Indian Ocean \citep{Saji1999}. This simple index is useful in representing the variance of SST in this region. 
 
 
 \subsubsection{Southern Annular Mode}
 
-The Southern Annular Mode (SAM) is the main source of inter-annual
-climate variability in the Southern Hemisphere \citep{ThompsonandSolomon2002}.
-This refers to the zonally symetric circulation around Antartica.
-The SAM produces an alternating pattern of strong and weak westerly
-winds in this region. These winds are cold and wet and surround Antartica
-as a belt. The SAM drives the expansion and contraction of the circulation. 
+The Southern Annular Mode (SAM) is the main source of monthly
+climate variability in the extra-tropical Southern Hemisphere \citep{ThompsonandSolomon2002}.
+It refers to variations in the strength of the the zonally symmetric circulation around Antartica. These winds surround Antartica
+as a belt. The SAM produces an expansion or contraction of the zonal bands of wind. 
 
 This phenomena is caused by the non-uniform heating of the Earth \citep{KingandTurner2007}.
 This heating regulates heat and mass transport that creates zones
 of high and low pressure in the planet. The intensity of the pressure
 gradient between midlatitudes and latitudes close to the South Pole
-drives the SAM. Anomalously high pressures in midlatitudes and low
+is a measure of the strength of SAM. Anomalously high pressures in midlatitudes and low
 pressures close to the poles strenghten the circumpolar vortex. The
-strengthenning process shifts the circulation close to the pole. This
+strengthenning process shifts the circulation slightly closer to the pole. This
 contraction of the circulation belt produces below-average rainfall
 in many regions of the Southern Hemisphere \citep{Ho2011}. This process
 refers to a positive SAM event (see Figure \ref{fig:Positive phase of the Southern Annular Mode}).
@@ -427,7 +427,7 @@ There are many indices to measure the intensity of this mode of variability.
 pressure between 40 \textsuperscript{o}S and 65 \textsuperscript{o}S.
 Another commonly used index is the Antartic Annular Oscillation Index
 (AAO) \citep{NOAA_2016_AAO}. The AAO is the leading mode of an Empirical
-Orthogonal Function analysis using 700 hPa geopotential height anomalies. 
+Orthogonal Function analysis using monthly mean 700 hPa geopotential height anomalies. 
 
 
 \subsection{Seasonal weather forecasting}
@@ -436,7 +436,7 @@ Climate modes of variability have a strong influence on local weather.
 This influence can be exerted on seasonal time scales. Investigating
 seasonal fire weather forecasting using climate indices is an active
 area of research \citep{Kitzberger2002,Nicholls2007,Harris2013}.
-This section describes the approaches used in seasonal weather forecasting.
+This section describes some approaches used in seasonal weather forecasting.
 It also briefly describes seasonal fire weather forecasting limitations
 and feasibility in Australia.
 
@@ -447,7 +447,7 @@ Seasonal forecasting uses statistical-empirical methods as well as
 dynamical models \citep{Doblas-Reyes2013,Troccoli2005}. Statistical-empirical
 models describe the relationship between predictands and predictors
 usually assuming linear relationships \citep{Troccoli2005}. Common
-predictans are temperature and precipitation \citep{Doblas-Reyes2013,Pepler2015,Troccoli2005}.
+predictands are temperature and precipitation \citep{Doblas-Reyes2013,Pepler2015,Troccoli2005}.
 Usual predictors are sea surface temperature, soil moisture, snow
 cover and sea ice \citep{Doblas-Reyes2013,Troccoli2005}. One of the
 most common problems with this approach is multicollinearity \citep{Troccoli2005}.
@@ -461,18 +461,18 @@ system and their interactions take part. Setting initial conditions
 and insufficient knowledge of physical processes are common problems
 with them \citep{Doblas-Reyes2013,Troccoli2005}.
 
-Dynamical models have in general better forecasting accuracy than
+Dynamical models have recently started to have better forecasting accuracy than
 statistical-empirical methods \citep{Doblas-Reyes2013}. Additionally,
 ensemble dynamical models perform better than a single model \citep{Pepler2015}.
 Yet, sophisticated statistical methods can have an accuracy comparable
 to the dynamical counterparts \citep{Doblas-Reyes2013}. In practise,
 decision-makers use a combination of statistical-empirical and dynamical
-approaches \citep{Doblas-Reyes2013}. 
+approaches for seasonal forecasts \citep{Doblas-Reyes2013}. 
 
 
-\subsubsection{Fire weather forecasting}
+\subsubsection{Seasonal Fire weather forecasting}
 
-Fire weather forecasting use the predictions of variables such as
+Seasonal fire weather forecasting use the predictions of variables such as
 temperature and precipitation. Their forecast is better for mean values
 than for extremes \citep{Doblas-Reyes2013,Pepler2015}. However, it
 also requires information about relative humidity and wind. The skill
@@ -499,7 +499,7 @@ activity may not exist in other regions of the country.
 This investigation explores fire weather in two regions of the Southern
 Hemisphere: Victoria, Australia and the Ecuadorian Andes. These regions
 were selected because they share the same bushfire-prone vegetation:
-the \textit{Eucalyptus}. They also share ENSO as a strong climate
+predominantly \textit{Eucalyptus} forests. They also share ENSO as a strong climate
 driver. This section characterizes these regions's geography, climate
 and fire history.
 
@@ -531,8 +531,8 @@ The southern lowlands of Victoria encompasses Melbourne, its capital
 city and major urban centre with a population of 4,4 million people
 \citep{ABS}. 
 
-On the other hand, most rural areas of Victoria comprise large forested
-areas. Many of them belong to national parks. For example, Grampians
+On the other hand, most rural areas of Victoria comprise agricultural and large forested
+areas. Many of native forest areas occur in national parks. For example, Grampians
 National Park is located to the west of Melbourne. It has an extension
 of 167,219 Ha \citep{StateGovernmentVictoria2016}. The Wilsons Promontory
 National Park is located to the south-east of the city. The park comprises
@@ -557,9 +557,7 @@ Ecuador is located in the north-west side of South-America (see Figure
 It comprises a continental territory between the latitudes 01\textsuperscript{o}
 28\textquoteright{} N and 05\textsuperscript{o} 02\textquoteright{}
 S and longitudes 75\textsuperscript{o} 11\textquoteright{} W and
-81\textsuperscript{o} 04\textquoteright{} W \citep{InstitutoGeograficoMilitarIGM2013a}.
-The Galapagos Islands are also part of the country. These islands
-are approximately 1000 Km from the continent. The national territory
+81\textsuperscript{o} 04\textquoteright{} W \citep{InstitutoGeograficoMilitarIGM2013a}. The national territory
 has a total area of 256,370 Km\textsuperscript{2}. In the year 2010,
 the country had a population of 14,5 million people \citep{InstitutoGeograficoMilitarIGM2013a}.
 The Andes mountains are the most important geographical feature of
@@ -589,7 +587,7 @@ by the Australian specie \textit{Eucalyptus globulus} around 1860
 \citep{MinisteriodelAmbiente2012}. Other introduced species are the
 \textit{Pinus radiata} (from California) and the \textit{Pinus patula}
 (from Mexico). The introduction of these species occurred for commercial
-reasons \citep{Anchaluisa2013}. These species are prone to bushfires
+reasons \citep{Anchaluisa2013}, for managed forests. These species are prone to bushfires
 in the Andean dry season. 
 
 
@@ -597,7 +595,7 @@ in the Andean dry season.
 
 \LyXZeroWidthSpace This section provides general information about
 climate and weather in the two study regions. This characterization
-includes the description of their main climate drivers, regionalization
+includes the description of their main climate drivers, seasonality and regionalization
 of its climate and climatologies. This is important because Victoria
 and the Ecuadorian Andes have especific climate characteristics that
 influence fire weather. 
@@ -612,7 +610,7 @@ depends on the phase of each climate mode. For example, strong ``El
 Ni\~no'' events can bring hot and dry conditions to Victoria \citep{BoM_ENSO_2016}.
 The opposite is true for ``La Ni\~na'' conditions. Additionally, positive
 SAM and IOD phases reduce rainfall in Victoria \citep{Cai2009,Ho2011}.
-Their negative phases inverse the effect. 
+Their negative phases have the opposite effect effect. 
 
 On the other hand, the influence of these climate modes also varies
 between seasons. For instance, ENSO is important during the entire
@@ -634,7 +632,7 @@ Victoria's climate. This classification originally proposed by Köppen
 in early years of the 20\textsuperscript{th} century describes Victoria
 as a temperate region (see figure \ref{fig:Climate classification of Australia}).
 Overall, in a temperate climate summers are hot and dry; while winters
-are cold and wet. Victoria's climate is also influenced by its topography
+are cool and wet. Victoria's climate is also influenced by its topography
 \citet{BureauofMeteorology2008}.
 
 \begin{figure}[h]
@@ -659,7 +657,7 @@ range to 800-1000 mm in a year. Precipitation in southern Victoria
 also increases with altitude; however, westerly winds drive its formation.
 In contrast, variations in temperature in this zone are driven by
 northerly winds, which produce summers with average air temperature
-of 28 \textsuperscript{o}C and maxima of 43 \textsuperscript{o}C.
+of 28 \textsuperscript{o}C and maxima of 43 \textsuperscript{o}C or more.
 In southeastern Victoria, synoptic systems in the Tasman Sea influence
 its precipitation rate, especially in the eastern region that recieves
 on average 1000 mm a year. The western region of southeastern Victoria
@@ -709,7 +707,7 @@ Andes. Adapted from \citep{Pourrut1995}. \label{fig:Climate classification of Ec
 
 Fire history is better documented in Victoria than Ecuador. Therefore,
 the characterization in Victoria uses concrete examples of catastrophic
-bushfire events occurred in the last 100 years. More general information
+bushfire events that occurred in the last 100 years. More general information
 describes the situation for Ecuador, with an emphasis on recent events.
 
 
@@ -720,11 +718,11 @@ all, this state is the most densely populated and urbanised in Australia
 \citep{Bryant2008}. Although it only covers 5\% of its territory
 \citep{Luke1978}, 24.7\% of Australia's population lives here \citep{Bryant2008}.
 Additionally, forest cover one-third of its territory \citep{Luke1978}.
-This region also has an extended fire season. Victoria's fire regime
+This region also has an extended fire season. Victoria's fire season
 comprises the austral summer season December-February \citep{Luke1978,BoM2009}
 (see Figure \ref{fig:Fire seasons in Australia}). During these months
 fire activity is more intense. Although, extreme bushfires can also
-occur in November, March and April.
+occur in November and March.
 
 \begin{figure}[h]
 \noindent \begin{centering}
@@ -739,12 +737,12 @@ summer (December-January-February). Source: Australian Bureau of Meteorology.
 
 Bushfires in Victoria have produced massive impacts. There is more
 documentation of them after the European settlement \citep{DEPIa}.
-For example, half of the economic loss in Australia occurred in this
+For example, half of the economic loss in Australia due to bushfires occurred in this
 region \citep{Luke1978}. Most of these impacts correspond to major
 catastrophic events \citep{Blanchi2012}. Three of the most serious
-catastrophes were \textquotedblleft Black Friday\textquotedblright ,
-\textquotedblleft Ash Wednesday\textquotedblright , and \textquotedblleft Black
-Saturday\textquotedblright{} \citep{DEPIa}. To better understand
+catastrophes were \textquotedblleft Black Friday\textquotedblright (1939),
+\textquotedblleft Ash Wednesday\textquotedblright (1983), and \textquotedblleft Black
+Saturday\textquotedblright{} (2009) \citep{DEPIa}. To better understand
 bushfires in Victoria it is convenient to examine these major events.
 
 The \textquotedblleft Black Friday\textquotedblright{} bushfires occurred
@@ -764,7 +762,7 @@ Department of Environment, Land, Water, and Planning.
 over 100 fires across the state \citep{DEPIa}. The fires killed 47
 people and burned 210,000 hectares \citep{DEPIa}. Approximately 82,500
 hectares were public land including areas in the Dandenong Ranges
-National Park \citep{DEPIa}. A 10-month drought preceded these fires
+National Park close to Melbourne\citep{DEPIa}. A 10-month drought preceded these fires
 \citep{DEPIa}. On the day of the fires, temperatures reached 40 \textsuperscript{o}C,
 and relative humidity was below 15\%. Hot and dry northerly winds
 created these conditions. Additionally, a strong cold front increased
@@ -778,10 +776,9 @@ Saturday\textquotedblright{} occurred on February 7\textsuperscript{th},
 2009 \citep{Teague2010}. These fires killed 173 people \citep{Teague2010}
 and destroyed 430,000 hectares \citep{DEPIa}. A prolonged heatwave
 preceded the event \citep{Teague2010}. This heatwave produced three
-consecutive days with temperature above 43 \textsuperscript{o}C.
-Melbourne\textemdash capital of Victoria\textemdash{} reached this
-temperature \citep{VBRC_2009_final_report}. Other areas in Victoria
-experienced record-breaking temperatures reaching 46 \textsuperscript{o}C
+consecutive days with temperature above 43 \textsuperscript{o}C in
+Melbourne\textemdash capital of Victoria\textemdash{} \citep{VBRC_2009_final_report}. Other areas in Victoria
+experienced record-breaking temperatures reaching 48 \textsuperscript{o}C
 on \textquotedblleft Black Saturday\textquotedblright{} \citep{Teague2010}.
 These fires motivated the establishment of another commission\textemdash 2009
 Victorian Bushfires Royal Comission\textemdash . The commission clearly
@@ -824,7 +821,7 @@ population lives here. Additionally, vegetation covers 60.46 \% of
 its territory \citep{SecretariadeAmbiente2013}. Bushfires destroyed
 2700 Ha of the MDQ vegetation in 2009 \citep{Estacio2012}. In 2012,
 the area burnt by bushfires increased to 4,882.16 Ha \citep{SecretariadeAmbiente2013}.
-This fire season costed the MDQ more than 50 million dollars \citep{SecretariadeAmbiente2013}.
+This fire season cost the MDQ more than 50 million dollars \citep{SecretariadeAmbiente2013}.
 In 2015, extreme bushfires occured again in Quito killing three firefighters
 (see http://www.elcomercio.com/actualidad/quito-bombero-muerte-incendio-puembo.html).
 Figure \ref{Bushfires in the Ecuadorian Andean region} depict the
@@ -841,7 +838,7 @@ during the 2012 season. Source: http://www.panorama.com.ve \label{Bushfires in t
 \end{figure}
 
 
-Unfortunately, bushfires in Ecuador are anthropogenic in nature \citep{MinisteriodelAmbiente2013}.
+Unfortunately, bushfires in Ecuador are often anthropogenic in nature \citep{MinisteriodelAmbiente2013}.
 In fact, the MDQ reported that humans cause 95 percent of bushfires
 in the city \citep{SecretariadeAmbiente2013}. Burning forests to
 convert them to agricultural use is the main cause of bushfires in
@@ -849,7 +846,7 @@ the country \citep{MinisteriodelAmbiente2013,SecretariadeAmbiente2013,Rodas2015}
 Forcing land use changes for urbanization purposes is another reason
 people start bushfires \citep{SecretariadeAmbiente2013}. Rural communities
 burn agricultural waste, which is a traditional practice that fosters
-bushfires occurrences \citep{Estacio2012}. Rural people also burn
+bushfire occurrence \citep{Estacio2012}. Rural people also burn
 regular waste because of the lack of waste management services \citep{SecretariadeAmbiente2013}.
 Finally, bushfires occur because of the damaging acts of arsonists
 \citep{MinisteriodelAmbiente2013,SecretariadeAmbiente2013}.
@@ -865,7 +862,7 @@ of both sections.
 
 Four concepts are essential for this thesis. The first concept is
 fire weather. It refers to the meteorological conditions that foster
-bushfire occurrences. The main fire weather variables are temperature,
+bushfire occurrence. The main fire weather variables are temperature,
 relative humidity, wind speed and precipitation. These variables can
 be combined in mathematical equations to evaluate fire danger. On
 the other hand, it is difficult to define heatwaves. However, most
@@ -884,7 +881,7 @@ this research.
 
 The characterization featured several links between Victoria and Ecuador.
 First of all, vegetation is their landscape connection. They share
-the \textit{Eucalyptus} as the dominant species in bushfire-prone
+the \textit{Eucalyptus} as the dominant forest species in bushfire-prone
 areas. The two regions also share ENSO as a climate driver. In fact,
 ENSO is the main remote climate driver for Ecuador. However, Victoria's
 climate is more complex. Interactions between ENSO, the IOD, and the
