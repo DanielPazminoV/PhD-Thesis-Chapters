@@ -66,7 +66,9 @@ for combustion \citep{Bradstock2012}. The spread of bushfires is
 also controlled by winds, which propagate them and also can change
 their flank \citep{BureauofMeteorology2008}. The intensity of bushfires
 is determined by the flammability and distribution of vegetation;
-which are controlled by precipitation on seasonal time scales \citep{Bradstock2012}. 
+which are controlled by precipitation on seasonal time scales \citep{Williams2012}. 
+Soils and elevation also influence fire occurrence. Dry soils and increasing positive slopes increase bushfire intensity and 
+rate of spread respectively \citep{Keetch1968,Williams2012}.     
 
 The effect of fire weather variables on bushfires has been described
 in several mathematical models. These models represent the ignition,
@@ -76,7 +78,8 @@ Danger Index (FFDI) \citep{McArthur1966,McArthur1967} quantifies
 fire danger focusing on the effect of weather on vegetation. 
 Therefore,this index targets ignition and rate of spread, as well as ease of control. 
 On the other hand, the Haines Index basis
-is the effect of atmospheric instability in producing spotting \citep{Haines}.
+is the effect of atmospheric instability in producing spotting \citep{Haines}.  
+Fire spotting is the spread of ambers caused by the convection column of a bushfire that ignite additional fuel loads.     
 This index focuses on spread and intensity. The Canadian Forest Fire
 Weather System \citep{VanWagner1974} models the three aspects. In
 most cases, fire weather modelling efforts require a calibration process.
@@ -130,50 +133,6 @@ to the day of the highest rain. This value accounts for the ``long-term''
 effect of precipitation. Appendix A includes further details regarding
 the computation of the drought factor.
 
-The DF formula, originally expressed as \textquotedblleft D\textquotedblright{}
-by \citet{Griffiths1999} is:
-
-\begin{equation}
-D=10.5\left(1-\exp^{-\left(I+30/40\right)}\left(\frac{\left(41y^{2}+y\right)}{\left(40y^{2}+y+1\right)}\right)\right)
-\end{equation}
-
-
-Where:
-
-$D$: Drought Factor. 
-
-$I$: Soil dryness index (mm equivalent). 
-
-The significant rain is any event that maximizes $y$, according to
-the following cases shown in table \ref{tab:Significant-rain-event}
-
-\begin{table}[h]
-\caption[Significant rain event cases for drought factor calculation]{Significant rain event cases. Adapted from \citet{Griffiths1999}
-\label{tab:Significant-rain-event}}
-
-
-\noindent \centering{}%
-\begin{tabular}{|c|c|c|}
-\hline 
-Case number & Significant rain factor & Conditions\tabularnewline
-\hline 
-\hline 
-1 & $y=\frac{N^{1.3}}{\left(N^{1.3}+P-2\right)}$ & If N $\geq$1 and P > 2\tabularnewline
-\hline 
-2 & $y$= $\frac{0.8^{1.3}}{\left(0.8^{1.3}+P-2\right)}$ & If N=0 and P >2\tabularnewline
-\hline 
-3 & y = 1 & If P $\leq$ 2\tabularnewline
-\hline 
-\end{tabular}
-\end{table}
-
-
-Where: 
-
-$N$: Time since the rain event in days. 
-
-$P$: Rainfall in mm during an event. 
-
 The $DF$ also requires the computation of a soil dryness index. Soil
 dryness represents the amount of rain necessary to saturate the upper
 200 mm of the soil layer. This step represents the short-term effect
@@ -204,12 +163,11 @@ presents the danger classes used in fire management operations:
 
 \begin{figure}[h]
 \noindent \begin{centering}
-\includegraphics[scale=0.8]{Chapter_2/Figures/Bushfire-Risk-Rating-Chart}
+\includegraphics[scale=0.8]{Chapter_2/Figures/Bushfire-Risk-Rating-Chart.png}
 \par\end{centering}
 
-\caption[Forest Fire Danger Index danger classes]{Forest Fire Danger Index danger classes. Source: Deparment of Land
-Resource Management of the Australian Nothern Territory Government.
-\label{fig:Forest Fire Danger Index danger classes} }
+\caption[McArthur Forest Fire Danger Index danger classes]{McArthur Forest Fire Danger Index danger classes. Source: Adapted from Country Fire Authority (Victoria).
+\label{fig: McArthur Forest Fire Danger Index danger classes} }
 \end{figure}
 
 
@@ -399,17 +357,19 @@ as a belt. The SAM produces an expansion or contraction of the zonal bands of wi
 This phenomena is caused by the non-uniform heating of the Earth \citep{KingandTurner2007}.
 This heating regulates heat and mass transport that creates zones
 of high and low pressure in the planet. The intensity of the pressure
-gradient between midlatitudes and latitudes close to the South Pole
-is a measure of the strength of SAM. Anomalously high pressures in midlatitudes and low
-pressures close to the poles strenghten the circumpolar vortex. The
-strengthenning process shifts the circulation slightly closer to the pole. This
+gradient between mid-latitudes and latitudes close to the South Pole
+is a measure of the strength of SAM. Anomalously high pressures in mid-latitudes and low
+pressures close to the poles strengthen the circumpolar vortex. The
+strengthening process shifts the circulation slightly closer to the pole. This
 contraction of the circulation belt produces below-average rainfall
 in many regions of the Southern Hemisphere \citep{Ho2011}. This process
 refers to a positive SAM event (see Figure \ref{fig:Positive phase of the Southern Annular Mode}).
 On the other hand, when the pressure anomalies show the opposite pattern
 the circumpolar vortex is weakened and the circulation is shifted
-away from the South Pole. The effect on precipitation over the same
-regions is the opposite. This produces a negative SAM event.
+away from the South Pole. This produces a negative SAM event. The change in the circulation causes a north-south
+rainfall pattern (a dipole) evident in the Chilean coast, that experiences a shift in rainfall
+to the north. 
+  
 
 \begin{figure}[h]
 \noindent \begin{centering}
