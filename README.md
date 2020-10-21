@@ -1,2 +1,2 @@
-# PhD-Thesis-Chapters
-# This repository keeps records of my PhD thesis chapters.
+PhD-Thesis-Chapters
+This repository keeps records of my PhD thesis chapters.
