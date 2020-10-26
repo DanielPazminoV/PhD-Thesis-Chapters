@@ -1,0 +1,194 @@
+%% LyX 2.1.4 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,twoside,english]{report}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[LGR,T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=3.5cm,bmargin=3cm,lmargin=3.5cm,rmargin=3cm,footskip=1cm}
+\pagestyle{empty}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage[authoryear]{natbib}
+\usepackage{subscript}
+\setstretch{1.5}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage[titletoc]{appendix}
+\makeatletter
+% Adds line numbers
+%\usepackage{lineno}
+%\linenumbers
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+
+\newcommand*\LyXZeroWidthSpace{\hspace{0pt}}
+\DeclareRobustCommand{\greektext}{%
+  \fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
+\DeclareRobustCommand{\textgreek}[1]{\leavevmode{\greektext #1}}
+\DeclareFontEncoding{LGR}{}{}
+\DeclareTextSymbol{\~}{LGR}{126}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newenvironment{lyxlist}[1]
+{\begin{list}{}
+{\settowidth{\labelwidth}{#1}
+ \setlength{\leftmargin}{\labelwidth}
+ \addtolength{\leftmargin}{\labelsep}
+ \renewcommand{\makelabel}[1]{##1\hfil}}}
+{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\thispagestyle{empty} % clear the first page header
+
+% page numbering roman for up to list of tables
+\pagenumbering{roman}
+\let\myLOT\listoftables
+\renewcommand\listoftables{%
+\myLOT
+\cleardoublepage
+\pagenumbering{arabic}
+}
+
+% header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[RE]{\bfseries \nouppercase\leftmark}
+\fancyhead[LO]{\bfseries \nouppercase \rightmark}
+
+\renewcommand{\chaptermark}[1]{%
+\markboth{\thechapter. \ #1 }{}}
+
+\renewcommand{\chaptermark}[1]{%
+\markboth{\chaptername 
+\ \thechapter\ }{}}
+
+ 
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyfoot{}
+
+
+%%% remove header from blank pages in reports.
+\makeatletter
+\renewcommand*{\cleardoublepage}{\clearpage\if@twoside \ifodd\c@page\else
+\hbox{}%
+\thispagestyle{empty}%
+\newpage%
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+% roman listing
+\bgroup
+\renewcommand\theenumi{(\roman{enumi})}
+\renewcommand\labelenumi{\theenumi}
+
+%URL line breaking:
+\usepackage[hyphens]{url}
+
+%Text flow over the page and paragraph indentation
+\raggedbottom
+\setlength{\parindent}{8mm}
+
+\makeatother
+
+\usepackage{babel}
+
+\begin{document}
+\include{1_Title}
+
+\cleardoublepage{}
+
+\include{2_Abstract}
+
+\cleardoublepage{}
+
+\include{3_Declaration}
+
+\newpage{}
+
+\include{4_Preface}
+
+\cleardoublepage{}
+
+\include{5_Acknowledgments}
+
+\cleardoublepage{}
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+\tableofcontents
+
+
+\newpage{}
+
+\listoffigures
+
+
+\newpage{}
+
+\listoftables
+
+
+\cleardoublepage{}
+
+\include{Chapter_1/Chapter_1}
+
+\cleardoublepage{}
+
+\include{Chapter_2/Chapter_2}
+
+\cleardoublepage{}
+
+\include{Chapter_3/Chapter_3}
+
+\cleardoublepage{}
+
+\include{Chapter_4/Chapter_4}
+
+\cleardoublepage{}
+
+\include{Chapter_5/Chapter_5}
+
+\cleardoublepage{}
+
+\include{Chapter_6/Chapter_6}
+
+\cleardoublepage{}
+
+\include{Chapter_7/Chapter_7}
+
+\cleardoublepage{}
+
+\include{Chapter_8/Chapter_8}
+
+\cleardoublepage{}
+
+%\begin{appendices}
+%\chapter{Drought factor calculation} 
+%\chapter{Bushfire and heatwave dates} 
+%\chapter{Weather stations details} 
+%\chapter{Climate-bushfire relationships including the Antartic Oscillation Index} 
+%\end{appendices}
+
+\bibliographystyle{plainnat}
+\bibliography{library}
+
+
+\newpage{}
+
+\begin{appendices}
+\include{Appendix/Appendix}
+\end{appendices}
+
+
+\end{document}
